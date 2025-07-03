@@ -24,6 +24,10 @@ const Wrapper = styled.div`
 	align-items: center;
 	justify-content: center;
 	background-color: #fefefeed;
+	@media (max-width: 600px) {
+		justify-content: flex-start;
+		padding-top: 100px;
+	}
 `;
 const Bg3D = styled.div`
 	position: absolute;
@@ -37,13 +41,17 @@ const H1 = styled.h1`
 	font-size: clamp(50px, 7vw, 140px);
 	color: black;
 	z-index: 1;
-	font-weight: 600;
+	font-weight: 500;
 	text-shadow: 1px 1px #000000;
+	margin-bottom: 10px;
+	@media (max-width: 600px) {
+		margin-bottom: 10px;
+	}
 `;
 const H2 = styled.h1`
-	font-size: clamp(30px, 3vw, 50px);
+	font-size: clamp(20px, 2vw, 40px);
 	color: black;
 	z-index: 1;
-	font-weight: 200;
-	margin-top: 10px;
+	font-weight: 100;
+	margin-top: 2px;
 `;
