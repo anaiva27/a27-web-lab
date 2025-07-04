@@ -3,9 +3,12 @@ import { SplineScene } from "../components/SplineScene";
 const Home = () => {
 	return (
 		<Wrapper>
-			<H1>A27 Web Lab</H1>
-			<H2>Flexible Digital Solutions</H2>
+			<Logo>A27</Logo>
+			<H3>MENU</H3>
+			<H2 id="firstChild">Flexible Digital Solutions</H2>
 			<H2>Beautifully Made</H2>
+			{/* <H2>By</H2> */}
+			<H1>A27 Web Lab</H1>
 			<Bg3D>
 				<SplineScene />
 			</Bg3D>
@@ -44,17 +47,15 @@ const H1 = styled.h1`
 	font-weight: 500;
 	text-shadow: 2px 2px #000000;
 	margin-bottom: 10px;
-	margin-top: -200px;
 	background-color: #00000051;
 	border-radius: 15px;
 	padding: 15px;
 	@media (max-width: 600px) {
 		margin-bottom: 10px;
-		margin-top: 20px;
 	}
 `;
 const H2 = styled.h1`
-	font-size: clamp(20px, 2vw, 40px);
+	font-size: clamp(17px, 1.5vw, 40px);
 	color: white;
 	z-index: 1;
 	font-weight: 100;
@@ -62,4 +63,41 @@ const H2 = styled.h1`
 	background-color: #00000051;
 	padding: 0 2px;
 	border-radius: 5px;
+	text-transform: uppercase;
+	letter-spacing: 2.1px;
+	&#firstChild {
+		margin-top: -120px;
+	}
+
+	@media (max-width: 600px) {
+		&#firstChild {
+			margin-top: 120px;
+		}
+	}
+`;
+const H3 = styled.h2`
+	font-size: clamp(15px, 1vw, 20px);
+	color: white;
+	z-index: 1;
+	font-weight: 100;
+	text-shadow: 2px 2px #000000;
+	background-color: #00000051;
+	padding: 0 2px;
+	border-radius: 5px;
+	position: absolute;
+	top: 20px;
+	right: 50px;
+`;
+const Logo = styled.h2`
+	font-size: clamp(15px, 1vw, 20px);
+	color: white;
+	z-index: 1;
+	font-weight: 100;
+	text-shadow: 2px 2px #000000;
+	background-color: #00000051;
+	padding: 0 2px;
+	border-radius: 5px;
+	position: absolute;
+	top: 20px;
+	left: 40px;
 `;
