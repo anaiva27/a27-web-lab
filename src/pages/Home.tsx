@@ -39,19 +39,27 @@ const Bg3D = styled.div`
 `;
 const H1 = styled.h1`
 	font-size: clamp(50px, 7vw, 140px);
-	color: black;
+	color: white;
 	z-index: 1;
 	font-weight: 500;
-	text-shadow: 1px 1px #000000;
+	text-shadow: 2px 2px #000000;
 	margin-bottom: 10px;
+	margin-top: -200px;
+	background-color: #00000051;
+	border-radius: 15px;
+	padding: 15px;
 	@media (max-width: 600px) {
 		margin-bottom: 10px;
+		margin-top: 20px;
 	}
 `;
 const H2 = styled.h1`
 	font-size: clamp(20px, 2vw, 40px);
-	color: black;
+	color: white;
 	z-index: 1;
 	font-weight: 100;
-	margin-top: 2px;
+	text-shadow: 2px 2px #000000;
+	background-color: #00000051;
+	padding: 0 2px;
+	border-radius: 5px;
 `;
