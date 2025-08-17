@@ -9,11 +9,12 @@ export default function Page() {
 		let tl = gsap.timeline({
 			defaults: { ease: "power4.inOut" },
 		});
-		tl.to(
-			".header",
-			{ delay: 2, stagger: 0.1, duration: 1, opacity: 1, y: 0 },
-			"-=2"
-		)
+		tl.to(".wrapper-main", { delay: 0.5, duration: 0.1, opacity: 1 })
+			.to(
+				".header",
+				{ delay: 2, stagger: 0.1, duration: 1, opacity: 1, y: 0 },
+				"-=2"
+			)
 			.to(
 				".project",
 				{ delay: 1, stagger: 0.2, duration: 1.2, opacity: 1, y: 0 },
@@ -28,7 +29,7 @@ export default function Page() {
 
 	return (
 		<>
-			<div className="wrapper-main container">
+			<div className="wrapper-main ">
 				<div className="corner-left-b">
 					<p className="plain-text soft-p-text">A27</p>
 				</div>
