@@ -60,7 +60,7 @@ const PageTransition = ({ children }) => {
 
 		gsap.to(blocksRef.current, {
 			scaleX: 0,
-			duration: 0.4,
+			duration: 1,
 			stagger: 0.02,
 			ease: "power2.out",
 			transformOrigin: "right",
