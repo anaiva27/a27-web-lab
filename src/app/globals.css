@@ -609,7 +609,7 @@ nav {
 		left: 50%;
 		transform: translateX(-50%);
 		width: 90%;
-		gap: 16px;
+		gap: 11px;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
@@ -668,6 +668,10 @@ nav {
 	.chip2 {
 		box-shadow: 4px 4px 8px var(--shadow-dark),
 			-3px -3px 8px var(--shadow-light);
+	}
+
+	.chip {
+		margin-top: 5px;
 	}
 
 	.chip2 {
