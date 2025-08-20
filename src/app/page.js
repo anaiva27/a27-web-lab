@@ -59,7 +59,7 @@ export default function Page() {
 				}
 				return step + 1;
 			});
-		}, 4000);
+		}, 1500);
 
 		return () => clearInterval(interval);
 	}, []);
@@ -121,7 +121,7 @@ export default function Page() {
 					<div className="chip2">
 						<p className="plain-text soft-p-text">copy email</p>
 					</div>
-					<div
+					{/* <div
 						className="theme-switch"
 						onClick={() => setTheme(!theme)}
 					>
@@ -135,7 +135,7 @@ export default function Page() {
 						>
 							<i className="fas fa-moon"></i>
 						</label>
-					</div>
+					</div> */}
 				</div>
 				<div className="center-b">
 					<p className="plain-text soft-p-text">. Premium Digital Lab .</p>
@@ -190,14 +190,15 @@ export default function Page() {
 						Development
 					</h5> */}
 					<p className="plain-text soft-p-text header">
-						Your online presence deserves an upgrade. We’re here to make it
-						happen.
-						<br />
+						<span className="mobile-hide">
+							Your online presence deserves an upgrade. We’re here to make it
+							happen.
+							<br />
+						</span>
 						We create custom designs, so you can look amazing online and feel
 						proud every time you see it. <br />
 						<br />
 					</p>
-					<br />
 					<div className="chip header">
 						<p className="plain-text soft-p-text">send inquiry</p>
 					</div>
