@@ -696,6 +696,17 @@ nav {
 		left: unset;
 		right: -40px;
 	}
+
+	.soft-text {
+		text-shadow: 2px 1px 2px var(--shadow-dark),
+			-2px -1px 3px var(--shadow-light);
+	}
+
+	.soft-h-text {
+		text-shadow: 1px 1px 1px var(--shadow-dark),
+			-1px -1px 1px var(--shadow-light);
+		letter-spacing: 1px;
+	}
 }
 
 .toggle,
