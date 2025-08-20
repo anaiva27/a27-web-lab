@@ -719,6 +719,12 @@ nav {
 			-1px -1px 1px var(--shadow-light);
 		letter-spacing: 1px;
 	}
+
+	.horizontal-line-t,
+	.horizontal-line-b {
+		border-bottom: 0.5px solid rgba(246, 246, 246, 0.747);
+		top: 47px;
+	}
 }
 
 .toggle,
