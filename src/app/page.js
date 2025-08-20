@@ -28,8 +28,28 @@ const messageArray = [
 ];
 
 export default function Page() {
-	const [slideIndex, setSlideIndex] = useState(0);
 	const [step, setStep] = useState(0);
+	const [theme, setTheme] = useState(true);
+
+	useEffect(() => {
+		if (!theme) {
+			console.log("theme", theme);
+
+			if (document.body.getAttribute("data-theme") === "dark") {
+				document.body.removeAttribute("data-theme");
+			} else {
+				document.body.setAttribute("data-theme", "dark");
+			}
+		}
+	}, [theme]);
+
+	// themeToggle?.addEventListener("change", () => {
+	// 	if (document.body.getAttribute("data-theme") === "dark") {
+	// 		document.body.removeAttribute("data-theme");
+	// 	} else {
+	// 		document.body.setAttribute("data-theme", "dark");
+	// 	}
+	// });
 
 	useEffect(() => {
 		const interval = setInterval(() => {
@@ -47,10 +67,11 @@ export default function Page() {
 	//   const currentStep = Math.min(step, iconArray.length - 1);
 
 	useGSAP(() => {
-		let tl = gsap.timeline({
+		let tlBlocks = gsap.timeline({
 			defaults: { ease: "power4.inOut" },
 		});
-		tl.to(".wrapper-main", { delay: 0.8, duration: 0.1, opacity: 1 })
+		tlBlocks
+			.to(".wrapper-main", { delay: 0.8, duration: 0.1, opacity: 1 })
 			.to(
 				".header",
 				{ delay: 2, stagger: 0.1, duration: 1, opacity: 1, y: 0 },
@@ -66,6 +87,19 @@ export default function Page() {
 				{ delay: 0.2, stagger: 0.2, duration: 1.2, opacity: 1, y: 0 },
 				"-=2"
 			);
+
+		let tlColor = gsap.timeline({ repeat: -1, yoyo: true });
+
+		tlColor.from(".wrapper-main", {
+			background: "linear-gradient(145deg, #77a4f2dc, #4eeded94)",
+			duration: 7,
+		});
+		let tlTextColor = gsap.timeline({ repeat: -1, yoyo: true });
+
+		tlTextColor.from(".text-color", {
+			color: "#6495e9dc",
+			duration: 7,
+		});
 	});
 
 	return (
@@ -87,7 +121,10 @@ export default function Page() {
 					<div className="chip2">
 						<p className="plain-text soft-p-text">copy email</p>
 					</div>
-					<div className="theme-switch">
+					<div
+						className="theme-switch"
+						onClick={() => setTheme(!theme)}
+					>
 						<input
 							type="checkbox"
 							id="themeToggle"
@@ -141,12 +178,9 @@ export default function Page() {
 				</div>
 
 				<div className="container-center-t">
-					<h1 className="logo-text soft-text header">A27 Web Lab</h1>
-					<Copy
-						delay={0.3}
-						isUpdated={step}
-					>
-						<h5 className="subtitle soft-h-text text-dark header">
+					<h1 className="logo-text soft-text header text-color">A27 Web Lab</h1>
+					<Copy isUpdated={step}>
+						<h5 className="subtitle soft-h-text text-color header">
 							{messageArray[step]}
 						</h5>
 					</Copy>
@@ -182,33 +216,33 @@ export default function Page() {
 					<div className="container-right">
 						<div className="project-container project">
 							<Link href="/contact">
-								<h5 className="subtitle soft-h-text text-dark">01 PROJECT</h5>
+								<h5 className="subtitle soft-h-text text-color">01 PROJECT</h5>
 							</Link>
 						</div>
 						<div className="project-container project">
 							<Link href="/contact">
-								<h5 className="subtitle soft-h-text text-dark">02 PROJECT</h5>
+								<h5 className="subtitle soft-h-text text-color">02 PROJECT</h5>
 							</Link>
 						</div>
 						<div className="project-container project">
 							<Link href="/contact">
-								<h5 className="subtitle soft-h-text text-dark">03 PROJECT</h5>
+								<h5 className="subtitle soft-h-text text-color">03 PROJECT</h5>
 							</Link>
 						</div>
 						<div className="project-container project">
 							<Link href="/contact">
-								<h5 className="subtitle soft-h-text text-dark">04 PROJECT</h5>
+								<h5 className="subtitle soft-h-text text-color">04 PROJECT</h5>
 							</Link>
 						</div>
 					</div>
 				</div>
 
-				<div
+				{/* <div
 					className="toast"
 					id="toast"
 				>
 					Submitted Successfully!
-				</div>
+				</div> */}
 			</div>
 		</>
 	);
