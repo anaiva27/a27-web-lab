@@ -97,7 +97,7 @@ export default function Page() {
 		let tlTextColor = gsap.timeline({ repeat: -1, yoyo: true });
 
 		tlTextColor.from(".text-color", {
-			color: "#6495e9dc",
+			color: "#5289e8dc",
 			duration: 7,
 		});
 	});
