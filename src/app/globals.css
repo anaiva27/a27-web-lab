@@ -206,12 +206,7 @@ nav {
 	overflow: hidden;
 	margin: 0;
 	font-family: "Segoe UI", sans-serif;
-	/* background: var(--bg-color);
-	background: var(--bg-color2), url("/assets/new-bg2.jpg"); */
-	/* background: #eaffff; */
-	/* background-size: cover;
-	background-repeat: no-repeat;
-	background-position: left top; */
+	background: linear-gradient(145deg, #77a4f2dc, #4eeded94);
 	background: rgb(197, 236, 251);
 	height: 100vh;
 	min-height: 685px;
@@ -319,6 +314,10 @@ nav {
 	100% {
 		transform: rotate(360deg);
 	}
+}
+
+.desktop-hide {
+	display: none;
 }
 
 .text-color {
@@ -650,8 +649,8 @@ nav {
 	}
 
 	.plain-text {
-		font-size: max(12px, 1.6vw);
-		max-width: 65vw;
+		font-size: max(12px, 2.4vw);
+		max-width: 85vw;
 	}
 
 	.logo-text {
@@ -675,11 +674,15 @@ nav {
 	}
 
 	.chip2 {
-		margin-right: -15px;
+		margin-right: -5px;
 	}
 
 	.mobile-hide {
 		display: none;
+	}
+
+	.desktop-hide {
+		display: block;
 	}
 
 	.corner-left-t {

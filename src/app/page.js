@@ -92,13 +92,13 @@ export default function Page() {
 
 		tlColor.from(".wrapper-main", {
 			background: "linear-gradient(145deg, #77a4f2dc, #4eeded94)",
-			duration: 7,
+			duration: 5,
 		});
 		let tlTextColor = gsap.timeline({ repeat: -1, yoyo: true });
 
 		tlTextColor.from(".text-color", {
 			color: "#5289e8dc",
-			duration: 7,
+			duration: 5,
 		});
 	});
 
@@ -184,34 +184,22 @@ export default function Page() {
 							{messageArray[step]}
 						</h5>
 					</Copy>
-					{/* <h5 className="subtitle soft-h-text text-dark header">
-						Digital Design
-						<div className="vertical-line header"></div>
-						Development
-					</h5> */}
-					<p className="plain-text soft-p-text header">
-						<span className="mobile-hide">
-							Your online presence deserves an upgrade. We’re here to make it
-							happen.
-							<br />
-						</span>
+					<p className="plain-text soft-p-text header mobile-hide">
+						Your online presence deserves an upgrade. We’re here to make it
+						happen.
+						<br />
 						We create custom designs, so you can look amazing online and feel
 						proud every time you see it. <br />
+						<br />
+					</p>
+					<p className="plain-text soft-p-text header desktop-hide">
+						We create custom designs, so you can look amazing online <br /> and
+						feel proud every time you see it.
 						<br />
 					</p>
 					<div className="chip header">
 						<p className="plain-text soft-p-text">send inquiry</p>
 					</div>
-					{/* <div className="container-center-b">
-						<Copy
-							delay={0.3}
-							isUpdated={step}
-						>
-							<h5 className="subtitle soft-h-text text-dark header">
-								{messageArray[step]}
-							</h5>
-						</Copy>
-					</div> */}
 				</div>
 				<div className="aside-right">
 					<div className="container-right">
