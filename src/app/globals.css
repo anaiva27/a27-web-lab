@@ -632,15 +632,15 @@ nav {
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
-		gap: 20px;
+		gap: 24px;
 	}
 
 	.project-container {
 		background: var(--bg-color);
 		padding: 1.2rem;
 		border-radius: 20px;
-		box-shadow: 8px 8px 16px var(--shadow-dark),
-			-8px -8px 16px var(--shadow-light);
+		box-shadow: 8px 8px 12px var(--shadow-dark),
+			-4px -5px 12px var(--shadow-light);
 		width: 90vw;
 		position: relative;
 		display: flex;
@@ -662,6 +662,12 @@ nav {
 
 	.subtitle {
 		font-size: max(18px, 3vw);
+	}
+
+	.chip,
+	.chip2 {
+		box-shadow: 4px 4px 8px var(--shadow-dark),
+			-3px -3px 8px var(--shadow-light);
 	}
 
 	.chip2 {
