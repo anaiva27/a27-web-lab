@@ -213,11 +213,24 @@ nav {
 	opacity: 0;
 }
 
-.container-center {
+.container-center-t {
 	display: flex;
 	justify-content: center;
 	width: 45%;
+	margin-top: -2vh;
+	gap: 16px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.container-center-b {
+	/* position: absolute; */
+	display: flex;
+	justify-content: center;
 	gap: 10px;
+	margin-top: 50px;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
@@ -469,7 +482,14 @@ button:hover {
 
 .subtitle {
 	color: var(--text-sub-color);
-	font-size: min(35px, 2.7vw);
+	font-size: min(35px, 2.5vw);
+	text-transform: uppercase;
+}
+
+.subtitle-transition {
+	color: #f1f2e1;
+	font-family: "Segoe UI", sans-serif;
+	font-size: min(35px, 2.5vw);
 	text-transform: uppercase;
 }
 

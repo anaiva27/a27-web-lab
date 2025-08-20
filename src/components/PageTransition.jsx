@@ -60,7 +60,7 @@ const PageTransition = ({ children }) => {
 
 		gsap.to(blocksRef.current, {
 			scaleX: 0,
-			duration: 1,
+			duration: 0.4,
 			stagger: 0.02,
 			ease: "power2.out",
 			transformOrigin: "right",
@@ -117,17 +117,17 @@ const PageTransition = ({ children }) => {
 
 		gsap.set(blocksRef.current, { scaleX: 0, transformOrigin: "left" });
 
-		// if (logoRef.current) {
-		// 	const path = logoRef.current.querySelector("path");
-		// 	if (path) {
-		// 		pathLengthRef.current = path.getTotalLength();
-		// 		gsap.set(path, {
-		// 			strokeDasharray: pathLengthRef.current,
-		// 			strokeDashoffset: pathLengthRef.current,
-		// 			fill: "transparent",
-		// 		});
-		// 	}
-		// }
+		if (logoRef.current) {
+			const path = logoRef.current.querySelector("path");
+			if (path) {
+				pathLengthRef.current = path.getTotalLength();
+				gsap.set(path, {
+					strokeDasharray: pathLengthRef.current,
+					strokeDashoffset: pathLengthRef.current,
+					fill: "transparent",
+				});
+			}
+		}
 
 		revealPage();
 
@@ -164,44 +164,44 @@ const PageTransition = ({ children }) => {
 			stagger: 0.02,
 			ease: "power2.out",
 			transformOrigin: "left",
-		})
+		});
 
-			.set(logoOverlayRef.current, { opacity: 1 }, "-=0.2")
+		// .set(logoOverlayRef.current, { opacity: 1 }, "-=0.2")
 
-			// .set(
-			// 	logoRef.current.querySelector("path"),
-			// 	{
-			// 		strokeDashoffset: pathLengthRef.current,
-			// 		fill: "transparent",
-			// 	},
-			// 	"-=0.25"
-			// )
+		// .set(
+		// 	logoRef.current.querySelector("path"),
+		// 	{
+		// 		strokeDashoffset: pathLengthRef.current,
+		// 		fill: "transparent",
+		// 	},
+		// 	"-=0.25"
+		// )
 
-			// .to(
-			// 	logoRef.current.querySelector("path"),
-			// 	{
-			// 		strokeDashoffset: 0,
-			// 		duration: 2,
-			// 		ease: "power2.inOut",
-			// 	},
-			// 	"-=0.5"
-			// )
+		// .to(
+		// 	logoRef.current.querySelector("path"),
+		// 	{
+		// 		strokeDashoffset: 0,
+		// 		duration: 2,
+		// 		ease: "power2.inOut",
+		// 	},
+		// 	"-=0.5"
+		// )
 
-			// .to(
-			// 	logoRef.current.querySelector("path"),
-			// 	{
-			// 		fill: "#e3e4d8",
-			// 		duration: 1,
-			// 		ease: "power2.out",
-			// 	},
-			// 	"-=0.5"
-			// )
+		// .to(
+		// 	logoRef.current.querySelector("path"),
+		// 	{
+		// 		fill: "#e3e4d8",
+		// 		duration: 1,
+		// 		ease: "power2.out",
+		// 	},
+		// 	"-=0.5"
+		// )
 
-			.to(logoOverlayRef.current, {
-				opacity: 0,
-				duration: 0.25,
-				ease: "power2.out",
-			});
+		// .to(logoOverlayRef.current, {
+		// 	opacity: 0,
+		// 	duration: 0.25,
+		// 	ease: "power2.out",
+		// });
 	};
 
 	return (
@@ -214,14 +214,13 @@ const PageTransition = ({ children }) => {
 				ref={logoOverlayRef}
 				className="logo-overlay"
 			>
-				{/* <div className="container-center">
-					<h1
-						ref={logoRef}
-						className="logo-text soft-text"
-					>
-						A27 Web Lab
-					</h1>
-				</div> */}
+				<h4
+					className="subtitle-transition soft-h-text header"
+					ref={logoRef}
+					//className="logo-text soft-text"
+				>
+					A27
+				</h4>
 			</div>
 			{children}
 		</>
