@@ -59,7 +59,7 @@ export default function Page() {
 				}
 				return step + 1;
 			});
-		}, 1500);
+		}, 4000);
 
 		return () => clearInterval(interval);
 	}, []);
@@ -90,16 +90,35 @@ export default function Page() {
 
 		let tlColor = gsap.timeline({ repeat: -1, yoyo: true });
 
-		tlColor.from(".wrapper-main", {
-			background: "linear-gradient(145deg, #77a4f2dc, #4eeded94)",
-			duration: 5,
-		});
+		tlColor
+			.from(".wrapper-main", {
+				background: "linear-gradient(145deg, #77a4f2dc, #4eeded94)",
+				duration: 3,
+			})
+			.to(".wrapper-main", {
+				background: "linear-gradient(145deg, #77a4f2dc, #4eeded94)",
+				duration: 5,
+			})
+			.to(".wrapper-main", {
+				background:
+					"linear-gradient(145deg, #d1d7f3dc, rgba(200, 246, 246, 0.582)",
+				duration: 4,
+			});
 		let tlTextColor = gsap.timeline({ repeat: -1, yoyo: true });
 
-		tlTextColor.from(".text-color", {
-			color: "#5289e8dc",
-			duration: 5,
-		});
+		tlTextColor
+			.from(".text-color", {
+				color: "#5289e8dc",
+				duration: 3,
+			})
+			.to(".text-color", {
+				color: "#5289e8dc",
+				duration: 5,
+			})
+			.to(".text-color", {
+				color: "#bfd3f2",
+				duration: 4,
+			});
 	});
 
 	return (
