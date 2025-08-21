@@ -55,7 +55,7 @@ body[data-theme="dark"] {
 } */
 
 body {
-	background: var(--bg-color);
+	background: rgb(197, 236, 251);
 }
 
 .nextjs-toast {
