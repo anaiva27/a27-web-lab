@@ -102,7 +102,7 @@ export default function Page() {
 			.to(".wrapper-main", {
 				background:
 					"linear-gradient(145deg, #d1d7f3dc, rgba(200, 246, 246, 0.582)",
-				duration: 4,
+				duration: 5,
 			});
 		let tlTextColor = gsap.timeline({ repeat: -1, yoyo: true });
 
@@ -117,7 +117,7 @@ export default function Page() {
 			})
 			.to(".text-color", {
 				color: "#bfd3f2",
-				duration: 4,
+				duration: 5,
 			});
 	});
 
