@@ -206,7 +206,7 @@ const PageTransition = ({ children }) => {
 
 	return (
 		<>
-			<div
+			{/* <div
 				ref={overlayRef}
 				className="transition-overlay"
 			/>
@@ -221,7 +221,7 @@ const PageTransition = ({ children }) => {
 				>
 					A27
 				</h4>
-			</div>
+			</div> */}
 			{children}
 		</>
 	);

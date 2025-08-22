@@ -1,9 +1,11 @@
 "use client";
-import Copy from "@/components/Copy";
-import Link from "next/link";
-import { gsap } from "gsap";
+
+import gsap from "gsap";
+import { SplitText } from "gsap/SplitText";
+import { CustomEase } from "gsap/CustomEase";
 import { useGSAP } from "@gsap/react";
-import { useEffect, useState } from "react";
+import Copy from "@/components/Copy";
+import { useEffect, useRef, useState } from "react";
 
 const messageArray = [
 	". Web Design . Development .",
@@ -27,29 +29,11 @@ const messageArray = [
 	". Dynamic . Powerful .",
 ];
 
+gsap.registerPlugin(CustomEase, SplitText);
+
 export default function Page() {
 	const [step, setStep] = useState(0);
-	const [theme, setTheme] = useState(true);
-
-	useEffect(() => {
-		if (!theme) {
-			console.log("theme", theme);
-
-			if (document.body.getAttribute("data-theme") === "dark") {
-				document.body.removeAttribute("data-theme");
-			} else {
-				document.body.setAttribute("data-theme", "dark");
-			}
-		}
-	}, [theme]);
-
-	// themeToggle?.addEventListener("change", () => {
-	// 	if (document.body.getAttribute("data-theme") === "dark") {
-	// 		document.body.removeAttribute("data-theme");
-	// 	} else {
-	// 		document.body.setAttribute("data-theme", "dark");
-	// 	}
-	// });
+	const containerRef = useRef();
 
 	useEffect(() => {
 		const interval = setInterval(() => {
@@ -64,192 +48,270 @@ export default function Page() {
 		return () => clearInterval(interval);
 	}, []);
 
-	//   const currentStep = Math.min(step, iconArray.length - 1);
+	useGSAP(
+		() => {
+			CustomEase.create("hop", ".8, 0, .3, 1");
+			const splitTextElements = (
+				selector,
+				type = "words,chars",
+				addFirstChar = false
+			) => {
+				const elements = document.querySelectorAll(selector);
+				console.log("elms", elements);
 
-	useGSAP(() => {
-		let tlBlocks = gsap.timeline({
-			defaults: { ease: "power4.inOut" },
-		});
-		tlBlocks
-			.to(".wrapper-main", { delay: 0.8, duration: 0.1, opacity: 1 })
-			.to(
-				".header",
-				{ delay: 2, stagger: 0.1, duration: 1, opacity: 1, y: 0 },
-				"-=2"
-			)
-			.to(
-				".project",
-				{ delay: 1, stagger: 0.2, duration: 1.2, opacity: 1, y: 0 },
-				"-=2"
-			)
-			.to(
-				".aside",
-				{ delay: 0.2, stagger: 0.2, duration: 1.2, opacity: 1, y: 0 },
-				"-=2"
+				elements.forEach((element) => {
+					const splitText = new SplitText(element, {
+						type,
+						wordsClass: "word",
+						charsClass: "char",
+					});
+
+					if (type.includes("chars")) {
+						splitText.chars.forEach((char, index) => {
+							const originalText = char.textContent;
+							char.innerHTML = `<span>${originalText}</span>`;
+
+							if (addFirstChar && index === 0) {
+								char.classList.add("first-char");
+							}
+						});
+					}
+				});
+			};
+
+			splitTextElements(".intro-title h1", "words, chars", true);
+			splitTextElements(".outro-title h1");
+			splitTextElements(".tag p", "words");
+			splitTextElements(".card h1", "words, chars", true);
+
+			const isMobile = window.innerWidth <= 1000;
+
+			gsap.set(
+				[
+					".split-overlay .intro-title .first-char span",
+					".split-overlay .outro-title .char span",
+				],
+				{ y: "0%" }
 			);
 
-		let tlColor = gsap.timeline({ repeat: -1, yoyo: true });
+			gsap.set(".split-overlay .intro-title .first-char", {
+				x: isMobile ? "7.5rem" : "18rem",
+				y: isMobile ? "-1rem" : "-2.75rem",
+				fontWeight: "900",
+				scale: 0.75,
+			});
 
-		tlColor.from(".wrapper-main", {
-			background: "linear-gradient(145deg, #77a4f2dc, #4eeded94)",
-			duration: 5,
-		});
-		// .to(".wrapper-main", {
-		// 	background: "linear-gradient(145deg, #77a4f2dc, #4eeded94)",
-		// 	duration: 5,
-		// })
-		// .to(".wrapper-main", {
-		// 	background:
-		// 		"linear-gradient(145deg, #d1d7f3dc, rgba(200, 246, 246, 0.582)",
-		// 	duration: 5,
-		// });
-		let tlTextColor = gsap.timeline({ repeat: -1, yoyo: true });
+			gsap.set(".split-overlay .outro-title .char", {
+				x: isMobile ? "-3rem" : "-8rem",
+				fontSize: isMobile ? "6rem" : "14rem",
+				fontWeight: "500",
+			});
 
-		tlTextColor.from(".text-color", {
-			color: "#5289e8dc",
-			duration: 5,
-		});
-		// .to(".text-color", {
-		// 	color: "#5289e8dc",
-		// 	duration: 5,
-		// })
-		// .to(".text-color", {
-		// 	color: "#bfd3f2",
-		// 	duration: 5,
-		// });
-	});
+			const tl = gsap.timeline({ defaults: { ease: "hop" } });
+			const tags = gsap.utils.toArray(".tag");
+
+			tags.forEach((tag, index) => {
+				tl.to(
+					tag.querySelectorAll("p .word"),
+					{
+						y: "0%",
+						duration: 0.75,
+					},
+					0.5 + index * 0.1
+				);
+			});
+
+			tl.to(
+				".preloader .intro-title .char span",
+				{
+					y: "0%",
+					duration: 0.75,
+					stagger: 0.05,
+					opacity: 1,
+				},
+				0.5
+			)
+				.to(
+					".preloader .intro-title .char:not(.first-char) span",
+					{
+						y: "100%",
+						duration: 0.75,
+						stagger: 0.05,
+					},
+					2
+				)
+				.to(
+					".preloader .outro-title .char span",
+					{
+						y: "0%",
+						duration: 0.75,
+						stagger: 0.075,
+					},
+					2.5
+				)
+				.to(
+					".preloader .intro-title .first-char",
+					{
+						x: isMobile ? "9rem" : "11.25rem",
+						duration: 1,
+					},
+					3.5
+				)
+				.to(
+					".preloader .outro-title .char",
+					{
+						x: isMobile ? "-3rem" : "-8rem",
+						duration: 1,
+					},
+					3.5
+				)
+				.to(
+					".preloader .intro-title .first-char",
+					{
+						x: isMobile ? "7.5rem" : "10rem",
+						y: isMobile ? "-1rem" : "-2.75rem",
+						fontWeight: "900",
+						scale: 0.75,
+						duration: 0.75,
+					},
+					4.5
+				)
+				.to(
+					".preloader .outro-title .char",
+					{
+						x: isMobile ? "-3rem" : "-8rem",
+						fontSize: isMobile ? "6rem" : "14rem",
+						fontWeight: "500",
+						duration: 0.75,
+						onComplete: () => {
+							gsap.set(".preloader", {
+								clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 50%)",
+							});
+							gsap.set(".split-overlay", {
+								clipPath: "polygon(0 50%, 100% 50%, 100% 100%, 0 100%)",
+							});
+						},
+					},
+					4.5
+				)
+				.to(
+					".container",
+					{
+						clipPath: "polygon(0% 48%, 100% 48%, 100% 52%, 0% 52%)",
+						duration: 1,
+					},
+					5
+				);
+
+			tags.forEach((tag, index) => {
+				tl.to(
+					tag.querySelectorAll("p .word"),
+					{
+						y: "100%",
+						duration: 0.75,
+					},
+					5.5 + index * 0.1
+				);
+			});
+
+			tl.to(
+				[".preloader", ".split-overlay"],
+				{
+					y: (i) => (i === 0 ? "-50%" : "50%"),
+					duration: 1,
+				},
+				6
+			)
+				.to(
+					".container",
+					{
+						clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+						duration: 1,
+					},
+					6
+				)
+				.to(
+					".container .card",
+					{
+						clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+						duration: 0.75,
+					},
+					6.25
+				)
+				.to(
+					".container .card h1 .char span",
+					{
+						y: "0%",
+						duration: 0.75,
+						stagger: 0.05,
+					},
+					6.5
+				);
+		},
+		{ scope: containerRef, dependencies: [containerRef] }
+	);
 
 	return (
-		<>
-			<div className="wrapper-main ">
-				<div className="corner-left-b">
-					<p className="plain-text soft-p-text">A27 .</p>
+		<section ref={containerRef}>
+			<div className="preloader">
+				<div className="intro-title">
+					<h1> A27 Web Lab </h1>
 				</div>
-				<div className="corner-left-t">
-					<p className="plain-text soft-p-text">A27 .</p>
+				<div className="outro-title">
+					<h1>27</h1>
 				</div>
-				<div className="corner-right-b">
-					<p className="plain-text soft-p-text">10:00am | 08 | 09 | 2025</p>
-				</div>
-				<div className="center-t spiral-bg">
-					<p className="plain-text soft-p-text">. 360 Degree Approach .</p>
-				</div>
-				<div className="toggle-container">
-					<div className="chip2">
-						<p className="plain-text soft-p-text">copy email</p>
-					</div>
-					{/* <div
-						className="theme-switch"
-						onClick={() => setTheme(!theme)}
-					>
-						<input
-							type="checkbox"
-							id="themeToggle"
-						/>
-						<label
-							className="theme-btn"
-							htmlFor="themeToggle"
-						>
-							<i className="fas fa-moon"></i>
-						</label>
-					</div> */}
-				</div>
-				<div className="center-b">
-					<p className="plain-text soft-p-text">. Premium Digital Lab .</p>
-				</div>
-				<div className="horizontal-line-t"></div>
-				<div className="horizontal-line-b"></div>
-
-				<div className="aside-left">
-					<div className="container-left-t">
-						<p className="plain-text soft-p-text aside">
-							Web App
-							<br />
-							Mobile App <br />
-							3D Graphics
-							<br />
-							<br />
-						</p>
-						<p className="plain-text soft-p-text aside">
-							<span className="hide-mobile">
-								Simple
-								<br />
-								or
-								<br />
-								Complex
-							</span>
-						</p>
-					</div>
-
-					<div className="container-left-b">
-						<br />
-						<p className="plain-text soft-p-text aside">
-							Professional
-							<br />
-							Effective
-							<br />
-							Clean designs <br />
-							<br />
-						</p>
-					</div>
-				</div>
-
-				<div className="container-center-t">
-					<h1 className="logo-text soft-text header text-color">A27 Web Lab</h1>
-					<Copy isUpdated={step}>
-						<h5 className="subtitle soft-h-text text-color header">
-							{messageArray[step]}
-						</h5>
-					</Copy>
-					<p className="plain-text soft-p-text header mobile-hide">
-						Your online presence deserves an upgrade. We’re here to make it
-						happen.
-						<br />
-						We create custom designs, so you can look amazing online and feel
-						proud every time you see it. <br />
-						<br />
-					</p>
-					<p className="plain-text soft-p-text header desktop-hide">
-						We create custom designs, so you can look amazing online <br /> and
-						feel proud every time you see it.
-						<br />
-					</p>
-					<div className="chip header">
-						<p className="plain-text soft-p-text">send inquiry</p>
-					</div>
-				</div>
-				<div className="aside-right">
-					<div className="container-right">
-						<div className="project-container project">
-							<Link href="/contact">
-								<h5 className="subtitle soft-h-text text-color">01 PROJECT</h5>
-							</Link>
-						</div>
-						<div className="project-container project">
-							<Link href="/contact">
-								<h5 className="subtitle soft-h-text text-color">02 PROJECT</h5>
-							</Link>
-						</div>
-						<div className="project-container project">
-							<Link href="/contact">
-								<h5 className="subtitle soft-h-text text-color">03 PROJECT</h5>
-							</Link>
-						</div>
-						<div className="project-container project">
-							<Link href="/contact">
-								<h5 className="subtitle soft-h-text text-color">04 PROJECT</h5>
-							</Link>
-						</div>
-					</div>
-				</div>
-
-				{/* <div
-					className="toast"
-					id="toast"
-				>
-					Submitted Successfully!
-				</div> */}
 			</div>
-		</>
+
+			<div className="split-overlay">
+				<div className="intro-title">
+					<h1> A27 Web Lab </h1>
+				</div>
+				<div className="outro-title">
+					<h1>27</h1>
+				</div>
+			</div>
+
+			<div className="tags-overlay">
+				<div className="tag tag-1">
+					<p>Future-Ready</p>
+				</div>
+				<div className="tag tag-2">
+					<p>Design</p>
+				</div>
+				<div className="tag tag-3">
+					<p>Development</p>
+				</div>
+			</div>
+
+			<div className="container">
+				<nav>
+					<p id="logo">A27</p>
+					<p>Menu</p>
+				</nav>
+
+				<div className="hero-img">
+					<img
+						src="/hero-img.jpg"
+						alt=""
+					/>
+				</div>
+
+				<div className="card">
+					<Copy>
+						<h1>A27 Web Lab</h1>
+					</Copy>
+					<Copy isUpdated={step}>
+						<h2 className="subtitle soft-h-text text-color header">
+							{messageArray[step]}
+						</h2>
+					</Copy>
+				</div>
+
+				<footer>
+					<p>Premium Digtal Lab</p>
+					<p>Made by A27 Web Lab</p>
+				</footer>
+			</div>
+		</section>
 	);
 }
