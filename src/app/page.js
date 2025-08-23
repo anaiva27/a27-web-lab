@@ -249,7 +249,7 @@ export default function Page() {
 
 	return (
 		<section className="main-wrapper">
-			<Menu />
+			{/* <Menu /> */}
 			<div className="preloader">
 				<div className="intro-title">
 					<h1> A27 Web Lab </h1>
