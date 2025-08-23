@@ -128,17 +128,18 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	color: #fff;
+	color: black;
 	z-index: 2;
 }
 
 nav p#logo {
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 22px;
 }
 
 nav p {
 	cursor: pointer;
+	color: black;
 }
 
 .card {
@@ -147,13 +148,15 @@ nav p {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 70%;
+	min-width: 800px;
+	min-height: 450px;
 	height: 50%;
 	display: flex;
 	padding: 2rem;
 	justify-content: flex-start;
 	align-items: flex-start;
-	background: rgba(25, 25, 25, 0.643);
-	/* background: linear-gradient(145deg, #313233, #1a1a1c); */
+	/* background: rgba(25, 25, 25, 0.339); */
+	background: linear-gradient(145deg, #d0d0d0d9, #1a1a1c4c);
 	clip-path: polygon(0% 50%, 100% 50%, 100% 50%, 0% 50%);
 	gap: 0;
 	font-family: "Arimo", sans-serif;
@@ -235,6 +238,9 @@ nav p {
 	.card {
 		width: 75%;
 		height: 60%;
+		min-width: unset !important;
+		min-height: unset !important;
+		padding: 0;
 	}
 
 	.card h1 {
@@ -244,6 +250,18 @@ nav p {
 	.intro-title .char,
 	.outro-title .char {
 		margin-top: 0.5rem;
+	}
+
+	.button-wrapper {
+		display: flex;
+		flex-direction: column;
+		margin-top: auto;
+		gap: 16px;
+		width: 100%;
+	}
+	.button-wrapper div {
+		width: 100%;
+		font-size: 15px !important;
 	}
 }
 

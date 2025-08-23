@@ -152,7 +152,7 @@ export default function Page() {
 			.to(
 				".preloader .intro-title .first-char",
 				{
-					x: isMobile ? "9rem" : "11.25rem",
+					x: isMobile ? "5rem" : "11.25rem",
 					duration: 1,
 				},
 				3.5
@@ -168,8 +168,8 @@ export default function Page() {
 			.to(
 				".preloader .intro-title .first-char",
 				{
-					x: isMobile ? "7.5rem" : "10rem",
-					y: isMobile ? "-1rem" : "-2.75rem",
+					x: isMobile ? "4rem" : "10rem",
+					y: isMobile ? "-1.2rem" : "-2.85rem",
 					fontWeight: "900",
 					scale: 0.75,
 					duration: 0.75,
