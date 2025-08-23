@@ -87,14 +87,6 @@ img {
 	transform: translateY(20px);
 }
 
-/* h1 {
-	text-transform: uppercase;
-	color: #141414;
-	font-size: 12rem;
-	font-weight: 800;
-	line-height: 1;
-} */
-
 a {
 	text-decoration: none;
 }
@@ -335,18 +327,18 @@ a {
 }
 
 .headline {
-	color: black;
+	color: white;
 	font-size: clamp(40px, 6vw, 70px);
 }
 
 .subtitle {
-	color: black;
+	color: white;
 	font-size: min(30px, 2.5vw);
 	text-transform: uppercase;
 }
 
 .body-text {
-	color: black;
+	color: white;
 	font-size: 17px;
 	text-transform: uppercase;
 	letter-spacing: 0px;
@@ -813,20 +805,8 @@ h2 {
 }
 
 button {
-	padding: 12px;
-	border-radius: 15px;
+	outline: none;
 	border: none;
-	background: var(--bg-color);
-	font-weight: bold;
-	box-shadow: 6px 6px 12px var(--shadow-dark),
-		-6px -6px 12px var(--shadow-light);
-	cursor: pointer;
-	transition: 0.3s ease;
-	color: var(--text-color);
-}
-
-button:hover {
-	box-shadow: 0 0 12px var(--highlight), inset 2px 2px 8px var(--shadow-dark);
 }
 
 .social-login {

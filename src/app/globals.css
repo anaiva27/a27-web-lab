@@ -117,7 +117,7 @@ p {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	filter: brightness(0.6);
+	filter: brightness(0.8) saturate(1.5);
 }
 
 nav,
@@ -137,6 +137,10 @@ nav p#logo {
 	font-size: 20px;
 }
 
+nav p {
+	cursor: pointer;
+}
+
 .card {
 	position: absolute;
 	top: 50%;
@@ -148,7 +152,7 @@ nav p#logo {
 	padding: 2rem;
 	justify-content: flex-start;
 	align-items: flex-start;
-	background: rgba(255, 255, 255, 0.643);
+	background: rgba(25, 25, 25, 0.643);
 	/* background: linear-gradient(145deg, #313233, #1a1a1c); */
 	clip-path: polygon(0% 50%, 100% 50%, 100% 50%, 0% 50%);
 	gap: 0;

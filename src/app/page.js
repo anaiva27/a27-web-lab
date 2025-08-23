@@ -30,6 +30,8 @@ gsap.registerPlugin(CustomEase, SplitText);
 
 export default function Page() {
 	const [step, setStep] = useState(0);
+	const [toggleMenu, setToggleMenu] = useState();
+	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	useEffect(() => {
 		const interval = setInterval(() => {
@@ -249,7 +251,10 @@ export default function Page() {
 
 	return (
 		<section className="main-wrapper">
-			{/* <Menu /> */}
+			<Menu
+				isMenuOpen={isMenuOpen}
+				setIsMenuOpen={setIsMenuOpen}
+			/>
 			<div className="preloader">
 				<div className="intro-title">
 					<h1> A27 Web Lab </h1>
@@ -283,7 +288,7 @@ export default function Page() {
 			<div className="container">
 				<nav>
 					<p id="logo">A27</p>
-					<p>Menu</p>
+					<p onClick={() => setIsMenuOpen((prev) => !prev)}>Menu</p>
 				</nav>
 
 				<div className="hero-img">

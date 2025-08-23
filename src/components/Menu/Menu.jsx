@@ -1,10 +1,12 @@
+"use client";
 import React, { useEffect, useRef, useState } from "react";
 import "./Menu.css";
 
-import { Link, useLocation } from "react-router-dom";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { gsap } from "gsap";
 
-const Menu = () => {
+const Menu = ({ isMenuOpen, setIsMenuOpen }) => {
 	const menuLinks = [
 		{ path: "/", label: "Welcome" },
 		{ path: "/about", label: "About" },
@@ -15,9 +17,9 @@ const Menu = () => {
 		{ path: "/faq", label: "Q&A" },
 	];
 
-	const location = useLocation();
+	const router = useRouter();
 	const menuContainer = useRef();
-	const [isMenuOpen, setIsMenuOpen] = useState(false);
+	// const [isMenuOpen, setIsMenuOpen] = useState(false);
 	const [userLocation, setUserLocation] = useState("");
 	const menuAnimation = useRef();
 	const menuLinksAnimation = useRef();
@@ -26,9 +28,9 @@ const Menu = () => {
 	const lastScrollY = useRef(0);
 	const menuBarRef = useRef();
 
-	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+	const [windowWidth, setWindowWidth] = useState();
 	const [shouldDelayClose, setShouldDelayClose] = useState(false);
-	const previousPathRef = useRef(location.pathname);
+	const previousPathRef = useRef(router.pathname);
 	const scrollPositionRef = useRef(0);
 
 	const toggleBodyScroll = (disableScroll) => {
@@ -63,32 +65,43 @@ const Menu = () => {
 	};
 
 	const handleLinkClick = (path) => {
-		if (path !== location.pathname) {
+		if (path !== router.pathname) {
 			setShouldDelayClose(true);
 		}
 	};
 
 	useEffect(() => {
-		if (location.pathname !== previousPathRef.current && shouldDelayClose) {
+		document.querySelector(".hamburger-icon").classList.toggle("active");
+		// if (!isMenuOpen) {
+		// 	document.querySelector(".menu-bar").classList.toggle("show-menu");
+		// }
+		const newMenuState = !isMenuOpen;
+		// setIsMenuOpen(newMenuState);
+		toggleBodyScroll(newMenuState);
+	}, [isMenuOpen]);
+
+	useEffect(() => {
+		if (router.pathname !== previousPathRef.current && shouldDelayClose) {
 			const timer = setTimeout(() => {
 				closeMenu();
 				setShouldDelayClose(false);
 			}, 700);
 
-			previousPathRef.current = location.pathname;
+			previousPathRef.current = router.pathname;
 			return () => clearTimeout(timer);
 		}
 
-		if (location.pathname === "home" || location.pathname === "/") {
+		if (router.pathname === "home" || router.pathname === "/") {
 			setUserLocation("home");
 		} else {
 			setUserLocation("");
 		}
 
-		previousPathRef.current = location.pathname;
-	}, [location.pathname, shouldDelayClose]);
+		previousPathRef.current = router.pathname;
+	}, [router.pathname, shouldDelayClose]);
 
 	useEffect(() => {
+		setWindowWidth(window.innerWidth);
 		const handleResize = () => {
 			setWindowWidth(window.innerWidth);
 		};
@@ -120,6 +133,7 @@ const Menu = () => {
 				.timeline({ paused: true })
 				.to(".menu-bar", {
 					duration: 1,
+					autoAlpha: 1,
 					height: heightValue,
 					ease: "power4.inOut",
 				});
@@ -150,39 +164,39 @@ const Menu = () => {
 		}
 	}, [isMenuOpen]);
 
-	useEffect(() => {
-		const handleScroll = () => {
-			if (isMenuOpen) return;
+	// useEffect(() => {
+	// 	const handleScroll = () => {
+	// 		if (isMenuOpen) return;
 
-			const currentScrollY = window.scrollY;
+	// 		const currentScrollY = window.scrollY;
 
-			if (
-				currentScrollY > lastScrollY.current &&
-				currentScrollY > window.innerHeight - 200
-			) {
-				gsap.to(".menu-bar", {
-					y: -200,
-					duration: 1,
-					ease: "power2.out",
-				});
-			} else {
-				if (currentScrollY <= window.innerHeight - 200)
-					gsap.to(".menu-bar", {
-						y: 0,
-						duration: 1,
-						ease: "power2.out",
-					});
-			}
+	// 		if (
+	// 			currentScrollY > lastScrollY.current &&
+	// 			currentScrollY > window.innerHeight - 200
+	// 		) {
+	// 			gsap.to(".menu-bar", {
+	// 				y: -200,
+	// 				duration: 1,
+	// 				ease: "power2.out",
+	// 			});
+	// 		} else {
+	// 			if (currentScrollY <= window.innerHeight - 200)
+	// 				gsap.to(".menu-bar", {
+	// 					y: 0,
+	// 					duration: 1,
+	// 					ease: "power2.out",
+	// 				});
+	// 		}
 
-			lastScrollY.current = currentScrollY;
-		};
+	// 		lastScrollY.current = currentScrollY;
+	// 	};
 
-		window.addEventListener("scroll", handleScroll);
+	// 	window.addEventListener("scroll", handleScroll);
 
-		return () => {
-			window.removeEventListener("scroll", handleScroll);
-		};
-	}, [isMenuOpen]);
+	// 	return () => {
+	// 		window.removeEventListener("scroll", handleScroll);
+	// 	};
+	// }, [isMenuOpen]);
 
 	// useEffect(() => {
 	// 	return () => {
@@ -202,39 +216,6 @@ const Menu = () => {
 				ref={menuBarRef}
 			>
 				<div className="menu-bar-container">
-					<div
-						className={
-							userLocation === "home" ? "menu-logo" : "menu-logo invert-color"
-						}
-						onClick={closeMenu}
-					>
-						<Link to="/">
-							<img
-								src="/home/Logo-updated.png"
-								alt=""
-							/>
-						</Link>
-					</div>
-					<div className="menu-items">
-						{menuLinks.map((link, index) => (
-							<div
-								key={index}
-								className={
-									userLocation === "home" ? "menu-item white-text" : "menu-item"
-								}
-							>
-								{/* <div className="menu-link-item-holder"> */}
-								<Link
-									className="menu-link"
-									to={link.path}
-									onClick={() => handleLinkClick(link.path)}
-								>
-									{link.label}
-								</Link>
-								{/* </div> */}
-							</div>
-						))}
-					</div>
 					<div className="menu-actions">
 						<div className="menu-toggle">
 							<button
@@ -257,7 +238,7 @@ const Menu = () => {
 									<div className="menu-link-item-holder">
 										<Link
 											className="menu-link"
-											to={link.path}
+											href={link.path}
 											onClick={() => handleLinkClick(link.path)}
 										>
 											{link.label}
