@@ -9,11 +9,11 @@ import { gsap } from "gsap";
 const Menu = ({ isMenuOpen, setIsMenuOpen }) => {
 	const menuLinks = [
 		{ path: "/", label: "Welcome" },
-		{ path: "/about", label: "About" },
-		{ path: "/projects", label: "Projects" },
+		{ path: "/", label: "About" },
+		{ path: "/", label: "Projects" },
 		// { path: "/", label: "Destinations" },
-		{ path: "/contact", label: "Contact" },
-		{ path: "/faq", label: "Q&A" },
+		{ path: "/", label: "Contact" },
+		{ path: "/", label: "Q&A" },
 	];
 
 	const router = useRouter();
