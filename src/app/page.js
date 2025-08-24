@@ -293,27 +293,25 @@ export default function Page() {
 
 				<div className="hero-img">
 					<img
-						src="/img19.jpg"
+						src="/img25.png"
 						alt=""
 					/>
 				</div>
 
 				<div className="card">
-					<div className="card-raised">
-						<Copy>
-							<h1 className="headline ">A27 Web Lab.</h1>
-						</Copy>
-						<Copy isUpdated={step}>
-							<h2 className="subtitle ">{messageArray[step]}</h2>
-						</Copy>
-						<p className="body-text ">
-							We create custom designs, so you can look amazing online <br />{" "}
-							and feel proud every time you see it.
-						</p>
-						<div className="button-wrapper">
-							<div className="chip">send inquiry</div>
-							<div className="chip2">works demo</div>
-						</div>
+					<Copy isUpdated={step}>
+						<h2 className="subtitle ">{messageArray[step]}</h2>
+					</Copy>
+					<Copy>
+						<h1 className="headline ">A27 Web Lab.</h1>
+					</Copy>
+					<p className="body-text ">
+						We create custom designs, so you can look amazing online and <br />
+						feel proud every time you see it.
+					</p>
+					<div className="button-wrapper">
+						<div className="chip">send inquiry</div>
+						<div className="chip2">works demo</div>
 					</div>
 					{/* <div className="card-aside-raised"></div> */}
 				</div>

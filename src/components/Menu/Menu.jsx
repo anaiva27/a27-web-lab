@@ -10,8 +10,7 @@ const Menu = ({ isMenuOpen, setIsMenuOpen }) => {
 	const menuLinks = [
 		{ path: "/", label: "Welcome" },
 		{ path: "/about", label: "About" },
-		{ path: "/schedule", label: "Schedule" },
-		{ path: "/testimonials", label: "Testimonials" },
+		{ path: "/projects", label: "Projects" },
 		// { path: "/", label: "Destinations" },
 		{ path: "/contact", label: "Contact" },
 		{ path: "/faq", label: "Q&A" },

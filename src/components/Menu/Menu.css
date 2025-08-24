@@ -156,7 +156,7 @@
 
 .menu-link-item .menu-link-item-holder a {
 	position: relative;
-	color: var(--bg);
+	color: white;
 	font-family: "Arial";
 	font-size: 5vw;
 	text-transform: none;
