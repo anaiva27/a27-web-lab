@@ -128,7 +128,7 @@ nav,
 footer {
 	position: relative;
 	width: 100vw;
-	padding: 1.4em 1.7em;
+	padding: 15px 22px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -154,6 +154,7 @@ nav p {
 	width: 70%;
 	min-width: 800px;
 	min-height: 450px;
+	max-width: 1050px;
 	height: 50%;
 	display: flex;
 	padding: 2rem;
@@ -176,7 +177,7 @@ nav p {
 .button-wrapper {
 	display: flex;
 	margin-top: auto;
-	gap: 24px;
+	gap: 28px;
 }
 
 .card-raised {
@@ -252,6 +253,7 @@ nav p {
 		min-width: unset !important;
 		min-height: unset !important;
 		padding: 1rem;
+		max-height: 550px;
 	}
 
 	.card h1 {
@@ -620,6 +622,7 @@ a {
 	color: white;
 	font-size: clamp(35px, 6vw, 50px);
 	text-transform: uppercase;
+	margin-bottom: 7px;
 }
 
 .subtitle {
@@ -628,7 +631,7 @@ a {
 	text-transform: none !important;
 	line-height: 120%;
 	font-weight: 300;
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 }
 
 .body-text {
@@ -820,7 +823,7 @@ a {
 	height: 34px;
 	margin-top: auto;
 	border-radius: 8px;
-	border: 1px solid white;
+	border: 1px solid rgba(255, 255, 255, 0.741);
 	background: linear-gradient(145deg, #2a2a2a00, #01010100);
 	color: rgb(255, 255, 255);
 	font-size: 17px;
