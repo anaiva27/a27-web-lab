@@ -7,22 +7,17 @@ import { useGSAP } from "@gsap/react";
 import Copy from "@/components/Copy";
 import { useEffect, useRef, useState } from "react";
 import Menu from "@/components/Menu/Menu";
+import Spotlight from "@/components/Spotlight/Spotlight";
 
 const messageArray = [
 	"Custom Code. Scalable.",
 	"Web Design. Development.",
 	"Creative. Functional.",
-
 	"Websites. Apps.",
-
 	"UI / UX. Seamless.",
-
 	"Future-Ready. Reliable.",
-
 	"Branding. Design.",
-
 	"Innovative. Intuitive.",
-
 	"Dynamic. Powerful.",
 ];
 
@@ -32,6 +27,10 @@ export default function Page() {
 	const [step, setStep] = useState(0);
 	const [toggleMenu, setToggleMenu] = useState();
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+	useEffect(() => {
+		window.scrollTo({ top: 0 });
+	}, []);
 
 	useEffect(() => {
 		const interval = setInterval(() => {
@@ -121,16 +120,20 @@ export default function Page() {
 			);
 		});
 
-		tl.to(
-			".preloader .intro-title .char span",
-			{
-				y: "0%",
-				duration: 0.75,
-				stagger: 0.05,
-				opacity: 1,
-			},
-			0.5
-		)
+		tl.to(".main-wrapper", {
+			position: "fixed",
+			top: 0,
+		})
+			.to(
+				".preloader .intro-title .char span",
+				{
+					y: "0%",
+					duration: 0.75,
+					stagger: 0.05,
+					opacity: 1,
+				},
+				0.5
+			)
 			.to(
 				".preloader .intro-title .char:not(.first-char) span",
 				{
@@ -246,7 +249,19 @@ export default function Page() {
 					stagger: 0.05,
 				},
 				6.5
-			);
+			)
+			.to(
+				[".preloader", ".split-overlay", ".tag-overlay"],
+				{
+					opacity: 0,
+					delay: 1,
+				},
+				5
+			)
+			.to(".main-wrapper", {
+				position: "relative",
+				top: "unset",
+			});
 	});
 
 	return (
@@ -321,6 +336,7 @@ export default function Page() {
 					<p>Made by A27 Web Lab</p>
 				</footer>
 			</div>
+			<Spotlight />
 		</section>
 	);
 }
