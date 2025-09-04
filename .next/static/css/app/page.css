@@ -214,7 +214,7 @@
 .spotlight {
 	position: relative;
 	width: 100vw;
-	height: 100svh;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -318,12 +318,12 @@
 	--after-opacity: 0;
 }
 
-.spotlight-titles-container::before,
+/* .spotlight-titles-container::before,
 .spotlight-titles-container::after {
 	content: "";
 	position: absolute;
 	width: 100svh;
-	height: 2px;
+	height: 1px;
 	background: var(--base-100);
 	pointer-events: none;
 	transition: opacity 0.3s ease;
@@ -333,16 +333,16 @@
 .spotlight-titles-container::before {
 	top: 0;
 	left: 0;
-	transform: rotate(-45deg) translate(-7rem);
+	transform: rotate(-60deg) translate(-7rem);
 	opacity: var(--before-opacity);
 }
 
 .spotlight-titles-container::after {
 	bottom: 0;
 	left: 0;
-	transform: rotate(45deg) translate(-7rem);
+	transform: rotate(60deg) translate(-7rem);
 	opacity: var(--after-opacity);
-}
+} */
 
 .spotlight-titles {
 	position: relative;

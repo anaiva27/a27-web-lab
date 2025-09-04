@@ -63,8 +63,8 @@ p {
 
 .preloader,
 .split-overlay {
-	background-color: #0a0a0a;
-	color: #fff;
+	background-color: var(--base-450);
+	color: var(--base-300);
 }
 
 .preloader,
