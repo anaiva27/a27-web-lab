@@ -53,7 +53,7 @@ p {
 }
 
 .main-wrapper {
-	visibility: hidden;
+	/* visibility: hidden; */
 }
 
 .preloader,
@@ -125,16 +125,17 @@ p {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	-webkit-clip-path: polygon(0 48%, 0 48%, 0 52%, 0 52%);
-	        clip-path: polygon(0 48%, 0 48%, 0 52%, 0 52%);
+	/* clip-path: polygon(0 48%, 0 48%, 0 52%, 0 52%); */
 	z-index: 2;
+	overflow: hidden;
 }
 
 .container .hero-img {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	filter: saturate(1.7) brightness(0.9);
+	scale: 1;
+	/* filter: saturate(1.7) brightness(0.9); */
 }
 
 nav,
@@ -151,7 +152,12 @@ footer {
 
 nav p#logo {
 	font-weight: 600;
-	font-size: 22px;
+	font-size: 19px;
+}
+
+nav p#menu {
+	font-weight: 500;
+	font-size: 16px;
 }
 
 nav p {
@@ -180,9 +186,7 @@ nav p {
 	-webkit-backdrop-filter: blur(15px);
 	        backdrop-filter: blur(15px);
 	border: 0.5px solid rgba(255, 255, 255, 0.675);
-	/* background: linear-gradient(145deg, #d0d0d0d9, #1a1a1c4c); */
-	-webkit-clip-path: polygon(0% 50%, 100% 50%, 100% 50%, 0% 50%);
-	        clip-path: polygon(0% 50%, 100% 50%, 100% 50%, 0% 50%);
+	/* clip-path: polygon(0% 50%, 100% 50%, 100% 50%, 0% 50%); */
 	gap: 0;
 	font-family: "Arimo", sans-serif;
 }
@@ -839,7 +843,7 @@ a {
 	border: 1px solid rgba(255, 255, 255, 0.741);
 	background: linear-gradient(145deg, #2a2a2a00, #01010100);
 	color: rgb(255, 255, 255);
-	font-size: 17px;
+	font-size: 16px;
 	position: relative;
 	cursor: pointer;
 	padding: 20px;

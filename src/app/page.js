@@ -8,6 +8,7 @@ import Copy from "@/components/Copy";
 import { useEffect, useRef, useState } from "react";
 import Menu from "@/components/Menu/Menu";
 import Spotlight from "@/components/Spotlight/Spotlight";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const messageArray = [
 	"Custom Code. Scalable.",
@@ -21,15 +22,19 @@ const messageArray = [
 	"Dynamic. Powerful.",
 ];
 
-gsap.registerPlugin(CustomEase, SplitText);
+gsap.registerPlugin(CustomEase, SplitText, ScrollTrigger);
 
 export default function Page() {
 	const [step, setStep] = useState(0);
 	const [toggleMenu, setToggleMenu] = useState();
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
+	const [isMobile, setIsMobile] = useState(false);
+
+	const scrollTriggerRef = useRef(null);
 
 	useEffect(() => {
-		window.scrollTo({ top: 0 });
+		window?.scrollTo({ top: 0 });
+		setIsMobile(window?.innerWidth <= 1000);
 	}, []);
 
 	useEffect(() => {
@@ -46,222 +51,239 @@ export default function Page() {
 	}, []);
 
 	useGSAP(() => {
-		// if (!containerRef.current) return;
-		// window.document.addEventListener("DOMContentLoaded", function (event) {
+		//gsap.to(".main-wrapper", { autoAlpha: 1 });
+		// CustomEase.create("hop", ".8, 0, .3, 1");
+		// const splitTextElements = (
+		// 	selector,
+		// 	type = "words,chars",
+		// 	addFirstChar = false
+		// ) => {
+		// 	const elements = document.querySelectorAll(selector);
+
+		// 	elements.forEach((element) => {
+		// 		const splitText = new SplitText(element, {
+		// 			type,
+		// 			wordsClass: "word",
+		// 			charsClass: "char",
+		// 		});
+
+		// 		if (type.includes("chars")) {
+		// 			splitText.chars.forEach((char, index) => {
+		// 				const originalText = char.textContent;
+		// 				char.innerHTML = `<span>${originalText}</span>`;
+
+		// 				if (addFirstChar && index === 0) {
+		// 					char.classList.add("first-char");
+		// 				}
+		// 			});
+		// 		}
+		// 	});
+		// };
+
+		// splitTextElements(".intro-title h1", "words, chars", true);
+		// splitTextElements(".outro-title h1");
+		// splitTextElements(".tag p", "words");
+		// splitTextElements(".card h1", "words, chars", true);
+
+		// gsap.set(
+		// 	[
+		// 		".split-overlay .intro-title .first-char span",
+		// 		".split-overlay .outro-title .char span",
+		// 	],
+		// 	{ y: "0%" }
+		// );
+
+		// gsap.set(".split-overlay .intro-title .first-char", {
+		// 	x: isMobile ? "7.5rem" : "18rem",
+		// 	y: isMobile ? "-1rem" : "-2.75rem",
+		// 	fontWeight: "900",
+		// 	scale: 0.75,
 		// });
-		gsap.to(".main-wrapper", { autoAlpha: 1 });
-		CustomEase.create("hop", ".8, 0, .3, 1");
-		const splitTextElements = (
-			selector,
-			type = "words,chars",
-			addFirstChar = false
-		) => {
-			const elements = document.querySelectorAll(selector);
 
-			elements.forEach((element) => {
-				const splitText = new SplitText(element, {
-					type,
-					wordsClass: "word",
-					charsClass: "char",
-				});
+		// gsap.set(".split-overlay .outro-title .char", {
+		// 	x: isMobile ? "-3rem" : "-8rem",
+		// 	fontSize: isMobile ? "6rem" : "14rem",
+		// 	fontWeight: "500",
+		// });
 
-				if (type.includes("chars")) {
-					splitText.chars.forEach((char, index) => {
-						const originalText = char.textContent;
-						char.innerHTML = `<span>${originalText}</span>`;
+		// const tl = gsap.timeline({ defaults: { ease: "hop" } });
+		// const tags = gsap.utils.toArray(".tag");
 
-						if (addFirstChar && index === 0) {
-							char.classList.add("first-char");
-						}
-					});
-				}
-			});
-		};
+		// tags.forEach((tag, index) => {
+		// 	tl.to(
+		// 		tag.querySelectorAll("p .word"),
+		// 		{
+		// 			y: "0%",
+		// 			duration: 0.75,
+		// 		},
+		// 		0.5 + index * 0.1
+		// 	);
+		// });
 
-		splitTextElements(".intro-title h1", "words, chars", true);
-		splitTextElements(".outro-title h1");
-		splitTextElements(".tag p", "words");
-		splitTextElements(".card h1", "words, chars", true);
+		// tl.to(".main-wrapper", {
+		// 	position: "fixed",
+		// 	top: 0,
+		// })
+		// 	.to(
+		// 		".preloader .intro-title .char span",
+		// 		{
+		// 			y: "0%",
+		// 			duration: 0.75,
+		// 			stagger: 0.05,
+		// 			opacity: 1,
+		// 		},
+		// 		0.5
+		// 	)
+		// 	.to(
+		// 		".preloader .intro-title .char:not(.first-char) span",
+		// 		{
+		// 			y: "100%",
+		// 			duration: 0.75,
+		// 			stagger: 0.05,
+		// 		},
+		// 		2
+		// 	)
+		// 	.to(
+		// 		".preloader .outro-title .char span",
+		// 		{
+		// 			y: "0%",
+		// 			duration: 0.75,
+		// 			stagger: 0.075,
+		// 		},
+		// 		2.5
+		// 	)
+		// 	.to(
+		// 		".preloader .intro-title .first-char",
+		// 		{
+		// 			x: isMobile ? "5rem" : "11.25rem",
+		// 			duration: 1,
+		// 		},
+		// 		3.5
+		// 	)
+		// 	.to(
+		// 		".preloader .outro-title .char",
+		// 		{
+		// 			x: isMobile ? "-3rem" : "-8rem",
+		// 			duration: 1,
+		// 		},
+		// 		3.5
+		// 	)
+		// 	.to(
+		// 		".preloader .intro-title .first-char",
+		// 		{
+		// 			x: isMobile ? "4rem" : "10rem",
+		// 			y: isMobile ? "-1.2rem" : "-2.85rem",
+		// 			fontWeight: "900",
+		// 			scale: 0.75,
+		// 			duration: 0.75,
+		// 		},
+		// 		4.5
+		// 	)
+		// 	.to(
+		// 		".preloader .outro-title .char",
+		// 		{
+		// 			x: isMobile ? "-3rem" : "-8rem",
+		// 			fontSize: isMobile ? "6rem" : "14rem",
+		// 			fontWeight: "500",
+		// 			duration: 0.75,
+		// 			onComplete: () => {
+		// 				gsap.set(".preloader", {
+		// 					clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 50%)",
+		// 				});
+		// 				gsap.set(".split-overlay", {
+		// 					clipPath: "polygon(0 50%, 100% 50%, 100% 100%, 0 100%)",
+		// 				});
+		// 			},
+		// 		},
+		// 		4.5
+		// 	)
+		// 	.to(
+		// 		".container",
+		// 		{
+		// 			clipPath: "polygon(0% 48%, 100% 48%, 100% 52%, 0% 52%)",
+		// 			duration: 1,
+		// 		},
+		// 		5
+		// 	);
 
-		const isMobile = window.innerWidth <= 1000;
+		// tags.forEach((tag, index) => {
+		// 	tl.to(
+		// 		tag.querySelectorAll("p .word"),
+		// 		{
+		// 			y: "100%",
+		// 			duration: 0.75,
+		// 		},
+		// 		5.5 + index * 0.1
+		// 	);
+		// });
 
-		gsap.set(
-			[
-				".split-overlay .intro-title .first-char span",
-				".split-overlay .outro-title .char span",
-			],
-			{ y: "0%" }
-		);
+		// tl.to(
+		// 	[".preloader", ".split-overlay"],
+		// 	{
+		// 		y: (i) => (i === 0 ? "-50%" : "50%"),
+		// 		duration: 1,
+		// 	},
+		// 	6
+		// )
+		// 	.to(
+		// 		".container",
+		// 		{
+		// 			clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+		// 			duration: 1,
+		// 		},
+		// 		6
+		// 	)
+		// 	.to(
+		// 		".container .card",
+		// 		{
+		// 			clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+		// 			duration: 0.75,
+		// 		},
+		// 		6.25
+		// 	)
+		// 	.to(
+		// 		".container .card h1 .char span",
+		// 		{
+		// 			y: "0%",
+		// 			duration: 0.75,
+		// 			stagger: 0.05,
+		// 		},
+		// 		6.5
+		// 	)
+		// 	.to(
+		// 		[".preloader", ".split-overlay", ".tag-overlay"],
+		// 		{
+		// 			opacity: 0,
+		// 			delay: 1,
+		// 		},
+		// 		5
+		// 	)
+		// 	.to(".main-wrapper", {
+		// 		position: "relative",
+		// 		top: "unset",
+		// 	});
 
-		gsap.set(".split-overlay .intro-title .first-char", {
-			x: isMobile ? "7.5rem" : "18rem",
-			y: isMobile ? "-1rem" : "-2.75rem",
-			fontWeight: "900",
-			scale: 0.75,
-		});
-
-		gsap.set(".split-overlay .outro-title .char", {
-			x: isMobile ? "-3rem" : "-8rem",
-			fontSize: isMobile ? "6rem" : "14rem",
-			fontWeight: "500",
-		});
-
-		const tl = gsap.timeline({ defaults: { ease: "hop" } });
-		const tags = gsap.utils.toArray(".tag");
-
-		tags.forEach((tag, index) => {
-			tl.to(
-				tag.querySelectorAll("p .word"),
-				{
-					y: "0%",
-					duration: 0.75,
-				},
-				0.5 + index * 0.1
-			);
-		});
-
-		tl.to(".main-wrapper", {
-			position: "fixed",
-			top: 0,
-		})
-			.to(
-				".preloader .intro-title .char span",
-				{
-					y: "0%",
-					duration: 0.75,
-					stagger: 0.05,
-					opacity: 1,
-				},
-				0.5
-			)
-			.to(
-				".preloader .intro-title .char:not(.first-char) span",
-				{
-					y: "100%",
-					duration: 0.75,
-					stagger: 0.05,
-				},
-				2
-			)
-			.to(
-				".preloader .outro-title .char span",
-				{
-					y: "0%",
-					duration: 0.75,
-					stagger: 0.075,
-				},
-				2.5
-			)
-			.to(
-				".preloader .intro-title .first-char",
-				{
-					x: isMobile ? "5rem" : "11.25rem",
-					duration: 1,
-				},
-				3.5
-			)
-			.to(
-				".preloader .outro-title .char",
-				{
-					x: isMobile ? "-3rem" : "-8rem",
-					duration: 1,
-				},
-				3.5
-			)
-			.to(
-				".preloader .intro-title .first-char",
-				{
-					x: isMobile ? "4rem" : "10rem",
-					y: isMobile ? "-1.2rem" : "-2.85rem",
-					fontWeight: "900",
-					scale: 0.75,
-					duration: 0.75,
-				},
-				4.5
-			)
-			.to(
-				".preloader .outro-title .char",
-				{
-					x: isMobile ? "-3rem" : "-8rem",
-					fontSize: isMobile ? "6rem" : "14rem",
-					fontWeight: "500",
-					duration: 0.75,
-					onComplete: () => {
-						gsap.set(".preloader", {
-							clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 50%)",
-						});
-						gsap.set(".split-overlay", {
-							clipPath: "polygon(0 50%, 100% 50%, 100% 100%, 0 100%)",
-						});
-					},
-				},
-				4.5
-			)
-			.to(
-				".container",
-				{
-					clipPath: "polygon(0% 48%, 100% 48%, 100% 52%, 0% 52%)",
-					duration: 1,
-				},
-				5
-			);
-
-		tags.forEach((tag, index) => {
-			tl.to(
-				tag.querySelectorAll("p .word"),
-				{
-					y: "100%",
-					duration: 0.75,
-				},
-				5.5 + index * 0.1
-			);
-		});
-
-		tl.to(
-			[".preloader", ".split-overlay"],
-			{
-				y: (i) => (i === 0 ? "-50%" : "50%"),
-				duration: 1,
+		gsap.to(".hero-img", {
+			scrollTrigger: {
+				trigger: ".container",
+				start: "bottom 80%",
+				end: "bottom top",
+				toggleActions: "play none none reverse",
+				scrub: 1,
 			},
-			6
-		)
-			.to(
-				".container",
-				{
-					clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
-					duration: 1,
-				},
-				6
-			)
-			.to(
-				".container .card",
-				{
-					clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
-					duration: 0.75,
-				},
-				6.25
-			)
-			.to(
-				".container .card h1 .char span",
-				{
-					y: "0%",
-					duration: 0.75,
-					stagger: 0.05,
-				},
-				6.5
-			)
-			.to(
-				[".preloader", ".split-overlay", ".tag-overlay"],
-				{
-					opacity: 0,
-					delay: 1,
-				},
-				5
-			)
-			.to(".main-wrapper", {
-				position: "relative",
-				top: "unset",
-			});
+			filter: "blur(10px)",
+			scale: 1.3,
+		});
+		gsap.to(".card", {
+			scrollTrigger: {
+				trigger: ".container",
+				start: "bottom 80%",
+				end: "bottom top",
+				toggleActions: "play none none reverse",
+				scrub: 1,
+			},
+			scale: 1.1,
+		});
 	});
 
 	return (
@@ -270,7 +292,7 @@ export default function Page() {
 				isMenuOpen={isMenuOpen}
 				setIsMenuOpen={setIsMenuOpen}
 			/>
-			<div className="preloader">
+			{/* <div className="preloader">
 				<div className="intro-title">
 					<h1> A27 Web Lab </h1>
 				</div>
@@ -298,19 +320,31 @@ export default function Page() {
 				<div className="tag tag-3">
 					<p>Development</p>
 				</div>
-			</div>
+			</div> */}
 
 			<div className="container">
 				<nav>
 					<p id="logo">A27</p>
-					<p onClick={() => setIsMenuOpen((prev) => !prev)}>Menu</p>
+					<p
+						id="menu"
+						onClick={() => setIsMenuOpen((prev) => !prev)}
+					>
+						Menu
+					</p>
 				</nav>
 
 				<div className="hero-img">
-					<img
-						src="/img25.png"
-						alt=""
-					/>
+					{isMobile ? (
+						<img
+							src="/main-bg-mobile.png"
+							alt=""
+						/>
+					) : (
+						<img
+							src="/main-bg.png"
+							alt=""
+						/>
+					)}
 				</div>
 
 				<div className="card">

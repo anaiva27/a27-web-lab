@@ -26,15 +26,16 @@ const Spotlight = () => {
 	};
 
 	const spotlightItems = [
-		{ name: "Samadhi Retreats", img: "/spotlight/spotlight-img-1.jpg" },
-		{ name: "Marina Fitness", img: "/spotlight/spotlight-img-2.jpg" },
-		{ name: "LunZen Wellness", img: "/spotlight/spotlight-img-3.jpg" },
-		{ name: "Beyond Barre", img: "/spotlight/spotlight-img-4.jpg" },
-		{ name: "Earthen Shelf", img: "/spotlight/spotlight-img-5.jpg" },
-		{ name: "Reflective White", img: "/spotlight/spotlight-img-6.jpg" },
-		{ name: "Desert Edge", img: "/spotlight/spotlight-img-7.jpg" },
+		{ name: "", img: "/hero-img.jpg" },
+		{ name: "Samadhi Retreats", img: "/projects/proj1.png" },
+		{ name: "Marina Fitness", img: "/projects/proj2.png" },
+		{ name: "Beyond Barre", img: "/projects/proj3.png" },
+		{ name: "LunZen Wellness", img: "/projects/proj7.png" },
+		{ name: "Smart Home", img: "/projects/proj4.png" },
+		{ name: "Apple Clone", img: "/projects/proj5.png" },
+		{ name: "Ford Athlete", img: "/projects/proj6.png" },
+		// { name: "Desert Edge", img: "/spotlight/spotlight-img-7.jpg" },
 		{ name: "Soft Passage", img: "/spotlight/spotlight-img-8.jpg" },
-		{ name: "Water Column", img: "/spotlight/spotlight-img-9.jpg" },
 		{ name: "Golden Retreat", img: "/spotlight/spotlight-img-10.jpg" },
 	];
 
@@ -146,6 +147,18 @@ const Spotlight = () => {
 			return (overallProgress - startTime) / config.speed;
 		}
 
+		gsap.to(".spotlight-intro-discover-wrapper", {
+			scrollTrigger: {
+				trigger: ".spotlight-inner",
+				start: "top 90%",
+				end: "top top",
+				toggleActions: "play none none reverse",
+				scrub: 1,
+			},
+			top: `+=${window.innerHeight / 3}px`,
+			opacity: 1,
+		});
+
 		imageElements.forEach((img) => gsap.set(img, { opacity: 0 }));
 
 		scrollTriggerRef.current = ScrollTrigger.create({
@@ -180,7 +193,9 @@ const Spotlight = () => {
 
 					imageElements.forEach((img) => gsap.set(img, { opacity: 0 }));
 					spotlightHeader.style.opacity = "0";
-					gsap.set(titlesContainerElement, {
+					gsap.to(titlesContainerElement, {
+						opacity: 0,
+						duration: 2,
 						"--before-opacity": "0",
 						"--after-opacity": "0",
 					});
@@ -193,6 +208,12 @@ const Spotlight = () => {
 
 					imageElements.forEach((img) => gsap.set(img, { opacity: 0 }));
 					spotlightHeader.style.opacity = "1";
+					gsap.to(titlesContainerElement, {
+						opacity: 1,
+						duration: 2,
+					});
+					gsap.set(".spotlight-intro-discover-wrapper", { opacity: 0 });
+
 					gsap.set(titlesContainerElement, {
 						"--before-opacity": "1",
 						"--after-opacity": "1",
@@ -282,6 +303,9 @@ const Spotlight = () => {
 			ref={spotlightRef}
 		>
 			<div className="spotlight-inner">
+				<div className="spotlight-intro-discover-wrapper">
+					<p>Discover</p>
+				</div>
 				<div className="spotlight-intro-text-wrapper">
 					<div
 						className="spotlight-intro-text"
@@ -298,7 +322,7 @@ const Spotlight = () => {
 				</div>
 				<div className="spotlight-bg-img">
 					<img
-						src="/spotlight/spotlight-img-1.jpg"
+						src="/hero-img.jpg"
 						alt=""
 					/>
 				</div>
