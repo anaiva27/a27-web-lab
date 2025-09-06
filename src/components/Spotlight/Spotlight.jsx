@@ -210,7 +210,7 @@ const Spotlight = () => {
 					spotlightHeader.style.opacity = "1";
 					gsap.to(titlesContainerElement, {
 						opacity: 1,
-						duration: 2,
+						duration: 3,
 					});
 					gsap.set(".spotlight-intro-discover-wrapper", { opacity: 0 });
 
@@ -274,7 +274,7 @@ const Spotlight = () => {
 					});
 
 					if (closestIndex !== currentActiveIndex) {
-						titleElements[currentActiveIndex].style.opacity = "0.35";
+						titleElements[currentActiveIndex].style.opacity = "0.1";
 						titleElements[closestIndex].style.opacity = "1";
 						document.querySelector(".spotlight-bg-img img").src =
 							spotlightItems[closestIndex].img;
