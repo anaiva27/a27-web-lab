@@ -26,7 +26,7 @@ const Spotlight = () => {
 	};
 
 	const spotlightItems = [
-		{ name: "", img: "/img15.jpg" },
+		{ name: "", img: "/img15-1.png" },
 		{ name: "Samadhi Retreats", img: "/projects/proj1.png" },
 		{ name: "Marina Fitness", img: "/projects/proj2.png" },
 		{ name: "Beyond Barre", img: "/projects/proj3.png" },
@@ -321,7 +321,7 @@ const Spotlight = () => {
 				</div>
 				<div className="spotlight-bg-img">
 					<img
-						src="/img15.jpg"
+						src="/img15-1.png"
 						alt=""
 					/>
 				</div>

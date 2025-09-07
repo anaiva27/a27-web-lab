@@ -53,7 +53,7 @@ p {
 }
 
 .main-wrapper {
-	/* visibility: hidden; */
+	visibility: hidden;
 }
 
 .preloader,
@@ -125,7 +125,8 @@ p {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	/* clip-path: polygon(0 48%, 0 48%, 0 52%, 0 52%); */
+	-webkit-clip-path: polygon(0 48%, 0 48%, 0 52%, 0 52%);
+	        clip-path: polygon(0 48%, 0 48%, 0 52%, 0 52%);
 	z-index: 2;
 	overflow: hidden;
 }
@@ -186,7 +187,8 @@ nav p {
 	-webkit-backdrop-filter: blur(15px);
 	        backdrop-filter: blur(15px);
 	border: 0.5px solid rgba(255, 255, 255, 0.675);
-	/* clip-path: polygon(0% 50%, 100% 50%, 100% 50%, 0% 50%); */
+	-webkit-clip-path: polygon(0% 50%, 100% 50%, 100% 50%, 0% 50%);
+	        clip-path: polygon(0% 50%, 100% 50%, 100% 50%, 0% 50%);
 	gap: 0;
 	font-family: "Arimo", sans-serif;
 }
