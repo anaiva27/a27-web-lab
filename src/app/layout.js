@@ -2,6 +2,7 @@ import "./globals.css";
 import "./extra-globals.css";
 import Nav from "@/components/Nav";
 import PageTransition from "@/components/PageTransition";
+import Footer from "@/components/Footer/Footer";
 
 export const metadata = {
 	title: "A27 Web Lab | Tech Company",
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
 				{/* <Nav /> */}
 				{children}
 				{/* </PageTransition> */}
+				<Footer />
 			</body>
 		</html>
 	);

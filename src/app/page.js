@@ -9,6 +9,7 @@ import { useEffect, useRef, useState } from "react";
 import Menu from "@/components/Menu/Menu";
 import Spotlight from "@/components/Spotlight/Spotlight";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Footer from "@/components/Footer/Footer";
 
 const messageArray = [
 	"Custom Code. Scalable.",
@@ -371,6 +372,7 @@ export default function Page() {
 				</footer>
 			</div>
 			<Spotlight />
+			{/* <Footer /> */}
 		</section>
 	);
 }

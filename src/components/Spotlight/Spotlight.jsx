@@ -26,7 +26,7 @@ const Spotlight = () => {
 	};
 
 	const spotlightItems = [
-		{ name: "", img: "/hero-img.jpg" },
+		{ name: "", img: "/img15.jpg" },
 		{ name: "Samadhi Retreats", img: "/projects/proj1.png" },
 		{ name: "Marina Fitness", img: "/projects/proj2.png" },
 		{ name: "Beyond Barre", img: "/projects/proj3.png" },
@@ -34,7 +34,6 @@ const Spotlight = () => {
 		{ name: "Smart Home", img: "/projects/proj4.png" },
 		{ name: "Apple Clone", img: "/projects/proj5.png" },
 		{ name: "Ford Athlete", img: "/projects/proj6.png" },
-		// { name: "Desert Edge", img: "/spotlight/spotlight-img-7.jpg" },
 		{ name: "Soft Passage", img: "/spotlight/spotlight-img-8.jpg" },
 		{ name: "Golden Retreat", img: "/spotlight/spotlight-img-10.jpg" },
 	];
@@ -251,8 +250,8 @@ const Spotlight = () => {
 						} else {
 							const pos = getBezierPosition(imageProgress);
 							gsap.set(img, {
-								x: pos.x - 100,
-								y: pos.y - 75,
+								x: pos.x - 140,
+								y: pos.y - 85,
 								opacity: 1,
 							});
 						}
@@ -322,7 +321,7 @@ const Spotlight = () => {
 				</div>
 				<div className="spotlight-bg-img">
 					<img
-						src="/hero-img.jpg"
+						src="/img15.jpg"
 						alt=""
 					/>
 				</div>
