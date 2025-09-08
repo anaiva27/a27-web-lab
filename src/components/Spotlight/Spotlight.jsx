@@ -34,8 +34,8 @@ const Spotlight = () => {
 		{ name: "Smart Home", img: "/projects/proj4.png" },
 		{ name: "Apple Clone", img: "/projects/proj5.png" },
 		{ name: "Ford Athlete", img: "/projects/proj6.png" },
-		{ name: "Soft Passage", img: "/spotlight/spotlight-img-8.jpg" },
-		{ name: "Golden Retreat", img: "/spotlight/spotlight-img-10.jpg" },
+		{ name: "O-Interiors", img: "/projects/proj8.png" },
+		{ name: "", img: "/img15-1.png" },
 	];
 
 	useEffect(() => {
@@ -194,7 +194,6 @@ const Spotlight = () => {
 					spotlightHeader.style.opacity = "0";
 					gsap.to(titlesContainerElement, {
 						opacity: 0,
-						duration: 2,
 						"--before-opacity": "0",
 						"--after-opacity": "0",
 					});
@@ -209,7 +208,6 @@ const Spotlight = () => {
 					spotlightHeader.style.opacity = "1";
 					gsap.to(titlesContainerElement, {
 						opacity: 1,
-						duration: 3,
 					});
 					gsap.set(".spotlight-intro-discover-wrapper", { opacity: 0 });
 

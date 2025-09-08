@@ -150,6 +150,10 @@ footer {
 nav p#logo {
 	font-weight: 600;
 	font-size: 19px;
+	border-radius: 6px;
+	padding: 5px 10px;
+	background: linear-gradient(145deg, #a15e2a75, #584a3d41);
+	box-shadow: inset 1px 1px 5px 3px rgba(255, 255, 255, 0.362);
 }
 
 nav p#menu {
@@ -179,12 +183,11 @@ nav p {
 	border-radius: 12px;
 	text-align: right;
 	align-items: flex-end;
-	background: rgba(190, 220, 248, 0.044);
 	backdrop-filter: blur(15px);
-	border: 0.5px solid rgba(255, 255, 255, 0.675);
 	clip-path: polygon(0% 50%, 100% 50%, 100% 50%, 0% 50%);
 	gap: 0;
 	font-family: "Arimo", sans-serif;
+	box-shadow: inset 1px 1px 10px 3px rgba(255, 255, 255, 0.288);
 }
 
 .button-wrapper {

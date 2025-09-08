@@ -355,7 +355,7 @@ export default function Page() {
 						<h2 className="subtitle ">{messageArray[step]}</h2>
 					</Copy>
 					<Copy>
-						<h1 className="headline ">A27 Web Lab.</h1>
+						<h1 className="headline ">A27-WEB-LAB.</h1>
 					</Copy>
 					<p className="body-text ">
 						We create custom designs, so you can look amazing online and <br />
@@ -370,7 +370,7 @@ export default function Page() {
 
 				<footer>
 					<p>Premium Digital Lab</p>
-					<p>Made by A27 Web Lab</p>
+					<p>Made by A27-Web-Lab</p>
 				</footer>
 			</div>
 			<Spotlight />
