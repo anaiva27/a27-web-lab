@@ -26,21 +26,53 @@ const Spotlight = () => {
 	};
 
 	const spotlightItems = [
-		{ name: "", img: "/img15-1.png" },
-		{ name: "Samadhi Retreats", img: "/projects/proj1.png" },
-		{ name: "Marina Fitness", img: "/projects/proj2.png" },
-		{ name: "Beyond Barre", img: "/projects/proj3.png" },
-		{ name: "LunZen Wellness", img: "/projects/proj7.png" },
-		{ name: "Smart Home", img: "/projects/proj4.png" },
-		{ name: "Apple Clone", img: "/projects/proj5.png" },
-		{ name: "Ford Athlete", img: "/projects/proj6.png" },
-		{ name: "O-Interiors", img: "/projects/proj8.png" },
-		{ name: "", img: "/img15-1.png" },
+		{ name: "", img: "/img15-1.png", imgMobile: "/img15-1.png" },
+		{
+			name: "Samadhi Retreats",
+			img: "/projects/proj1.png",
+			imgMobile: "/projects/mobile/proj1.png",
+		},
+		{
+			name: "Marina Fitness",
+			img: "/projects/proj2.png",
+			imgMobile: "/projects/mobile/proj2.png",
+		},
+		{
+			name: "Beyond Barre",
+			img: "/projects/proj3.png",
+			imgMobile: "/projects/mobile/proj3.png",
+		},
+		{
+			name: "LunZen Wellness",
+			img: "/projects/proj7.png",
+			imgMobile: "/projects/mobile/proj7.png",
+		},
+		{
+			name: "Smart Home",
+			img: "/projects/proj4.png",
+			imgMobile: "/projects/mobile/proj4.png",
+		},
+		{
+			name: "Apple Clone",
+			img: "/projects/proj5.png",
+			imgMobile: "/projects/mobile/proj5.png",
+		},
+		{
+			name: "Ford Athlete",
+			img: "/projects/proj6.png",
+			imgMobile: "/projects/mobile/proj6.png",
+		},
+		{
+			name: "O-Interiors",
+			img: "/projects/proj8.png",
+			imgMobile: "/projects/mobile/proj8.png",
+		},
+		{ name: "", img: "/img15-1.png", imgMobile: "/img15-1.png" },
 	];
 
 	useEffect(() => {
 		gsap.registerPlugin(ScrollTrigger);
-
+		const isMobile = window?.innerWidth <= 1000;
 		const initializeSpotlight = () => {
 			const titlesContainer = titlesContainerRef.current;
 			const imagesContainer = imagesContainerRef.current;
@@ -156,6 +188,7 @@ const Spotlight = () => {
 			},
 			top: `+=${window.innerHeight / 3}px`,
 			opacity: 1,
+			duration: 3,
 		});
 
 		imageElements.forEach((img) => gsap.set(img, { opacity: 0 }));
@@ -242,11 +275,22 @@ const Spotlight = () => {
 
 					imageElements.forEach((img, index) => {
 						const imageProgress = getImgProgressState(index, switchProgress);
-
-						if (imageProgress < 0 || imageProgress > 1) {
+						if (
+							imageProgress < 0 ||
+							imageProgress > 1 ||
+							index === 9 ||
+							index === 0
+						) {
 							gsap.set(img, { opacity: 0 });
 						} else {
 							const pos = getBezierPosition(imageProgress);
+							// isMobile
+							// 	? gsap.set(img, {
+							// 			x: pos.x - 100,
+							// 			y: pos.y - 70,
+							// 			opacity: 1,
+							// 	  })
+							// 	:
 							gsap.set(img, {
 								x: pos.x - 140,
 								y: pos.y - 85,
@@ -271,10 +315,11 @@ const Spotlight = () => {
 					});
 
 					if (closestIndex !== currentActiveIndex) {
-						titleElements[currentActiveIndex].style.opacity = "0.1";
+						titleElements[currentActiveIndex].style.opacity = "0.2";
 						titleElements[closestIndex].style.opacity = "1";
-						document.querySelector(".spotlight-bg-img img").src =
-							spotlightItems[closestIndex].img;
+						document.querySelector(".spotlight-bg-img img").src = isMobile
+							? spotlightItems[closestIndex].imgMobile
+							: spotlightItems[closestIndex].img;
 						currentActiveIndex = closestIndex;
 					}
 				} else if (progress > 0.95) {

@@ -10,6 +10,7 @@ import Menu from "@/components/Menu/Menu";
 import Spotlight from "@/components/Spotlight/Spotlight";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Footer from "@/components/Footer/Footer";
+import { useLenis } from "lenis/react";
 
 const messageArray = [
 	"Custom Code. Scalable.",
@@ -30,8 +31,21 @@ export default function Page() {
 	const [toggleMenu, setToggleMenu] = useState();
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 	const [isMobile, setIsMobile] = useState(false);
+	const [loaderAnimating, setLoaderAnimating] = useState(false);
 
 	const scrollTriggerRef = useRef(null);
+
+	const lenis = useLenis();
+
+	useEffect(() => {
+		if (lenis) {
+			if (loaderAnimating) {
+				lenis.stop();
+			} else {
+				lenis.start();
+			}
+		}
+	}, [lenis, loaderAnimating]);
 
 	useEffect(() => {
 		window?.scrollTo({ top: 0 });
@@ -53,6 +67,7 @@ export default function Page() {
 
 	useGSAP(() => {
 		const isMobile = window?.innerWidth <= 1000;
+		setLoaderAnimating(true);
 		gsap.to(".main-wrapper", { autoAlpha: 1 });
 		CustomEase.create("hop", ".8, 0, .3, 1");
 		const splitTextElements = (
@@ -81,7 +96,6 @@ export default function Page() {
 				}
 			});
 		};
-		console.log("isMob", isMobile);
 
 		splitTextElements(".intro-title h1", "words, chars", true);
 		splitTextElements(".outro-title h1");
@@ -275,7 +289,6 @@ export default function Page() {
 				scrub: 1,
 			},
 			filter: "blur(10px)",
-			scale: 1.3,
 		});
 		gsap.to(".card", {
 			scrollTrigger: {
@@ -287,6 +300,7 @@ export default function Page() {
 			},
 			scale: 1.1,
 		});
+		setLoaderAnimating(false);
 	});
 
 	return (

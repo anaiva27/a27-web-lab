@@ -152,6 +152,7 @@ nav p#logo {
 	font-size: 19px;
 	border-radius: 6px;
 	padding: 5px 10px;
+	border: 0.5px solid rgba(255, 255, 255, 0.573);
 	background: linear-gradient(145deg, #a15e2a75, #584a3d41);
 	box-shadow: inset 1px 1px 5px 3px rgba(255, 255, 255, 0.362);
 }
@@ -187,7 +188,8 @@ nav p {
 	clip-path: polygon(0% 50%, 100% 50%, 100% 50%, 0% 50%);
 	gap: 0;
 	font-family: "Arimo", sans-serif;
-	box-shadow: inset 1px 1px 10px 3px rgba(255, 255, 255, 0.288);
+	box-shadow: inset 1px 1px 7px 2px rgba(255, 255, 255, 0.288);
+	/* border: 0.5px solid rgba(255, 255, 255, 0.573); */
 }
 
 .button-wrapper {
