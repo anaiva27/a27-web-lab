@@ -189,6 +189,7 @@ const Spotlight = () => {
 			top: `+=${window.innerHeight / 3}px`,
 			opacity: 1,
 			duration: 3,
+			color: "#998f82",
 		});
 
 		imageElements.forEach((img) => gsap.set(img, { opacity: 0 }));

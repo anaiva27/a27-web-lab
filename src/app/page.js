@@ -300,6 +300,19 @@ export default function Page() {
 			},
 			scale: 1.1,
 		});
+		gsap.to(".intro-discover-wrapper", {
+			scrollTrigger: {
+				trigger: ".spotlight-inner",
+				start: "top 90%",
+				end: "top top",
+				toggleActions: "play none none reverse",
+				scrub: 1,
+			},
+			top: `+=${window.innerHeight / 3}px`,
+			opacity: 1,
+			duration: 3,
+			color: "#998f82",
+		});
 		setLoaderAnimating(false);
 	});
 
@@ -311,7 +324,7 @@ export default function Page() {
 			/>
 			<div className="preloader">
 				<div className="intro-title">
-					<h1> A27 Web Lab </h1>
+					<h1> A27 WEB LAB </h1>
 				</div>
 				<div className="outro-title">
 					<h1>27</h1>
@@ -320,7 +333,7 @@ export default function Page() {
 
 			<div className="split-overlay">
 				<div className="intro-title">
-					<h1> A27 Web Lab </h1>
+					<h1> A27 WEB LAB </h1>
 				</div>
 				<div className="outro-title">
 					<h1>27</h1>
@@ -342,12 +355,31 @@ export default function Page() {
 			<div className="container">
 				<nav>
 					<p id="logo">A27</p>
-					<p
-						id="menu"
-						onClick={() => setIsMenuOpen((prev) => !prev)}
-					>
-						Menu
-					</p>
+					<div className="menu-wrapper">
+						{!isMobile && (
+							<p
+								id="menu"
+								onClick={() => setIsMenuOpen((prev) => !prev)}
+							>
+								Work
+							</p>
+						)}
+						<p
+							id="menu"
+							onClick={() => setIsMenuOpen((prev) => !prev)}
+						>
+							Menu
+						</p>
+						{!isMobile && (
+							<div
+								className="chip2"
+								id="menu"
+								onClick={() => setIsMenuOpen((prev) => !prev)}
+							>
+								Copy Email
+							</div>
+						)}
+					</div>
 				</nav>
 
 				<div className="hero-img">
@@ -369,22 +401,25 @@ export default function Page() {
 						<h2 className="subtitle ">{messageArray[step]}</h2>
 					</Copy>
 					<Copy>
-						<h1 className="headline ">A27-WEB-LAB.</h1>
+						<h1 className="headline ">A27 WEB LAB</h1>
 					</Copy>
-					<p className="body-text ">
-						We create custom designs, so you can look amazing online and <br />
+					<p className="body-text">
+						We create custom designs, so you can look amazing online and{" "}
+						{!isMobile && <br />}
 						feel proud every time you see it.
 					</p>
 					<div className="button-wrapper">
 						<div className="chip">send inquiry</div>
-						<div className="chip2">works demo</div>
+						{/* <div className="chip2">works demo</div> */}
 					</div>
 					{/* <div className="card-aside-raised"></div> */}
 				</div>
-
+				<div className="intro-discover-wrapper">
+					<p>Discover</p>
+				</div>
 				<footer>
 					<p>Premium Digital Lab</p>
-					<p>Made by A27-Web-Lab</p>
+					<p>Made by A27 WEB LAB</p>
 				</footer>
 			</div>
 			<Spotlight />

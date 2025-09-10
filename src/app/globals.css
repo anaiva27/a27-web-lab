@@ -147,14 +147,23 @@ footer {
 	z-index: 2;
 }
 
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+}
+
 nav p#logo {
 	font-weight: 600;
 	font-size: 19px;
 	border-radius: 6px;
 	padding: 5px 10px;
-	border: 0.5px solid rgba(255, 255, 255, 0.573);
-	background: linear-gradient(145deg, #a15e2a75, #584a3d41);
-	box-shadow: inset 1px 1px 5px 3px rgba(255, 255, 255, 0.362);
+	margin-top: -15px;
+	margin-left: -10px;
+	/* border: 0.5px solid rgba(37, 36, 36, 0.321); */
+	/* background: linear-gradient(145deg, #a15e2a75, #584a3d41); */
+	/* box-shadow: inset 0px 0px 3px 2px rgba(49, 48, 48, 0.359); */
+	backdrop-filter: blur(15px);
 }
 
 nav p#menu {
@@ -165,6 +174,20 @@ nav p#menu {
 nav p {
 	cursor: pointer;
 	color: rgb(255, 255, 255);
+}
+
+.menu-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 35px;
+	gap: 16px;
+	width: 30%;
+	max-width: 380px;
+}
+
+.menu-wrapper .chip2 {
+	margin-top: -0.5px;
 }
 
 .card {
@@ -178,23 +201,23 @@ nav p {
 	max-width: 1050px;
 	height: 50%;
 	display: flex;
-	padding: 2rem;
-	justify-content: flex-start;
+	padding: 2rem 2.5rem 2.5rem;
+	justify-content: flex-end;
 	flex-direction: column;
 	border-radius: 12px;
 	text-align: right;
 	align-items: flex-end;
-	backdrop-filter: blur(15px);
+	backdrop-filter: blur(10px);
 	clip-path: polygon(0% 50%, 100% 50%, 100% 50%, 0% 50%);
-	gap: 0;
+	gap: 10px;
 	font-family: "Arimo", sans-serif;
-	box-shadow: inset 1px 1px 7px 2px rgba(255, 255, 255, 0.288);
+	box-shadow: inset 0px 0px 7px 2px rgba(165, 163, 163, 0.658);
 	/* border: 0.5px solid rgba(255, 255, 255, 0.573); */
 }
 
 .button-wrapper {
 	display: flex;
-	margin-top: auto;
+	margin-top: 20px;
 	gap: 28px;
 }
 
@@ -256,6 +279,21 @@ nav p {
 	transform-origin: top left;
 }
 
+.intro-discover-wrapper p {
+	font-size: 18px !important;
+}
+
+.intro-discover-wrapper {
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	transform: translate(-50%);
+	color: var(--base-300);
+	background-color: black;
+	height: 40px;
+	padding: 10px;
+}
+
 @media (max-width: 1000px) {
 	h1 {
 		font-size: 2.5rem;
@@ -270,8 +308,9 @@ nav p {
 		height: 75%;
 		min-width: unset !important;
 		min-height: unset !important;
-		padding: 1rem;
-		max-height: 550px;
+		padding: 1.5rem;
+		max-height: 350px;
+		align-items: flex-start;
 	}
 
 	.card h1 {
@@ -287,8 +326,9 @@ nav p {
 		display: flex;
 		flex-direction: column;
 		margin-top: auto;
-		gap: 16px;
+		gap: 10px;
 		width: 100%;
+		margin-top: 20px;
 	}
 	.button-wrapper div {
 		width: 100%;
@@ -302,5 +342,13 @@ nav p {
 		justify-content: space-between;
 		align-items: center;
 		z-index: 2;
+	}
+
+	footer p {
+		font-size: 10px !important;
+	}
+
+	.menu-wrapper {
+		justify-content: flex-end;
 	}
 }

@@ -330,7 +330,12 @@ a {
 	color: var(--base-100);
 	font-size: clamp(35px, 6vw, 50px);
 	/* text-transform: uppercase; */
-	margin-bottom: 7px;
+	margin-bottom: -7px;
+	margin-top: auto;
+}
+
+.period {
+	font-size: 1.5rem;
 }
 
 .subtitle {
@@ -344,10 +349,11 @@ a {
 
 .body-text {
 	color: white;
-	font-size: 16px;
-	line-height: 140%;
-	/* text-transform: none !important; */
-	letter-spacing: 0.5px;
+	font-size: 18px;
+	line-height: 130%;
+	text-transform: none !important;
+	letter-spacing: 0.3px;
+	font-weight: 300 !important;
 }
 
 .subtitle-transition {
@@ -526,22 +532,24 @@ a {
 	align-items: center;
 	justify-content: center;
 	width: fit-content;
-	height: 34px;
+	height: 38px;
 	margin-top: auto;
-	border-radius: 8px;
-	/* border: 0.5px solid rgba(255, 255, 255, 0.573); */
-	background: linear-gradient(145deg, #a15e2a34, #584a3d14);
-	box-shadow: inset 0px 0px 7px 3px rgba(255, 255, 255, 0.362);
-	color: rgb(255, 255, 255);
+	border-radius: 6px;
+	border: 1px solid rgba(235, 235, 235, 0.519);
+	background: var(--base-100);
+	color: rgb(67, 46, 28);
 	font-size: 16px;
-	position: relative;
 	cursor: pointer;
-	padding: 20px;
+	padding: 10px 20px;
 	line-height: 100%;
 	position: relative;
 	overflow: hidden;
-	letter-spacing: 1px;
+	letter-spacing: 0.3px;
 	text-transform: uppercase;
+}
+
+.chip2 {
+	height: 34px;
 }
 
 @keyframes buttonShine {
@@ -564,10 +572,9 @@ a {
 	position: absolute;
 	width: 18px;
 	height: 40px;
-	background: #f2f2f26b;
+	background: #f2f2f2;
 	transform: translateX(300px) skewX(20deg);
 	animation: 3.5s ease-in-out infinite buttonShine;
-	/* transition: 0.75s ease-in-out infinite; */
 	z-index: 20;
 }
 .chip2:after {
@@ -575,10 +582,9 @@ a {
 	position: absolute;
 	width: 18px;
 	height: 40px;
-	background: #f2f2f267;
+	background: #f2f2f2;
 	transform: translateX(300px) skewX(20deg);
 	animation: 3.5s ease-in-out 0.5s infinite buttonShine;
-	/* transition: 0.75s ease-in-out infinite; */
 	z-index: 20;
 }
 
@@ -596,15 +602,16 @@ a {
 	}
 
 	.body-text {
-		font-size: 14px;
-		text-transform: uppercase;
+		font-size: 16px;
 		letter-spacing: 0px;
+		text-align: left !important;
 	}
 
 	.container-left-t,
 	.container-left-b {
 		display: none;
 	}
+
 	.container-center-t {
 		display: flex;
 		justify-content: center;

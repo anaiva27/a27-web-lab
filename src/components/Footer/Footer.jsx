@@ -52,7 +52,7 @@ const Footer = () => {
 						<div className="footer-meta-block">
 							<div className="footer-meta-logo">
 								<Copy delay={0.1}>
-									<h3 className="lg">A27-WEB-LAB</h3>
+									<h3 className="lg">A27 WEB LAB</h3>
 								</Copy>
 							</div>
 							<Copy delay={0.2}>
@@ -161,7 +161,7 @@ const Footer = () => {
 					</div>
 					<div className="footer-copyright">
 						<p>
-							Developed by — <span>A27-Web-Lab</span>
+							Developed by — <span>A27 WEB LAB</span>
 						</p>
 						<p>This website is NOT using cookies... You're welcome.</p>
 						<p>All rights reserved &copy; 2025</p>
