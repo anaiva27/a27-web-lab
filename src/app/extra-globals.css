@@ -327,9 +327,8 @@ a {
 }
 
 .headline {
-	color: var(--base-100);
+	color: white;
 	font-size: clamp(35px, 6vw, 50px);
-	/* text-transform: uppercase; */
 	margin-bottom: -7px;
 	margin-top: auto;
 }

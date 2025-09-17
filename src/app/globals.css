@@ -131,8 +131,8 @@ p {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	scale: 1;
-	/* filter: saturate(1.7) brightness(0.9); */
+	scale: 1.2;
+	background-color: rgb(49, 47, 47);
 }
 
 nav,
@@ -178,12 +178,12 @@ nav p {
 
 .menu-wrapper {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-items: center;
 	height: 35px;
-	gap: 16px;
+	gap: 46px;
 	width: 30%;
-	max-width: 380px;
+	max-width: 180px;
 }
 
 .menu-wrapper .chip2 {
@@ -195,24 +195,37 @@ nav p {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 70%;
-	min-width: 800px;
+	width: 80%;
+	min-width: 1100px;
 	min-height: 450px;
-	max-width: 1050px;
-	height: 50%;
+	max-width: 1750px;
 	display: flex;
-	padding: 2rem 2.5rem 2.5rem;
+	justify-content: flex-end;
+	border-radius: 12px;
+	text-align: right;
+	align-items: flex-end;
+	clip-path: polygon(0% 50%, 100% 50%, 100% 50%, 0% 50%);
+	gap: 20px;
+	font-family: "Arimo", sans-serif;
+}
+
+.card-wrapper-left,
+.card-wrapper-right {
+	display: flex;
 	justify-content: flex-end;
 	flex-direction: column;
 	border-radius: 12px;
 	text-align: right;
 	align-items: flex-end;
-	backdrop-filter: blur(10px);
-	clip-path: polygon(0% 50%, 100% 50%, 100% 50%, 0% 50%);
+	backdrop-filter: blur(5px);
+	box-shadow: inset 0px 0px 7px 2px rgba(108, 107, 107, 0.658);
+	width: 65%;
 	gap: 10px;
-	font-family: "Arimo", sans-serif;
-	box-shadow: inset 0px 0px 7px 2px rgba(165, 163, 163, 0.658);
-	/* border: 0.5px solid rgba(255, 255, 255, 0.573); */
+	height: 60vh;
+	padding: 2rem 2.5rem 2.5rem;
+}
+.card-wrapper-right {
+	width: 35%;
 }
 
 .button-wrapper {
@@ -299,17 +312,28 @@ nav p {
 		font-size: 2.5rem;
 	}
 
+	.card-wrapper-right {
+		display: none;
+	}
+	.card-wrapper-left {
+		width: 100%;
+		padding: 1rem;
+	}
+
 	.outro-title {
 		left: calc(50% + 4rem);
 	}
 
+	.container .hero-img {
+		scale: 2;
+	}
 	.card {
-		width: 85%;
+		width: 90%;
 		height: 75%;
 		min-width: unset !important;
 		min-height: unset !important;
 		padding: 1.5rem;
-		max-height: 350px;
+		max-height: 450px;
 		align-items: flex-start;
 	}
 

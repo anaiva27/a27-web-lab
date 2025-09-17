@@ -11,6 +11,7 @@ import Spotlight from "@/components/Spotlight/Spotlight";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Footer from "@/components/Footer/Footer";
 import { useLenis } from "lenis/react";
+import SplineScene from "@/components/SplineScene";
 
 const messageArray = [
 	"Custom Code. Scalable.",
@@ -280,16 +281,6 @@ export default function Page() {
 				top: "unset",
 			});
 
-		gsap.to(".hero-img", {
-			scrollTrigger: {
-				trigger: ".container",
-				start: "bottom 80%",
-				end: "bottom top",
-				toggleActions: "play none none reverse",
-				scrub: 1,
-			},
-			filter: "blur(10px)",
-		});
 		gsap.to(".card", {
 			scrollTrigger: {
 				trigger: ".container",
@@ -370,6 +361,57 @@ export default function Page() {
 						>
 							Menu
 						</p>
+						{/* {!isMobile && (
+							<div
+								className="chip2"
+								id="menu"
+								onClick={() => setIsMenuOpen((prev) => !prev)}
+							>
+								Copy Email
+							</div>
+						)} */}
+					</div>
+				</nav>
+
+				<div className="hero-img">
+					{/* {isMobile ? (
+						<img
+							src="/main-bg-mobile.png"
+							alt=""
+						/>
+					) : (
+						<img
+							src="/main-bg.png"
+							alt=""
+						/>
+					)} */}
+					<SplineScene />
+				</div>
+
+				<div className="card">
+					<div className="card-wrapper-left">
+						<Copy isUpdated={step}>
+							<h2 className="subtitle ">{messageArray[step]}</h2>
+						</Copy>
+						<Copy>
+							<h1 className="headline ">A27 WEB LAB</h1>
+						</Copy>
+						<p className="body-text">
+							We create custom designs, so you can look amazing online and{" "}
+							{!isMobile && <br />}
+							feel proud every time you see it.
+						</p>
+						<div className="button-wrapper">
+							<div className="chip">send inquiry</div>
+							{/* <div className="chip2">works demo</div> */}
+						</div>
+						{/* <div className="card-aside-raised"></div> */}
+					</div>
+					<div className="card-wrapper-right">
+						<p className="subtitle">
+							By reaching out you are making the first step toward unlocking the
+							full potential of your online presence.
+						</p>
 						{!isMobile && (
 							<div
 								className="chip2"
@@ -380,39 +422,6 @@ export default function Page() {
 							</div>
 						)}
 					</div>
-				</nav>
-
-				<div className="hero-img">
-					{isMobile ? (
-						<img
-							src="/main-bg-mobile.png"
-							alt=""
-						/>
-					) : (
-						<img
-							src="/main-bg.png"
-							alt=""
-						/>
-					)}
-				</div>
-
-				<div className="card">
-					<Copy isUpdated={step}>
-						<h2 className="subtitle ">{messageArray[step]}</h2>
-					</Copy>
-					<Copy>
-						<h1 className="headline ">A27 WEB LAB</h1>
-					</Copy>
-					<p className="body-text">
-						We create custom designs, so you can look amazing online and{" "}
-						{!isMobile && <br />}
-						feel proud every time you see it.
-					</p>
-					<div className="button-wrapper">
-						<div className="chip">send inquiry</div>
-						{/* <div className="chip2">works demo</div> */}
-					</div>
-					{/* <div className="card-aside-raised"></div> */}
 				</div>
 				<div className="intro-discover-wrapper">
 					<p>Discover</p>
