@@ -408,19 +408,50 @@ export default function Page() {
 						{/* <div className="card-aside-raised"></div> */}
 					</div>
 					<div className="card-wrapper-right">
-						<p className="subtitle">
-							By reaching out you are making the first step toward unlocking the
-							full potential of your online presence.
-						</p>
-						{!isMobile && (
-							<div
-								className="chip2"
-								id="menu"
-								onClick={() => setIsMenuOpen((prev) => !prev)}
-							>
-								Copy Email
+						<div className="card-inner">
+							<p className="body-text">Marina B.</p>
+							<div className="container-stars">
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
 							</div>
-						)}
+							<p className="body-text">
+								One of a kind services, attention and expertise. I felt so seen
+								and understood by Anastasia. 100% Recommend.
+							</p>
+						</div>
+						<div className="card-inner">
+							<p className="body-text">
+								By reaching out you are making the first step toward unlocking
+								the full potential of your online presence.
+							</p>
+							{!isMobile && (
+								<div
+									className="chip2"
+									id="menu"
+									onClick={() => setIsMenuOpen((prev) => !prev)}
+								>
+									Copy Email
+								</div>
+							)}
+						</div>
 					</div>
 				</div>
 				<div className="intro-discover-wrapper">
