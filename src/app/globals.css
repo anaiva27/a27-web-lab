@@ -206,11 +206,12 @@ nav p {
 }
 
 .card-wrapper-left {
+	background-color: rgba(74, 74, 74, 0.272);
 	backdrop-filter: blur(5px);
-	box-shadow: inset 0px 0px 2px 1px rgba(207, 207, 207, 0.658);
+	/* box-shadow: inset 0px 0px 2px 1px rgba(207, 207, 207, 0.658); */
+	/* border: 0.5px solid rgb(231, 231, 231); */
 	padding: 2rem 20px 20px;
 	border-radius: 12px;
-	/* border: 0.5px solid rgb(231, 231, 231); */
 }
 .card-wrapper-left,
 .card-wrapper-right {
@@ -243,7 +244,7 @@ nav p {
 	height: 100%;
 	backdrop-filter: blur(5px);
 	/* border: 0.5px solid rgb(231, 231, 231); */
-	box-shadow: inset 0px 0px 2px 1px rgba(207, 207, 207, 0.658);
+	/* box-shadow: inset 0px 0px 2px 1px rgba(207, 207, 207, 0.658); */
 	padding: 20px;
 	border-radius: 12px;
 }
@@ -251,11 +252,12 @@ nav p {
 .card-wrapper-right .card-inner {
 	backdrop-filter: blur(25px);
 	background-color: rgba(74, 74, 74, 0.09);
+	background-color: rgba(74, 74, 74, 0.272);
 }
 
 .card-inner:nth-child(2) {
 	height: fit-content;
-	background-color: rgba(74, 74, 74, 0.172);
+	background-color: rgba(74, 74, 74, 0.272);
 }
 
 .card-inner:nth-child(2) .chip2 {

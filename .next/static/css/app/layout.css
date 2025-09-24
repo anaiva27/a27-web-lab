@@ -212,12 +212,13 @@ nav p {
 }
 
 .card-wrapper-left {
+	background-color: rgba(74, 74, 74, 0.272);
 	-webkit-backdrop-filter: blur(5px);
 	        backdrop-filter: blur(5px);
-	box-shadow: inset 0px 0px 2px 1px rgba(207, 207, 207, 0.658);
+	/* box-shadow: inset 0px 0px 2px 1px rgba(207, 207, 207, 0.658); */
+	/* border: 0.5px solid rgb(231, 231, 231); */
 	padding: 2rem 20px 20px;
 	border-radius: 12px;
-	/* border: 0.5px solid rgb(231, 231, 231); */
 }
 .card-wrapper-left,
 .card-wrapper-right {
@@ -251,7 +252,7 @@ nav p {
 	-webkit-backdrop-filter: blur(5px);
 	        backdrop-filter: blur(5px);
 	/* border: 0.5px solid rgb(231, 231, 231); */
-	box-shadow: inset 0px 0px 2px 1px rgba(207, 207, 207, 0.658);
+	/* box-shadow: inset 0px 0px 2px 1px rgba(207, 207, 207, 0.658); */
 	padding: 20px;
 	border-radius: 12px;
 }
@@ -260,12 +261,13 @@ nav p {
 	-webkit-backdrop-filter: blur(25px);
 	        backdrop-filter: blur(25px);
 	background-color: rgba(74, 74, 74, 0.09);
+	background-color: rgba(74, 74, 74, 0.272);
 }
 
 .card-inner:nth-child(2) {
 	height: -moz-fit-content;
 	height: fit-content;
-	background-color: rgba(74, 74, 74, 0.172);
+	background-color: rgba(74, 74, 74, 0.272);
 }
 
 .card-inner:nth-child(2) .chip2 {
@@ -847,7 +849,7 @@ a {
 
 .headline {
 	color: white;
-	font-size: clamp(35px, 6vw, 50px);
+	font-size: clamp(40px, 3vw, 70px);
 	margin-bottom: -7px;
 	margin-top: auto;
 }
@@ -861,7 +863,7 @@ a {
 	font-size: min(30px, 2.5vw);
 	text-transform: none !important;
 	line-height: 120%;
-	font-weight: 300;
+	font-weight: 400;
 	margin-bottom: 60px;
 }
 
@@ -869,18 +871,18 @@ a {
 	color: white;
 	text-shadow: 0px 0px 1px black;
 	font-weight: 500 !important;
-	font-size: 18px;
+	font-size: clamp(17px, 1.1vw, 25px);
 	line-height: 130%;
 	text-transform: none !important;
 	letter-spacing: 0.3px;
 }
 
 .name {
-	font-size: 20px;
+	font-size: 22px;
 }
 
 .sub {
-	font-size: 20px;
+	font-size: 22px;
 	margin-top: -10px;
 	margin-bottom: 10px;
 	color: rgb(213, 213, 213);
@@ -1064,13 +1066,13 @@ a {
 	justify-content: center;
 	width: -moz-fit-content;
 	width: fit-content;
-	height: 38px;
+	/* height: 38px; */
 	margin-top: auto;
 	border-radius: 6px;
 	border: 1px solid rgba(235, 235, 235, 0.519);
 	background: var(--base-100);
 	color: rgb(67, 46, 28);
-	font-size: 17px;
+	font-size: clamp(17px, 1.1vw, 25px);
 	font-weight: 600;
 	cursor: pointer;
 	padding: 10px 20px;
