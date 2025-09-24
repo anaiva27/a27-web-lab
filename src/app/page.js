@@ -403,13 +403,24 @@ export default function Page() {
 						</p>
 						<div className="button-wrapper">
 							<div className="chip">send inquiry</div>
-							{/* <div className="chip2">works demo</div> */}
 						</div>
-						{/* <div className="card-aside-raised"></div> */}
 					</div>
 					<div className="card-wrapper-right">
-						<div className="card-inner">
-							<p className="body-text">Marina B.</p>
+						<div className="card-inner reviews">
+							<div className="avatar">
+								<img
+									src="/reviews/review1.png"
+									alt=""
+								/>
+								<div className="row">
+									<p className="body-text name">Marina B.</p>
+									<p className="body-text sub">Business Owner</p>
+								</div>
+							</div>
+							<p className="body-text">
+								"One of a kind services, attention and expertise. I felt so seen
+								and understood by Anastasia. 100% Recommend."
+							</p>
 							<div className="container-stars">
 								<img
 									src="/star1.png"
@@ -432,15 +443,11 @@ export default function Page() {
 									alt=""
 								/>
 							</div>
-							<p className="body-text">
-								One of a kind services, attention and expertise. I felt so seen
-								and understood by Anastasia. 100% Recommend.
-							</p>
 						</div>
 						<div className="card-inner">
 							<p className="body-text">
-								By reaching out you are making the first step toward unlocking
-								the full potential of your online presence.
+								Take the first step toward unlocking the full potential of your
+								online presence.
 							</p>
 							{!isMobile && (
 								<div
