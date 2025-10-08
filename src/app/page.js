@@ -413,14 +413,10 @@ export default function Page() {
 									alt=""
 								/>
 								<div className="row">
-									<p className="body-text name">Marina B.</p>
-									<p className="body-text sub">Business Owner</p>
+									<p className="body-text sub">Marina B. Business Owner</p>
+									{/* <p className="body-text sub">Business Owner</p> */}
 								</div>
 							</div>
-							<p className="body-text">
-								"One of a kind services, attention and expertise. I felt so seen
-								and understood by Anastasia. 100% Recommend."
-							</p>
 							<div className="container-stars">
 								<img
 									src="/star1.png"
@@ -442,7 +438,13 @@ export default function Page() {
 									src="/star1.png"
 									alt=""
 								/>
+								<p className="body-text sub">(5.0)</p>
 							</div>
+							<p className="body-text">
+								"I felt so seen and understood by Anastasia. One of a kind
+								services, attention and expertise. <br />
+								100% Recommend."
+							</p>
 						</div>
 						<div className="card-inner">
 							<p className="body-text">

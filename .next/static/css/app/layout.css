@@ -275,14 +275,16 @@ nav p {
 }
 
 .container-stars {
-	width: 100px;
+	width: 160px;
 	display: flex;
 	justify-content: space-between;
-	margin: 5px auto 5px auto;
+	margin: 10px auto 0px auto;
 }
 .container-stars img {
-	width: 18px;
-	filter: brightness(0.3);
+	width: 19px;
+	height: 20px;
+	filter: brightness(1.1);
+	margin-top: 1px;
 }
 
 .reviews {
@@ -292,7 +294,7 @@ nav p {
 }
 
 .avatar {
-	width: 200px;
+	width: 80%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -386,6 +388,7 @@ nav p {
 .row {
 	display: flex;
 	flex-direction: column;
+	width: 100%;
 	text-align: center;
 	gap: 7px;
 }
@@ -849,8 +852,8 @@ a {
 
 .headline {
 	color: white;
-	font-size: clamp(40px, 3vw, 70px);
-	margin-bottom: -7px;
+	font-size: clamp(40px, 4.9vw, 74px);
+	margin-bottom: 0px;
 	margin-top: auto;
 }
 
@@ -863,8 +866,9 @@ a {
 	font-size: min(30px, 2.5vw);
 	text-transform: none !important;
 	line-height: 120%;
-	font-weight: 400;
-	margin-bottom: 60px;
+	font-weight: 500;
+	margin-top: 8px;
+	letter-spacing: 0.2px;
 }
 
 .body-text {
@@ -882,9 +886,9 @@ a {
 }
 
 .sub {
-	font-size: 22px;
-	margin-top: -10px;
-	margin-bottom: 10px;
+	font-size: 18px;
+	/* margin-top: -10px;
+	margin-bottom: 10px; */
 	color: rgb(213, 213, 213);
 }
 
