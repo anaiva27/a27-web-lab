@@ -95,7 +95,7 @@ p {
 .tag {
 	position: absolute;
 	width: max-content;
-	color: #5a5a5a;
+	color: var(--base-300);
 	overflow: hidden;
 }
 
@@ -220,13 +220,13 @@ nav p {
 	flex-direction: column;
 	text-align: right;
 	align-items: flex-end;
-	width: 60%;
+	width: 58%;
 	gap: 15px;
 	height: 60vh;
 }
 
 .card-wrapper-right {
-	width: 40%;
+	width: 42%;
 }
 
 .card-inner p {

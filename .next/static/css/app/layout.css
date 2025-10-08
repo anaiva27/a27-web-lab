@@ -98,7 +98,7 @@ p {
 .tag {
 	position: absolute;
 	width: max-content;
-	color: #5a5a5a;
+	color: var(--base-300);
 	overflow: hidden;
 }
 
@@ -227,13 +227,13 @@ nav p {
 	flex-direction: column;
 	text-align: right;
 	align-items: flex-end;
-	width: 60%;
+	width: 58%;
 	gap: 15px;
 	height: 60vh;
 }
 
 .card-wrapper-right {
-	width: 40%;
+	width: 42%;
 }
 
 .card-inner p {
@@ -713,6 +713,10 @@ a {
 	color: var(--text-color) !important;
 }
 
+.text-200 {
+	color: var(--base-200) !important;
+}
+
 .hide-mobile {
 	display: inline-block;
 }
@@ -839,6 +843,10 @@ a {
 	color: #bfd3f2;
 }
 
+.text-white {
+	color: #fff;
+}
+
 .logo-text {
 	/* color: var(--text-color); */
 	text-align: center;
@@ -853,21 +861,41 @@ a {
 .headline {
 	color: white;
 	font-size: clamp(40px, 4.9vw, 74px);
-	margin-bottom: 0px;
-	margin-top: auto;
+	font-size: clamp(40px, 2.9vw, 54px);
+	/* margin-bottom: 0px;
+	margin-top: auto; */
 }
 
-.period {
-	font-size: 1.5rem;
-}
-
-.subtitle {
+.intro-headline {
 	color: white;
 	font-size: min(30px, 2.5vw);
 	text-transform: none !important;
 	line-height: 120%;
 	font-weight: 500;
-	margin-top: 8px;
+	margin-top: 0;
+	margin-bottom: -8px;
+	letter-spacing: 0.2px;
+}
+
+.subtitle {
+	color: var(--base-200);
+	font-size: min(30px, 2.5vw);
+	text-transform: none !important;
+	line-height: 120%;
+	font-weight: 500;
+	/* margin-top: auto; */
+	margin-bottom: 0px;
+	letter-spacing: 0.2px;
+}
+
+.intro-subtitle {
+	color: white;
+	font-size: min(30px, 2.5vw);
+	text-transform: none !important;
+	line-height: 120%;
+	font-weight: 500;
+	margin-top: auto;
+	margin-bottom: -8px;
 	letter-spacing: 0.2px;
 }
 
@@ -1133,11 +1161,25 @@ a {
 	}
 
 	.subtitle {
-		font-size: clamp(20px, 2vw, 25px) !important;
-		text-transform: uppercase;
+		font-size: clamp(14px, 1.8vw, 18px) !important;
 		letter-spacing: 0;
 		font-weight: 400;
-		margin-bottom: 80px;
+		margin-bottom: 60px;
+		text-align: left !important;
+		white-space: nowrap;
+		display: none;
+	}
+
+	.intro-headline,
+	.intro-subtitle {
+		font-size: clamp(18px, 1.8vw, 20px) !important;
+		letter-spacing: 0;
+		font-weight: 400;
+		text-align: left !important;
+	}
+
+	.intro-subtitle {
+		margin-bottom: 24px;
 	}
 
 	.body-text {

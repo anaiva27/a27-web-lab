@@ -14,15 +14,10 @@ import { useLenis } from "lenis/react";
 import SplineScene from "@/components/SplineScene";
 
 const messageArray = [
-	"Custom Code. Scalable.",
-	"Web Design. Development.",
-	"Creative. Functional.",
-	"Websites. Apps.",
-	"UI / UX. Seamless.",
-	"Future-Ready. Reliable.",
-	"Branding. Design.",
-	"Innovative. Intuitive.",
-	"Dynamic. Powerful.",
+	"We Design Clean Intuitive Experiences.",
+	"We Build Powerful Websites and Apps.",
+	"We Create Functional, Creative Designs.",
+	"We Craft Future-Ready, Reliable Apps.",
 ];
 
 gsap.registerPlugin(CustomEase, SplitText, ScrollTrigger);
@@ -390,16 +385,25 @@ export default function Page() {
 
 				<div className="card">
 					<div className="card-wrapper-left">
-						<Copy isUpdated={step}>
-							<h2 className="subtitle ">{messageArray[step]}</h2>
+						<Copy>
+							<h2 className="intro-headline text-200">Hi, we are</h2>
 						</Copy>
 						<Copy>
 							<h1 className="headline ">A27 WEB LAB</h1>
 						</Copy>
-						<p className="body-text">
-							We create custom designs, so you can look amazing online and{" "}
-							{!isMobile && <br />}
-							feel proud every time you see it.
+						<Copy>
+							<h2 className="intro-subtitle ">
+								{"[ "}Yes{" ]"}, Your Website Needs a Makeover.
+							</h2>
+						</Copy>
+						<Copy isUpdated={step}>
+							<h2 className="subtitle ">{messageArray[step]}</h2>
+						</Copy>
+						<p className="body-text ">
+							So you can <span className="text-white">look amazing online</span>{" "}
+							and {!isMobile && <br />}
+							<span className="text-white">feel proud</span> every time you see
+							it.
 						</p>
 						<div className="button-wrapper">
 							<div className="chip">send inquiry</div>
@@ -449,7 +453,7 @@ export default function Page() {
 						<div className="card-inner">
 							<p className="body-text">
 								Take the first step toward unlocking the full potential of your
-								online presence.
+								online presence. Pain-free.
 							</p>
 							{!isMobile && (
 								<div
