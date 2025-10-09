@@ -297,7 +297,7 @@ export default function Page() {
 			top: `+=${window.innerHeight / 3}px`,
 			opacity: 1,
 			duration: 3,
-			color: "#998f82",
+			color: "#ffffff",
 		});
 		setLoaderAnimating(false);
 	});
@@ -340,7 +340,10 @@ export default function Page() {
 
 			<div className="container">
 				<nav>
-					<p id="logo">A27</p>
+					<p id="logo">
+						<span className="text-200">{"[ "}</span>A27
+						<span className="text-200">{" ]"}</span>
+					</p>
 					<div className="menu-wrapper">
 						{!isMobile && (
 							<p
@@ -393,13 +396,15 @@ export default function Page() {
 						</Copy>
 						<Copy>
 							<h2 className="intro-subtitle ">
-								{"[ "}Yes{" ]"}, Your Website Needs a Makeover.
+								<span className="text-200">{"[ "}</span> Yes{" "}
+								<span className="text-200"> {" ]"}</span>, Your Website Needs a
+								Makeover.
 							</h2>
 						</Copy>
 						<Copy isUpdated={step}>
 							<h2 className="subtitle ">{messageArray[step]}</h2>
 						</Copy>
-						<p className="body-text ">
+						<p className="body-text auto-top text-200">
 							So you can <span className="text-white">look amazing online</span>{" "}
 							and {!isMobile && <br />}
 							<span className="text-white">feel proud</span> every time you see

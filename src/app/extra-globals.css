@@ -330,14 +330,17 @@ a {
 	margin-bottom: -15px;
 }
 
+.auto-top {
+	margin-top: auto !important;
+}
+
 .right-40 {
 	margin-right: 45px;
 }
 
 .headline {
 	color: white;
-	font-size: clamp(40px, 4.9vw, 74px);
-	font-size: clamp(40px, 2.9vw, 54px);
+	font-size: clamp(40px, 3.3vw, 64px);
 	/* margin-bottom: 0px;
 	margin-top: auto; */
 }
@@ -349,7 +352,7 @@ a {
 	line-height: 120%;
 	font-weight: 500;
 	margin-top: 0;
-	margin-bottom: -8px;
+	margin-bottom: -25px;
 	letter-spacing: 0.2px;
 }
 

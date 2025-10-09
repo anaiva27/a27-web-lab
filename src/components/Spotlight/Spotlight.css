@@ -62,7 +62,7 @@
 	flex: 1;
 	position: relative;
 	will-change: transform;
-	color: var(--base-300);
+	color: white;
 }
 
 .spotlight-intro-text p {
