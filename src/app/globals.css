@@ -358,7 +358,7 @@ nav p {
 }
 
 .intro-discover-wrapper p {
-	font-size: 18px !important;
+	font-size: 16px !important;
 	color: white !important;
 }
 
@@ -370,7 +370,13 @@ nav p {
 	background-color: black;
 	height: 40px;
 	padding: 10px;
-	border-top: 1px solid white;
+	border-top: 0.5px solid white;
+	border-left: 0.5px solid white;
+	border-right: 0.5px solid white;
+}
+
+.intro-reviews {
+	margin: -10px auto auto;
 }
 
 .row {

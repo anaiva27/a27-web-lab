@@ -347,7 +347,7 @@ a {
 
 .intro-headline {
 	color: white;
-	font-size: min(30px, 2.5vw);
+	font-size: clamp(24px, 2.1vw, 28px);
 	text-transform: none !important;
 	line-height: 120%;
 	font-weight: 500;
@@ -358,7 +358,7 @@ a {
 
 .subtitle {
 	color: var(--base-200);
-	font-size: min(30px, 2.5vw);
+	font-size: clamp(24px, 2.1vw, 28px);
 	text-transform: none !important;
 	line-height: 120%;
 	font-weight: 500;
@@ -369,7 +369,7 @@ a {
 
 .intro-subtitle {
 	color: white;
-	font-size: min(30px, 2.5vw);
+	font-size: clamp(24px, 2.1vw, 28px);
 	text-transform: none !important;
 	line-height: 120%;
 	font-weight: 500;
@@ -575,12 +575,10 @@ a {
 	align-items: center;
 	justify-content: center;
 	width: fit-content;
-	/* height: 38px; */
 	margin-top: auto;
 	border-radius: 6px;
-	border: 1px solid rgba(235, 235, 235, 0.519);
-	background: var(--base-100);
-	color: rgb(67, 46, 28);
+	background: white;
+	color: rgb(0, 0, 0);
 	font-size: clamp(17px, 1.1vw, 25px);
 	font-weight: 600;
 	cursor: pointer;

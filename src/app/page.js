@@ -416,6 +416,13 @@ export default function Page() {
 					</div>
 					<div className="card-wrapper-right">
 						<div className="card-inner reviews">
+							<div className="intro-reviews">
+								<Copy>
+									<h2 className="intro-headline text-200">
+										Feedback from Our Clients:
+									</h2>
+								</Copy>
+							</div>
 							<div className="avatar">
 								<img
 									src="/reviews/review1.png"
@@ -423,7 +430,6 @@ export default function Page() {
 								/>
 								<div className="row">
 									<p className="body-text sub">Marina B. Business Owner</p>
-									{/* <p className="body-text sub">Business Owner</p> */}
 								</div>
 							</div>
 							<div className="container-stars">
@@ -473,7 +479,7 @@ export default function Page() {
 					</div>
 				</div>
 				<div className="intro-discover-wrapper">
-					<p>Discover</p>
+					<p>SCROLL DOWN</p>
 				</div>
 				<footer>
 					<p>Premium Digital Lab</p>

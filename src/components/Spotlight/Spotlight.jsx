@@ -189,7 +189,7 @@ const Spotlight = () => {
 			top: `+=${window.innerHeight / 3}px`,
 			opacity: 1,
 			duration: 3,
-			color: "#998f82",
+			color: "#fff",
 		});
 
 		imageElements.forEach((img) => gsap.set(img, { opacity: 0 }));
@@ -347,7 +347,7 @@ const Spotlight = () => {
 		>
 			<div className="spotlight-inner">
 				<div className="spotlight-intro-discover-wrapper">
-					<p>Discover</p>
+					<p>SCROLL DOWN</p>
 				</div>
 				<div className="spotlight-intro-text-wrapper">
 					<div
