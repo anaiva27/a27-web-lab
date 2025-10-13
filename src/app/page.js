@@ -28,6 +28,25 @@ export default function Page() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 	const [isMobile, setIsMobile] = useState(false);
 	const [loaderAnimating, setLoaderAnimating] = useState(false);
+	const [copySuccess, setCopySuccess] = useState("COPY EMAIL");
+	const [mailSuccess, setMailSuccess] = useState("SEND INQUIRY");
+
+	const handleCopy = async () => {
+		try {
+			await navigator.clipboard.writeText("anastasia27.software@gmail.com");
+			setCopySuccess("COPIED!");
+			setTimeout(() => setCopySuccess("COPY EMAIL"), 2000);
+		} catch (err) {
+			setCopySuccess("Try Again!");
+			console.error("Failed to copy text: ", err);
+		}
+	};
+
+	const mailto = (mailto) => {
+		window.location.href = mailto;
+		setMailSuccess("LOADING");
+		setTimeout(() => setMailSuccess("SEND INQUIRY"), 2000);
+	};
 
 	const scrollTriggerRef = useRef(null);
 
@@ -348,17 +367,17 @@ export default function Page() {
 						{!isMobile && (
 							<p
 								id="menu"
-								onClick={() => setIsMenuOpen((prev) => !prev)}
+								//onClick={() => setIsMenuOpen((prev) => !prev)}
 							>
-								Work
+								Scroll to see Our Recent Projects
 							</p>
 						)}
-						<p
+						{/* <p
 							id="menu"
 							onClick={() => setIsMenuOpen((prev) => !prev)}
 						>
 							Menu
-						</p>
+						</p> */}
 						{/* {!isMobile && (
 							<div
 								className="chip2"
@@ -411,7 +430,14 @@ export default function Page() {
 							it.
 						</p>
 						<div className="button-wrapper">
-							<div className="chip">send inquiry</div>
+							<div
+								className="chip"
+								onClick={() => {
+									mailto("mailto:anastasia27.software@gmail.com");
+								}}
+							>
+								{mailSuccess}
+							</div>
 						</div>
 					</div>
 					<div className="card-wrapper-right">
@@ -470,9 +496,9 @@ export default function Page() {
 								<div
 									className="chip2"
 									id="menu"
-									onClick={() => setIsMenuOpen((prev) => !prev)}
+									onClick={() => handleCopy()}
 								>
-									Copy Email
+									{copySuccess}
 								</div>
 							)}
 						</div>

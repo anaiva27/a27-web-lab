@@ -160,19 +160,16 @@ nav p#logo {
 	padding: 5px 10px;
 	margin-top: -15px;
 	margin-left: -10px;
-	/* border: 0.5px solid rgba(37, 36, 36, 0.321); */
-	/* background: linear-gradient(145deg, #a15e2a75, #584a3d41); */
-	/* box-shadow: inset 0px 0px 3px 2px rgba(49, 48, 48, 0.359); */
 	backdrop-filter: blur(15px);
 }
 
 nav p#menu {
 	font-weight: 500;
 	font-size: 16px;
+	text-align: right;
 }
 
 nav p {
-	cursor: pointer;
 	color: rgb(255, 255, 255);
 }
 
@@ -182,7 +179,7 @@ nav p {
 	align-items: center;
 	height: 35px;
 	gap: 46px;
-	width: 30%;
+	width: fit-content;
 	max-width: 180px;
 }
 
