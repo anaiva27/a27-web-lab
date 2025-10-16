@@ -12,6 +12,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Footer from "@/components/Footer/Footer";
 import { useLenis } from "lenis/react";
 import SplineScene from "@/components/SplineScene";
+import { Slider } from "@/components/Slider";
 
 const messageArray = [
 	"We Design Clean Intuitive Experiences.",
@@ -391,17 +392,6 @@ export default function Page() {
 				</nav>
 
 				<div className="hero-img">
-					{/* {isMobile ? (
-						<img
-							src="/main-bg-mobile.png"
-							alt=""
-						/>
-					) : (
-						<img
-							src="/main-bg.png"
-							alt=""
-						/>
-					)} */}
 					<SplineScene />
 				</div>
 
@@ -423,12 +413,24 @@ export default function Page() {
 						<Copy isUpdated={step}>
 							<h2 className="subtitle ">{messageArray[step]}</h2>
 						</Copy>
-						<p className="body-text auto-top text-200">
-							So you can <span className="text-white">look amazing online</span>{" "}
-							and {!isMobile && <br />}
-							<span className="text-white">feel proud</span> every time you see
-							it.
-						</p>
+						{isMobile ? (
+							<p className="body-text auto-top text-200">
+								{"[ "} Yes {"]"}, you can{" "}
+								<span className="text-white">look amazing online</span> and{" "}
+								{!isMobile && <br />}
+								<span className="text-white">feel proud</span> every time you
+								see it.
+							</p>
+						) : (
+							<p className="body-text auto-top text-200">
+								So you can{" "}
+								<span className="text-white">look amazing online</span> and{" "}
+								{!isMobile && <br />}
+								<span className="text-white">feel proud</span> every time you
+								see it.
+							</p>
+						)}
+
 						<div className="button-wrapper">
 							<div
 								className="chip"
@@ -441,7 +443,7 @@ export default function Page() {
 						</div>
 					</div>
 					<div className="card-wrapper-right">
-						<div className="card-inner reviews">
+						<div className="card-inner">
 							<div className="intro-reviews">
 								<Copy>
 									<h2 className="intro-headline text-200">
@@ -449,43 +451,7 @@ export default function Page() {
 									</h2>
 								</Copy>
 							</div>
-							<div className="avatar">
-								<img
-									src="/reviews/review1.png"
-									alt=""
-								/>
-								<div className="row">
-									<p className="body-text sub">Marina B. Business Owner</p>
-								</div>
-							</div>
-							<div className="container-stars">
-								<img
-									src="/star1.png"
-									alt=""
-								/>
-								<img
-									src="/star1.png"
-									alt=""
-								/>
-								<img
-									src="/star1.png"
-									alt=""
-								/>
-								<img
-									src="/star1.png"
-									alt=""
-								/>
-								<img
-									src="/star1.png"
-									alt=""
-								/>
-								<p className="body-text sub">(5.0)</p>
-							</div>
-							<p className="body-text">
-								"I felt so seen and understood by Anastasia. One of a kind
-								services, attention and expertise. <br />
-								100% Recommend."
-							</p>
+							<Slider />
 						</div>
 						<div className="card-inner">
 							<p className="body-text">

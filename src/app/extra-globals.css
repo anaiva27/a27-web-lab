@@ -631,6 +631,10 @@ a {
 		font-size: clamp(32px, 3vw, 40px) !important;
 	}
 
+	.intro-headline {
+		line-height: 150%;
+	}
+
 	.subtitle {
 		font-size: clamp(14px, 1.8vw, 18px) !important;
 		letter-spacing: 0;

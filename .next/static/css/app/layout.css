@@ -164,9 +164,6 @@ nav p#logo {
 	padding: 5px 10px;
 	margin-top: -15px;
 	margin-left: -10px;
-	/* border: 0.5px solid rgba(37, 36, 36, 0.321); */
-	/* background: linear-gradient(145deg, #a15e2a75, #584a3d41); */
-	/* box-shadow: inset 0px 0px 3px 2px rgba(49, 48, 48, 0.359); */
 	-webkit-backdrop-filter: blur(15px);
 	        backdrop-filter: blur(15px);
 }
@@ -244,13 +241,11 @@ nav p {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;
+	justify-content: flex-start;
 	align-items: flex-end;
 	height: 100%;
 	-webkit-backdrop-filter: blur(5px);
 	        backdrop-filter: blur(5px);
-	/* border: 0.5px solid rgb(231, 231, 231); */
-	/* box-shadow: inset 0px 0px 2px 1px rgba(207, 207, 207, 0.658); */
 	padding: 20px;
 	border-radius: 12px;
 }
@@ -273,13 +268,16 @@ nav p {
 }
 
 .container-stars {
-	width: 160px;
+	width: -moz-fit-content;
+	width: fit-content;
 	display: flex;
 	justify-content: space-between;
 	margin: 10px auto 0px auto;
+	gap: 4px;
 }
+
 .container-stars img {
-	width: 19px;
+	/* width: 19px; */
 	height: 20px;
 	filter: brightness(1.1);
 	margin-top: 1px;
@@ -387,7 +385,7 @@ nav p {
 }
 
 .intro-reviews {
-	margin: -10px auto auto;
+	margin: 0 auto 50px;
 }
 
 .row {
@@ -404,11 +402,12 @@ nav p {
 	}
 
 	.avatar img {
+		width: 20%;
 		height: 50px;
-		width: 50px;
 	}
 	.avatar {
-		width: 200px;
+		width: -moz-fit-content;
+		width: fit-content;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
@@ -417,15 +416,20 @@ nav p {
 
 	.container-stars {
 		margin: 0 auto 0;
+		display: none;
+	}
+	.intro-reviews {
+		margin-top: -10px;
+		/* display: none; */
 	}
 
 	.card-wrapper-right .card-inner {
 		align-items: flex-start;
 	}
 
-	.card-wrapper-right .card-inner div {
+	/* .card-wrapper-right .card-inner div {
 		margin: 5px auto 0px 0;
-	}
+	} */
 
 	.card-wrapper-right .card-inner:nth-child(2) {
 		display: none;
@@ -502,7 +506,7 @@ nav p {
 	}
 }
 
-@media (max-height: 790px) and (min-width: 1000px) {
+/* @media (max-height: 790px) and (min-width: 1000px) {
 	.avatar {
 		width: 100%;
 		display: flex;
@@ -522,7 +526,10 @@ nav p {
 	.sub {
 		margin-bottom: 0 !important;
 	}
-}
+	.intro-reviews {
+		display: none;
+	}
+} */
 
 /*!***********************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/extra-globals.css ***!
@@ -1159,6 +1166,10 @@ a {
 @media (max-width: 1000px) {
 	.headline {
 		font-size: clamp(32px, 3vw, 40px) !important;
+	}
+
+	.intro-headline {
+		line-height: 150%;
 	}
 
 	.subtitle {
