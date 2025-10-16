@@ -397,11 +397,13 @@ export default function Page() {
 
 				<div className="card">
 					<div className="card-wrapper-left">
+						{!isMobile && (
+							<Copy>
+								<h2 className="intro-headline text-200">Hi, we are</h2>
+							</Copy>
+						)}
 						<Copy>
-							<h2 className="intro-headline text-200">Hi, we are</h2>
-						</Copy>
-						<Copy>
-							<h1 className="headline ">A27 WEB LAB</h1>
+							<h1 className="headline center-mobile">A27 WEB LAB</h1>
 						</Copy>
 						<Copy>
 							<h2 className="intro-subtitle ">
@@ -443,7 +445,7 @@ export default function Page() {
 						</div>
 					</div>
 					<div className="card-wrapper-right">
-						<div className="card-inner">
+						<div className="card-inner card-inner-top">
 							<div className="intro-reviews">
 								<Copy>
 									<h2 className="intro-headline text-200">
@@ -451,7 +453,7 @@ export default function Page() {
 									</h2>
 								</Copy>
 							</div>
-							<Slider />
+							<Slider isMobile={isMobile} />
 						</div>
 						<div className="card-inner">
 							<p className="body-text">

@@ -5,7 +5,7 @@ import "swiper/css/navigation";
 import "./slider-style.css";
 import Copy from "@/components/Copy";
 
-export const Slider = () => {
+export const Slider = ({ isMobile }) => {
 	return (
 		<Swiper
 			modules={[Autoplay, Navigation]}
@@ -16,7 +16,7 @@ export const Slider = () => {
 				delay: 4000,
 				disableOnInteraction: false,
 			}}
-			// pagination={{
+			// // pagination={{
 			// 	clickable: true,
 			// 	el: ".swiper-pagination",
 			// 	type: "bullets",
@@ -26,13 +26,17 @@ export const Slider = () => {
 		>
 			<SwiperSlide className="styled">
 				<div className="slider-slide">
-					<div className="avatar">
-						<img
-							src="/reviews/review1.png"
-							alt=""
-						/>
+					<div className="avatar-container">
+						<div className="avatar">
+							<img
+								src="/reviews/review1.png"
+								alt=""
+							/>
+						</div>
 						<div className="row">
-							<p className="body-text sub">Marina B. Business Owner</p>
+							<p className="body-text sub">
+								Marina B. {isMobile && <br />} Business Owner
+							</p>
 						</div>
 					</div>
 					<div className="container-stars">
@@ -67,13 +71,17 @@ export const Slider = () => {
 			</SwiperSlide>
 			<SwiperSlide className="styled">
 				<div className="slider-slide">
-					<div className="avatar">
-						<img
-							src="/reviews/review4.png"
-							alt=""
-						/>
+					<div className="avatar-container">
+						<div className="avatar">
+							<img
+								src="/reviews/review4.png"
+								alt=""
+							/>
+						</div>
 						<div className="row">
-							<p className="body-text sub">Alina L. Business Owner</p>
+							<p className="body-text sub">
+								Alina L.{isMobile && <br />} Business Owner
+							</p>
 						</div>
 					</div>
 					<div className="container-stars">
@@ -106,13 +114,17 @@ export const Slider = () => {
 			</SwiperSlide>
 			<SwiperSlide className="styled">
 				<div className="slider-slide">
-					<div className="avatar">
-						<img
-							src="/reviews/review2.png"
-							alt=""
-						/>
+					<div className="avatar-container">
+						<div className="avatar">
+							<img
+								src="/reviews/review2.png"
+								alt=""
+							/>
+						</div>
 						<div className="row">
-							<p className="body-text sub">Mila Z. Business Owner</p>
+							<p className="body-text sub">
+								Mila Z.{isMobile && <br />} Business Owner
+							</p>
 						</div>
 					</div>
 					<div className="container-stars">
@@ -146,13 +158,17 @@ export const Slider = () => {
 			</SwiperSlide>
 			<SwiperSlide className="styled">
 				<div className="slider-slide">
-					<div className="avatar">
-						<img
-							src="/reviews/review3.png"
-							alt=""
-						/>
+					<div className="avatar-container">
+						<div className="avatar">
+							<img
+								src="/reviews/review3.png"
+								alt=""
+							/>
+						</div>
 						<div className="row">
-							<p className="body-text sub">Olena S. Business Owner</p>
+							<p className="body-text sub">
+								Olena S.{isMobile && <br />} Business Owner
+							</p>
 						</div>
 					</div>
 					<div className="container-stars">
