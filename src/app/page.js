@@ -405,13 +405,13 @@ export default function Page() {
 						<Copy>
 							<h1 className="headline center-mobile">A27 WEB LAB</h1>
 						</Copy>
-						<Copy>
-							<h2 className="intro-subtitle ">
-								<span className="text-200">{"[ "}</span> Yes{" "}
-								<span className="text-200"> {" ]"}</span>, Your Website Needs a
-								Makeover.
-							</h2>
-						</Copy>
+						{/* <Copy> */}
+						<h2 className="intro-subtitle ">
+							<span className="text-200">{"[ "}</span> Yes{" "}
+							<span className="text-200"> {" ]"}</span>, Your Website Needs a
+							Makeover.
+						</h2>
+						{/* </Copy> */}
 						<Copy isUpdated={step}>
 							<h2 className="subtitle ">{messageArray[step]}</h2>
 						</Copy>
