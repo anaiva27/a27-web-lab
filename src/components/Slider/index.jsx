@@ -74,6 +74,51 @@ export const Slider = ({ isMobile }) => {
 					<div className="avatar-container">
 						<div className="avatar">
 							<img
+								src="/reviews/review6.png"
+								alt=""
+							/>
+						</div>
+						<div className="row">
+							<p className="body-text sub">
+								Natasha Kassman,{isMobile && <br />} Business Owner
+							</p>
+						</div>
+					</div>
+					<div className="container-stars">
+						<img
+							src="/star1.png"
+							alt=""
+						/>
+						<img
+							src="/star1.png"
+							alt=""
+						/>
+						<img
+							src="/star1.png"
+							alt=""
+						/>
+						<img
+							src="/star1.png"
+							alt=""
+						/>
+						<img
+							src="/star1.png"
+							alt=""
+						/>
+						<p className="body-text sub">(5.0)</p>
+					</div>
+					<p className="body-text">
+						“A27 helped me make my website super fast, and they did an amazing
+						job. They were easy to work with and knew exactly what I wanted. I’m
+						so happy with the results!”
+					</p>
+				</div>
+			</SwiperSlide>
+			<SwiperSlide className="styled">
+				<div className="slider-slide">
+					<div className="avatar-container">
+						<div className="avatar">
+							<img
 								src="/reviews/review4.png"
 								alt=""
 							/>
@@ -108,7 +153,8 @@ export const Slider = ({ isMobile }) => {
 						<p className="body-text sub">(5.0)</p>
 					</div>
 					<p className="body-text">
-						"So easy and fun to work with Anastasia. I love my new website."
+						"So easy and fun to work with Anastasia. Everything looks clean,
+						professional, and really beautiful. I love my new website."
 					</p>
 				</div>
 			</SwiperSlide>
