@@ -702,6 +702,10 @@
 	text-align: center;
 }
 
+.swiper {
+	width: 100% !important;
+}
+
 .swiper-button-prev {
 	background-color: #22222200;
 	width: 50px;
@@ -721,13 +725,13 @@
 	background-color: #2f2e2e00;
 	width: 50px;
 	height: 19px;
-	margin-right: -20px;
+	margin-right: -30px;
 	color: white !important;
 }
 
 @media (max-width: 1000px) {
 	.slider-slide p.body-text {
-		width: 80vw;
+		width: 77vw;
 	}
 
 	.swiper-button-prev {
