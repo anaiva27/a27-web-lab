@@ -100,7 +100,8 @@ body[data-theme="dark"] {
 	background: var(--bg-color);
 	padding: 2rem;
 	border-radius: 20px;
-	box-shadow: 8px 8px 16px var(--shadow-dark),
+	box-shadow:
+		8px 8px 16px var(--shadow-dark),
 		-8px -8px 16px var(--shadow-light);
 	width: 100%;
 	position: relative;
@@ -114,7 +115,8 @@ body[data-theme="dark"] {
 	background: var(--bg-color);
 	padding: 1.8rem;
 	border-radius: 20px;
-	box-shadow: 8px 8px 16px var(--shadow-dark),
+	box-shadow:
+		8px 8px 16px var(--shadow-dark),
 		-8px -8px 16px var(--shadow-light);
 	width: 40vw;
 	position: relative;
@@ -128,8 +130,10 @@ body[data-theme="dark"] {
 	/* background: var(--bg-color); */
 	padding: 2rem;
 	border-radius: 20px;
-	box-shadow: 6px 6px 16px var(--shadow-dark),
-		-6px -6px 16px var(--shadow-light), inset 6px 6px 16px var(--shadow-dark),
+	box-shadow:
+		6px 6px 16px var(--shadow-dark),
+		-6px -6px 16px var(--shadow-light),
+		inset 6px 6px 16px var(--shadow-dark),
 		inset -6px -6px 16px var(--shadow-light);
 	width: 30vw;
 	margin-left: -20vw;
@@ -160,7 +164,8 @@ body[data-theme="dark"] {
 	border-radius: 50px;
 	background: var(--bg-color);
 	position: relative;
-	box-shadow: inset 4px 4px 8px var(--shadow-dark),
+	box-shadow:
+		inset 4px 4px 8px var(--shadow-dark),
 		inset -4px -4px 8px var(--shadow-light);
 	cursor: pointer;
 }
@@ -190,7 +195,9 @@ form {
 	gap: 15px;
 	transform: translateX(0);
 	opacity: 1;
-	transition: transform 0.5s ease, opacity 0.5s ease;
+	transition:
+		transform 0.5s ease,
+		opacity 0.5s ease;
 }
 
 form.active {
@@ -212,7 +219,8 @@ h2 {
 	border-radius: 15px;
 	border: none;
 	background: var(--bg-color);
-	box-shadow: inset 4px 4px 8px var(--shadow-dark),
+	box-shadow:
+		inset 4px 4px 8px var(--shadow-dark),
 		inset -4px -4px 8px var(--shadow-light);
 	color: var(--text-color);
 }
@@ -247,7 +255,8 @@ button {
 	border: none;
 	background: var(--bg-color);
 	font-weight: bold;
-	box-shadow: 6px 6px 12px var(--shadow-dark),
+	box-shadow:
+		6px 6px 12px var(--shadow-dark),
 		-6px -6px 12px var(--shadow-light);
 	cursor: pointer;
 	transition: 0.3s ease;
@@ -255,7 +264,9 @@ button {
 }
 
 button:hover {
-	box-shadow: 0 0 12px var(--highlight), inset 2px 2px 8px var(--shadow-dark);
+	box-shadow:
+		0 0 12px var(--highlight),
+		inset 2px 2px 8px var(--shadow-dark);
 }
 
 .social-login {
@@ -347,9 +358,6 @@ button:hover {
 
 .body-text {
 	color: var(--text-body-color);
-	font-size: 20px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
 }
 
 .plain-text {
@@ -357,16 +365,22 @@ button:hover {
 }
 
 .soft-text {
-	text-shadow: 2px 2px 5px var(--shadow-dark), -2px -2px 5px var(--shadow-light);
+	text-shadow:
+		2px 2px 5px var(--shadow-dark),
+		-2px -2px 5px var(--shadow-light);
 }
 
 .soft-h-text {
-	text-shadow: 2px 1px 2px var(--shadow-dark), -2px -1px 2px var(--shadow-light);
+	text-shadow:
+		2px 1px 2px var(--shadow-dark),
+		-2px -1px 2px var(--shadow-light);
 	letter-spacing: 1px;
 }
 
 .soft-s-text {
-	text-shadow: 1px 1px 3px var(--shadow-dark), -1px -1px 1px var(--shadow-light);
+	text-shadow:
+		1px 1px 3px var(--shadow-dark),
+		-1px -1px 1px var(--shadow-light);
 	letter-spacing: 1px;
 }
 
@@ -430,7 +444,9 @@ button:hover {
 	top: 7px;
 	margin: 0 10px;
 	background-color: var(--text-color);
-	box-shadow: 1px 1px 1px var(--shadow-dark), -1px -1px 1px var(--shadow-light);
+	box-shadow:
+		1px 1px 1px var(--shadow-dark),
+		-1px -1px 1px var(--shadow-light);
 	position: relative;
 	display: inline-block;
 	font-stretch: ultra-condensed;
@@ -511,7 +527,8 @@ button:hover {
 	height: 40px;
 	width: 40px;
 	border: 0.5px solid var(--line-color);
-	box-shadow: inset 1px 2px 6px var(--shadow-dark),
+	box-shadow:
+		inset 1px 2px 6px var(--shadow-dark),
 		inset -1px -2px 6px var(--shadow-light);
 }
 
@@ -524,7 +541,9 @@ button:hover {
 	border-radius: 50px;
 	background: var(--bg-color);
 	position: relative;
-	box-shadow: 4px 4px 8px var(--shadow-dark), -4px -4px 8px var(--shadow-light);
+	box-shadow:
+		4px 4px 8px var(--shadow-dark),
+		-4px -4px 8px var(--shadow-light);
 	cursor: pointer;
 	padding: 0px 20px;
 	line-height: 100%;

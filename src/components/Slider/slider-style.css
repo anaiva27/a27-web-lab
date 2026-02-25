@@ -36,6 +36,18 @@
 	color: white !important;
 }
 
+.slide-text {
+	max-width: 450px;
+	line-height: 140%;
+}
+
+@media (max-width: 1300px) and (min-width: 1001px) {
+	.slide-text {
+		max-width: 450px;
+		line-height: 130%;
+	}
+}
+
 @media (max-width: 1000px) {
 	.slider-slide p.body-text {
 		width: 77vw;

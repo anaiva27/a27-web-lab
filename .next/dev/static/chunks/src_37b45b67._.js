@@ -1033,7 +1033,7 @@ const Slider = ({ isMobile })=>{
                             columnNumber: 6
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "body-text",
+                            className: "body-text slide-text",
                             children: [
                                 '"I felt so seen and understood by Anastasia. One of a kind services, attention and expertise. ',
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
@@ -1169,7 +1169,7 @@ const Slider = ({ isMobile })=>{
                             columnNumber: 6
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "body-text",
+                            className: "body-text slide-text",
                             children: "“A27 helped me make my website super fast, and they did an amazing job. They were easy to work with and knew exactly what I wanted. I’m so happy with the results!”"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Slider/index.jsx",
@@ -1198,16 +1198,16 @@ const Slider = ({ isMobile })=>{
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "avatar",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                        src: "/reviews/review4.png",
+                                        src: "/reviews/review5.png",
                                         alt: ""
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Slider/index.jsx",
-                                        lineNumber: 121,
+                                        lineNumber: 122,
                                         columnNumber: 8
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 120,
+                                    lineNumber: 121,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1215,28 +1215,28 @@ const Slider = ({ isMobile })=>{
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "body-text sub",
                                         children: [
-                                            "Alina L.",
+                                            "Tony M.",
                                             isMobile && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/components/Slider/index.jsx",
-                                                lineNumber: 128,
-                                                columnNumber: 30
+                                                lineNumber: 129,
+                                                columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
-                                            " Business Owner"
+                                            " Magazine Editor"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Slider/index.jsx",
-                                        lineNumber: 127,
+                                        lineNumber: 128,
                                         columnNumber: 8
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 126,
+                                    lineNumber: 127,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Slider/index.jsx",
-                            lineNumber: 119,
+                            lineNumber: 120,
                             columnNumber: 6
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1247,7 +1247,7 @@ const Slider = ({ isMobile })=>{
                                     alt: ""
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 133,
+                                    lineNumber: 134,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1255,7 +1255,7 @@ const Slider = ({ isMobile })=>{
                                     alt: ""
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 137,
+                                    lineNumber: 138,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1263,7 +1263,7 @@ const Slider = ({ isMobile })=>{
                                     alt: ""
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 141,
+                                    lineNumber: 142,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1271,7 +1271,7 @@ const Slider = ({ isMobile })=>{
                                     alt: ""
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 145,
+                                    lineNumber: 146,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1279,7 +1279,7 @@ const Slider = ({ isMobile })=>{
                                     alt: ""
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 149,
+                                    lineNumber: 150,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1287,32 +1287,32 @@ const Slider = ({ isMobile })=>{
                                     children: "(5.0)"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 153,
+                                    lineNumber: 154,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Slider/index.jsx",
-                            lineNumber: 132,
+                            lineNumber: 133,
                             columnNumber: 6
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "body-text",
-                            children: '"So easy and fun to work with Anastasia. Everything looks clean, professional, and really beautiful. I love my new website."'
+                            className: "body-text slide-text",
+                            children: '"Anastasia is very professional and proactive. My website was ready to go in under a month "'
                         }, void 0, false, {
                             fileName: "[project]/src/components/Slider/index.jsx",
-                            lineNumber: 155,
+                            lineNumber: 156,
                             columnNumber: 6
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Slider/index.jsx",
-                    lineNumber: 118,
+                    lineNumber: 119,
                     columnNumber: 5
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/components/Slider/index.jsx",
-                lineNumber: 117,
+                lineNumber: 118,
                 columnNumber: 4
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$react$2f$swiper$2d$slide$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SwiperSlide"], {
@@ -1330,12 +1330,12 @@ const Slider = ({ isMobile })=>{
                                         alt: ""
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Slider/index.jsx",
-                                        lineNumber: 165,
+                                        lineNumber: 167,
                                         columnNumber: 8
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 164,
+                                    lineNumber: 166,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1346,25 +1346,25 @@ const Slider = ({ isMobile })=>{
                                             "Mila Z.",
                                             isMobile && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/components/Slider/index.jsx",
-                                                lineNumber: 172,
+                                                lineNumber: 174,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             " Business Owner"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Slider/index.jsx",
-                                        lineNumber: 171,
+                                        lineNumber: 173,
                                         columnNumber: 8
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 170,
+                                    lineNumber: 172,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Slider/index.jsx",
-                            lineNumber: 163,
+                            lineNumber: 165,
                             columnNumber: 6
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1375,7 +1375,7 @@ const Slider = ({ isMobile })=>{
                                     alt: ""
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 177,
+                                    lineNumber: 179,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1383,7 +1383,7 @@ const Slider = ({ isMobile })=>{
                                     alt: ""
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 181,
+                                    lineNumber: 183,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1391,7 +1391,7 @@ const Slider = ({ isMobile })=>{
                                     alt: ""
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 185,
+                                    lineNumber: 187,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1399,7 +1399,7 @@ const Slider = ({ isMobile })=>{
                                     alt: ""
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 189,
+                                    lineNumber: 191,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1407,7 +1407,7 @@ const Slider = ({ isMobile })=>{
                                     alt: ""
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 193,
+                                    lineNumber: 195,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1415,32 +1415,160 @@ const Slider = ({ isMobile })=>{
                                     children: "(5.0)"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 197,
+                                    lineNumber: 199,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Slider/index.jsx",
-                            lineNumber: 176,
+                            lineNumber: 178,
                             columnNumber: 6
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "body-text",
-                            children: '"Absolutely love my website. Everything was very fast and professional. I\'m so glad I met Anastasia."'
+                            className: "body-text slide-text",
+                            children: '"In love my website. Everything was very fast and professional. I\'m so glad I met Anastasia."'
                         }, void 0, false, {
                             fileName: "[project]/src/components/Slider/index.jsx",
-                            lineNumber: 199,
+                            lineNumber: 201,
                             columnNumber: 6
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Slider/index.jsx",
-                    lineNumber: 162,
+                    lineNumber: 164,
                     columnNumber: 5
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/components/Slider/index.jsx",
-                lineNumber: 161,
+                lineNumber: 163,
+                columnNumber: 4
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$react$2f$swiper$2d$slide$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SwiperSlide"], {
+                className: "styled",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "slider-slide",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "avatar-container",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "avatar",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                        src: "/reviews/review4.png",
+                                        alt: ""
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/Slider/index.jsx",
+                                        lineNumber: 212,
+                                        columnNumber: 8
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Slider/index.jsx",
+                                    lineNumber: 211,
+                                    columnNumber: 7
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "row",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "body-text sub",
+                                        children: [
+                                            "Alina L.",
+                                            isMobile && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                fileName: "[project]/src/components/Slider/index.jsx",
+                                                lineNumber: 219,
+                                                columnNumber: 30
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            " Business Owner"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/Slider/index.jsx",
+                                        lineNumber: 218,
+                                        columnNumber: 8
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Slider/index.jsx",
+                                    lineNumber: 217,
+                                    columnNumber: 7
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/Slider/index.jsx",
+                            lineNumber: 210,
+                            columnNumber: 6
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "container-stars",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    src: "/star1.png",
+                                    alt: ""
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Slider/index.jsx",
+                                    lineNumber: 224,
+                                    columnNumber: 7
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    src: "/star1.png",
+                                    alt: ""
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Slider/index.jsx",
+                                    lineNumber: 228,
+                                    columnNumber: 7
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    src: "/star1.png",
+                                    alt: ""
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Slider/index.jsx",
+                                    lineNumber: 232,
+                                    columnNumber: 7
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    src: "/star1.png",
+                                    alt: ""
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Slider/index.jsx",
+                                    lineNumber: 236,
+                                    columnNumber: 7
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    src: "/star1.png",
+                                    alt: ""
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Slider/index.jsx",
+                                    lineNumber: 240,
+                                    columnNumber: 7
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "body-text sub",
+                                    children: "(5.0)"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Slider/index.jsx",
+                                    lineNumber: 244,
+                                    columnNumber: 7
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/Slider/index.jsx",
+                            lineNumber: 223,
+                            columnNumber: 6
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "body-text slide-text",
+                            children: '"Anastasia clearly understood my vision. She\'s creative, reliable and I highly recommend her."'
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/Slider/index.jsx",
+                            lineNumber: 246,
+                            columnNumber: 6
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/Slider/index.jsx",
+                    lineNumber: 209,
+                    columnNumber: 5
+                }, ("TURBOPACK compile-time value", void 0))
+            }, void 0, false, {
+                fileName: "[project]/src/components/Slider/index.jsx",
+                lineNumber: 208,
                 columnNumber: 4
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$react$2f$swiper$2d$slide$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SwiperSlide"], {
@@ -1458,12 +1586,12 @@ const Slider = ({ isMobile })=>{
                                         alt: ""
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Slider/index.jsx",
-                                        lineNumber: 209,
+                                        lineNumber: 257,
                                         columnNumber: 8
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 208,
+                                    lineNumber: 256,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1474,25 +1602,25 @@ const Slider = ({ isMobile })=>{
                                             "Olena S.",
                                             isMobile && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/components/Slider/index.jsx",
-                                                lineNumber: 216,
+                                                lineNumber: 264,
                                                 columnNumber: 30
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             " Business Owner"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Slider/index.jsx",
-                                        lineNumber: 215,
+                                        lineNumber: 263,
                                         columnNumber: 8
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 214,
+                                    lineNumber: 262,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Slider/index.jsx",
-                            lineNumber: 207,
+                            lineNumber: 255,
                             columnNumber: 6
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1503,7 +1631,7 @@ const Slider = ({ isMobile })=>{
                                     alt: ""
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 221,
+                                    lineNumber: 269,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1511,7 +1639,7 @@ const Slider = ({ isMobile })=>{
                                     alt: ""
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 225,
+                                    lineNumber: 273,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1519,7 +1647,7 @@ const Slider = ({ isMobile })=>{
                                     alt: ""
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 229,
+                                    lineNumber: 277,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1527,7 +1655,7 @@ const Slider = ({ isMobile })=>{
                                     alt: ""
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 233,
+                                    lineNumber: 281,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1535,7 +1663,7 @@ const Slider = ({ isMobile })=>{
                                     alt: ""
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 237,
+                                    lineNumber: 285,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1543,32 +1671,32 @@ const Slider = ({ isMobile })=>{
                                     children: "(5.0)"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Slider/index.jsx",
-                                    lineNumber: 241,
+                                    lineNumber: 289,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Slider/index.jsx",
-                            lineNumber: 220,
+                            lineNumber: 268,
                             columnNumber: 6
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "body-text",
+                            className: "body-text slide-text",
                             children: "\"I'm so happy I finally decided to update my website! I was a bit scared at first, but Anastasia made everything go smooth and painless. Thank you!"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Slider/index.jsx",
-                            lineNumber: 243,
+                            lineNumber: 291,
                             columnNumber: 6
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Slider/index.jsx",
-                    lineNumber: 206,
+                    lineNumber: 254,
                     columnNumber: 5
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/components/Slider/index.jsx",
-                lineNumber: 205,
+                lineNumber: 253,
                 columnNumber: 4
             }, ("TURBOPACK compile-time value", void 0))
         ]
@@ -1742,13 +1870,12 @@ function Page() {
             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].set(".split-overlay .intro-title .first-char", {
                 x: isMobile ? "7.5rem" : "18rem",
                 y: isMobile ? "-1rem" : "-2.75rem",
-                fontWeight: "900",
+                // fontWeight: "900",
                 scale: 0.75
             });
             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].set(".split-overlay .outro-title .char", {
                 x: isMobile ? "-3rem" : "-8rem",
-                fontSize: isMobile ? "6rem" : "14rem",
-                fontWeight: "500"
+                fontSize: isMobile ? "6rem" : "14rem"
             });
             const tl = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].timeline({
                 defaults: {
@@ -1789,13 +1916,13 @@ function Page() {
             }, 3.5).to(".preloader .intro-title .first-char", {
                 x: isMobile ? "4rem" : "10rem",
                 y: isMobile ? "-1.2rem" : "-2.85rem",
-                fontWeight: "900",
+                // fontWeight: "900",
                 scale: 0.75,
                 duration: 0.75
             }, 4.5).to(".preloader .outro-title .char", {
                 x: isMobile ? "-3rem" : "-8rem",
                 fontSize: isMobile ? "6rem" : "14rem",
-                fontWeight: "500",
+                // fontWeight: "500",
                 duration: 0.75,
                 onComplete: {
                     "Page.useGSAP": ()=>{
@@ -2294,7 +2421,7 @@ function Page() {
                                         className: "card-inner",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "body-text",
+                                                className: "body-text slide-text ",
                                                 children: "Take the first step toward unlocking the full potential of your online presence. Pain-free."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.js",

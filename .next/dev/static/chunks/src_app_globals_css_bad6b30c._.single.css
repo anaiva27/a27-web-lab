@@ -200,7 +200,7 @@ nav p {
 .card-wrapper-left {
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
-  background-color: #4a4a4a45;
+  background-color: #161616de;
   border-radius: 12px;
   padding: 10px 20px 20px;
 }
@@ -222,7 +222,8 @@ nav p {
 
 .card-inner p {
   text-shadow: 0 0 1px #000;
-  font-weight: 400 !important;
+  letter-spacing: 0;
+  font-weight: 200 !important;
 }
 
 .card-inner {
@@ -245,11 +246,11 @@ nav p {
 .card-wrapper-right .card-inner {
   -webkit-backdrop-filter: blur(25px);
   backdrop-filter: blur(25px);
-  background-color: #4a4a4a45;
+  background-color: #161616e4;
 }
 
 .card-inner:nth-child(2) {
-  background-color: #4a4a4a45;
+  background-color: #161616de;
   height: fit-content;
 }
 
@@ -296,7 +297,7 @@ nav p {
 
 .avatar img {
   border-radius: 50px;
-  width: 10vh;
+  width: 9vh;
   height: 9vh;
 }
 

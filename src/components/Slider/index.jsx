@@ -62,7 +62,7 @@ export const Slider = ({ isMobile }) => {
 						/>
 						<p className="body-text sub">(5.0)</p>
 					</div>
-					<p className="body-text">
+					<p className="body-text slide-text">
 						"I felt so seen and understood by Anastasia. One of a kind services,
 						attention and expertise. <br />
 						100% Recommend."
@@ -107,25 +107,26 @@ export const Slider = ({ isMobile }) => {
 						/>
 						<p className="body-text sub">(5.0)</p>
 					</div>
-					<p className="body-text">
+					<p className="body-text slide-text">
 						“A27 helped me make my website super fast, and they did an amazing
 						job. They were easy to work with and knew exactly what I wanted. I’m
 						so happy with the results!”
 					</p>
 				</div>
 			</SwiperSlide>
+
 			<SwiperSlide className="styled">
 				<div className="slider-slide">
 					<div className="avatar-container">
 						<div className="avatar">
 							<img
-								src="/reviews/review4.png"
+								src="/reviews/review5.png"
 								alt=""
 							/>
 						</div>
 						<div className="row">
 							<p className="body-text sub">
-								Alina L.{isMobile && <br />} Business Owner
+								Tony M.{isMobile && <br />} Magazine Editor
 							</p>
 						</div>
 					</div>
@@ -152,12 +153,13 @@ export const Slider = ({ isMobile }) => {
 						/>
 						<p className="body-text sub">(5.0)</p>
 					</div>
-					<p className="body-text">
-						"So easy and fun to work with Anastasia. Everything looks clean,
-						professional, and really beautiful. I love my new website."
+					<p className="body-text slide-text">
+						"Anastasia is very professional and proactive. My website was ready
+						to go in under a month "
 					</p>
 				</div>
 			</SwiperSlide>
+
 			<SwiperSlide className="styled">
 				<div className="slider-slide">
 					<div className="avatar-container">
@@ -196,12 +198,58 @@ export const Slider = ({ isMobile }) => {
 						/>
 						<p className="body-text sub">(5.0)</p>
 					</div>
-					<p className="body-text">
-						"Absolutely love my website. Everything was very fast and
-						professional. I'm so glad I met Anastasia."
+					<p className="body-text slide-text">
+						"In love my website. Everything was very fast and professional. I'm
+						so glad I met Anastasia."
 					</p>
 				</div>
 			</SwiperSlide>
+
+			<SwiperSlide className="styled">
+				<div className="slider-slide">
+					<div className="avatar-container">
+						<div className="avatar">
+							<img
+								src="/reviews/review4.png"
+								alt=""
+							/>
+						</div>
+						<div className="row">
+							<p className="body-text sub">
+								Alina L.{isMobile && <br />} Business Owner
+							</p>
+						</div>
+					</div>
+					<div className="container-stars">
+						<img
+							src="/star1.png"
+							alt=""
+						/>
+						<img
+							src="/star1.png"
+							alt=""
+						/>
+						<img
+							src="/star1.png"
+							alt=""
+						/>
+						<img
+							src="/star1.png"
+							alt=""
+						/>
+						<img
+							src="/star1.png"
+							alt=""
+						/>
+						<p className="body-text sub">(5.0)</p>
+					</div>
+					<p className="body-text slide-text">
+						"Anastasia clearly understood my vision. She's creative, reliable
+						and I highly recommend her."
+					</p>
+				</div>
+			</SwiperSlide>
+
 			<SwiperSlide className="styled">
 				<div className="slider-slide">
 					<div className="avatar-container">
@@ -240,7 +288,7 @@ export const Slider = ({ isMobile }) => {
 						/>
 						<p className="body-text sub">(5.0)</p>
 					</div>
-					<p className="body-text">
+					<p className="body-text slide-text">
 						"I'm so happy I finally decided to update my website! I was a bit
 						scared at first, but Anastasia made everything go smooth and
 						painless. Thank you!
