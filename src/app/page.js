@@ -13,7 +13,6 @@ import Footer from "@/components/Footer/Footer";
 import { useLenis } from "lenis/react";
 import SplineScene from "@/components/SplineScene";
 import { Slider } from "@/components/Slider";
-import BgVideo from "@/components/BgVideo/BgVideo";
 
 const messageArray = [
 	"We Design Clean Intuitive Experiences.",
@@ -393,7 +392,7 @@ export default function Page() {
 				</nav>
 
 				<div className="hero-img">
-					{/* <SplineScene /> */}
+					<SplineScene />
 					{/* <BgVideo /> */}
 				</div>
 

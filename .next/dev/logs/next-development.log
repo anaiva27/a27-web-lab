@@ -187,3 +187,21 @@
 [02:57:21.037] Server  LOG     ✓ Compiled in 31ms
 [02:57:29.714] Server  LOG     ✓ Compiled in 17ms
 [02:57:34.807] Server  LOG     ✓ Compiled in 9ms
+[02:58:40.377] Server  LOG     ✓ Compiled in 95ms
+[02:58:42.738] Browser WARN    updating from  122 to  118
+[02:58:42.738] Browser WARN    Your .splinecode file is more recent than the library. Please upgrade @splinetool/runtime to the latest version.
+[02:58:42.738] Browser ASSERT  true
+[02:58:42.738] Browser ASSERT  true
+[02:58:42.738] Browser ASSERT  true
+[02:58:42.738] Browser ASSERT  true
+[02:58:42.738] Browser ASSERT  true
+[02:58:42.738] Browser ASSERT  true
+[02:58:43.152] Browser WARN    updating from  122 to  118
+[02:58:43.152] Browser WARN    Your .splinecode file is more recent than the library. Please upgrade @splinetool/runtime to the latest version.
+[02:58:43.152] Browser ASSERT  true
+[02:58:43.152] Browser ASSERT  true
+[02:58:43.152] Browser ASSERT  true
+[02:58:43.152] Browser ASSERT  true
+[02:58:43.152] Browser ASSERT  true
+[02:58:43.153] Browser ASSERT  true
+[02:59:05.760] Server  LOG     ✓ Compiled in 423ms
