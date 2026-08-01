@@ -345,10 +345,10 @@ button:hover {
 	margin-right: 45px;
 }
 
-.headline {
+/* .headline {
 	color: var(--text-color);
 	font-size: 70px;
-}
+} */
 
 .subtitle {
 	color: var(--text-sub-color);

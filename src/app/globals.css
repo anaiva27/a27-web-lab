@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
 :root {
+	--base-00: rgb(255, 255, 255);
 	--base-100: rgb(242, 237, 230);
+	--base-150: rgb(220, 217, 210);
 	--base-200: rgb(204, 200, 194);
 	--base-250: rgb(179, 167, 152);
 	--base-300: rgb(153, 143, 130);
 	--base-350: rgb(128, 119, 108);
 	--base-400: rgb(102, 95, 86);
-	--base-450: rgb(31, 29, 29);
+	--base-450: rgb(56, 51, 51);
 	--base-500: rgb(20, 19, 19);
 }
 * {
@@ -32,8 +34,8 @@ img {
 
 h1 {
 	/* text-transform: uppercase; */
-	font-size: 6rem;
-	font-weight: 600;
+	font-size: 4rem;
+	font-weight: 500;
 	line-height: 1;
 }
 
@@ -88,7 +90,7 @@ p {
 .outro-title {
 	position: absolute;
 	top: 50%;
-	left: calc(50% + 10rem);
+	left: calc(50% + 15rem);
 	transform: translate(-50%, -50%);
 }
 
@@ -132,7 +134,10 @@ p {
 	width: 100%;
 	height: 100%;
 	scale: 1.2;
-	background-color: rgb(49, 47, 47);
+	/* background-color: rgb(49, 47, 47); */
+	background-image: url("/a27-test-bg.png");
+	background-size: cover;
+	background-position: center;
 }
 
 nav,
@@ -165,7 +170,7 @@ nav p#logo {
 
 nav p#menu {
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 13px;
 	text-align: right;
 }
 
@@ -203,7 +208,7 @@ nav p {
 }
 
 .card-wrapper-left {
-	background-color: rgba(22, 22, 22, 0.872);
+	background-color: rgba(227, 227, 227, 0.75);
 	backdrop-filter: blur(5px);
 	padding: 10px 20px 20px;
 	border-radius: 12px;
@@ -225,8 +230,7 @@ nav p {
 }
 
 .card-inner p {
-	text-shadow: 0px 0px 1px black;
-	font-weight: 200 !important;
+	font-weight: 300 !important;
 	letter-spacing: 0px;
 }
 
@@ -248,12 +252,12 @@ nav p {
 
 .card-wrapper-right .card-inner {
 	backdrop-filter: blur(25px);
-	background-color: rgba(22, 22, 22, 0.895);
+	background-color: rgba(227, 227, 227, 0.65);
 }
 
 .card-inner:nth-child(2) {
 	height: fit-content;
-	background-color: rgba(22, 22, 22, 0.872);
+	background-color: rgba(227, 227, 227, 0.75);
 }
 
 .card-inner:nth-child(2) .chip2 {
@@ -270,7 +274,7 @@ nav p {
 
 .container-stars img {
 	/* width: 19px; */
-	height: 20px;
+	height: 16px;
 	filter: brightness(1.1);
 	margin-top: 1px;
 }
@@ -378,10 +382,9 @@ nav p {
 	bottom: 0px;
 	left: 50%;
 	transform: translate(-50%);
-	background-color: black;
+	background-color: rgb(43, 41, 41);
 	height: 40px;
 	padding: 10px;
-	border-top: 0.5px solid white;
 	border-left: 0.5px solid white;
 	border-right: 0.5px solid white;
 }
@@ -525,7 +528,7 @@ nav p {
 		bottom: 0px;
 		left: 50%;
 		transform: translate(-50%);
-		background-color: black;
+		background-color: rgb(43, 41, 41);
 		height: 33px;
 		padding: 8px 10px 10px;
 		border-top: 0.5px solid white;

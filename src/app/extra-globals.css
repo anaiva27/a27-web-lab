@@ -189,8 +189,32 @@ a {
 	color: var(--text-color) !important;
 }
 
+.text-00 {
+	color: var(--base-00) !important;
+}
+.text-100 {
+	color: var(--base-100) !important;
+}
+.text-150 {
+	color: var(--base-150) !important;
+}
 .text-200 {
 	color: var(--base-200) !important;
+}
+.text-250 {
+	color: var(--base-250) !important;
+}
+.text-300 {
+	color: var(--base-300) !important;
+}
+.text-350 {
+	color: var(--base-350) !important;
+}
+.text-400 {
+	color: var(--base-400) !important;
+}
+.text-450 {
+	color: var(--base-450) !important;
 }
 
 .hide-mobile {
@@ -343,26 +367,27 @@ a {
 }
 
 .headline {
-	color: white;
-	font-size: clamp(40px, 3.3vw, 64px);
+	color: var(--base-450);
+	font-size: clamp(18px, 1.3vw, 24px);
+	font-weight: 300 !important;
 	/* margin-bottom: 0px;
 	margin-top: auto; */
 }
 
 .intro-headline {
-	color: white;
-	font-size: clamp(20px, 1.8vw, 26px);
+	color: var(--base-450);
+	font-size: clamp(17px, 1.3vw, 23px);
 	text-transform: none !important;
 	line-height: 120%;
 	font-weight: 300;
 	margin-top: 0;
-	margin-bottom: -25px;
+	margin-bottom: -15px;
 	letter-spacing: 0.2px;
 }
 
 .subtitle {
-	color: var(--base-200);
-	font-size: clamp(23px, 2vw, 26px);
+	color: var(--base-350);
+	font-size: clamp(20px, 1.6vw, 25px);
 	text-transform: none !important;
 	line-height: 120%;
 	font-weight: 300;
@@ -372,8 +397,8 @@ a {
 }
 
 .intro-subtitle {
-	color: white;
-	font-size: clamp(24px, 2.1vw, 28px);
+	color: var(--base-450);
+	font-size: clamp(20px, 1.6vw, 25px);
 	text-transform: none !important;
 	line-height: 120%;
 	font-weight: 300;
@@ -383,8 +408,7 @@ a {
 }
 
 .body-text {
-	color: white;
-	text-shadow: 0px 0px 1px black;
+	color: var(--base-450);
 	font-weight: 300 !important;
 	font-size: clamp(15px, 1vw, 21px);
 	line-height: 130%;
@@ -397,10 +421,8 @@ a {
 }
 
 .sub {
-	font-size: clamp(15px, 1vw, 21px);
-	/* margin-top: -10px;
-	margin-bottom: 10px; */
-	color: rgb(213, 213, 213);
+	font-size: clamp(15px, 0.9vw, 17px);
+	color: var(--base-350);
 }
 
 .subtitle-transition {
@@ -591,9 +613,9 @@ a {
 	margin-top: auto;
 	border-radius: 6px;
 	background: white;
-	color: rgb(0, 0, 0);
-	font-size: clamp(17px, 1.1vw, 25px);
-	font-weight: 600;
+	color: rgb(52, 47, 47);
+	font-size: clamp(16px, 1vw, 23px);
+	font-weight: 500;
 	cursor: pointer;
 	padding: 10px 20px;
 	line-height: 100%;

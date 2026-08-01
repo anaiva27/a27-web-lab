@@ -13,6 +13,7 @@ import Footer from "@/components/Footer/Footer";
 import { useLenis } from "lenis/react";
 import SplineScene from "@/components/SplineScene";
 import { Slider } from "@/components/Slider";
+import BgVideo from "@/components/BgVideo/BgVideo";
 
 const messageArray = [
 	"We Design Clean Intuitive Experiences.",
@@ -361,8 +362,8 @@ export default function Page() {
 			<div className="container">
 				<nav>
 					<p id="logo">
-						<span className="text-200">{"[ "}</span>A27
-						<span className="text-200">{" ]"}</span>
+						<span className="text-150">{"[ "}</span>A27
+						<span className="text-150">{" ]"}</span>
 					</p>
 					<div className="menu-wrapper">
 						{!isMobile && (
@@ -392,23 +393,24 @@ export default function Page() {
 				</nav>
 
 				<div className="hero-img">
-					<SplineScene />
+					{/* <SplineScene /> */}
+					{/* <BgVideo /> */}
 				</div>
 
 				<div className="card">
 					<div className="card-wrapper-left">
 						{!isMobile && (
 							<Copy>
-								<h2 className="intro-headline text-200">Hi, we are</h2>
+								<h2 className="intro-headline text-300">Hi, We Are</h2>
 							</Copy>
 						)}
 						<Copy>
-							<h1 className="headline center-mobile">A27 WEB LAB</h1>
+							<h1 className="headline center-mobile">A27 Web Lab</h1>
 						</Copy>
 						{/* <Copy> */}
 						<h2 className="intro-subtitle ">
-							<span className="text-200">{"[ "}</span> Yes{" "}
-							<span className="text-200"> {" ]"}</span>, Your Website Needs a
+							<span className="text-300">{"[ "}</span> Yes{" "}
+							<span className="text-300"> {" ]"}</span>, Your Website Needs a
 							Makeover.
 						</h2>
 						{/* </Copy> */}
@@ -416,20 +418,19 @@ export default function Page() {
 							<h2 className="subtitle ">{messageArray[step]}</h2>
 						</Copy>
 						{isMobile ? (
-							<p className="body-text auto-top text-200">
+							<p className="body-text auto-top text-350">
 								{"[ "} Yes {"]"}, you can{" "}
-								<span className="text-white">look amazing online</span> and{" "}
+								<span className="text-400">look amazing online</span> and{" "}
 								{!isMobile && <br />}
-								<span className="text-white">feel proud</span> every time you
-								see it.
+								<span className="text-400">feel proud</span> every time you see
+								it.
 							</p>
 						) : (
-							<p className="body-text auto-top text-200">
-								So you can{" "}
-								<span className="text-white">look amazing online</span> and{" "}
-								{!isMobile && <br />}
-								<span className="text-white">feel proud</span> every time you
-								see it.
+							<p className="body-text auto-top text-350">
+								You can <span className="text-450">look amazing online</span>{" "}
+								and {!isMobile && <br />}
+								<span className="text-450">feel proud</span> every time you see
+								it.
 							</p>
 						)}
 
@@ -448,8 +449,8 @@ export default function Page() {
 						<div className="card-inner card-inner-top">
 							<div className="intro-reviews">
 								<Copy>
-									<h2 className="intro-headline text-200">
-										Feedback from Our Clients:
+									<h2 className="intro-headline text-350">
+										We'll let the results talk
 									</h2>
 								</Copy>
 							</div>
@@ -458,7 +459,7 @@ export default function Page() {
 						<div className="card-inner">
 							<p className="body-text slide-text ">
 								Take the first step toward unlocking the full potential of your
-								online presence. Pain-free.
+								online presence. <span className="text-400">Pain-free.</span>
 							</p>
 							{!isMobile && (
 								<div
