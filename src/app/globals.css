@@ -406,6 +406,14 @@ nav p {
 		font-size: 2.5rem;
 	}
 
+	.headline-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+
 	.avatar-container {
 		width: fit-content;
 		display: flex;
@@ -464,11 +472,10 @@ nav p {
 	}
 	.card {
 		width: 100%;
-		height: fit-content;
 		flex-direction: column;
 		min-width: unset !important;
 		min-height: unset !important;
-		padding: 1.5rem;
+		padding: 3rem 1.5rem 1.7rem;
 		max-height: unset;
 		align-items: flex-start;
 	}
@@ -482,6 +489,7 @@ nav p {
 		align-items: flex-start;
 		height: fit-content;
 		width: 100%;
+		gap: 2rem;
 	}
 
 	.intro-title .char,
@@ -495,7 +503,7 @@ nav p {
 		margin-top: auto;
 		gap: 10px;
 		width: 100%;
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 	.button-wrapper div {
 		width: 100%;

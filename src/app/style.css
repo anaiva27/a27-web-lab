@@ -350,11 +350,11 @@ button:hover {
 	font-size: 70px;
 } */
 
-.subtitle {
+/* .subtitle {
 	color: var(--text-sub-color);
 	font-size: min(35px, 2.7vw);
 	text-transform: uppercase;
-}
+} */
 
 .body-text {
 	color: var(--text-body-color);

@@ -15,11 +15,17 @@ import SplineScene from "@/components/SplineScene";
 import { Slider } from "@/components/Slider";
 
 const messageArray = [
-	"We Design Clean Intuitive Experiences.",
-	"We Build Powerful Websites and Apps.",
-	"We Create Functional, Creative Designs.",
-	"We Craft Future-Ready, Reliable Apps.",
+	"More Sales. Conversions. Scalability.",
+	"More Confidence. Clarity. Prosperity",
+	"More Sales. Conversions. Scalability.",
+	"More Confidence. Clarity. Prosperity",
 ];
+// const messageArray = [
+// 	"We Design Clean Intuitive Experiences.",
+// 	"We Build Powerful Websites and Apps.",
+// 	"We Create Functional, Creative Designs.",
+// 	"We Craft Future-Ready, Reliable Apps.",
+// ];
 
 gsap.registerPlugin(CustomEase, SplitText, ScrollTrigger);
 
@@ -392,45 +398,54 @@ export default function Page() {
 				</nav>
 
 				<div className="hero-img">
-					<SplineScene />
+					{/* <SplineScene /> */}
 					{/* <BgVideo /> */}
 				</div>
 
 				<div className="card">
 					<div className="card-wrapper-left">
-						{!isMobile && (
-							<Copy>
-								<h2 className="intro-headline text-300">Hi, We Are</h2>
-							</Copy>
-						)}
-						<Copy>
-							<h1 className="headline center-mobile">A27 Web Lab</h1>
-						</Copy>
-						{/* <Copy> */}
-						<h2 className="intro-subtitle ">
-							<span className="text-300">{"[ "}</span> Yes{" "}
-							<span className="text-300"> {" ]"}</span>, Your Website Needs a
-							Makeover.
-						</h2>
-						{/* </Copy> */}
-						<Copy isUpdated={step}>
-							<h2 className="subtitle ">{messageArray[step]}</h2>
-						</Copy>
 						{isMobile ? (
-							<p className="body-text auto-top text-350">
-								{"[ "} Yes {"]"}, you can{" "}
-								<span className="text-400">look amazing online</span> and{" "}
-								{!isMobile && <br />}
-								<span className="text-400">feel proud</span> every time you see
-								it.
-							</p>
+							<>
+								<div className="headline-wrapper">
+									<h2 className="intro-headline text-300 ">Hi, We Are</h2>
+									<h1 className="headline ">A27 Web Lab</h1>
+								</div>
+								<h2 className="intro-subtitle ">
+									You don't want <span className="text-350">Just </span>a
+									Website. <br />
+									You want <span className="text-350">More</span>.
+								</h2>
+								<Copy isUpdated={step}>
+									<h2 className="subtitle">{messageArray[step]}</h2>
+								</Copy>
+								<h2 className="intro-subtitle ">
+									We Make Websites that Earn it.
+								</h2>
+							</>
 						) : (
-							<p className="body-text auto-top text-350">
-								You can <span className="text-450">look amazing online</span>{" "}
-								and {!isMobile && <br />}
-								<span className="text-450">feel proud</span> every time you see
-								it.
-							</p>
+							<>
+								<h2 className="intro-headline text-300 center-mobile">
+									Hi, We Are
+								</h2>
+								<h1 className="headline center-mobile">A27 Web Lab</h1>
+								<h2 className="intro-subtitle ">
+									You don't want <span className="text-350">Just </span>a
+									Website. You want <span className="text-350">More</span>.
+								</h2>
+								<Copy isUpdated={step}>
+									<h2 className="subtitle ">{messageArray[step]}</h2>
+								</Copy>
+								<h2 className="intro-subtitle ">
+									We Make Websites that Earn it.
+								</h2>
+
+								<p className="body-text auto-top text-350">
+									You can <span className="text-400">look amazing online</span>{" "}
+									and {!isMobile && <br />}
+									<span className="text-400">feel proud</span> every time you
+									see it.
+								</p>
+							</>
 						)}
 
 						<div className="button-wrapper">

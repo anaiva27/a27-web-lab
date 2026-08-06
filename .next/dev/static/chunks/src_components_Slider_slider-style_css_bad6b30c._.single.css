@@ -49,6 +49,7 @@
 @media (max-width: 1000px) {
   .slider-slide p.body-text {
     width: 77vw;
+    font-size: 15px;
   }
 
   .swiper-button-prev {

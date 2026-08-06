@@ -1,207 +1,111 @@
-[00:00:03.887] Server  LOG     ✓ Ready in 3.2s
-[00:00:05.581] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:37.119] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:00.315] Server  LOG     ✓ Compiled in 180ms
-[00:02:10.303] Server  LOG     ✓ Compiled in 38ms
-[00:02:16.597] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:17.721] Browser WARN    updating from  122 to  118
-[00:02:17.721] Browser WARN    Your .splinecode file is more recent than the library. Please upgrade @splinetool/runtime to the latest version.
-[00:02:17.721] Browser ASSERT  true
-[00:02:17.721] Browser ASSERT  true
-[00:02:17.721] Browser ASSERT  true
-[00:02:17.721] Browser ASSERT  true
-[00:02:17.721] Browser ASSERT  true
-[00:02:17.721] Browser ASSERT  true
-[00:02:40.802] Server  LOG     ✓ Compiled in 56ms
-[00:05:47.792] Server  LOG     ✓ Compiled in 35ms
-[00:05:50.968] Browser WARN    updating from  122 to  118
-[00:05:50.968] Browser WARN    Your .splinecode file is more recent than the library. Please upgrade @splinetool/runtime to the latest version.
-[00:05:50.968] Browser ASSERT  true
-[00:05:50.968] Browser ASSERT  true
-[00:05:50.968] Browser ASSERT  true
-[00:05:50.968] Browser ASSERT  true
-[00:05:50.968] Browser ASSERT  true
-[00:05:50.968] Browser ASSERT  true
-[00:05:51.178] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:52.338] Browser WARN    updating from  122 to  118
-[00:05:52.338] Browser WARN    Your .splinecode file is more recent than the library. Please upgrade @splinetool/runtime to the latest version.
-[00:05:52.338] Browser ASSERT  true
-[00:05:52.338] Browser ASSERT  true
-[00:05:52.338] Browser ASSERT  true
-[00:05:52.338] Browser ASSERT  true
-[00:05:52.338] Browser ASSERT  true
-[00:05:52.338] Browser ASSERT  true
-[00:07:25.455] Server  LOG     ✓ Compiled in 64ms
-[00:08:24.718] Server  LOG     ✓ Compiled in 27ms
-[00:08:41.466] Server  LOG     ✓ Compiled in 11ms
-[00:08:54.235] Server  LOG     ✓ Compiled in 89ms
-[00:08:56.953] Browser WARN    updating from  122 to  118
-[00:08:56.953] Browser WARN    Your .splinecode file is more recent than the library. Please upgrade @splinetool/runtime to the latest version.
-[00:08:56.953] Browser ASSERT  true
-[00:08:56.953] Browser ASSERT  true
-[00:08:56.953] Browser ASSERT  true
-[00:08:56.953] Browser ASSERT  true
-[00:08:56.953] Browser ASSERT  true
-[00:08:56.953] Browser ASSERT  true
-[00:08:57.615] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:59.431] Browser WARN    updating from  122 to  118
-[00:08:59.431] Browser WARN    Your .splinecode file is more recent than the library. Please upgrade @splinetool/runtime to the latest version.
-[00:08:59.431] Browser ASSERT  true
-[00:08:59.431] Browser ASSERT  true
-[00:08:59.431] Browser ASSERT  true
-[00:08:59.431] Browser ASSERT  true
-[00:08:59.431] Browser ASSERT  true
-[00:08:59.431] Browser ASSERT  true
-[00:09:58.106] Server  LOG     ✓ Compiled in 68ms
-[00:11:53.758] Server  LOG     ✓ Compiled in 11ms
-[00:14:07.410] Server  LOG     ✓ Compiled in 11ms
-[00:14:14.178] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:15:28.843] Server  LOG     ✓ Compiled in 8ms
-[00:15:45.577] Server  LOG     ✓ Compiled in 8ms
-[00:15:52.841] Server  LOG     ✓ Compiled in 9ms
-[00:16:22.291] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:24:14.420] Server  LOG     ✓ Compiled in 9ms
-[00:24:40.929] Server  LOG     ✓ Compiled in 10ms
-[00:25:25.007] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:27:12.391] Server  LOG     ✓ Compiled in 26ms
-[00:27:18.840] Server  LOG     ✓ Compiled in 10ms
-[00:28:41.740] Server  LOG     ✓ Compiled in 9ms
-[00:28:50.466] Server  LOG     ✓ Compiled in 9ms
-[00:29:29.184] Server  LOG     ✓ Compiled in 17ms
-[00:29:38.823] Server  LOG     ✓ Compiled in 9ms
-[00:29:59.330] Server  LOG     ✓ Compiled in 15ms
-[00:30:04.646] Server  LOG     ✓ Compiled in 14ms
-[00:30:32.449] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:31:13.659] Server  LOG     ✓ Compiled in 11ms
-[00:31:30.282] Server  LOG     ✓ Compiled in 12ms
-[00:33:06.583] Server  LOG     ✓ Compiled in 12ms
-[00:33:51.280] Server  LOG     ✓ Compiled in 32ms
-[00:35:19.298] Server  LOG     ✓ Compiled in 11ms
-[00:35:43.152] Server  LOG     ✓ Compiled in 19ms
-[00:35:46.887] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:36:12.320] Server  LOG     ✓ Compiled in 16ms
-[00:38:44.748] Server  LOG     ✓ Compiled in 20ms
-[00:39:12.667] Server  LOG     ✓ Compiled in 25ms
-[00:39:27.503] Server  LOG     ✓ Compiled in 13ms
-[00:40:49.278] Server  LOG     ✓ Compiled in 10ms
-[00:42:13.452] Server  LOG     ✓ Compiled in 13ms
-[00:42:21.395] Server  LOG     ✓ Compiled in 18ms
-[00:42:41.958] Server  LOG     ✓ Compiled in 25ms
-[00:42:57.798] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:54:19.870] Server  LOG     ✓ Compiled in 12ms
-[00:54:26.611] Server  LOG     ✓ Compiled in 19ms
-[00:54:31.804] Server  LOG     ✓ Compiled in 10ms
-[00:54:45.490] Server  LOG     ✓ Compiled in 23ms
-[00:54:48.353] Server  LOG     ✓ Compiled in 11ms
-[00:54:53.620] Server  LOG     ✓ Compiled in 12ms
-[01:05:24.822] Server  LOG     ✓ Compiled in 54ms
-[01:06:01.015] Server  LOG     ✓ Compiled in 23ms
-[01:06:26.572] Server  LOG     ✓ Compiled in 25ms
-[01:08:25.462] Server  LOG     ✓ Compiled in 34ms
-[01:11:14.520] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:13:02.245] Server  LOG     ✓ Compiled in 24ms
-[02:04:15.364] Server  LOG     ✓ Compiled in 120ms
-[02:13:19.411] Server  LOG     ✓ Compiled in 39ms
-[02:14:32.182] Server  LOG     ✓ Compiled in 21ms
-[02:15:00.056] Server  LOG     ✓ Compiled in 21ms
-[02:15:17.093] Server  LOG     ✓ Compiled in 27ms
-[02:17:09.004] Server  LOG     ✓ Compiled in 20ms
-[02:17:37.155] Server  LOG     ✓ Compiled in 17ms
-[02:17:59.054] Server  LOG     ✓ Compiled in 26ms
-[02:18:02.251] Server  LOG     ✓ Compiled in 24ms
-[02:18:40.025] Server  LOG     ✓ Compiled in 15ms
-[02:19:04.959] Server  LOG     ✓ Compiled in 20ms
-[02:19:13.071] Server  LOG     ✓ Compiled in 8ms
-[02:20:36.341] Server  LOG     ✓ Compiled in 38ms
-[02:20:40.918] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:21:14.335] Server  LOG     ✓ Compiled in 45ms
-[02:21:32.712] Server  LOG     ✓ Compiled in 25ms
-[02:21:43.228] Server  LOG     ✓ Compiled in 21ms
-[02:21:48.904] Server  LOG     ✓ Compiled in 12ms
-[02:22:01.146] Server  LOG     ✓ Compiled in 13ms
-[02:24:33.148] Server  LOG     ✓ Compiled in 35ms
-[02:24:36.576] Server  LOG     ✓ Compiled in 10ms
-[02:27:22.187] Server  LOG     ✓ Compiled in 22ms
-[02:27:29.170] Server  LOG     ✓ Compiled in 11ms
-[02:28:45.827] Server  LOG     ✓ Compiled in 26ms
-[02:28:51.033] Server  LOG     ✓ Compiled in 21ms
-[02:28:55.822] Server  LOG     ✓ Compiled in 8ms
-[02:29:17.500] Server  LOG     ✓ Compiled in 19ms
-[02:29:50.483] Server  LOG     ✓ Compiled in 47ms
-[02:29:59.273] Server  LOG     ✓ Compiled in 38ms
-[02:30:42.380] Server  LOG     ✓ Compiled in 21ms
-[02:30:55.495] Server  LOG     ✓ Compiled in 17ms
-[02:33:08.267] Server  LOG     ✓ Compiled in 15ms
-[02:34:38.992] Server  LOG     ✓ Compiled in 15ms
-[02:35:19.531] Server  LOG     ✓ Compiled in 16ms
-[02:35:23.969] Server  LOG     ✓ Compiled in 13ms
-[02:35:27.516] Server  LOG     ✓ Compiled in 15ms
-[02:37:15.198] Server  LOG     ✓ Compiled in 37ms
-[02:37:50.258] Server  LOG     ✓ Compiled in 37ms
-[02:38:07.229] Server  LOG     ✓ Compiled in 40ms
-[02:38:17.816] Server  LOG     ✓ Compiled in 38ms
-[02:39:01.326] Server  LOG     ✓ Compiled in 22ms
-[02:39:23.692] Server  LOG     ✓ Compiled in 32ms
-[02:39:47.647] Server  LOG     ✓ Compiled in 24ms
-[02:39:53.036] Server  LOG     ✓ Compiled in 10ms
-[02:40:31.183] Server  LOG     ✓ Compiled in 38ms
-[02:40:36.010] Server  LOG     ✓ Compiled in 12ms
-[02:42:15.594] Server  LOG     ✓ Compiled in 27ms
-[02:42:27.075] Server  LOG     ✓ Compiled in 16ms
-[02:42:37.884] Server  LOG     ✓ Compiled in 94ms
-[02:43:36.170] Server  LOG     ✓ Compiled in 12ms
-[02:43:52.261] Server  LOG     ✓ Compiled in 9ms
-[02:44:09.494] Server  LOG     ✓ Compiled in 34ms
-[02:44:21.725] Server  LOG     ✓ Compiled in 14ms
-[02:45:35.667] Server  LOG     ✓ Compiled in 22ms
-[02:45:43.253] Server  LOG     ✓ Compiled in 59ms
-[02:46:11.643] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:47:09.334] Server  LOG     ✓ Compiled in 16ms
-[02:47:12.336] Server  LOG     ✓ Compiled in 12ms
-[02:47:15.862] Server  LOG     ✓ Compiled in 13ms
-[02:47:20.778] Server  LOG     ✓ Compiled in 11ms
-[02:47:23.764] Server  LOG     ✓ Compiled in 9ms
-[02:47:38.660] Server  LOG     ✓ Compiled in 13ms
-[02:48:03.063] Server  LOG     ✓ Compiled in 73ms
-[02:48:34.261] Server  LOG     ✓ Compiled in 18ms
-[02:50:40.058] Server  LOG     ✓ Compiled in 17ms
-[02:50:42.595] Server  LOG     ✓ Compiled in 12ms
-[02:50:45.796] Server  LOG     ✓ Compiled in 16ms
-[02:50:48.287] Server  LOG     ✓ Compiled in 14ms
-[02:52:02.592] Server  LOG     ✓ Compiled in 83ms
-[02:52:05.108] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:53:26.868] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:54:30.791] Server  LOG     ✓ Compiled in 9ms
-[02:54:32.576] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:54:47.735] Server  LOG     ✓ Compiled in 7ms
-[02:54:48.905] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:55:00.287] Server  LOG     ✓ Compiled in 10ms
-[02:55:01.688] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:55:12.167] Server  LOG     ✓ Compiled in 9ms
-[02:55:13.190] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:55:23.944] Server  LOG     ✓ Compiled in 10ms
-[02:55:25.511] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:55:35.892] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:56:16.505] Browser WARN    SplitText called before fonts loaded
-[02:57:07.941] Server  LOG     ✓ Compiled in 11ms
-[02:57:21.037] Server  LOG     ✓ Compiled in 31ms
-[02:57:29.714] Server  LOG     ✓ Compiled in 17ms
-[02:57:34.807] Server  LOG     ✓ Compiled in 9ms
-[02:58:40.377] Server  LOG     ✓ Compiled in 95ms
-[02:58:42.738] Browser WARN    updating from  122 to  118
-[02:58:42.738] Browser WARN    Your .splinecode file is more recent than the library. Please upgrade @splinetool/runtime to the latest version.
-[02:58:42.738] Browser ASSERT  true
-[02:58:42.738] Browser ASSERT  true
-[02:58:42.738] Browser ASSERT  true
-[02:58:42.738] Browser ASSERT  true
-[02:58:42.738] Browser ASSERT  true
-[02:58:42.738] Browser ASSERT  true
-[02:58:43.152] Browser WARN    updating from  122 to  118
-[02:58:43.152] Browser WARN    Your .splinecode file is more recent than the library. Please upgrade @splinetool/runtime to the latest version.
-[02:58:43.152] Browser ASSERT  true
-[02:58:43.152] Browser ASSERT  true
-[02:58:43.152] Browser ASSERT  true
-[02:58:43.152] Browser ASSERT  true
-[02:58:43.152] Browser ASSERT  true
-[02:58:43.153] Browser ASSERT  true
-[02:59:05.760] Server  LOG     ✓ Compiled in 423ms
+[00:00:02.209] Server  LOG     ✓ Ready in 1497ms
+[00:00:12.430] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:15.924] Browser WARN    updating from  122 to  118
+[00:00:15.924] Browser WARN    Your .splinecode file is more recent than the library. Please upgrade @splinetool/runtime to the latest version.
+[00:00:15.924] Browser ASSERT  true
+[00:00:15.924] Browser ASSERT  true
+[00:00:15.924] Browser ASSERT  true
+[00:00:15.924] Browser ASSERT  true
+[00:00:15.924] Browser ASSERT  true
+[00:00:15.924] Browser ASSERT  true
+[00:00:31.505] Server  LOG     ✓ Compiled in 365ms
+[00:00:35.801] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:02.278] Server  LOG     ✓ Compiled in 29ms
+[00:02:11.119] Server  LOG     ✓ Compiled in 20ms
+[00:02:35.599] Server  LOG     ✓ Compiled in 20ms
+[00:02:40.423] Server  LOG     ✓ Compiled in 20ms
+[00:03:30.297] Server  LOG     ✓ Compiled in 16ms
+[00:03:56.618] Server  LOG     ✓ Compiled in 21ms
+[00:03:58.674] Server  LOG     ✓ Compiled in 12ms
+[00:04:34.045] Server  LOG     ✓ Compiled in 23ms
+[00:04:34.214] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Copy`.
+[00:04:54.866] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:04:55.103] Server  LOG     ✓ Compiled in 21ms
+[00:04:55.807] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:10.923] Server  LOG     ✓ Compiled in 20ms
+[00:06:11.082] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[00:06:36.347] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:36.574] Server  LOG     ✓ Compiled in 20ms
+[00:06:37.294] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:39.859] Server  LOG     ✓ Compiled in 14ms
+[00:07:27.281] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:51.989] Server  LOG     ✓ Compiled in 26ms
+[00:07:52.110] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[00:07:55.607] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:06.416] Server  LOG     ✓ Compiled in 20ms
+[00:09:46.738] Server  LOG     ✓ Compiled in 21ms
+[00:09:52.213] Server  LOG     ✓ Compiled in 16ms
+[00:10:25.905] Server  LOG     ✓ Compiled in 26ms
+[00:11:47.799] Server  LOG     ✓ Compiled in 21ms
+[00:12:59.546] Server  LOG     ✓ Compiled in 18ms
+[00:13:03.917] Browser WARN    GSAP target  not found. https://gsap.com
+[00:13:03.917] Browser WARN    GSAP target  not found. https://gsap.com
+[00:13:07.193] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:11.470] Browser WARN    GSAP target  not found. https://gsap.com
+[00:13:11.470] Browser WARN    GSAP target  not found. https://gsap.com
+[00:13:15.081] Server  LOG     ✓ Compiled in 40ms
+[00:13:19.468] Browser WARN    GSAP target  not found. https://gsap.com
+[00:13:19.468] Browser WARN    GSAP target  not found. https://gsap.com
+[00:13:47.455] Server  LOG     ✓ Compiled in 16ms
+[00:13:51.968] Browser WARN    GSAP target  not found. https://gsap.com
+[00:13:51.968] Browser WARN    GSAP target  not found. https://gsap.com
+[00:14:03.470] Browser WARN    GSAP target  not found. https://gsap.com
+[00:14:03.470] Browser WARN    GSAP target  not found. https://gsap.com
+[00:14:19.468] Browser WARN    GSAP target  not found. https://gsap.com
+[00:14:19.468] Browser WARN    GSAP target  not found. https://gsap.com
+[00:14:35.471] Browser WARN    GSAP target  not found. https://gsap.com
+[00:14:35.471] Browser WARN    GSAP target  not found. https://gsap.com
+[00:14:43.029] Server  LOG     ✓ Compiled in 14ms
+[00:14:44.935] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:26.924] Server  LOG     ✓ Compiled in 20ms
+[00:17:02.478] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:43.527] Server  LOG     ✓ Compiled in 20ms
+[00:17:56.434] Server  LOG     ✓ Compiled in 22ms
+[00:18:11.591] Browser WARN    SplitText called before fonts loaded
+[00:20:24.326] Server  LOG     ✓ Compiled in 23ms
+[00:22:41.999] Server  LOG     ✓ Compiled in 61ms
+[00:22:49.702] Server  LOG     ✓ Compiled in 8ms
+[00:23:38.397] Server  LOG     ✓ Compiled in 21ms
+[00:25:12.531] Server  LOG     ✓ Compiled in 10ms
+[00:26:36.654] Server  LOG     ✓ Compiled in 14ms
+[00:26:42.539] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:48.892] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:27.645] Server  LOG     ✓ Compiled in 11ms
+[00:28:21.776] Server  LOG     ✓ Compiled in 32ms
+[00:28:45.323] Server  LOG     ✓ Compiled in 22ms
+[00:29:18.433] Server  LOG     ✓ Compiled in 15ms
+[00:29:37.137] Server  LOG     ✓ Compiled in 9ms
+[00:29:44.890] Server  LOG     ✓ Compiled in 11ms
+[00:30:27.249] Server  LOG     ✓ Compiled in 32ms
+[00:31:04.484] Server  LOG     ✓ Compiled in 36ms
+[00:31:27.762] Server  LOG     ✓ Compiled in 29ms
+[00:32:04.231] Server  LOG     ✓ Compiled in 25ms
+[00:32:17.563] Server  LOG     ✓ Compiled in 42ms
+[00:32:30.273] Server  LOG     ✓ Compiled in 34ms
+[00:32:53.289] Server  LOG     ✓ Compiled in 53ms
+[00:35:47.741] Server  LOG     ✓ Compiled in 126ms
+[00:36:28.808] Server  LOG     ✓ Compiled in 27ms
+[00:37:27.871] Server  LOG     ✓ Compiled in 12ms
+[00:39:11.194] Server  LOG     ✓ Compiled in 26ms
+[00:39:53.543] Server  LOG     ✓ Compiled in 13ms
+[00:42:53.743] Server  LOG     ✓ Compiled in 17ms
+[00:44:55.031] Server  LOG     ✓ Compiled in 24ms
+[00:45:54.454] Server  LOG     ✓ Compiled in 12ms
+[00:46:47.671] Server  LOG     ✓ Compiled in 12ms
+[00:46:51.390] Server  LOG     ✓ Compiled in 12ms
+[00:48:54.887] Server  LOG     ✓ Compiled in 38ms
+[00:49:42.830] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:50.081] Server  LOG     ✓ Compiled in 12ms
+[00:50:53.410] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:52:03.594] Server  LOG     ✓ Compiled in 19ms
+[00:52:06.207] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:52:20.219] Server  LOG     ✓ Compiled in 15ms
+[00:52:23.187] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:54:39.132] Server  LOG     ✓ Compiled in 20ms
+[00:54:40.886] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:54:56.558] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:55:20.484] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:06.403] Server  LOG     ✓ Compiled in 98ms
+[00:56:10.068] Server  LOG     ✓ Compiled in 51ms
