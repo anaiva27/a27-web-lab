@@ -109,3 +109,12 @@ Check the render method of `Copy`.
 [00:55:20.484] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:56:06.403] Server  LOG     ✓ Compiled in 98ms
 [00:56:10.068] Server  LOG     ✓ Compiled in 51ms
+[00:56:44.883] Server  LOG     ✓ Compiled in 78ms
+[00:56:47.420] Browser WARN    updating from  122 to  118
+[00:56:47.421] Browser WARN    Your .splinecode file is more recent than the library. Please upgrade @splinetool/runtime to the latest version.
+[00:56:47.421] Browser ASSERT  true
+[00:56:47.421] Browser ASSERT  true
+[00:56:47.421] Browser ASSERT  true
+[00:56:47.421] Browser ASSERT  true
+[00:56:47.421] Browser ASSERT  true
+[00:56:47.421] Browser ASSERT  true

@@ -398,7 +398,7 @@ export default function Page() {
 				</nav>
 
 				<div className="hero-img">
-					{/* <SplineScene /> */}
+					<SplineScene />
 					{/* <BgVideo /> */}
 				</div>
 
