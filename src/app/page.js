@@ -399,7 +399,6 @@ export default function Page() {
 
 				<div className="hero-img">
 					<SplineScene />
-					{/* <BgVideo /> */}
 				</div>
 
 				<div className="card">
