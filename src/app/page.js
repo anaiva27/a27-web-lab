@@ -13,12 +13,13 @@ import Footer from "@/components/Footer/Footer";
 import { useLenis } from "lenis/react";
 import SplineScene from "@/components/SplineScene";
 import { Slider } from "@/components/Slider";
+import SplineSceneMobile from "@/components/SplineSceneMobile";
 
 const messageArray = [
 	"More Sales. Conversions. Scalability.",
-	"More Confidence. Clarity. Prosperity",
+	"More Confidence. Clarity. Prosperity.",
 	"More Sales. Conversions. Scalability.",
-	"More Confidence. Clarity. Prosperity",
+	"More Confidence. Clarity. Prosperity.",
 ];
 // const messageArray = [
 // 	"We Design Clean Intuitive Experiences.",
@@ -397,9 +398,15 @@ export default function Page() {
 					</div>
 				</nav>
 
-				<div className="hero-img">
-					<SplineScene />
-				</div>
+				{isMobile ? (
+					<div className="hero-img">
+						<SplineSceneMobile />
+					</div>
+				) : (
+					<div className="hero-img">
+						<SplineScene />
+					</div>
+				)}
 
 				<div className="card">
 					<div className="card-wrapper-left">
