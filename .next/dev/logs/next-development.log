@@ -1,12 +1,66 @@
-[00:00:03.411] Server  LOG     ✓ Ready in 2.8s
-[00:01:17.630] Server  WARN    ⚠ Cross origin request detected from 192.168.68.109 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:01.438] Server  LOG     ✓ Ready in 913ms
+[00:00:13.262] Browser WARN    updating from  122 to  118
+[00:00:13.262] Browser WARN    Your .splinecode file is more recent than the library. Please upgrade @splinetool/runtime to the latest version.
+[00:00:13.262] Browser ASSERT  true
+[00:00:13.262] Browser ASSERT  true
+[00:00:13.262] Browser ASSERT  true
+[00:00:13.262] Browser ASSERT  true
+[00:00:13.262] Browser ASSERT  true
+[00:00:13.262] Browser ASSERT  true
+[00:00:18.769] Browser WARN    updating from  122 to  118
+[00:00:18.770] Browser WARN    Your .splinecode file is more recent than the library. Please upgrade @splinetool/runtime to the latest version.
+[00:00:18.770] Browser ASSERT  true
+[00:00:18.770] Browser ASSERT  true
+[00:00:18.770] Browser ASSERT  true
+[00:01:01.809] Server  LOG     ✓ Compiled in 356ms
+[00:01:02.652] Browser WARN    updating from  122 to  118
+[00:01:02.653] Browser WARN    Your .splinecode file is more recent than the library. Please upgrade @splinetool/runtime to the latest version.
+[00:01:02.653] Browser ASSERT  true
+[00:01:02.653] Browser ASSERT  true
+[00:01:02.653] Browser ASSERT  true
+[00:01:02.653] Browser ASSERT  true
+[00:01:02.653] Browser ASSERT  true
+[00:01:02.653] Browser ASSERT  true
+[00:01:09.592] Server  LOG     ✓ Compiled in 70ms
+[00:01:10.058] Browser WARN    updating from  122 to  118
+[00:01:10.058] Browser WARN    Your .splinecode file is more recent than the library. Please upgrade @splinetool/runtime to the latest version.
+[00:01:10.058] Browser ASSERT  true
+[00:01:10.058] Browser ASSERT  true
+[00:01:10.058] Browser ASSERT  true
+[00:01:19.046] Server  LOG     ✓ Compiled in 94ms
+[00:01:24.687] Browser WARN    updating from  122 to  118
+[00:01:24.687] Browser WARN    Your .splinecode file is more recent than the library. Please upgrade @splinetool/runtime to the latest version.
+[00:01:24.688] Browser ASSERT  true
+[00:01:24.688] Browser ASSERT  true
+[00:01:24.688] Browser ASSERT  true
+[00:01:37.046] Browser WARN    updating from  122 to  118
+[00:01:37.046] Browser WARN    Your .splinecode file is more recent than the library. Please upgrade @splinetool/runtime to the latest version.
+[00:01:37.046] Browser ASSERT  true
+[00:01:37.046] Browser ASSERT  true
+[00:01:37.046] Browser ASSERT  true
+[00:03:12.381] Server  WARN    ⚠ Cross origin request detected from 192.168.68.109 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:01:17.737] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:20.530] Browser WARN    updating from  122 to  118
-[00:01:20.530] Browser WARN    Your .splinecode file is more recent than the library. Please upgrade @splinetool/runtime to the latest version.
-[00:01:20.530] Browser ASSERT  true
-[00:01:20.530] Browser ASSERT  true
-[00:01:20.530] Browser ASSERT  true
-[00:01:20.530] Browser ASSERT  true
-[00:01:20.530] Browser ASSERT  true
-[00:02:12.942] Server  LOG     ✓ Compiled in 16ms
+[00:03:12.439] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:14.979] Browser WARN    updating from  122 to  118
+[00:03:14.980] Browser WARN    Your .splinecode file is more recent than the library. Please upgrade @splinetool/runtime to the latest version.
+[00:03:14.980] Browser ASSERT  true
+[00:03:14.980] Browser ASSERT  true
+[00:03:14.980] Browser ASSERT  true
+[00:03:14.980] Browser ASSERT  true
+[00:03:14.980] Browser ASSERT  true
+[00:05:39.975] Browser WARN    updating from  122 to  118
+[00:05:39.975] Browser WARN    Your .splinecode file is more recent than the library. Please upgrade @splinetool/runtime to the latest version.
+[00:05:39.975] Browser ASSERT  true
+[00:05:39.975] Browser ASSERT  true
+[00:05:39.975] Browser ASSERT  true
+[00:05:39.975] Browser ASSERT  true
+[00:05:39.975] Browser ASSERT  true
+[00:05:56.847] Server  LOG     ✓ Compiled in 76ms
+[00:05:58.003] Browser WARN    updating from  122 to  118
+[00:05:58.003] Browser WARN    Your .splinecode file is more recent than the library. Please upgrade @splinetool/runtime to the latest version.
+[00:05:58.003] Browser ASSERT  true
+[00:05:58.003] Browser ASSERT  true
+[00:05:58.003] Browser ASSERT  true
+[00:05:58.003] Browser ASSERT  true
+[00:05:58.003] Browser ASSERT  true
+[00:05:58.003] Browser ASSERT  true
