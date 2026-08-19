@@ -12,10 +12,10 @@ export const Slider = ({ isMobile }) => {
 			slidesPerView={"auto"}
 			loop={true}
 			navigation={true}
-			autoplay={{
-				delay: 4000,
-				disableOnInteraction: false,
-			}}
+			// autoplay={{
+			// 	delay: 4000,
+			// 	disableOnInteraction: false,
+			// }}
 			// // pagination={{
 			// 	clickable: true,
 			// 	el: ".swiper-pagination",
@@ -37,30 +37,31 @@ export const Slider = ({ isMobile }) => {
 							<p className="body-text sub">
 								Marina B. {isMobile && <br />} Business Owner
 							</p>
+
+							<div className="container-stars">
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<p className="body-text sub">(5.0)</p>
+							</div>
 						</div>
-					</div>
-					<div className="container-stars">
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<p className="body-text sub">(5.0)</p>
 					</div>
 					<p className="body-text slide-text">
 						"I felt so seen and understood by Anastasia. One of a kind services,
@@ -82,30 +83,31 @@ export const Slider = ({ isMobile }) => {
 							<p className="body-text sub">
 								Natasha Kassman,{isMobile && <br />} Business Owner
 							</p>
+
+							<div className="container-stars">
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<p className="body-text sub">(5.0)</p>
+							</div>
 						</div>
-					</div>
-					<div className="container-stars">
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<p className="body-text sub">(5.0)</p>
 					</div>
 					<p className="body-text slide-text">
 						“A27 helped me make my website super fast, and they did an amazing
@@ -128,31 +130,32 @@ export const Slider = ({ isMobile }) => {
 							<p className="body-text sub">
 								Tony M.{isMobile && <br />} Magazine Editor
 							</p>
+							<div className="container-stars">
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<p className="body-text sub">(5.0)</p>
+							</div>
 						</div>
 					</div>
-					<div className="container-stars">
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<p className="body-text sub">(5.0)</p>
-					</div>
+
 					<p className="body-text slide-text">
 						"Anastasia is very professional and proactive. My website was ready
 						to go in under a month "
@@ -173,30 +176,31 @@ export const Slider = ({ isMobile }) => {
 							<p className="body-text sub">
 								Mila Z.{isMobile && <br />} Business Owner
 							</p>
+
+							<div className="container-stars">
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<p className="body-text sub">(5.0)</p>
+							</div>
 						</div>
-					</div>
-					<div className="container-stars">
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<p className="body-text sub">(5.0)</p>
 					</div>
 					<p className="body-text slide-text">
 						"In love my website. Everything was very fast and professional. I'm
@@ -218,30 +222,31 @@ export const Slider = ({ isMobile }) => {
 							<p className="body-text sub">
 								Alina L.{isMobile && <br />} Business Owner
 							</p>
+
+							<div className="container-stars">
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<p className="body-text sub">(5.0)</p>
+							</div>
 						</div>
-					</div>
-					<div className="container-stars">
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<p className="body-text sub">(5.0)</p>
 					</div>
 					<p className="body-text slide-text">
 						"Anastasia clearly understood my vision. She's creative, reliable
@@ -263,30 +268,31 @@ export const Slider = ({ isMobile }) => {
 							<p className="body-text sub">
 								Olena S.{isMobile && <br />} Business Owner
 							</p>
+
+							<div className="container-stars">
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<img
+									src="/star1.png"
+									alt=""
+								/>
+								<p className="body-text sub">(5.0)</p>
+							</div>
 						</div>
-					</div>
-					<div className="container-stars">
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<img
-							src="/star1.png"
-							alt=""
-						/>
-						<p className="body-text sub">(5.0)</p>
 					</div>
 					<p className="body-text slide-text">
 						"I'm so happy I finally decided to update my website! I was a bit

@@ -14,6 +14,7 @@ import { useLenis } from "lenis/react";
 import SplineScene from "@/components/SplineScene";
 import { Slider } from "@/components/Slider";
 import SplineSceneMobile from "@/components/SplineSceneMobile";
+import BgVideo from "@/components/BgVideo/BgVideo";
 
 const messageArray = [
 	"More Sales. Conversions. Scalability.",
@@ -368,8 +369,9 @@ export default function Page() {
 			<div className="container">
 				<nav>
 					<p id="logo">
-						<span className="text-150">{"[ "}</span>A27
-						<span className="text-150">{" ]"}</span>
+						A27 Web Lab
+						{/* <span className="text-150">{"[ "}</span>A27
+						<span className="text-150">{" ]"}</span> */}
 					</p>
 					<div className="menu-wrapper">
 						{!isMobile && (
@@ -398,7 +400,7 @@ export default function Page() {
 					</div>
 				</nav>
 
-				{isMobile ? (
+				{/* {isMobile ? (
 					<div className="hero-img">
 						<SplineSceneMobile />
 					</div>
@@ -406,7 +408,11 @@ export default function Page() {
 					<div className="hero-img">
 						<SplineScene />
 					</div>
-				)}
+				)} */}
+
+				<div className="hero-img">
+					<BgVideo />
+				</div>
 
 				<div className="card">
 					<div className="card-wrapper-left">
@@ -445,7 +451,7 @@ export default function Page() {
 									We Make Websites that Earn it.
 								</h2>
 
-								<p className="body-text auto-top text-350">
+								<p className="body-text auto-top text-350 lg-text-left">
 									You can <span className="text-400">look amazing online</span>{" "}
 									and {!isMobile && <br />}
 									<span className="text-400">feel proud</span> every time you
@@ -497,8 +503,8 @@ export default function Page() {
 					<p>SCROLL DOWN</p>
 				</div>
 				<footer>
-					<p>Premium Digital Lab</p>
-					<p>Made by A27 WEB LAB</p>
+					<p className="text-white">Premium Digital Lab</p>
+					<p className="text-white">Made by A27 WEB LAB</p>
 				</footer>
 			</div>
 			<Spotlight />

@@ -133,9 +133,11 @@ p {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	scale: 1.2;
-	/* background-color: rgb(49, 47, 47); */
-	background-image: url("/a27-test-bg.png");
+	/* scale: 1.2; */
+	background-color: rgb(251, 251, 251);
+	background-color: #ebf0f6;
+	opacity: 60%;
+	/* background-image: url("/a27-test-bg.png"); */
 	background-size: cover;
 	background-position: center;
 }
@@ -148,7 +150,7 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	color: rgb(255, 255, 255);
+	color: rgb(118, 113, 113);
 	z-index: 2;
 }
 
@@ -159,8 +161,8 @@ nav {
 }
 
 nav p#logo {
-	font-weight: 600;
-	font-size: 19px;
+	font-weight: 400;
+	font-size: 16px;
 	border-radius: 6px;
 	padding: 5px 10px;
 	margin-top: -15px;
@@ -203,15 +205,20 @@ nav p {
 	text-align: right;
 	align-items: flex-end;
 	clip-path: polygon(0% 50%, 100% 50%, 100% 50%, 0% 50%);
-	gap: 15px;
+	gap: 20px;
 	font-family: "Arimo", sans-serif;
+	padding: 20px;
 }
 
 .card-wrapper-left {
-	background-color: rgba(227, 227, 227, 0.75);
 	backdrop-filter: blur(5px);
-	padding: 10px 20px 20px;
+	background-color: #f0f4f8d0;
+	padding: 50px;
 	border-radius: 12px;
+	box-shadow:
+		-4px -4px 10px rgba(255, 255, 255, 0.2),
+		/* Top-left white highlight */ 4px 4px 10px rgba(163, 177, 198, 0.4);
+	/* Bottom-right dark shadow */
 }
 .card-wrapper-left,
 .card-wrapper-right {
@@ -219,10 +226,10 @@ nav p {
 	justify-content: flex-end;
 	flex-direction: column;
 	text-align: right;
-	align-items: flex-end;
+	align-items: flex-start;
 	width: 58%;
 	gap: 15px;
-	height: 60vh;
+	height: 65vh;
 }
 
 .card-wrapper-right {
@@ -232,6 +239,7 @@ nav p {
 .card-inner p {
 	font-weight: 300 !important;
 	letter-spacing: 0px;
+	text-align: left;
 }
 
 .card-inner {
@@ -239,7 +247,7 @@ nav p {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	align-items: flex-end;
+	align-items: flex-start;
 	height: 100%;
 	backdrop-filter: blur(5px);
 	padding: 20px;
@@ -247,17 +255,28 @@ nav p {
 }
 
 .card-inner-top {
-	padding: 10px 20px 0px !important;
+	padding: 50px 20px 0px !important;
 }
 
 .card-wrapper-right .card-inner {
 	backdrop-filter: blur(25px);
-	background-color: rgba(227, 227, 227, 0.65);
+	background-color: #f0f4f8ab;
+	border-radius: 12px;
+	box-shadow:
+		-4px -4px 10px rgba(255, 255, 255, 0.2),
+		/* Top-left white highlight */ 4px 4px 10px rgba(163, 177, 198, 0.4);
+	/* Bottom-right dark shadow */
 }
 
 .card-inner:nth-child(2) {
 	height: fit-content;
-	background-color: rgba(227, 227, 227, 0.75);
+	background-color: #f0f4f8bd;
+	padding: 50px;
+	border-radius: 12px;
+	box-shadow:
+		-4px -4px 10px rgba(255, 255, 255, 0.2),
+		/* Top-left white highlight */ 4px 4px 10px rgba(163, 177, 198, 0.4);
+	/* Bottom-right dark shadow */
 }
 
 .card-inner:nth-child(2) .chip2 {
@@ -268,14 +287,14 @@ nav p {
 	width: fit-content;
 	display: flex;
 	justify-content: space-between;
-	margin: 0px auto 0px auto;
+	/* margin: 0px auto 0px auto; */
 	gap: 4px;
 }
 
 .container-stars img {
 	/* width: 19px; */
 	height: 16px;
-	filter: brightness(1.1);
+	filter: brightness(0.5);
 	margin-top: 1px;
 }
 
@@ -288,7 +307,7 @@ nav p {
 .avatar-container {
 	width: fit-content;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
 	justify-content: flex-start;
 	gap: 10px;
@@ -373,8 +392,7 @@ nav p {
 }
 
 .intro-discover-wrapper p {
-	font-size: 16px !important;
-	color: white !important;
+	color: #000 !important;
 }
 
 .intro-discover-wrapper {
@@ -382,8 +400,8 @@ nav p {
 	bottom: 0px;
 	left: 50%;
 	transform: translate(-50%);
-	background-color: rgb(43, 41, 41);
-	height: 40px;
+	background-color: #fff;
+	height: 38px;
 	padding: 10px;
 	border-left: 0.5px solid white;
 	border-right: 0.5px solid white;
@@ -468,7 +486,7 @@ nav p {
 	}
 
 	.container .hero-img {
-		scale: 2;
+		/* scale: 2; */
 	}
 	.card {
 		width: 100%;
@@ -521,6 +539,7 @@ nav p {
 
 	footer p {
 		font-size: 10px !important;
+		color: white !important;
 	}
 
 	.menu-wrapper {
@@ -528,7 +547,6 @@ nav p {
 	}
 	.intro-discover-wrapper p {
 		font-size: 12px !important;
-		color: white !important;
 	}
 
 	.intro-discover-wrapper {
@@ -536,7 +554,6 @@ nav p {
 		bottom: 0px;
 		left: 50%;
 		transform: translate(-50%);
-		background-color: rgb(43, 41, 41);
 		height: 33px;
 		padding: 8px 10px 10px;
 		border-top: 0.5px solid white;

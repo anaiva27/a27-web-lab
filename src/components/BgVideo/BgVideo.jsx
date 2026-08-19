@@ -15,7 +15,7 @@ export default function BgVideo({ children }) {
 				preload="auto"
 			>
 				<source
-					src="/video/liquid-ring.mp4"
+					src="/video/gradient1.mp4"
 					type="video/mp4"
 				/>
 			</video>

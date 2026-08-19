@@ -335,7 +335,7 @@ button:hover {
 }
 
 .logo-text {
-	color: var(--text-color);
+	color: var(--base-300) !important;
 	text-align: center;
 	font-size: 7vw;
 	margin-bottom: -15px;
