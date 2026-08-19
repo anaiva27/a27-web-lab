@@ -905,7 +905,7 @@ a {
 .body-text {
   color: var(--base-450);
   letter-spacing: .3px;
-  font-size: clamp(13px, .85vw, 19px);
+  font-size: clamp(14px, .9vw, 19px);
   line-height: 130%;
   text-transform: none !important;
   font-weight: 300 !important;
