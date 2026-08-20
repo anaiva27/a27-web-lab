@@ -353,8 +353,8 @@ const Spotlight = ()=>{
     const spotlightItems = [
         {
             name: "",
-            img: "/img15.jpg",
-            imgMobile: "/img15.jpg"
+            img: "/img15-1.png",
+            imgMobile: "/img15-1.png"
         },
         {
             name: "Samadhi Retreats",
@@ -398,8 +398,8 @@ const Spotlight = ()=>{
         },
         {
             name: "",
-            img: "/img15.jpg",
-            imgMobile: "/img15.jpg"
+            img: "/img15-1.png",
+            imgMobile: "/img15-1.png"
         }
     ];
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
@@ -712,7 +712,7 @@ const Spotlight = ()=>{
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "spotlight-bg-img",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                            src: "/img15.jpg",
+                            src: "/img15-1.png",
                             alt: ""
                         }, void 0, false, {
                             fileName: "[project]/src/components/Spotlight/Spotlight.jsx",
@@ -1692,7 +1692,7 @@ function BgVideo({ children }) {
                 playsInline: true,
                 preload: "auto",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
-                    src: "/video/gradient1.mp4",
+                    src: "/video/abstract.mp4",
                     type: "video/mp4"
                 }, void 0, false, {
                     fileName: "[project]/src/components/BgVideo/BgVideo.jsx",
@@ -1748,7 +1748,7 @@ const styles = {
     overlay: {
         position: "absolute",
         inset: 0,
-        backgroundColor: "rgba(0, 0, 0, 0.35)",
+        backgroundColor: "rgba(0, 0, 0, 0.15)",
         zIndex: 1
     },
     content: {

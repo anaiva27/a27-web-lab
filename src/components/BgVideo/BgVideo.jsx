@@ -15,7 +15,7 @@ export default function BgVideo({ children }) {
 				preload="auto"
 			>
 				<source
-					src="/video/gradient1.mp4"
+					src="/video/abstract.mp4"
 					type="video/mp4"
 				/>
 			</video>
@@ -50,7 +50,7 @@ const styles = {
 	overlay: {
 		position: "absolute",
 		inset: 0,
-		backgroundColor: "rgba(0, 0, 0, 0.35)",
+		backgroundColor: "rgba(0, 0, 0, 0.15)",
 		zIndex: 1,
 	},
 	content: {

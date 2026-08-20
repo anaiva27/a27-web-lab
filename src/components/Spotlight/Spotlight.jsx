@@ -26,7 +26,7 @@ const Spotlight = () => {
 	};
 
 	const spotlightItems = [
-		{ name: "", img: "/img15.jpg", imgMobile: "/img15.jpg" },
+		{ name: "", img: "/img15-1.png", imgMobile: "/img15-1.png" },
 		{
 			name: "Samadhi Retreats",
 			img: "/projects/proj1.png",
@@ -67,7 +67,7 @@ const Spotlight = () => {
 			img: "/projects/proj8.png",
 			imgMobile: "/projects/mobile/proj8.png",
 		},
-		{ name: "", img: "/img15.jpg", imgMobile: "/img15.jpg" },
+		{ name: "", img: "/img15-1.png", imgMobile: "/img15-1.png" },
 	];
 
 	useEffect(() => {
@@ -365,7 +365,7 @@ const Spotlight = () => {
 				</div>
 				<div className="spotlight-bg-img">
 					<img
-						src="/img15.jpg"
+						src="/img15-1.png"
 						alt=""
 					/>
 				</div>
