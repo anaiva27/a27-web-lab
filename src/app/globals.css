@@ -324,7 +324,7 @@ nav p {
 .avatar img {
 	width: 9vh;
 	height: 9vh;
-	border-radius: 50px;
+	border-radius: 15px;
 }
 .button-wrapper {
 	display: flex;
