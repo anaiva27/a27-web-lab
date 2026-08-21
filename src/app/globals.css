@@ -260,7 +260,7 @@ nav p {
 
 .card-wrapper-right .card-inner {
 	backdrop-filter: blur(25px);
-	background-color: #f0f4f8ab;
+	background-color: #f0f4f8bc;
 	border-radius: 12px;
 	box-shadow:
 		-4px -4px 10px rgba(255, 255, 255, 0.2),
@@ -507,7 +507,7 @@ nav p {
 		align-items: flex-start;
 		height: fit-content;
 		width: 100%;
-		gap: 2rem;
+		gap: 1.5rem;
 	}
 
 	.intro-title .char,
@@ -521,7 +521,7 @@ nav p {
 		margin-top: auto;
 		gap: 10px;
 		width: 100%;
-		margin-top: 10px;
+		margin-top: 30px;
 	}
 	.button-wrapper div {
 		width: 100%;

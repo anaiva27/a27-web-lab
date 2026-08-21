@@ -252,7 +252,7 @@ nav p {
 .card-wrapper-right .card-inner {
   -webkit-backdrop-filter: blur(25px);
   backdrop-filter: blur(25px);
-  background-color: #f0f4f8ab;
+  background-color: #f0f4f8bc;
   border-radius: 12px;
   box-shadow: -4px -4px 10px #fff3, 4px 4px 10px #a3b1c666;
 }
@@ -306,9 +306,9 @@ nav p {
 }
 
 .avatar img {
-  border-radius: 50px;
-  width: 9vh;
-  height: 9vh;
+  border-radius: 15px;
+  width: min(9vh, 70px);
+  height: min(9vh, 70px);
 }
 
 .button-wrapper {
@@ -483,7 +483,7 @@ nav p {
 
   .card-wrapper-left, .card-wrapper-right {
     align-items: flex-start;
-    gap: 2rem;
+    gap: 1.5rem;
     width: 100%;
     height: fit-content;
   }
@@ -496,7 +496,7 @@ nav p {
     flex-direction: column;
     gap: 10px;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 30px;
     display: flex;
   }
 

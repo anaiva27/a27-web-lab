@@ -614,6 +614,7 @@ a {
   }
 
   .headline {
+    margin-bottom: 15px;
     font-size: clamp(22px, 2.1vw, 25px) !important;
   }
 
@@ -621,14 +622,14 @@ a {
     letter-spacing: 0;
     white-space: nowrap;
     text-align: left !important;
-    font-size: clamp(16px, 1.8vw, 18px) !important;
+    font-size: clamp(17px, 1.8vw, 19px) !important;
   }
 
   .intro-headline, .intro-subtitle {
     letter-spacing: 0;
     font-weight: 500;
     text-align: left !important;
-    font-size: clamp(16px, 1.8vw, 18px) !important;
+    font-size: clamp(18px, 1.8vw, 20px) !important;
   }
 
   .intro-headline {
