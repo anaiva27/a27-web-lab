@@ -322,8 +322,8 @@ nav p {
 }
 
 .avatar img {
-	width: 9vh;
-	height: 9vh;
+	width: min(9vh, 70px);
+	height: min(9vh, 70px);
 	border-radius: 15px;
 }
 .button-wrapper {
