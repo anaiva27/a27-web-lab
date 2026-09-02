@@ -2365,31 +2365,16 @@ function Page() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                                 className: "intro-subtitle ",
                                                 children: [
-                                                    "You don't want ",
+                                                    "We Know You want ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "text-350",
-                                                        children: "Just "
+                                                        children: "More "
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/page.js",
                                                         lineNumber: 426,
-                                                        columnNumber: 25
+                                                        columnNumber: 27
                                                     }, this),
-                                                    "a Website. ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                        fileName: "[project]/src/app/page.js",
-                                                        lineNumber: 427,
-                                                        columnNumber: 19
-                                                    }, this),
-                                                    "You want ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "text-350",
-                                                        children: "More"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/app/page.js",
-                                                        lineNumber: 428,
-                                                        columnNumber: 19
-                                                    }, this),
-                                                    "."
+                                                    "than Just a Website."
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/page.js",
@@ -2403,12 +2388,12 @@ function Page() {
                                                     children: messageArray[step]
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/page.js",
-                                                    lineNumber: 431,
+                                                    lineNumber: 430,
                                                     columnNumber: 10
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.js",
-                                                lineNumber: 430,
+                                                lineNumber: 429,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2416,7 +2401,7 @@ function Page() {
                                                 children: "We Make Websites that Earn it."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.js",
-                                                lineNumber: 433,
+                                                lineNumber: 432,
                                                 columnNumber: 9
                                             }, this)
                                         ]
@@ -2427,7 +2412,7 @@ function Page() {
                                                 children: "Hi, We Are"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.js",
-                                                lineNumber: 439,
+                                                lineNumber: 438,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -2435,35 +2420,26 @@ function Page() {
                                                 children: "A27 Web Lab"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.js",
-                                                lineNumber: 442,
+                                                lineNumber: 441,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                                 className: "intro-subtitle ",
                                                 children: [
-                                                    "You don't want ",
+                                                    "We Know You want ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "text-350",
-                                                        children: "Just "
+                                                        children: "More "
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/page.js",
-                                                        lineNumber: 444,
-                                                        columnNumber: 25
+                                                        lineNumber: 443,
+                                                        columnNumber: 27
                                                     }, this),
-                                                    "a Website. You want ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "text-350",
-                                                        children: "More"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/app/page.js",
-                                                        lineNumber: 445,
-                                                        columnNumber: 28
-                                                    }, this),
-                                                    "."
+                                                    "than Just a Website."
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/page.js",
-                                                lineNumber: 443,
+                                                lineNumber: 442,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Copy$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -2473,12 +2449,12 @@ function Page() {
                                                     children: messageArray[step]
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/page.js",
-                                                    lineNumber: 448,
+                                                    lineNumber: 447,
                                                     columnNumber: 10
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.js",
-                                                lineNumber: 447,
+                                                lineNumber: 446,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2486,7 +2462,7 @@ function Page() {
                                                 children: "We Make Websites that Earn it."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.js",
-                                                lineNumber: 450,
+                                                lineNumber: 449,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2498,14 +2474,14 @@ function Page() {
                                                         children: "look amazing online"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/page.js",
-                                                        lineNumber: 455,
+                                                        lineNumber: 454,
                                                         columnNumber: 18
                                                     }, this),
                                                     " ",
                                                     "and ",
                                                     !isMobile && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/src/app/page.js",
-                                                        lineNumber: 456,
+                                                        lineNumber: 455,
                                                         columnNumber: 28
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2513,14 +2489,14 @@ function Page() {
                                                         children: "feel proud"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/page.js",
-                                                        lineNumber: 457,
+                                                        lineNumber: 456,
                                                         columnNumber: 10
                                                     }, this),
                                                     " every time you see it."
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/page.js",
-                                                lineNumber: 454,
+                                                lineNumber: 453,
                                                 columnNumber: 9
                                             }, this)
                                         ]
@@ -2535,12 +2511,12 @@ function Page() {
                                             children: mailSuccess
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/page.js",
-                                            lineNumber: 464,
+                                            lineNumber: 463,
                                             columnNumber: 8
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/page.js",
-                                        lineNumber: 463,
+                                        lineNumber: 462,
                                         columnNumber: 7
                                     }, this)
                                 ]
@@ -2563,30 +2539,30 @@ function Page() {
                                                         children: "We'll let the results talk"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/page.js",
-                                                        lineNumber: 478,
+                                                        lineNumber: 477,
                                                         columnNumber: 10
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/page.js",
-                                                    lineNumber: 477,
+                                                    lineNumber: 476,
                                                     columnNumber: 9
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.js",
-                                                lineNumber: 476,
+                                                lineNumber: 475,
                                                 columnNumber: 8
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Slider$2f$index$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Slider"], {
                                                 isMobile: isMobile
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.js",
-                                                lineNumber: 483,
+                                                lineNumber: 482,
                                                 columnNumber: 8
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/page.js",
-                                        lineNumber: 475,
+                                        lineNumber: 474,
                                         columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2601,13 +2577,13 @@ function Page() {
                                                         children: "Pain-free."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/page.js",
-                                                        lineNumber: 488,
+                                                        lineNumber: 487,
                                                         columnNumber: 26
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/page.js",
-                                                lineNumber: 486,
+                                                lineNumber: 485,
                                                 columnNumber: 8
                                             }, this),
                                             !isMobile && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2617,19 +2593,19 @@ function Page() {
                                                 children: copySuccess
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.js",
-                                                lineNumber: 491,
+                                                lineNumber: 490,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/page.js",
-                                        lineNumber: 485,
+                                        lineNumber: 484,
                                         columnNumber: 7
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/page.js",
-                                lineNumber: 474,
+                                lineNumber: 473,
                                 columnNumber: 6
                             }, this)
                         ]
@@ -2644,12 +2620,12 @@ function Page() {
                             children: "SCROLL DOWN"
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.js",
-                            lineNumber: 503,
+                            lineNumber: 502,
                             columnNumber: 6
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.js",
-                        lineNumber: 502,
+                        lineNumber: 501,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -2659,7 +2635,7 @@ function Page() {
                                 children: "Premium Digital Lab"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/page.js",
-                                lineNumber: 506,
+                                lineNumber: 505,
                                 columnNumber: 6
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2667,13 +2643,13 @@ function Page() {
                                 children: "Made by A27 WEB LAB"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/page.js",
-                                lineNumber: 507,
+                                lineNumber: 506,
                                 columnNumber: 6
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/page.js",
-                        lineNumber: 505,
+                        lineNumber: 504,
                         columnNumber: 5
                     }, this)
                 ]
@@ -2684,12 +2660,12 @@ function Page() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Spotlight$2f$Spotlight$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/page.js",
-                lineNumber: 510,
+                lineNumber: 509,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2f$Footer$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/page.js",
-                lineNumber: 511,
+                lineNumber: 510,
                 columnNumber: 4
             }, this)
         ]

@@ -423,9 +423,8 @@ export default function Page() {
 									<h1 className="headline ">A27 Web Lab</h1>
 								</div>
 								<h2 className="intro-subtitle ">
-									You don't want <span className="text-350">Just </span>a
-									Website. <br />
-									You want <span className="text-350">More</span>.
+									We Know You want <span className="text-350">More </span>
+									than Just a Website.
 								</h2>
 								<Copy isUpdated={step}>
 									<h2 className="subtitle">{messageArray[step]}</h2>
@@ -441,8 +440,8 @@ export default function Page() {
 								</h2>
 								<h1 className="headline center-mobile">A27 Web Lab</h1>
 								<h2 className="intro-subtitle ">
-									You don't want <span className="text-350">Just </span>a
-									Website. You want <span className="text-350">More</span>.
+									We Know You want <span className="text-350">More </span>
+									than Just a Website.
 								</h2>
 								<Copy isUpdated={step}>
 									<h2 className="subtitle ">{messageArray[step]}</h2>
