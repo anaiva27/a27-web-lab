@@ -9,7 +9,8 @@ export const metadata = {
 	description:
 		"@ A27 Web Lab we offer powerful websites and web strategies that convert visitors to clients to bring you more sales, trust and prosperity.",
 	other: {
-		"trustpilot-one-time-domain-verification-id": "YOUR_VERIFICATION_ID",
+		"trustpilot-one-time-domain-verification-id":
+			"da33ee4a-4475-4a22-b481-536c7a25324a",
 	},
 };
 
