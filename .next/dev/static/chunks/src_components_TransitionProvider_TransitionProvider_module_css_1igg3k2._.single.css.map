@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/TransitionProvider/TransitionProvider.module.css"],"sourcesContent":[".grid {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100svh;\n  display: flex;\n  flex-direction: column;\n  pointer-events: none;\n  z-index: 2000;\n  overflow: hidden;\n}\n\n.block {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100svh;\n  flex: 1;\n  width: 100%;\n  transform: scaleX(0);\n  transform-origin: left center;\n  will-change: transform;\n}\n\n.text {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100svh;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  pointer-events: none;\n  z-index: 2001;\n}\n\n.text h1 {\n  font-size: 4rem;\n}\n\n.text :global(.word) {\n  transform: translateY(100%);\n  will-change: transform;\n}\n\n@media (max-width: 1000px) {\n  .text h1 {\n    font-size: 2rem;\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;AAaA;;;;;;;;;;;;AAaA;;;;;;;;;;;;;AAaA;;;;AAIA;;;;;AAKA;EACE"}}]
+}

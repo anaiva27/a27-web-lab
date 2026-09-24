@@ -1,0 +1,123 @@
+/* [project]/src/components/HeroSpotlight/HeroSpotlight.module.css [app-client] (css) */
+.HeroSpotlight-module__EcJk1a__hero {
+  flex-direction: column;
+  width: 100%;
+  min-height: 100svh;
+  padding-top: 6rem;
+  display: flex;
+  position: relative;
+}
+
+.HeroSpotlight-module__EcJk1a__heroInner {
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+}
+
+.HeroSpotlight-module__EcJk1a__heroTop {
+  align-self: flex-start;
+}
+
+.HeroSpotlight-module__EcJk1a__heroTop h1, .HeroSpotlight-module__EcJk1a__heroBottom h1 {
+  font-size: 20vw;
+}
+
+.HeroSpotlight-module__EcJk1a__heroBottom {
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2rem;
+  display: flex;
+}
+
+.HeroSpotlight-module__EcJk1a__heroBottom p {
+  max-width: 28rem;
+}
+
+.HeroSpotlight-module__EcJk1a__intro {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.HeroSpotlight-module__EcJk1a__introInner {
+  height: auto;
+}
+
+.HeroSpotlight-module__EcJk1a__introClip {
+  width: 100%;
+  position: relative;
+  overflow-x: clip;
+}
+
+.HeroSpotlight-module__EcJk1a__videoDesktop {
+  transform-origin: center;
+  clip-path: inset(50%);
+  will-change: transform, clip-path;
+  --reel-radius: 1.2rem;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  transform: translateY(-110%)scale(.25);
+}
+
+.HeroSpotlight-module__EcJk1a__videoMobile {
+  clip-path: inset(50%);
+  will-change: clip-path;
+  --reel-radius: .4rem;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: none;
+}
+
+.HeroSpotlight-module__EcJk1a__videoPreview {
+  aspect-ratio: 16 / 9;
+  border-radius: var(--reel-radius);
+  background-color: var(--base-200);
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.HeroSpotlight-module__EcJk1a__reelImage {
+  object-fit: cover;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity .35s;
+  position: absolute;
+  inset: 0;
+}
+
+.HeroSpotlight-module__EcJk1a__reelImageActive {
+  opacity: 1;
+}
+
+@media (max-width: 1000px) {
+  .HeroSpotlight-module__EcJk1a__hero {
+    padding-top: 5rem;
+  }
+
+  .HeroSpotlight-module__EcJk1a__heroBottom {
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    gap: 1rem;
+  }
+
+  .HeroSpotlight-module__EcJk1a__heroBottom p {
+    text-align: right;
+    max-width: 22rem;
+  }
+
+  .HeroSpotlight-module__EcJk1a__videoDesktop {
+    display: none;
+  }
+
+  .HeroSpotlight-module__EcJk1a__videoMobile {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=src_components_HeroSpotlight_HeroSpotlight_module_css_1igg3k2._.single.css.map*/

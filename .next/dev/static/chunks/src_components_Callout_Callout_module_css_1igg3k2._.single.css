@@ -1,0 +1,54 @@
+/* [project]/src/components/Callout/Callout.module.css [app-client] (css) */
+.Callout-module__1J1nfW__callout {
+  z-index: 5;
+  pointer-events: none;
+  white-space: nowrap;
+  transform: rotate(var(--callout-rotation, 0deg));
+  transform-origin: center;
+  will-change: transform;
+  border-radius: .2rem;
+  justify-content: center;
+  align-items: center;
+  padding: .55rem 1rem;
+  line-height: 1;
+  display: inline-flex;
+  position: absolute;
+}
+
+.Callout-module__1J1nfW__v1 {
+  background-color: var(--base-300);
+  color: var(--base-400);
+}
+
+.Callout-module__1J1nfW__v2 {
+  background-color: var(--base-500);
+  color: var(--base-600);
+}
+
+.Callout-module__1J1nfW__v3 {
+  background-color: var(--base-800);
+  color: var(--base-1000);
+}
+
+.Callout-module__1J1nfW__v4 {
+  background-color: var(--base-900);
+  color: var(--base-1000);
+}
+
+.Callout-module__1J1nfW__label {
+  font-family: var(--font-shadows-into-light);
+  text-transform: none;
+  letter-spacing: .5px;
+  -webkit-text-stroke: .05px currentColor;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+@media (max-width: 999px) {
+  .Callout-module__1J1nfW__callout {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=src_components_Callout_Callout_module_css_1igg3k2._.single.css.map*/

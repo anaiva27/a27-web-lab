@@ -1,0 +1,55 @@
+/* [project]/src/components/TransitionProvider/TransitionProvider.module.css [app-client] (css) */
+.TransitionProvider-module__ewkSjq__grid {
+  pointer-events: none;
+  z-index: 2000;
+  flex-direction: column;
+  width: 100%;
+  height: 100svh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.TransitionProvider-module__ewkSjq__block {
+  transform-origin: 0;
+  will-change: transform;
+  flex: 1;
+  width: 100%;
+  height: 100svh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+}
+
+.TransitionProvider-module__ewkSjq__text {
+  pointer-events: none;
+  z-index: 2001;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100svh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.TransitionProvider-module__ewkSjq__text h1 {
+  font-size: 4rem;
+}
+
+.TransitionProvider-module__ewkSjq__text .word {
+  will-change: transform;
+  transform: translateY(100%);
+}
+
+@media (max-width: 1000px) {
+  .TransitionProvider-module__ewkSjq__text h1 {
+    font-size: 2rem;
+  }
+}
+
+/*# sourceMappingURL=src_components_TransitionProvider_TransitionProvider_module_css_1igg3k2._.single.css.map*/

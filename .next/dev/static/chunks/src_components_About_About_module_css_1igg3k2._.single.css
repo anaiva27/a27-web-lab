@@ -1,0 +1,147 @@
+/* [project]/src/components/About/About.module.css [app-client] (css) */
+.About-module__S-Ka5a__about {
+  background-color: var(--base-100);
+  width: 100%;
+  min-height: 100svh;
+  color: var(--base-1000);
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+  overflow: clip;
+}
+
+.About-module__S-Ka5a__inner {
+  text-align: center;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  position: relative;
+}
+
+.About-module__S-Ka5a__headlineWrap {
+  width: max-content;
+  max-width: 100%;
+  font-size: clamp(2.75rem, 7.5vw, 7.5rem);
+  line-height: .9;
+  position: relative;
+}
+
+.About-module__S-Ka5a__headline {
+  z-index: 0;
+  font-size: 1em;
+  line-height: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  flex-direction: column;
+  align-items: center;
+  max-width: 18ch;
+  display: flex;
+  position: relative;
+}
+
+.About-module__S-Ka5a__callout {
+  z-index: 10;
+}
+
+.About-module__S-Ka5a__calloutPoke {
+  top: .75em;
+  right: -.1em;
+}
+
+.About-module__S-Ka5a__calloutReally {
+  top: 3.85em;
+  left: -.1em;
+}
+
+.About-module__S-Ka5a__line {
+  white-space: nowrap;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.About-module__S-Ka5a__word {
+  z-index: 1;
+  position: relative;
+}
+
+.About-module__S-Ka5a__spot {
+  z-index: 2;
+  cursor: pointer;
+  flex-shrink: 0;
+  width: .45em;
+  height: .45em;
+  margin: 0 .15em;
+  display: block;
+  position: relative;
+}
+
+.About-module__S-Ka5a__spotPanel {
+  background-color: var(--base-1000);
+  backface-visibility: hidden;
+  will-change: transform, width, height;
+  border-radius: .04em;
+  width: .45em;
+  height: .45em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+}
+
+.About-module__S-Ka5a__spot[data-active="true"] {
+  z-index: 20;
+}
+
+.About-module__S-Ka5a__spotPanel img {
+  object-fit: cover;
+  opacity: 0;
+  pointer-events: none;
+  backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  transform: translateZ(0);
+}
+
+@media (max-width: 999px) {
+  .About-module__S-Ka5a__spot {
+    cursor: default;
+    pointer-events: none;
+  }
+
+  .About-module__S-Ka5a__headlineWrap {
+    font-size: clamp(2.75rem, 13vw, 5.5rem);
+  }
+
+  .About-module__S-Ka5a__headline {
+    max-width: 100%;
+  }
+
+  .About-module__S-Ka5a__callout {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .About-module__S-Ka5a__inner {
+    gap: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .About-module__S-Ka5a__headlineWrap {
+    font-size: clamp(2.5rem, 14vw, 4.5rem);
+  }
+}
+
+/*# sourceMappingURL=src_components_About_About_module_css_1igg3k2._.single.css.map*/

@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    devIndicators:  false
-      
+   devIndicators:  false
+  /* config options here */
 };
 
 export default nextConfig;

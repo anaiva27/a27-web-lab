@@ -1,0 +1,239 @@
+/* [project]/src/components/Menu/Menu.module.css [app-client] (css) */
+.Menu-module__88cxuq__nav {
+  z-index: 1000;
+  will-change: transform;
+  transition: transform .4s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.Menu-module__88cxuq__navHidden {
+  transform: translateY(-200%);
+}
+
+.Menu-module__88cxuq__navInner {
+  height: auto;
+  padding: .75rem;
+}
+
+.Menu-module__88cxuq__menuShell {
+  width: 100%;
+  position: relative;
+}
+
+.Menu-module__88cxuq__bar {
+  z-index: 2;
+  background: var(--base-1000);
+  border-radius: .4rem;
+  align-items: center;
+  gap: .75rem;
+  width: 100%;
+  padding: 1.2rem 1.6rem;
+  display: flex;
+  position: relative;
+}
+
+.Menu-module__88cxuq__barOpen {
+  border-radius: .4rem .4rem 0 0;
+}
+
+.Menu-module__88cxuq__logo {
+  font-family: var(--font-schabo);
+  text-transform: uppercase;
+  color: var(--base-100);
+  flex-shrink: 0;
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.Menu-module__88cxuq__desktopLeft {
+  align-items: center;
+  gap: .75rem;
+  margin-left: .5rem;
+  display: none;
+}
+
+.Menu-module__88cxuq__pill {
+  background: var(--base-100);
+  height: 1.8rem;
+  color: var(--base-1000);
+  font-family: var(--font-dm-mono);
+  text-transform: uppercase;
+  border-radius: 999px;
+  align-items: center;
+  gap: .15rem;
+  padding: 0 .875rem .075rem .95rem;
+  font-size: .65rem;
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: none;
+  transition: opacity .2s;
+  display: inline-flex;
+}
+
+.Menu-module__88cxuq__pill:hover {
+  opacity: .85;
+}
+
+.Menu-module__88cxuq__desktopRight {
+  align-items: center;
+  gap: 2rem;
+  margin-left: auto;
+  display: none;
+}
+
+.Menu-module__88cxuq__rightLink {
+  font-family: var(--font-dm-mono);
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--base-100);
+  align-items: center;
+  gap: .15rem;
+  font-size: .7rem;
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: none;
+  transition: opacity .2s;
+  display: inline-flex;
+}
+
+.Menu-module__88cxuq__rightLink:hover {
+  opacity: .7;
+}
+
+.Menu-module__88cxuq__linkLabel {
+  line-height: 1;
+  display: block;
+}
+
+.Menu-module__88cxuq__arrow {
+  flex-shrink: 0;
+  width: 1.25em;
+  height: 1.25em;
+  translate: 0;
+}
+
+.Menu-module__88cxuq__pill .Menu-module__88cxuq__linkLabel, .Menu-module__88cxuq__rightLink .Menu-module__88cxuq__linkLabel {
+  translate: 0 .075em;
+}
+
+.Menu-module__88cxuq__menuToggle {
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  color: var(--base-100);
+  background: none;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  padding: .5rem;
+  display: flex;
+  position: relative;
+}
+
+.Menu-module__88cxuq__hamburger {
+  width: 20px;
+  height: 10px;
+  position: relative;
+}
+
+.Menu-module__88cxuq__hamburgerLine {
+  background: currentColor;
+  border-radius: 1px;
+  width: 20px;
+  height: 2px;
+  margin: 0 0 4px;
+  transition: transform .2s;
+  display: block;
+}
+
+.Menu-module__88cxuq__hamburgerLine:last-child {
+  margin-bottom: 0;
+}
+
+.Menu-module__88cxuq__hamburgerOpen .Menu-module__88cxuq__hamburgerLine:first-child {
+  transform-origin: 5px;
+  transform: rotate(45deg);
+}
+
+.Menu-module__88cxuq__hamburgerOpen .Menu-module__88cxuq__hamburgerLine:last-child {
+  transform-origin: 6px;
+  transform: rotate(-45deg);
+}
+
+.Menu-module__88cxuq__overlay {
+  background: var(--base-1000);
+  transform-origin: top;
+  will-change: transform;
+  border-radius: 0 0 .4rem .4rem;
+  width: 100%;
+  margin-top: -.4rem;
+  padding-top: .4rem;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  overflow: hidden;
+  transform: scaleY(0);
+}
+
+.Menu-module__88cxuq__overlayNav {
+  padding: 1.25rem 0 2rem;
+  list-style: none;
+}
+
+.Menu-module__88cxuq__overlayNav li {
+  margin: -2px 0;
+}
+
+.Menu-module__88cxuq__overlayNav a {
+  font-family: var(--font-schabo);
+  text-transform: uppercase;
+  color: var(--base-100);
+  padding: .35rem 1.5rem;
+  font-size: clamp(2rem, 12vw, 6rem);
+  font-weight: 400;
+  line-height: .9;
+  text-decoration: none;
+  display: block;
+  overflow: hidden;
+}
+
+.Menu-module__88cxuq__overlaySocial {
+  gap: 1rem;
+  padding: 0 1.25rem 1.5rem;
+  display: flex;
+}
+
+.Menu-module__88cxuq__overlaySocial a {
+  color: var(--base-100);
+  font-family: var(--font-dm-mono);
+  text-transform: uppercase;
+  align-items: center;
+  gap: .15rem;
+  font-size: .65rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: opacity .2s;
+  display: inline-flex;
+}
+
+.Menu-module__88cxuq__overlaySocial a:hover {
+  opacity: .7;
+}
+
+@media (min-width: 1000px) {
+  .Menu-module__88cxuq__desktopLeft, .Menu-module__88cxuq__desktopRight {
+    display: flex;
+  }
+
+  .Menu-module__88cxuq__menuToggle, .Menu-module__88cxuq__overlay {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=src_components_Menu_Menu_module_css_1igg3k2._.single.css.map*/

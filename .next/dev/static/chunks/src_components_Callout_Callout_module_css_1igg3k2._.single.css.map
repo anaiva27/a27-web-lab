@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/Callout/Callout.module.css"],"sourcesContent":[".callout {\n  position: absolute;\n  z-index: 5;\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  padding: 0.55rem 1rem;\n  border-radius: 0.2rem;\n  pointer-events: none;\n  white-space: nowrap;\n  line-height: 1;\n  transform: rotate(var(--callout-rotation, 0deg));\n  transform-origin: center center;\n  will-change: transform;\n}\n\n.v1 {\n  background-color: var(--base-300);\n  color: var(--base-400);\n}\n\n.v2 {\n  background-color: var(--base-500);\n  color: var(--base-600);\n}\n\n.v3 {\n  background-color: var(--base-800);\n  color: var(--base-1000);\n}\n\n.v4 {\n  background-color: var(--base-900);\n  color: var(--base-1000);\n}\n\n.label {\n  font-family: var(--font-shadows-into-light);\n  font-size: 1.1rem;\n  font-weight: 400;\n  text-transform: none;\n  letter-spacing: 0.5px;\n  line-height: 1;\n  -webkit-text-stroke: 0.05px currentColor;\n}\n\n@media (max-width: 999px) {\n  .callout {\n    display: none;\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;AAgBA;;;;;AAKA;;;;;AAKA;;;;;AAKA;;;;;AAKA;;;;;;;;;;AAUA;EACE"}}]
+}

@@ -1,24 +1,37 @@
+import { Host_Grotesk, DM_Mono, Shadows_Into_Light } from "next/font/google";
+import ClientLayout from "@/components/ClientLayout";
 import "./globals.css";
-import "./extra-globals.css";
-import Nav from "@/components/Nav";
-import PageTransition from "@/components/PageTransition";
-import Footer from "@/components/Footer/Footer";
+
+const hostGrotesk = Host_Grotesk({
+	variable: "--font-host-grotesk",
+	subsets: ["latin"],
+});
+
+const dmMono = DM_Mono({
+	variable: "--font-dm-mono",
+	subsets: ["latin"],
+	weight: ["300", "400", "500"],
+});
+
+const shadowsIntoLight = Shadows_Into_Light({
+	variable: "--font-shadows-into-light",
+	subsets: ["latin"],
+	weight: "400",
+});
 
 export const metadata = {
-	title: "A27 Web Lab | Tech Company",
-	description:
-		"@ A27 Web Lab we offer powerful websites and web strategies that convert visitors to clients to bring you more sales, trust and prosperity.",
+	title: "A27 Web Lab | Software Company",
+	description: "A27 Web Lab offers powerful websites that convert.",
 };
 
 export default function RootLayout({ children }) {
 	return (
-		<html lang="en">
+		<html
+			lang="en"
+			className={`${hostGrotesk.variable} ${dmMono.variable} ${shadowsIntoLight.variable}`}
+		>
 			<body>
-				{/* <PageTransition> */}
-				{/* <Nav /> */}
-				{children}
-				{/* </PageTransition> */}
-				{/* <Footer /> */}
+				<ClientLayout>{children}</ClientLayout>
 			</body>
 		</html>
 	);

@@ -1,0 +1,20 @@
+/* [project]/src/components/SectionNav/SectionNav.module.css [app-client] (css) */
+.SectionNav-module__WuK_IG__nav {
+  width: 100%;
+  padding: 2.25rem;
+}
+
+.SectionNav-module__WuK_IG__inner {
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+@media (max-width: 1000px) {
+  .SectionNav-module__WuK_IG__nav {
+    padding: 1.5rem;
+  }
+}
+
+/*# sourceMappingURL=src_components_SectionNav_SectionNav_module_css_1igg3k2._.single.css.map*/
