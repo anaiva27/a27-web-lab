@@ -103,7 +103,7 @@
 @media (max-width: 1000px) {
   .Preloader-module__aFCmlq__img {
     width: 240px;
-    height: 300px;
+    height: 150px;
   }
 
   .Preloader-module__aFCmlq__header h1 {
@@ -225,13 +225,23 @@
 
 @media (max-width: 1000px) {
   .HeroSpotlight-module__EcJk1a__hero {
+    min-height: unset;
     padding-top: 5rem;
+  }
+
+  .HeroSpotlight-module__EcJk1a__heroTop {
+    width: 100%;
+  }
+
+  .HeroSpotlight-module__EcJk1a__heroTop p {
+    font-size: min(4.3vw, 1.2rem);
   }
 
   .HeroSpotlight-module__EcJk1a__heroBottom {
     flex-direction: column-reverse;
-    align-items: flex-end;
+    align-items: flex-start;
     gap: 1rem;
+    margin-top: 20vh;
   }
 
   .HeroSpotlight-module__EcJk1a__heroBottom p {

@@ -14,19 +14,20 @@ gsap.registerPlugin(SplitText, useGSAP);
 
 const LEFT_LINKS = [
 	{ label: "about", href: "/about" },
-	{ label: "work", href: "/work" },
+	{ label: "workX", href: "/workX" },
 ];
 
 const RIGHT_LINKS = [
-	{ label: "expertise", href: "/expertise" },
-	{ label: "careers", href: "/careers" },
+	{ label: "work", href: "/work" },
+	// { label: "careers", href: "/careers" },
 	{ label: "contact", href: "/contact" },
 ];
 
-const MOBILE_LINKS = [...LEFT_LINKS, ...RIGHT_LINKS];
+// const MOBILE_LINKS = [...LEFT_LINKS, ...RIGHT_LINKS];
+const MOBILE_LINKS = [...RIGHT_LINKS];
 
 const SOCIAL_LINKS = [
-	{ label: "Instagram", href: "/" },
+	{ label: "Resume", href: "/" },
 	{ label: "LinkedIn", href: "/" },
 ];
 
@@ -243,7 +244,7 @@ export default function Menu() {
 							A27 Web Lab
 						</Link>
 
-						<div className={styles.desktopLeft}>
+						{/* <div className={styles.desktopLeft}>
 							{LEFT_LINKS.map((link) => (
 								<Link
 									key={link.href}
@@ -257,7 +258,7 @@ export default function Menu() {
 									/>
 								</Link>
 							))}
-						</div>
+						</div> */}
 
 						<div className={styles.desktopRight}>
 							{RIGHT_LINKS.map((link) => (

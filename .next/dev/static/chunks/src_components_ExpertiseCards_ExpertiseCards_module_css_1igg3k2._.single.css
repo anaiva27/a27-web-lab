@@ -1,0 +1,82 @@
+/* [project]/src/components/ExpertiseCards/ExpertiseCards.module.css [app-client] (css) */
+.ExpertiseCards-module__szYjCa__stickyCards {
+  background-color: var(--base-1000);
+  width: 100%;
+  position: relative;
+}
+
+.ExpertiseCards-module__szYjCa__card {
+  width: 100%;
+  height: 125svh;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  position: sticky;
+}
+
+.ExpertiseCards-module__szYjCa__cardInner {
+  transform-origin: 50% 100%;
+  will-change: transform;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  color: var(--base-1000);
+  flex-direction: column;
+  display: flex;
+  position: relative;
+}
+
+.ExpertiseCards-module__szYjCa__cardInfo {
+  text-align: left;
+  width: 15%;
+  padding: 2.25rem;
+}
+
+.ExpertiseCards-module__szYjCa__cardTitle h1 {
+  padding: 2rem 0;
+}
+
+.ExpertiseCards-module__szYjCa__cardDescription {
+  width: 60%;
+  margin: 0 auto 2em;
+}
+
+.ExpertiseCards-module__szYjCa__cardImg {
+  width: 100%;
+  height: 100%;
+  margin-top: 4em;
+  overflow: hidden;
+}
+
+.ExpertiseCards-module__szYjCa__cardInner:after {
+  content: "";
+  z-index: 2;
+  background-color: var(--base-1000);
+  width: 100%;
+  height: 100%;
+  opacity: var(--after-opacity, 0);
+  will-change: opacity;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 1000px) {
+  .ExpertiseCards-module__szYjCa__cardTitle h1 {
+    font-size: 3rem;
+  }
+
+  .ExpertiseCards-module__szYjCa__cardInfo {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    padding: 4em 2em;
+  }
+
+  .ExpertiseCards-module__szYjCa__cardDescription {
+    width: calc(100% - 4rem);
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=src_components_ExpertiseCards_ExpertiseCards_module_css_1igg3k2._.single.css.map*/

@@ -1,26 +1,26 @@
 "use client";
 
-import Projects from "@/components/Projects/Projects";
-import SectionNav from "@/components/SectionNav/SectionNav";
-import SectionFooter from "@/components/SectionFooter/SectionFooter";
+import ExpertiseCards from "@/components/ExpertiseCards/ExpertiseCards";
+import ExpertiseServices from "@/components/ExpertiseServices/ExpertiseServices";
 import Callout from "@/components/Callout/Callout";
+import SectionFooter from "@/components/SectionFooter/SectionFooter";
+import styles from "./expertise.module.css";
 import Copy from "@/components/Copy/Copy";
-import styles from "./work.module.css";
 
-export default function WorkPage() {
+export default function ExpertisePage() {
   return (
     <main className={styles.page}>
-      <section className={styles.intro}>
+      <section className={styles.hero}>
         <Copy animateOnScroll={false} delay={1.125}>
           <h1>
-            Drawn Out Loud
+            Our Bag Of Tricks
             <Callout
               className={styles.callout}
-              label="Eyes open"
-              rotation={-20}
+              label="Open sesame"
+              rotation={20}
+              variant={3}
               top="0em"
-              left="0.3em"
-              variant={2}
+              right="0.25em"
             />
           </h1>
         </Copy>
@@ -29,41 +29,21 @@ export default function WorkPage() {
           <SectionFooter
             left={
               <Copy variant="scramble" animateOnScroll={false} delay={1.25}>
-                <span>Roll The Reel</span>
+                <span>The Toolkit</span>
               </Copy>
             }
             right={
               <Copy variant="scramble" animateOnScroll={false} delay={1.25}>
-                <span>2017 Onward</span>
+                <span>Pick A Weapon</span>
               </Copy>
             }
           />
         </div>
       </section>
 
-      <Projects />
+      <ExpertiseCards />
 
-      <section className={styles.outro}>
-        <div className={styles.sectionNav}>
-          <SectionNav left="Still Cooking" right="All Work" />
-        </div>
-
-        <h1>
-          The Rest Is Still Drying
-          <Callout
-            className={styles.callout}
-            label="Coming soon"
-            variant={3}
-            rotation={15}
-            top="0.7em"
-            right="0.75em"
-          />
-        </h1>
-
-        <div className={styles.sectionFooter}>
-          <SectionFooter left="Don't Blink" right="Check Back Soon" />
-        </div>
-      </section>
+      <ExpertiseServices />
     </main>
   );
 }

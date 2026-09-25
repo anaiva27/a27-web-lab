@@ -98,12 +98,22 @@
 @media (max-width: 1000px) {
 	.hero {
 		padding-top: 5rem;
+		min-height: unset;
+	}
+
+	.heroTop {
+		width: 100%;
+	}
+
+	.heroTop p {
+		font-size: min(4.3vw, 1.2rem);
 	}
 
 	.heroBottom {
 		flex-direction: column-reverse;
-		align-items: flex-end;
+		align-items: flex-start;
 		gap: 1rem;
+		margin-top: 20vh;
 	}
 
 	.heroBottom p {

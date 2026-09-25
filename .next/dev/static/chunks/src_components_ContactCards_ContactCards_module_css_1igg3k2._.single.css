@@ -1,0 +1,183 @@
+/* [project]/src/components/ContactCards/ContactCards.module.css [app-client] (css) */
+.ContactCards-module__e8xmpq__container {
+  width: 100%;
+}
+
+.ContactCards-module__e8xmpq__cards {
+  background-color: var(--base-400);
+  width: 100%;
+  height: 100svh;
+  color: var(--base-100);
+  position: relative;
+  overflow: hidden;
+}
+
+.ContactCards-module__e8xmpq__sectionNav, .ContactCards-module__e8xmpq__sectionFooter {
+  z-index: 10;
+  pointer-events: none;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.ContactCards-module__e8xmpq__sectionNav {
+  top: 0;
+}
+
+.ContactCards-module__e8xmpq__sectionFooter {
+  bottom: 0;
+}
+
+.ContactCards-module__e8xmpq__card {
+  perspective: 1000px;
+  width: 240px;
+  height: 360px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ContactCards-module__e8xmpq__cardWrapper {
+  width: 100%;
+  height: 100%;
+  animation: 3s ease-in-out infinite ContactCards-module__e8xmpq__floating;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ContactCards-module__e8xmpq__card:nth-child(2) .ContactCards-module__e8xmpq__cardWrapper {
+  animation-delay: 0s;
+}
+
+.ContactCards-module__e8xmpq__card:nth-child(3) .ContactCards-module__e8xmpq__cardWrapper {
+  animation-delay: .2s;
+}
+
+.ContactCards-module__e8xmpq__card:nth-child(4) .ContactCards-module__e8xmpq__cardWrapper {
+  animation-delay: .4s;
+}
+
+.ContactCards-module__e8xmpq__card:nth-child(5) .ContactCards-module__e8xmpq__cardWrapper {
+  animation-delay: .6s;
+}
+
+.ContactCards-module__e8xmpq__inner {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.ContactCards-module__e8xmpq__front, .ContactCards-module__e8xmpq__back {
+  backface-visibility: hidden;
+  border-radius: .4rem;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.ContactCards-module__e8xmpq__back {
+  text-align: center;
+  background-color: var(--base-100);
+  color: var(--base-1000);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  display: flex;
+  transform: rotateY(180deg);
+}
+
+.ContactCards-module__e8xmpq__index {
+  position: absolute;
+  top: 1.25rem;
+  left: 1.25rem;
+}
+
+.ContactCards-module__e8xmpq__backInfo {
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  display: flex;
+}
+
+.ContactCards-module__e8xmpq__backBlock {
+  flex-direction: column;
+  gap: .25rem;
+  display: flex;
+}
+
+.ContactCards-module__e8xmpq__back .ContactCards-module__e8xmpq__mono {
+  opacity: .5;
+}
+
+.ContactCards-module__e8xmpq__backInfo > .ContactCards-module__e8xmpq__sm {
+  opacity: .7;
+  max-width: 12rem;
+  line-height: 1.35;
+}
+
+@keyframes ContactCards-module__e8xmpq__floating {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+
+  50% {
+    transform: translate(-50%, -60%);
+  }
+
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-width: 1000px) {
+  .ContactCards-module__e8xmpq__cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    height: auto;
+    padding: 8rem 1.5rem;
+    display: flex;
+    overflow: visible;
+  }
+
+  .ContactCards-module__e8xmpq__card {
+    aspect-ratio: 2 / 3;
+    perspective: none;
+    width: min(100%, 280px);
+    height: auto;
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+  }
+
+  .ContactCards-module__e8xmpq__cardWrapper {
+    animation: none;
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+  }
+
+  .ContactCards-module__e8xmpq__inner {
+    transform-style: flat;
+  }
+
+  .ContactCards-module__e8xmpq__front {
+    display: none;
+  }
+
+  .ContactCards-module__e8xmpq__back {
+    position: relative;
+    transform: none;
+  }
+}
+
+/*# sourceMappingURL=src_components_ContactCards_ContactCards_module_css_1igg3k2._.single.css.map*/

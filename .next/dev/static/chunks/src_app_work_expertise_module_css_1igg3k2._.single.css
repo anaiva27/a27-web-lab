@@ -1,0 +1,44 @@
+/* [project]/src/app/work/expertise.module.css [app-client] (css) */
+.expertise-module__gzpxYW__page {
+  background-color: var(--base-100);
+  width: 100%;
+  color: var(--base-1000);
+  position: relative;
+}
+
+.expertise-module__gzpxYW__hero {
+  text-align: center;
+  background-color: var(--base-200);
+  width: 100%;
+  height: 100svh;
+  color: var(--base-1000);
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  display: flex;
+  position: relative;
+}
+
+.expertise-module__gzpxYW__hero h1 {
+  width: min(90%, 40rem);
+  position: relative;
+}
+
+.expertise-module__gzpxYW__callout {
+  z-index: 10;
+}
+
+.expertise-module__gzpxYW__sectionFooter {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+@media (max-width: 1000px) {
+  .expertise-module__gzpxYW__callout {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=src_app_work_expertise_module_css_1igg3k2._.single.css.map*/

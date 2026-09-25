@@ -1,0 +1,323 @@
+/* [project]/src/components/ExpertiseCards/ExpertiseCards.module.css [app-client] (css) */
+.ExpertiseCards-module__szYjCa__stickyCards {
+  background-color: var(--base-1000);
+  width: 100%;
+  position: relative;
+}
+
+.ExpertiseCards-module__szYjCa__card {
+  width: 100%;
+  height: 125svh;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  position: sticky;
+}
+
+.ExpertiseCards-module__szYjCa__cardInner {
+  transform-origin: 50% 100%;
+  will-change: transform;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  color: var(--base-1000);
+  flex-direction: column;
+  display: flex;
+  position: relative;
+}
+
+.ExpertiseCards-module__szYjCa__cardInfo {
+  text-align: left;
+  width: 15%;
+  padding: 2.25rem;
+}
+
+.ExpertiseCards-module__szYjCa__cardTitle h1 {
+  padding: 2rem 0;
+}
+
+.ExpertiseCards-module__szYjCa__cardDescription {
+  width: 60%;
+  margin: 0 auto 2em;
+}
+
+.ExpertiseCards-module__szYjCa__cardImg {
+  width: 100%;
+  height: 100%;
+  margin-top: 4em;
+  overflow: hidden;
+}
+
+.ExpertiseCards-module__szYjCa__cardInner:after {
+  content: "";
+  z-index: 2;
+  background-color: var(--base-1000);
+  width: 100%;
+  height: 100%;
+  opacity: var(--after-opacity, 0);
+  will-change: opacity;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 1000px) {
+  .ExpertiseCards-module__szYjCa__cardTitle h1 {
+    font-size: 3rem;
+  }
+
+  .ExpertiseCards-module__szYjCa__cardInfo {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    padding: 4em 2em;
+  }
+
+  .ExpertiseCards-module__szYjCa__cardDescription {
+    width: calc(100% - 4rem);
+    margin: 0 auto;
+  }
+}
+
+/* [project]/src/components/Callout/Callout.module.css [app-client] (css) */
+.Callout-module__1J1nfW__callout {
+  z-index: 5;
+  pointer-events: none;
+  white-space: nowrap;
+  transform: rotate(var(--callout-rotation, 0deg));
+  transform-origin: center;
+  will-change: transform;
+  border-radius: .2rem;
+  justify-content: center;
+  align-items: center;
+  padding: .55rem 1rem;
+  line-height: 1;
+  display: inline-flex;
+  position: absolute;
+}
+
+.Callout-module__1J1nfW__v1 {
+  background-color: var(--base-300);
+  color: var(--base-400);
+}
+
+.Callout-module__1J1nfW__v2 {
+  background-color: var(--base-500);
+  color: var(--base-600);
+}
+
+.Callout-module__1J1nfW__v3 {
+  background-color: var(--base-800);
+  color: var(--base-1000);
+}
+
+.Callout-module__1J1nfW__v4 {
+  background-color: var(--base-900);
+  color: var(--base-1000);
+}
+
+.Callout-module__1J1nfW__label {
+  font-family: var(--font-shadows-into-light);
+  text-transform: none;
+  letter-spacing: .5px;
+  -webkit-text-stroke: .05px currentColor;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+@media (max-width: 999px) {
+  .Callout-module__1J1nfW__callout {
+    display: none;
+  }
+}
+
+/* [project]/src/components/ExpertiseServices/ExpertiseServices.module.css [app-client] (css) */
+.ExpertiseServices-module__aK0i3G__expertise {
+  background-color: var(--base-100);
+  width: 100%;
+  min-height: 100svh;
+  color: var(--base-1000);
+  --header-offset: 2rem;
+  position: relative;
+}
+
+.ExpertiseServices-module__aK0i3G__header {
+  width: 100%;
+  height: 100svh;
+  padding-top: var(--header-offset);
+  will-change: transform;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.ExpertiseServices-module__aK0i3G__expertise h1 {
+  max-width: 10ch;
+  position: relative;
+}
+
+.ExpertiseServices-module__aK0i3G__callout {
+  z-index: 10;
+}
+
+.ExpertiseServices-module__aK0i3G__headerInner {
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+}
+
+.ExpertiseServices-module__aK0i3G__row {
+  justify-content: space-between;
+  display: flex;
+}
+
+.ExpertiseServices-module__aK0i3G__imageOne {
+  border-radius: .4rem;
+  width: 15%;
+  position: relative;
+  overflow: hidden;
+}
+
+.ExpertiseServices-module__aK0i3G__imageTwo {
+  border-radius: .4rem;
+  width: 30%;
+  overflow: hidden;
+}
+
+.ExpertiseServices-module__aK0i3G__services {
+  width: 50%;
+  padding: calc(var(--header-offset) + 2rem) 0 5rem;
+  will-change: transform;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.ExpertiseServices-module__aK0i3G__spacer, .ExpertiseServices-module__aK0i3G__list {
+  flex: 1;
+}
+
+.ExpertiseServices-module__aK0i3G__service h6 {
+  margin-bottom: .75rem;
+}
+
+.ExpertiseServices-module__aK0i3G__service p + p {
+  margin-top: .35rem;
+}
+
+.ExpertiseServices-module__aK0i3G__service {
+  padding-bottom: 8rem;
+}
+
+@media (max-width: 900px) {
+  .ExpertiseServices-module__aK0i3G__callout {
+    display: none;
+  }
+
+  .ExpertiseServices-module__aK0i3G__headerInner {
+    justify-content: flex-start;
+    gap: 2rem;
+  }
+
+  .ExpertiseServices-module__aK0i3G__imageOne {
+    display: none;
+  }
+
+  .ExpertiseServices-module__aK0i3G__imageTwo {
+    width: 100%;
+  }
+
+  .ExpertiseServices-module__aK0i3G__services {
+    width: 100%;
+    padding: 70svh 1.25rem 4rem;
+  }
+
+  .ExpertiseServices-module__aK0i3G__service {
+    margin-bottom: 0;
+    padding-bottom: 4rem;
+  }
+
+  .ExpertiseServices-module__aK0i3G__spacer {
+    display: none;
+  }
+
+  .ExpertiseServices-module__aK0i3G__expertise h6 {
+    font-size: 2rem;
+  }
+}
+
+/* [project]/src/components/SectionFooter/SectionFooter.module.css [app-client] (css) */
+.SectionFooter-module__n3Ensq__footer {
+  width: 100%;
+  padding: 2.25rem;
+}
+
+.SectionFooter-module__n3Ensq__inner {
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  display: flex;
+}
+
+@media (max-width: 1000px) {
+  .SectionFooter-module__n3Ensq__footer {
+    padding: 1.5rem;
+  }
+}
+
+/* [project]/src/app/work/expertise.module.css [app-client] (css) */
+.expertise-module__gzpxYW__page {
+  background-color: var(--base-100);
+  width: 100%;
+  color: var(--base-1000);
+  position: relative;
+}
+
+.expertise-module__gzpxYW__hero {
+  text-align: center;
+  background-color: var(--base-200);
+  width: 100%;
+  height: 100svh;
+  color: var(--base-1000);
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  display: flex;
+  position: relative;
+}
+
+.expertise-module__gzpxYW__hero h1 {
+  width: min(90%, 40rem);
+  position: relative;
+}
+
+.expertise-module__gzpxYW__callout {
+  z-index: 10;
+}
+
+.expertise-module__gzpxYW__sectionFooter {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+@media (max-width: 1000px) {
+  .expertise-module__gzpxYW__callout {
+    display: none;
+  }
+}
+
+/* [project]/src/components/Copy/Copy.module.css [app-client] (css) */
+.Copy-module__1LON9q__line, .Copy-module__1LON9q__word {
+  position: relative;
+}
+
+.Copy-module__1LON9q__char {
+  will-change: opacity;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=src_04jrq4x._.css.map*/

@@ -1,0 +1,55 @@
+/* [project]/src/app/contact/contact.module.css [app-client] (css) */
+.contact-module__swMWYG__page {
+  background-color: var(--base-100);
+  width: 100%;
+  color: var(--base-1000);
+  position: relative;
+}
+
+.contact-module__swMWYG__hero {
+  background-color: var(--base-200);
+  width: 100%;
+  height: 100svh;
+  color: var(--base-1000);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-module__swMWYG__hero h1 {
+  text-align: center;
+  width: min(35%, 50rem);
+  position: relative;
+}
+
+.contact-module__swMWYG__callout {
+  z-index: 10;
+}
+
+.contact-module__swMWYG__sectionNav, .contact-module__swMWYG__sectionFooter {
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.contact-module__swMWYG__sectionNav {
+  top: 0;
+}
+
+.contact-module__swMWYG__sectionFooter {
+  bottom: 0;
+}
+
+@media (max-width: 1000px) {
+  .contact-module__swMWYG__hero h1 {
+    width: min(90%, 50rem);
+  }
+
+  .contact-module__swMWYG__callout {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=src_app_contact_contact_module_css_1igg3k2._.single.css.map*/
