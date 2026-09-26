@@ -1078,11 +1078,11 @@ function HeroSpotlight() {
                                     delay: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Preloader$2f$Preloader$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isInitialLoad"] ? 6.8 : 1.3,
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: [
-                                            "You can look amazing online and ",
+                                            "You can look amazing online and",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                                                lineNumber: 290,
-                                                columnNumber: 41
+                                                lineNumber: 291,
+                                                columnNumber: 9
                                             }, this),
                                             "feel proud every time you see it."
                                         ]
@@ -1103,12 +1103,12 @@ function HeroSpotlight() {
                                         children: "A27 Web Lab"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                                        lineNumber: 298,
+                                        lineNumber: 299,
                                         columnNumber: 8
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                                    lineNumber: 294,
+                                    lineNumber: 295,
                                     columnNumber: 7
                                 }, this)
                             ]
@@ -1141,12 +1141,12 @@ function HeroSpotlight() {
                                 ref: desktopRef,
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ShowreelFrame, {}, void 0, false, {
                                     fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                                    lineNumber: 314,
+                                    lineNumber: 315,
                                     columnNumber: 8
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                                lineNumber: 310,
+                                lineNumber: 311,
                                 columnNumber: 7
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1154,28 +1154,28 @@ function HeroSpotlight() {
                                 ref: mobileRef,
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ShowreelFrame, {}, void 0, false, {
                                     fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                                    lineNumber: 321,
+                                    lineNumber: 322,
                                     columnNumber: 8
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                                lineNumber: 317,
+                                lineNumber: 318,
                                 columnNumber: 7
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                        lineNumber: 309,
+                        lineNumber: 310,
                         columnNumber: 6
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                    lineNumber: 308,
+                    lineNumber: 309,
                     columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                lineNumber: 304,
+                lineNumber: 305,
                 columnNumber: 4
             }, this)
         ]
@@ -1984,11 +1984,11 @@ const CARD_Y_OFFSET = 5;
 const CARD_SCALE_STEP = 0.075;
 const PROJECTS = [
     {
-        name: "Ghost Signal",
+        name: "Cardio Cult",
         description: "A cast of characters and animated bumpers built for a late-night channel.",
         tags: [
-            "Characters",
-            "Animation"
+            "Frontend",
+            "Backend"
         ],
         image: "/images/featured-work/featured_work_1.png",
         color: "var(--base-400)"

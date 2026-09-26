@@ -287,7 +287,8 @@ export default function HeroSpotlight() {
 							delay={isInitialLoad ? 6.8 : 1.3}
 						>
 							<p>
-								You can look amazing online and <br />
+								You can look amazing online and
+								<br />
 								feel proud every time you see it.
 							</p>
 						</Copy>

@@ -1,5 +1,18 @@
 @import url("https://fonts.cdnfonts.com/css/schabo");
 
+/* :root {
+	--base-100: #ffffeb;
+	--base-200: #f4f5e0;
+	--base-300: #b6dedb;
+	--base-400: #354aaa;
+	--base-500: #452320;
+	--base-600: #192f1b;
+	--base-700: #f7f780;
+	--base-800: rgb(126, 25, 25);
+	--base-900: #98978b;
+	--base-1000: #0f0f0f;
+	--font-schabo: "SCHABO", sans-serif;
+} */
 :root {
 	--base-100: #ffffeb;
 	--base-200: #f4f5e0;

@@ -411,7 +411,7 @@ export default function Footer() {
 				<div className={`container pad ${styles.inner}`}>
 					<div className={styles.top}>
 						<div className={styles.brand}>
-							<h1>A27 Web Lab</h1>
+							<h2>A27 Web Lab</h2>
 							<p>
 								An illustration studio making brands, characters, and worlds.
 							</p>

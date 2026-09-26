@@ -117,8 +117,9 @@
   }
 
   .HeroSpotlight-module__EcJk1a__heroBottom p {
-    text-align: right;
+    text-align: left;
     max-width: 22rem;
+    font-size: min(4.3vw, 1.2rem);
   }
 
   .HeroSpotlight-module__EcJk1a__videoDesktop {

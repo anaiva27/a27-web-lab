@@ -16,10 +16,10 @@ const CARD_SCALE_STEP = 0.075;
 
 const PROJECTS = [
 	{
-		name: "Ghost Signal",
+		name: "Cardio Cult",
 		description:
 			"A cast of characters and animated bumpers built for a late-night channel.",
-		tags: ["Characters", "Animation"],
+		tags: ["Frontend", "Backend"],
 		image: "/images/featured-work/featured_work_1.png",
 		color: "var(--base-400)",
 	},
