@@ -19,31 +19,31 @@ const PROJECTS = [
 		name: "Cardio Cult",
 		description:
 			"A cast of characters and animated bumpers built for a late-night channel.",
-		tags: ["Frontend", "Backend"],
+		tags: ["Frontend", "Automations"],
 		image: "/images/featured-work/featured_work_1.png",
 		color: "var(--base-400)",
 	},
 	{
-		name: "Stack House",
+		name: "Active Tulum",
 		description:
 			"A full illustrated world wrapped around a weird little apartment brand.",
-		tags: ["Illustration", "Worldbuilding"],
-		image: "/images/featured-work/featured_work_2.png",
+		tags: ["Frontend", "CMS"],
+		image: "/images/featured-work/featured_work_3.png",
 		color: "var(--base-800)",
 	},
 	{
-		name: "Wet Brain",
+		name: "Samadhi Retreats",
 		description:
 			"Cover art and a mascot for an app that had no business being this fun.",
-		tags: ["Cover Art", "Mascot"],
-		image: "/images/featured-work/featured_work_3.png",
+		tags: ["Frontend", "Web Strategy"],
+		image: "/images/featured-work/featured_work_2.png",
 		color: "var(--base-600)",
 	},
 	{
-		name: "Slow Burn",
+		name: "Footy Dreams",
 		description:
 			"A poster series and looping visuals for a music label that never sleeps.",
-		tags: ["Posters", "Motion"],
+		tags: ["Frontend", "CMS"],
 		image: "/images/featured-work/featured_work_4.png",
 		color: "var(--base-900)",
 	},
@@ -126,8 +126,8 @@ export default function FeaturedWork() {
 		>
 			<div className={styles.sectionNav}>
 				<SectionNav
-					left="The Good Stuff"
-					right="04 / Chaos"
+					left="Best Experience"
+					right="Smooth Sailing"
 				/>
 			</div>
 
@@ -161,7 +161,7 @@ export default function FeaturedWork() {
 			<div className={styles.sectionFooter}>
 				<SectionFooter
 					left="Roll Through"
-					right="Best In Show"
+					right="High Performance"
 				/>
 			</div>
 		</section>

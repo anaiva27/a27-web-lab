@@ -12,55 +12,54 @@ import styles from "./Footer.module.css";
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 const OBJECTS = [
-	"Illustration",
-	"Characters",
-	"Motion",
-	"Murals",
-	"Comics",
-	"Mascots",
-	"Covers",
-	"Posters",
+	"Websites",
+	"Software",
+	"Mobile Apps",
+	"Performance",
+	"Web Design",
+	"Web Development",
+	"Strategy",
+	"JavaScript",
+	"Typography",
+	"Printing",
+	"Ideas",
 	"Branding",
-	"Type",
-	"Zines",
-	"Sketchbook",
-	"Ink",
-	"Storyboards",
-	"Loops",
-	"Key Art",
-	"Doodles",
-	"Packaging",
-	"Editorial",
-	"Stickers",
-	"Worldbuilding",
+	"Brainstorming",
+	"Automations",
+	"Webflow",
+	"Wix Studio",
+	"CMS",
+	"GSAP",
+	"Style",
+	"Funnels",
+	"Precision",
+	"Copywriting",
+	"Hard-Core Coding",
+	"Redesign",
 	"Concepts",
 	"Animation",
-	"Chaos",
+	"Innovation",
 ];
 
 const NAV = [
 	{
-		title: "Studio",
+		title: "Web Lab",
 		links: [
-			{ label: "About", href: "/about" },
+			// { label: "About", href: "/about" },
 			{ label: "Work", href: "/work" },
-			{ label: "Expertise", href: "/expertise" },
+			// { label: "Expertise", href: "/expertise" },
 		],
 	},
 	{
 		title: "Company",
 		links: [
-			{ label: "Careers", href: "/careers" },
+			// { label: "Careers", href: "/careers" },
 			{ label: "Contact", href: "/contact" },
 		],
 	},
 ];
 
-const SOCIAL = [
-	{ label: "Instagram", href: "/" },
-	{ label: "LinkedIn", href: "/" },
-	{ label: "X", href: "/" },
-];
+const SOCIAL = [{ label: "LinkedIn", href: "/" }];
 
 const PILL_VARIANTS = [styles.v1, styles.v2, styles.v3, styles.v4];
 
@@ -288,17 +287,17 @@ export default function Footer() {
 				};
 
 				// Pills are not interactive on mobile.
-				if (window.innerWidth >= 1000) {
-					section.addEventListener("mousemove", onMouseMove);
-					section.addEventListener("mouseenter", onPointerEnter);
-					section.addEventListener("touchmove", onTouchMove, { passive: true });
+				// if (window.innerWidth >= 1000) {
+				section.addEventListener("mousemove", onMouseMove);
+				section.addEventListener("mouseenter", onPointerEnter);
+				section.addEventListener("touchmove", onTouchMove, { passive: true });
 
-					cleanupFns.push(() => {
-						section.removeEventListener("mousemove", onMouseMove);
-						section.removeEventListener("mouseenter", onPointerEnter);
-						section.removeEventListener("touchmove", onTouchMove);
-					});
-				}
+				cleanupFns.push(() => {
+					section.removeEventListener("mousemove", onMouseMove);
+					section.removeEventListener("mouseenter", onPointerEnter);
+					section.removeEventListener("touchmove", onTouchMove);
+				});
+				// }
 
 				Matter.Events.on(engine, "afterUpdate", () => {
 					bodies.forEach(({ body, width, height }) => {
