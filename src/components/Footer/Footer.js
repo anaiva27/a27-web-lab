@@ -59,7 +59,10 @@ const NAV = [
 	},
 ];
 
-const SOCIAL = [{ label: "LinkedIn", href: "/" }];
+const SOCIAL = [
+	{ label: "LinkedIn", href: "/" },
+	{ label: "Email", href: "/" },
+];
 
 const PILL_VARIANTS = [styles.v1, styles.v2, styles.v3, styles.v4];
 
@@ -411,12 +414,22 @@ export default function Footer() {
 					<div className={styles.top}>
 						<div className={styles.brand}>
 							<h2>A27 Web Lab</h2>
-							<p>
-								An illustration studio making brands, characters, and worlds.
-							</p>
+							<p>Making your business into something bigger.</p>
 						</div>
 
 						<div className={styles.columns}>
+							<div className={styles.column}>
+								<p className="mono sm">Connect</p>
+								<ul>
+									{SOCIAL.map((link) => (
+										<li key={link.label}>
+											<p>
+												<Link href={link.href}>{link.label}</Link>
+											</p>
+										</li>
+									))}
+								</ul>
+							</div>
 							{NAV.map((group) => (
 								<div
 									key={group.title}
@@ -434,19 +447,6 @@ export default function Footer() {
 									</ul>
 								</div>
 							))}
-
-							<div className={styles.column}>
-								<p className="mono sm">Connect</p>
-								<ul>
-									{SOCIAL.map((link) => (
-										<li key={link.label}>
-											<p>
-												<Link href={link.href}>{link.label}</Link>
-											</p>
-										</li>
-									))}
-								</ul>
-							</div>
 						</div>
 					</div>
 
