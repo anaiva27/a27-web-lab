@@ -777,56 +777,49 @@ var _s = __turbopack_context__.k.signature();
 ;
 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].registerPlugin(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$ScrollTrigger$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ScrollTrigger"], __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$gsap$2f$react$2f$src$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useGSAP"]);
 const OBJECTS = [
-    "Illustration",
-    "Characters",
-    "Motion",
-    "Murals",
-    "Comics",
-    "Mascots",
-    "Covers",
-    "Posters",
+    "Websites",
+    "Software",
+    "Mobile Apps",
+    "Performance",
+    "Web Design",
+    "Web Development",
+    "Strategy",
+    "JavaScript",
+    "Typography",
+    "Printing",
+    "Ideas",
     "Branding",
-    "Type",
-    "Zines",
-    "Sketchbook",
-    "Ink",
-    "Storyboards",
-    "Loops",
-    "Key Art",
-    "Doodles",
-    "Packaging",
-    "Editorial",
-    "Stickers",
-    "Worldbuilding",
+    "Brainstorming",
+    "Automations",
+    "Webflow",
+    "Wix Studio",
+    "CMS",
+    "GSAP",
+    "Style",
+    "Funnels",
+    "Precision",
+    "Copywriting",
+    "Hard-Core Coding",
+    "Redesign",
     "Concepts",
     "Animation",
-    "Chaos"
+    "Innovation"
 ];
 const NAV = [
     {
-        title: "Studio",
+        title: "Web Lab",
         links: [
-            {
-                label: "About",
-                href: "/about"
-            },
+            // { label: "About", href: "/about" },
             {
                 label: "Work",
                 href: "/work"
-            },
-            {
-                label: "Expertise",
-                href: "/expertise"
             }
         ]
     },
     {
         title: "Company",
         links: [
-            {
-                label: "Careers",
-                href: "/careers"
-            },
+            // { label: "Careers", href: "/careers" },
             {
                 label: "Contact",
                 href: "/contact"
@@ -836,15 +829,7 @@ const NAV = [
 ];
 const SOCIAL = [
     {
-        label: "Instagram",
-        href: "/"
-    },
-    {
         label: "LinkedIn",
-        href: "/"
-    },
-    {
-        label: "X",
         href: "/"
     }
 ];
@@ -1040,20 +1025,20 @@ function Footer() {
                         }
                     }["Footer.useGSAP.initPhysics.onPointerEnter"];
                     // Pills are not interactive on mobile.
-                    if (window.innerWidth >= 1000) {
-                        section.addEventListener("mousemove", onMouseMove);
-                        section.addEventListener("mouseenter", onPointerEnter);
-                        section.addEventListener("touchmove", onTouchMove, {
-                            passive: true
-                        });
-                        cleanupFns.push({
-                            "Footer.useGSAP.initPhysics": ()=>{
-                                section.removeEventListener("mousemove", onMouseMove);
-                                section.removeEventListener("mouseenter", onPointerEnter);
-                                section.removeEventListener("touchmove", onTouchMove);
-                            }
-                        }["Footer.useGSAP.initPhysics"]);
-                    }
+                    // if (window.innerWidth >= 1000) {
+                    section.addEventListener("mousemove", onMouseMove);
+                    section.addEventListener("mouseenter", onPointerEnter);
+                    section.addEventListener("touchmove", onTouchMove, {
+                        passive: true
+                    });
+                    cleanupFns.push({
+                        "Footer.useGSAP.initPhysics": ()=>{
+                            section.removeEventListener("mousemove", onMouseMove);
+                            section.removeEventListener("mouseenter", onPointerEnter);
+                            section.removeEventListener("touchmove", onTouchMove);
+                        }
+                    }["Footer.useGSAP.initPhysics"]);
+                    // }
                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$matter$2d$js$2f$build$2f$matter$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].Events.on(engine, "afterUpdate", {
                         "Footer.useGSAP.initPhysics": ()=>{
                             bodies.forEach({
@@ -1155,17 +1140,17 @@ function Footer() {
                             children: label
                         }, void 0, false, {
                             fileName: "[project]/src/components/Footer/Footer.js",
-                            lineNumber: 405,
+                            lineNumber: 404,
                             columnNumber: 7
                         }, this)
                     }, label, false, {
                         fileName: "[project]/src/components/Footer/Footer.js",
-                        lineNumber: 401,
+                        lineNumber: 400,
                         columnNumber: 6
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/Footer/Footer.js",
-                lineNumber: 396,
+                lineNumber: 395,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1183,20 +1168,20 @@ function Footer() {
                                             children: "A27 Web Lab"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Footer/Footer.js",
-                                            lineNumber: 414,
+                                            lineNumber: 413,
                                             columnNumber: 8
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "An illustration studio making brands, characters, and worlds."
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Footer/Footer.js",
-                                            lineNumber: 415,
+                                            lineNumber: 414,
                                             columnNumber: 8
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Footer/Footer.js",
-                                    lineNumber: 413,
+                                    lineNumber: 412,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1210,7 +1195,7 @@ function Footer() {
                                                         children: group.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer/Footer.js",
-                                                        lineNumber: 426,
+                                                        lineNumber: 425,
                                                         columnNumber: 10
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1221,28 +1206,28 @@ function Footer() {
                                                                         children: link.label
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Footer/Footer.js",
-                                                                        lineNumber: 431,
+                                                                        lineNumber: 430,
                                                                         columnNumber: 14
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Footer/Footer.js",
-                                                                    lineNumber: 430,
+                                                                    lineNumber: 429,
                                                                     columnNumber: 13
                                                                 }, this)
                                                             }, link.href, false, {
                                                                 fileName: "[project]/src/components/Footer/Footer.js",
-                                                                lineNumber: 429,
+                                                                lineNumber: 428,
                                                                 columnNumber: 12
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer/Footer.js",
-                                                        lineNumber: 427,
+                                                        lineNumber: 426,
                                                         columnNumber: 10
                                                     }, this)
                                                 ]
                                             }, group.title, true, {
                                                 fileName: "[project]/src/components/Footer/Footer.js",
-                                                lineNumber: 422,
+                                                lineNumber: 421,
                                                 columnNumber: 9
                                             }, this)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1253,7 +1238,7 @@ function Footer() {
                                                     children: "Connect"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Footer/Footer.js",
-                                                    lineNumber: 440,
+                                                    lineNumber: 439,
                                                     columnNumber: 9
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1264,40 +1249,40 @@ function Footer() {
                                                                     children: link.label
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Footer/Footer.js",
-                                                                    lineNumber: 445,
+                                                                    lineNumber: 444,
                                                                     columnNumber: 13
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Footer/Footer.js",
-                                                                lineNumber: 444,
+                                                                lineNumber: 443,
                                                                 columnNumber: 12
                                                             }, this)
                                                         }, link.label, false, {
                                                             fileName: "[project]/src/components/Footer/Footer.js",
-                                                            lineNumber: 443,
+                                                            lineNumber: 442,
                                                             columnNumber: 11
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Footer/Footer.js",
-                                                    lineNumber: 441,
+                                                    lineNumber: 440,
                                                     columnNumber: 9
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Footer/Footer.js",
-                                            lineNumber: 439,
+                                            lineNumber: 438,
                                             columnNumber: 8
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Footer/Footer.js",
-                                    lineNumber: 420,
+                                    lineNumber: 419,
                                     columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Footer/Footer.js",
-                            lineNumber: 412,
+                            lineNumber: 411,
                             columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1310,12 +1295,12 @@ function Footer() {
                                         children: "California · Remote"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Footer/Footer.js",
-                                        lineNumber: 456,
+                                        lineNumber: 455,
                                         columnNumber: 8
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Footer/Footer.js",
-                                    lineNumber: 455,
+                                    lineNumber: 454,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1330,7 +1315,7 @@ function Footer() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Footer/Footer.js",
-                                            lineNumber: 460,
+                                            lineNumber: 459,
                                             columnNumber: 8
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1338,7 +1323,7 @@ function Footer() {
                                             children: "Developed by A27 Web Lab"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Footer/Footer.js",
-                                            lineNumber: 463,
+                                            lineNumber: 462,
                                             columnNumber: 8
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1346,36 +1331,36 @@ function Footer() {
                                             children: "All Rights Reserved"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Footer/Footer.js",
-                                            lineNumber: 464,
+                                            lineNumber: 463,
                                             columnNumber: 8
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Footer/Footer.js",
-                                    lineNumber: 459,
+                                    lineNumber: 458,
                                     columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Footer/Footer.js",
-                            lineNumber: 454,
+                            lineNumber: 453,
                             columnNumber: 6
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Footer/Footer.js",
-                    lineNumber: 411,
+                    lineNumber: 410,
                     columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/Footer/Footer.js",
-                lineNumber: 410,
+                lineNumber: 409,
                 columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/Footer/Footer.js",
-        lineNumber: 392,
+        lineNumber: 391,
         columnNumber: 3
     }, this);
 }
@@ -1436,15 +1421,13 @@ const BLOCK_COLORS = [
 ];
 const TRANSITION_LINES = [
     "Hold That Thought",
-    "Wet Paint Ahead",
-    "Redrawing The Screen",
-    "Give It A Sec",
-    "Ink Still Wet",
-    "Turning The Page",
-    "Cooking Something Weird",
-    "Don't Blink Now",
-    "Loading The Chaos",
-    "Mixing New Colors"
+    "Best Solutions",
+    "Your Go-to Web Lab",
+    "Your Favorite Dev",
+    "Smooth Experience",
+    "Worldwide Reach",
+    "Trusted by Many",
+    "Get Excited"
 ];
 function shuffle(items) {
     const next = [
@@ -1596,13 +1579,13 @@ function TransitionProvider({ children }) {
                         }
                     }, i, false, {
                         fileName: "[project]/src/components/TransitionProvider/TransitionProvider.js",
-                        lineNumber: 195,
-                        columnNumber: 11
+                        lineNumber: 197,
+                        columnNumber: 6
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/TransitionProvider/TransitionProvider.js",
-                lineNumber: 193,
-                columnNumber: 7
+                lineNumber: 192,
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TransitionProvider$2f$TransitionProvider$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].text,
@@ -1610,20 +1593,20 @@ function TransitionProvider({ children }) {
                     ref: headingRef
                 }, void 0, false, {
                     fileName: "[project]/src/components/TransitionProvider/TransitionProvider.js",
-                    lineNumber: 206,
-                    columnNumber: 9
+                    lineNumber: 208,
+                    columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/TransitionProvider/TransitionProvider.js",
-                lineNumber: 205,
-                columnNumber: 7
+                lineNumber: 207,
+                columnNumber: 4
             }, this),
             children
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/TransitionProvider/TransitionProvider.js",
-        lineNumber: 182,
-        columnNumber: 5
+        lineNumber: 181,
+        columnNumber: 3
     }, this);
 }
 _s(TransitionProvider, "OIktaonlXa1N16vYDxms5h/dF9A=");

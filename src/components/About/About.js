@@ -113,7 +113,8 @@ function Spot({ src, alt }) {
 	}, []);
 
 	const follow = (e) => {
-		if (!activeRef.current || !isDesktop() || !ref.current) return;
+		if (!activeRef.current || !ref.current) return;
+		// if (!activeRef.current || !isDesktop() || !ref.current) return;
 
 		const rect = ref.current.getBoundingClientRect();
 		const cx = rect.left + rect.width / 2;
@@ -133,7 +134,7 @@ function Spot({ src, alt }) {
 	};
 
 	const expand = () => {
-		if (!isDesktop()) return;
+		// if (!isDesktop()) return;
 
 		const panel = panelRef.current;
 		const img = imgRef.current;
@@ -166,7 +167,7 @@ function Spot({ src, alt }) {
 	};
 
 	const collapse = () => {
-		if (!isDesktop()) return;
+		// if (!isDesktop()) return;
 
 		const panel = panelRef.current;
 		const img = imgRef.current;
@@ -218,6 +219,7 @@ function Spot({ src, alt }) {
 			onMouseEnter={expand}
 			onMouseMove={follow}
 			onMouseLeave={collapse}
+			onClick={isDesktop ? null : expand}
 		>
 			<span
 				ref={panelRef}
