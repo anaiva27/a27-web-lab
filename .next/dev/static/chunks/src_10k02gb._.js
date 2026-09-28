@@ -1999,6 +1999,16 @@ const PROJECTS = [
         color: "var(--base-400)"
     },
     {
+        name: "Footy Dreams",
+        description: "We designed and developed a clean portfolio website with e-commerce elements to clearly convey the author's visual story while selling their products.",
+        tags: [
+            "Frontend",
+            "CMS"
+        ],
+        image: "/images/featured-work/featured_work_44.png",
+        color: "var(--base-900)"
+    },
+    {
         name: "Active Tulum",
         description: "We developed a modern website that mimics the experience of the original magazine, with content management capabilities and an email list sign-up.",
         tags: [
@@ -2017,16 +2027,6 @@ const PROJECTS = [
         ],
         image: "/images/featured-work/featured_work_22.png",
         color: "var(--base-600)"
-    },
-    {
-        name: "Footy Dreams",
-        description: "We designed and developed a clean portfolio website with e-commerce elements to clearly convey the author's visual story while selling their products.",
-        tags: [
-            "Frontend",
-            "CMS"
-        ],
-        image: "/images/featured-work/featured_work_44.png",
-        color: "var(--base-900)"
     }
 ];
 function FeaturedWork() {

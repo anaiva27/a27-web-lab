@@ -142,7 +142,23 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ClientL
 ;
 const metadata = {
     title: "A27 Web Lab | Software Company",
-    description: "A27 Web Lab offers powerful websites that convert."
+    description: "A27 Web Lab offers powerful websites that convert.",
+    openGraph: {
+        title: "A27 Web Lab | Software Company",
+        description: "A27 Web Lab offers powerful websites that convert.",
+        url: "https://www.a27weblab.com/",
+        siteName: "A27 Web Lab | Software Company",
+        locale: "en_US",
+        type: "website",
+        images: [
+            {
+                url: "/og-image.png",
+                width: 1200,
+                height: 630,
+                alt: "Preview image for A27 Web Lab"
+            }
+        ]
+    }
 };
 function RootLayout({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
@@ -153,17 +169,17 @@ function RootLayout({ children }) {
                 children: children
             }, void 0, false, {
                 fileName: "[project]/src/app/layout.js",
-                lineNumber: 34,
+                lineNumber: 50,
                 columnNumber: 5
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/app/layout.js",
-            lineNumber: 33,
+            lineNumber: 49,
             columnNumber: 4
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/layout.js",
-        lineNumber: 29,
+        lineNumber: 45,
         columnNumber: 3
     }, this);
 }

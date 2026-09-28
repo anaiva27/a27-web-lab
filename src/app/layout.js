@@ -22,6 +22,22 @@ const shadowsIntoLight = Shadows_Into_Light({
 export const metadata = {
 	title: "A27 Web Lab | Software Company",
 	description: "A27 Web Lab offers powerful websites that convert.",
+	openGraph: {
+		title: "A27 Web Lab | Software Company",
+		description: "A27 Web Lab offers powerful websites that convert.",
+		url: "https://www.a27weblab.com/",
+		siteName: "A27 Web Lab | Software Company",
+		locale: "en_US",
+		type: "website",
+		images: [
+			{
+				url: "/og-image.png", // Located in your /public folder
+				width: 1200,
+				height: 630,
+				alt: "Preview image for A27 Web Lab",
+			},
+		],
+	},
 };
 
 export default function RootLayout({ children }) {

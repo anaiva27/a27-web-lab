@@ -50,21 +50,21 @@ const EXPERTISE = [
         color: "var(--base-800)"
     },
     {
-        tagline: "Engaging, easy to manage online magazine.",
-        title: "Active Tulum",
-        href: "https://www.activetulum.com/",
-        link: "activetulum.com",
-        description: "We developed a modern website that mimics the experience of the original magazine, with content management capabilities and an email list sign-up.",
-        image: "/images/expertise/exp-2.png",
-        color: "var(--base-800)"
-    },
-    {
         tagline: "A coffee table bookA Global Visual Series by Cairo Salvatierra",
         title: "Footy Dreams",
         href: "https://www.footydreams.co/",
         link: "footydreams.co",
         description: "We designed and developed a clean portfolio website with e-commerce elements to clearly convey the author's visual story while selling their products.",
         image: "/images/expertise/exp-33.png",
+        color: "var(--base-800)"
+    },
+    {
+        tagline: "Engaging, easy to manage online magazine.",
+        title: "Active Tulum",
+        href: "https://www.activetulum.com/",
+        link: "activetulum.com",
+        description: "We developed a modern website that mimics the experience of the original magazine, with content management capabilities and an email list sign-up.",
+        image: "/images/expertise/exp-2.png",
         color: "var(--base-800)"
     },
     {
