@@ -62,7 +62,6 @@ const NAV = [
 const SOCIAL = [
 	{ label: "LinkedIn", href: "https://www.linkedin.com/in/anastasia27w/" },
 	{ label: "Email", href: "mailto:anatasia27.software@gmail.com" },
-	{ label: "View Work", href: "/work" },
 ];
 
 const PILL_VARIANTS = [styles.v1, styles.v2, styles.v3, styles.v4];
@@ -435,6 +434,21 @@ export default function Footer() {
 											</p>
 										</li>
 									))}
+									<li
+										key="work"
+										className={styles.showMobile}
+									>
+										<p className={styles.showMobile}>
+											<Link
+												className={styles.showMobile}
+												href="/work"
+												target="_blank"
+												rel="noreferrer"
+											>
+												Our Work
+											</Link>
+										</p>
+									</li>
 								</ul>
 							</div>
 							{NAV.map((group) => (

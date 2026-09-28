@@ -136,6 +136,10 @@
 	gap: 1.5rem;
 }
 
+.column ul li:nth-child(3) {
+	display: none;
+}
+
 @media (max-width: 1000px) {
 	.inner {
 		padding-top: 5rem;
@@ -197,5 +201,9 @@
 
 	.column a {
 		font-size: 0.9rem;
+	}
+
+	.column ul li:nth-child(3) {
+		display: inline;
 	}
 }

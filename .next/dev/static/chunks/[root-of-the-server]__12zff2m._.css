@@ -523,6 +523,10 @@
   display: flex;
 }
 
+.Footer-module__Grjkva__column ul li:nth-child(3) {
+  display: none;
+}
+
 @media (max-width: 1000px) {
   .Footer-module__Grjkva__inner {
     gap: 2rem;
@@ -583,6 +587,10 @@
 
   .Footer-module__Grjkva__column a {
     font-size: .9rem;
+  }
+
+  .Footer-module__Grjkva__column ul li:nth-child(3) {
+    display: inline;
   }
 }
 

@@ -603,6 +603,7 @@
 
 .FeaturedWork-module__1i6OJq__colMedia img {
   object-fit: cover;
+  object-position: top;
   width: 100%;
   height: 100%;
 }

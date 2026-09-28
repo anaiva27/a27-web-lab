@@ -836,10 +836,6 @@ const SOCIAL = [
     {
         label: "Email",
         href: "mailto:anatasia27.software@gmail.com"
-    },
-    {
-        label: "View Work",
-        href: "/work"
     }
 ];
 const PILL_VARIANTS = [
@@ -1149,17 +1145,17 @@ function Footer() {
                             children: label
                         }, void 0, false, {
                             fileName: "[project]/src/components/Footer/Footer.js",
-                            lineNumber: 408,
+                            lineNumber: 407,
                             columnNumber: 7
                         }, this)
                     }, label, false, {
                         fileName: "[project]/src/components/Footer/Footer.js",
-                        lineNumber: 404,
+                        lineNumber: 403,
                         columnNumber: 6
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/Footer/Footer.js",
-                lineNumber: 399,
+                lineNumber: 398,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1177,20 +1173,20 @@ function Footer() {
                                             children: "A27 Web Lab"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Footer/Footer.js",
-                                            lineNumber: 417,
+                                            lineNumber: 416,
                                             columnNumber: 8
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "Making your business into something bigger."
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Footer/Footer.js",
-                                            lineNumber: 418,
+                                            lineNumber: 417,
                                             columnNumber: 8
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Footer/Footer.js",
-                                    lineNumber: 416,
+                                    lineNumber: 415,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1204,41 +1200,68 @@ function Footer() {
                                                     children: "Connect"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Footer/Footer.js",
-                                                    lineNumber: 423,
+                                                    lineNumber: 422,
                                                     columnNumber: 9
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                    children: SOCIAL.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                    href: link.href,
-                                                                    target: "_blank",
-                                                                    rel: "noreferrer",
-                                                                    children: link.label
+                                                    children: [
+                                                        SOCIAL.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                        href: link.href,
+                                                                        target: "_blank",
+                                                                        rel: "noreferrer",
+                                                                        children: link.label
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/components/Footer/Footer.js",
+                                                                        lineNumber: 427,
+                                                                        columnNumber: 13
+                                                                    }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Footer/Footer.js",
-                                                                    lineNumber: 428,
-                                                                    columnNumber: 13
+                                                                    lineNumber: 426,
+                                                                    columnNumber: 12
+                                                                }, this)
+                                                            }, link.label, false, {
+                                                                fileName: "[project]/src/components/Footer/Footer.js",
+                                                                lineNumber: 425,
+                                                                columnNumber: 11
+                                                            }, this)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2f$Footer$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].showMobile,
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2f$Footer$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].showMobile,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2f$Footer$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].showMobile,
+                                                                    href: "/work",
+                                                                    target: "_blank",
+                                                                    rel: "noreferrer",
+                                                                    children: "Our Work"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/components/Footer/Footer.js",
+                                                                    lineNumber: 442,
+                                                                    columnNumber: 12
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Footer/Footer.js",
-                                                                lineNumber: 427,
-                                                                columnNumber: 12
+                                                                lineNumber: 441,
+                                                                columnNumber: 11
                                                             }, this)
-                                                        }, link.label, false, {
+                                                        }, "work", false, {
                                                             fileName: "[project]/src/components/Footer/Footer.js",
-                                                            lineNumber: 426,
-                                                            columnNumber: 11
-                                                        }, this))
-                                                }, void 0, false, {
+                                                            lineNumber: 437,
+                                                            columnNumber: 10
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
                                                     fileName: "[project]/src/components/Footer/Footer.js",
-                                                    lineNumber: 424,
+                                                    lineNumber: 423,
                                                     columnNumber: 9
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Footer/Footer.js",
-                                            lineNumber: 422,
+                                            lineNumber: 421,
                                             columnNumber: 8
                                         }, this),
                                         NAV.map((group)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1249,7 +1272,7 @@ function Footer() {
                                                         children: group.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer/Footer.js",
-                                                        lineNumber: 445,
+                                                        lineNumber: 459,
                                                         columnNumber: 10
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1260,40 +1283,40 @@ function Footer() {
                                                                         children: link.label
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Footer/Footer.js",
-                                                                        lineNumber: 450,
+                                                                        lineNumber: 464,
                                                                         columnNumber: 14
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Footer/Footer.js",
-                                                                    lineNumber: 449,
+                                                                    lineNumber: 463,
                                                                     columnNumber: 13
                                                                 }, this)
                                                             }, link.href, false, {
                                                                 fileName: "[project]/src/components/Footer/Footer.js",
-                                                                lineNumber: 448,
+                                                                lineNumber: 462,
                                                                 columnNumber: 12
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer/Footer.js",
-                                                        lineNumber: 446,
+                                                        lineNumber: 460,
                                                         columnNumber: 10
                                                     }, this)
                                                 ]
                                             }, group.title, true, {
                                                 fileName: "[project]/src/components/Footer/Footer.js",
-                                                lineNumber: 441,
+                                                lineNumber: 455,
                                                 columnNumber: 9
                                             }, this))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Footer/Footer.js",
-                                    lineNumber: 421,
+                                    lineNumber: 420,
                                     columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Footer/Footer.js",
-                            lineNumber: 415,
+                            lineNumber: 414,
                             columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1306,12 +1329,12 @@ function Footer() {
                                         children: "California · Remote"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Footer/Footer.js",
-                                        lineNumber: 462,
+                                        lineNumber: 476,
                                         columnNumber: 8
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Footer/Footer.js",
-                                    lineNumber: 461,
+                                    lineNumber: 475,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1326,7 +1349,7 @@ function Footer() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Footer/Footer.js",
-                                            lineNumber: 466,
+                                            lineNumber: 480,
                                             columnNumber: 8
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1334,7 +1357,7 @@ function Footer() {
                                             children: "Developed by A27 Web Lab"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Footer/Footer.js",
-                                            lineNumber: 469,
+                                            lineNumber: 483,
                                             columnNumber: 8
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1342,36 +1365,36 @@ function Footer() {
                                             children: "All Rights Reserved"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Footer/Footer.js",
-                                            lineNumber: 470,
+                                            lineNumber: 484,
                                             columnNumber: 8
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Footer/Footer.js",
-                                    lineNumber: 465,
+                                    lineNumber: 479,
                                     columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Footer/Footer.js",
-                            lineNumber: 460,
+                            lineNumber: 474,
                             columnNumber: 6
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Footer/Footer.js",
-                    lineNumber: 414,
+                    lineNumber: 413,
                     columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/Footer/Footer.js",
-                lineNumber: 413,
+                lineNumber: 412,
                 columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/Footer/Footer.js",
-        lineNumber: 395,
+        lineNumber: 394,
         columnNumber: 3
     }, this);
 }
