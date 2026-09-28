@@ -58,7 +58,7 @@ const EXPERTISE = [
 		href: "https://fordplayeroftheweek.com/",
 		link: "fordplayeroftheweek.com",
 		description:
-			"Anastasia developed a portal (backend and frontend) for Ford™ to be able to manage a weekly submissions of athletes in Texas.",
+			"Anastasia developed a portal (backend and frontend) for Ford™ to be able to manage weekly submissions of athlete nominees in Texas.",
 		image: "/images/expertise/exp-5.png",
 		color: "var(--base-800)",
 	},
@@ -68,7 +68,7 @@ const EXPERTISE = [
 		href: "https://fordathleteofthemonth.com/",
 		link: "fordathleteofthemonth.com",
 		description:
-			"Anastasia developed a portal (backend and frontend) for Ford™ to be able to manage a monthly submissions of female athletes in Texas.",
+			"Anastasia developed a portal (backend and frontend) for Ford™ to be able to manage monthly submissions of female athletes nominees in Texas.",
 		image: "/images/expertise/exp-6.png",
 		color: "var(--base-800)",
 	},
