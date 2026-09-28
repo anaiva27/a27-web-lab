@@ -62,6 +62,7 @@ const NAV = [
 const SOCIAL = [
 	{ label: "LinkedIn", href: "https://www.linkedin.com/in/anastasia27w/" },
 	{ label: "Email", href: "mailto:anatasia27.software@gmail.com" },
+	{ label: "View Work", href: "/work" },
 ];
 
 const PILL_VARIANTS = [styles.v1, styles.v2, styles.v3, styles.v4];
