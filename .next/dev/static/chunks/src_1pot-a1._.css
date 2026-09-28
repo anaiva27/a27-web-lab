@@ -301,8 +301,13 @@
   position: relative;
 }
 
-.contact-module__swMWYG__callout {
-  z-index: 10;
+.contact-module__swMWYG__calloutDesktop {
+  z-index: 15;
+  display: inline-flex;
+}
+
+.contact-module__swMWYG__calloutMobile {
+  display: none;
 }
 
 .contact-module__swMWYG__sectionNav, .contact-module__swMWYG__sectionFooter {
@@ -321,10 +326,14 @@
 
 @media (max-width: 1000px) {
   .contact-module__swMWYG__hero h1 {
-    width: min(50%, 50rem);
+    width: min(60%, 50rem);
   }
 
-  .contact-module__swMWYG__callout {
+  .contact-module__swMWYG__calloutMobile {
+    display: inline-flex;
+  }
+
+  .contact-module__swMWYG__calloutDesktop {
     display: none;
   }
 }

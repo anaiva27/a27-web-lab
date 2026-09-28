@@ -308,12 +308,6 @@
   left: 0;
 }
 
-@media (max-width: 1000px) {
-  .expertise-module__gzpxYW__callout {
-    display: none;
-  }
-}
-
 /* [project]/src/components/Copy/Copy.module.css [app-client] (css) */
 .Copy-module__1LON9q__line, .Copy-module__1LON9q__word {
   position: relative;

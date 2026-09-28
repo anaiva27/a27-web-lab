@@ -163,3 +163,147 @@
 {"timestamp":"10:06:37.282","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
 {"timestamp":"10:07:01.525","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
 {"timestamp":"10:07:08.837","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
+{"timestamp":"10:08:35.246","source":"Server","level":"LOG","message":"✓ Compiled in 219ms"}
+{"timestamp":"10:09:14.803","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"10:09:45.522","source":"Server","level":"LOG","message":"✓ Compiled in 179ms"}
+{"timestamp":"10:09:55.714","source":"Server","level":"LOG","message":"✓ Compiled in 23ms"}
+{"timestamp":"10:10:42.370","source":"Server","level":"LOG","message":"✓ Compiled in 195ms"}
+{"timestamp":"10:11:45.623","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
+{"timestamp":"10:11:50.580","source":"Server","level":"LOG","message":"✓ Compiled in 9ms"}
+{"timestamp":"10:12:48.138","source":"Server","level":"LOG","message":"✓ Compiled in 9ms"}
+{"timestamp":"10:13:02.320","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"10:13:11.270","source":"Server","level":"LOG","message":"✓ Compiled in 9ms"}
+{"timestamp":"10:13:31.179","source":"Server","level":"LOG","message":"✓ Compiled in 9ms"}
+{"timestamp":"10:13:37.378","source":"Server","level":"LOG","message":"✓ Compiled in 8ms"}
+{"timestamp":"10:13:43.516","source":"Server","level":"LOG","message":"✓ Compiled in 11ms"}
+{"timestamp":"10:14:50.561","source":"Server","level":"LOG","message":"✓ Compiled in 16ms"}
+{"timestamp":"10:15:42.497","source":"Browser","level":"LOG","message":"isDesktop "}
+{"timestamp":"10:15:42.497","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m isDesktop "}
+{"timestamp":"10:15:42.512","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"10:15:43.290","source":"Browser","level":"LOG","message":"isDesktop "}
+{"timestamp":"10:15:43.290","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m isDesktop "}
+{"timestamp":"10:15:50.707","source":"Server","level":"LOG","message":"isDesktop ()=>{\n        return window.innerWidth >= DESKTOP_MIN;\n    }"}
+{"timestamp":"10:15:51.356","source":"Browser","level":"LOG","message":"isDesktop "}
+{"timestamp":"10:15:51.356","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m isDesktop "}
+{"timestamp":"10:16:07.359","source":"Server","level":"LOG","message":"✓ Compiled in 9ms"}
+{"timestamp":"10:16:07.398","source":"Browser","level":"LOG","message":"isDesktop "}
+{"timestamp":"10:16:07.398","source":"Browser","level":"LOG","message":"isDesktop "}
+{"timestamp":"10:16:07.398","source":"Browser","level":"ERROR","message":"uncaughtError: ReferenceError: DESKTOP_MIN is not defined"}
+{"timestamp":"10:16:07.550","source":"Server","level":"ERROR","message":"[browser] \"\\u001b[31mUncaught ReferenceError: DESKTOP_MIN is not defined\\u001b[39m\\n\\u001b[31m    at isDesktop (src/app/contact/page.jsx:11:31)\\n    at ContactPage (src/app/contact/page.jsx:27:18)\\n    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:86461)\\n    at Set.forEach (<anonymous>)\\u001b[39m\\n  \\u001b[90m 9 |\\u001b[0m \\u001b[36mexport\\u001b[0m \\u001b[36mdefault\\u001b[0m \\u001b[36mfunction\\u001b[0m \\u001b[33mContactPage\\u001b[0m() {\\n  \\u001b[90m10 |\\u001b[0m \\t\\u001b[36mconst\\u001b[0m isDesktop = () => {\\n\\u001b[31m\\u001b[1m>\\u001b[0m \\u001b[90m11 |\\u001b[0m \\t\\t\\u001b[36mreturn\\u001b[0m window.innerWidth >= \\u001b[33mDESKTOP_MIN\\u001b[0m;\\n  \\u001b[90m   |\\u001b[0m                             \\u001b[31m\\u001b[1m^\\u001b[0m\\n  \\u001b[90m12 |\\u001b[0m \\t};\\n  \\u001b[90m13 |\\u001b[0m \\tconsole.log(\\u001b[32m\\\"isDesktop\\\"\\u001b[0m, isDesktop);\\n  \\u001b[90m14 |\\u001b[0m\""}
+{"timestamp":"10:16:07.551","source":"Browser","level":"ERROR","message":"\u001b[31mUncaught ReferenceError: DESKTOP_MIN is not defined\u001b[39m\n\u001b[31m    at isDesktop (src/app/contact/page.jsx:11:31)\n    at ContactPage (src/app/contact/page.jsx:27:18)\n    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:86461)\n    at Set.forEach (<anonymous>)\u001b[39m\n  \u001b[90m 9 |\u001b[0m \u001b[36mexport\u001b[0m \u001b[36mdefault\u001b[0m \u001b[36mfunction\u001b[0m \u001b[33mContactPage\u001b[0m() {\n  \u001b[90m10 |\u001b[0m \t\u001b[36mconst\u001b[0m isDesktop = () => {\n\u001b[31m\u001b[1m>\u001b[0m \u001b[90m11 |\u001b[0m \t\t\u001b[36mreturn\u001b[0m window.innerWidth >= \u001b[33mDESKTOP_MIN\u001b[0m;\n  \u001b[90m   |\u001b[0m                             \u001b[31m\u001b[1m^\u001b[0m\n  \u001b[90m12 |\u001b[0m \t};\n  \u001b[90m13 |\u001b[0m \tconsole.log(\u001b[32m\"isDesktop\"\u001b[0m, isDesktop);\n  \u001b[90m14 |\u001b[0m"}
+{"timestamp":"10:16:08.147","source":"Browser","level":"LOG","message":"isDesktop "}
+{"timestamp":"10:16:08.147","source":"Browser","level":"LOG","message":"isDesktop "}
+{"timestamp":"10:16:08.147","source":"Browser","level":"ERROR","message":"uncaughtError: ReferenceError: DESKTOP_MIN is not defined"}
+{"timestamp":"10:16:15.467","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload due to a runtime error."}
+{"timestamp":"10:16:15.469","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload due to a runtime error."}
+{"timestamp":"10:16:15.610","source":"Server","level":"LOG","message":"✓ Compiled in 9ms"}
+{"timestamp":"10:16:15.737","source":"Server","level":"LOG","message":"isDesktop ()=>{\n        return window.innerWidth >= 1000;\n    }"}
+{"timestamp":"10:16:15.797","source":"Server","level":"ERROR","message":"⨯ ReferenceError: window is not defined"}
+{"timestamp":"10:16:15.835","source":"Browser","level":"LOG","message":"isDesktop "}
+{"timestamp":"10:16:15.835","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m isDesktop "}
+{"timestamp":"10:16:15.913","source":"Server","level":"LOG","message":"isDesktop ()=>{\n        return window.innerWidth >= 1000;\n    }"}
+{"timestamp":"10:16:15.921","source":"Server","level":"ERROR","message":"⨯ ReferenceError: window is not defined"}
+{"timestamp":"10:16:16.471","source":"Browser","level":"LOG","message":"isDesktop "}
+{"timestamp":"10:16:16.471","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m isDesktop "}
+{"timestamp":"10:16:20.923","source":"Browser","level":"LOG","message":"isDesktop "}
+{"timestamp":"10:16:20.923","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m isDesktop "}
+{"timestamp":"10:16:50.027","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"10:16:50.028","source":"Browser","level":"LOG","message":"isDesktop "}
+{"timestamp":"10:16:50.028","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m isDesktop "}
+{"timestamp":"10:16:51.896","source":"Browser","level":"LOG","message":"isDesktop "}
+{"timestamp":"10:16:51.896","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m isDesktop "}
+{"timestamp":"10:16:53.106","source":"Server","level":"LOG","message":"isDesktop function isDesktop() {\n        return window.innerWidth >= 1000;\n    }"}
+{"timestamp":"10:16:53.113","source":"Server","level":"ERROR","message":"⨯ ReferenceError: window is not defined"}
+{"timestamp":"10:16:53.450","source":"Browser","level":"LOG","message":"isDesktop "}
+{"timestamp":"10:16:53.450","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m isDesktop "}
+{"timestamp":"10:16:55.305","source":"Server","level":"LOG","message":"isDesktop function isDesktop() {\n        return window.innerWidth >= 1000;\n    }"}
+{"timestamp":"10:16:55.311","source":"Server","level":"ERROR","message":"⨯ ReferenceError: window is not defined"}
+{"timestamp":"10:16:55.890","source":"Browser","level":"LOG","message":"isDesktop "}
+{"timestamp":"10:16:55.890","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m isDesktop "}
+{"timestamp":"10:18:50.184","source":"Browser","level":"LOG","message":"isDesktop "}
+{"timestamp":"10:18:50.184","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m isDesktop "}
+{"timestamp":"10:18:50.196","source":"Server","level":"LOG","message":"✓ Compiled in 15ms"}
+{"timestamp":"10:18:51.088","source":"Browser","level":"LOG","message":"isDesktop "}
+{"timestamp":"10:18:51.088","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m isDesktop "}
+{"timestamp":"10:18:52.970","source":"Server","level":"LOG","message":"isDesktop function isDesktop() {\n    return window.innerWidth >= 1000;\n}"}
+{"timestamp":"10:18:52.977","source":"Server","level":"ERROR","message":"⨯ ReferenceError: window is not defined"}
+{"timestamp":"10:18:53.339","source":"Browser","level":"LOG","message":"isDesktop "}
+{"timestamp":"10:18:53.339","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m isDesktop "}
+{"timestamp":"10:18:55.153","source":"Server","level":"LOG","message":"isDesktop function isDesktop() {\n    return window.innerWidth >= 1000;\n}"}
+{"timestamp":"10:18:55.159","source":"Server","level":"ERROR","message":"⨯ ReferenceError: window is not defined"}
+{"timestamp":"10:18:58.902","source":"Browser","level":"LOG","message":"isDesktop "}
+{"timestamp":"10:18:58.902","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m isDesktop "}
+{"timestamp":"10:19:01.061","source":"Server","level":"LOG","message":"isDesktop function isDesktop() {\n    return window.innerWidth >= 1000;\n}"}
+{"timestamp":"10:19:01.067","source":"Server","level":"ERROR","message":"⨯ ReferenceError: window is not defined"}
+{"timestamp":"10:19:01.508","source":"Browser","level":"LOG","message":"isDesktop "}
+{"timestamp":"10:19:01.508","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m isDesktop "}
+{"timestamp":"10:21:50.273","source":"Server","level":"LOG","message":"✓ Compiled in 18ms"}
+{"timestamp":"10:21:50.307","source":"Browser","level":"ERROR","message":"uncaughtError: ReferenceError: useState is not defined"}
+{"timestamp":"10:21:50.320","source":"Server","level":"ERROR","message":"[browser] \"\\u001b[31mUncaught ReferenceError: useState is not defined\\u001b[39m\\n\\u001b[31m    at ContactPage (src/app/contact/page.jsx:10:32)\\n    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:86461)\\n    at Set.forEach (<anonymous>)\\u001b[39m\\n  \\u001b[90m 8 |\\u001b[0m\\n  \\u001b[90m 9 |\\u001b[0m \\u001b[36mexport\\u001b[0m \\u001b[36mdefault\\u001b[0m \\u001b[36mfunction\\u001b[0m \\u001b[33mContactPage\\u001b[0m() {\\n\\u001b[31m\\u001b[1m>\\u001b[0m \\u001b[90m10 |\\u001b[0m \\t\\u001b[36mconst\\u001b[0m [desktop, setDesktop] = useState(\\u001b[36mfalse\\u001b[0m);\\n  \\u001b[90m   |\\u001b[0m                               \\u001b[31m\\u001b[1m^\\u001b[0m\\n  \\u001b[90m11 |\\u001b[0m\\n  \\u001b[90m12 |\\u001b[0m \\tuseEffect(() => {\\n  \\u001b[90m13 |\\u001b[0m \\t\\t\\u001b[36mconst\\u001b[0m check = () => setDesktop(window.innerWidth >= \\u001b[35m1000\\u001b[0m);\""}
+{"timestamp":"10:21:50.321","source":"Browser","level":"ERROR","message":"\u001b[31mUncaught ReferenceError: useState is not defined\u001b[39m\n\u001b[31m    at ContactPage (src/app/contact/page.jsx:10:32)\n    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:86461)\n    at Set.forEach (<anonymous>)\u001b[39m\n  \u001b[90m 8 |\u001b[0m\n  \u001b[90m 9 |\u001b[0m \u001b[36mexport\u001b[0m \u001b[36mdefault\u001b[0m \u001b[36mfunction\u001b[0m \u001b[33mContactPage\u001b[0m() {\n\u001b[31m\u001b[1m>\u001b[0m \u001b[90m10 |\u001b[0m \t\u001b[36mconst\u001b[0m [desktop, setDesktop] = useState(\u001b[36mfalse\u001b[0m);\n  \u001b[90m   |\u001b[0m                               \u001b[31m\u001b[1m^\u001b[0m\n  \u001b[90m11 |\u001b[0m\n  \u001b[90m12 |\u001b[0m \tuseEffect(() => {\n  \u001b[90m13 |\u001b[0m \t\t\u001b[36mconst\u001b[0m check = () => setDesktop(window.innerWidth >= \u001b[35m1000\u001b[0m);"}
+{"timestamp":"10:21:51.361","source":"Browser","level":"ERROR","message":"uncaughtError: ReferenceError: useState is not defined"}
+{"timestamp":"10:21:53.134","source":"Server","level":"ERROR","message":"⨯ ReferenceError: useState is not defined"}
+{"timestamp":"10:21:53.570","source":"Browser","level":"ERROR","message":"uncaughtError: ReferenceError: useState is not defined"}
+{"timestamp":"10:21:53.715","source":"Server","level":"ERROR","message":"[browser] \"\\u001b[31mUncaught ReferenceError: useState is not defined\\u001b[39m\\n\\u001b[31m    at ContactPage (src/app/contact/page.jsx:10:32)\\u001b[39m\\n  \\u001b[90m 8 |\\u001b[0m\\n  \\u001b[90m 9 |\\u001b[0m \\u001b[36mexport\\u001b[0m \\u001b[36mdefault\\u001b[0m \\u001b[36mfunction\\u001b[0m \\u001b[33mContactPage\\u001b[0m() {\\n\\u001b[31m\\u001b[1m>\\u001b[0m \\u001b[90m10 |\\u001b[0m \\t\\u001b[36mconst\\u001b[0m [desktop, setDesktop] = useState(\\u001b[36mfalse\\u001b[0m);\\n  \\u001b[90m   |\\u001b[0m                               \\u001b[31m\\u001b[1m^\\u001b[0m\\n  \\u001b[90m11 |\\u001b[0m\\n  \\u001b[90m12 |\\u001b[0m \\tuseEffect(() => {\\n  \\u001b[90m13 |\\u001b[0m \\t\\t\\u001b[36mconst\\u001b[0m check = () => setDesktop(window.innerWidth >= \\u001b[35m1000\\u001b[0m);\""}
+{"timestamp":"10:21:53.716","source":"Browser","level":"ERROR","message":"\u001b[31mUncaught ReferenceError: useState is not defined\u001b[39m\n\u001b[31m    at ContactPage (src/app/contact/page.jsx:10:32)\u001b[39m\n  \u001b[90m 8 |\u001b[0m\n  \u001b[90m 9 |\u001b[0m \u001b[36mexport\u001b[0m \u001b[36mdefault\u001b[0m \u001b[36mfunction\u001b[0m \u001b[33mContactPage\u001b[0m() {\n\u001b[31m\u001b[1m>\u001b[0m \u001b[90m10 |\u001b[0m \t\u001b[36mconst\u001b[0m [desktop, setDesktop] = useState(\u001b[36mfalse\u001b[0m);\n  \u001b[90m   |\u001b[0m                               \u001b[31m\u001b[1m^\u001b[0m\n  \u001b[90m11 |\u001b[0m\n  \u001b[90m12 |\u001b[0m \tuseEffect(() => {\n  \u001b[90m13 |\u001b[0m \t\t\u001b[36mconst\u001b[0m check = () => setDesktop(window.innerWidth >= \u001b[35m1000\u001b[0m);"}
+{"timestamp":"10:22:19.661","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload due to a runtime error."}
+{"timestamp":"10:22:19.662","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload due to a runtime error."}
+{"timestamp":"10:22:19.685","source":"Server","level":"LOG","message":"✓ Compiled in 398ms"}
+{"timestamp":"10:22:49.390","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"10:22:49.393","source":"Browser","level":"LOG","message":"desktop false"}
+{"timestamp":"10:22:49.393","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m desktop false"}
+{"timestamp":"10:22:49.393","source":"Browser","level":"LOG","message":"desktop false"}
+{"timestamp":"10:22:49.393","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m desktop false"}
+{"timestamp":"10:22:50.087","source":"Browser","level":"LOG","message":"desktop true"}
+{"timestamp":"10:22:50.088","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m desktop true"}
+{"timestamp":"10:22:54.034","source":"Server","level":"LOG","message":"desktop false"}
+{"timestamp":"10:22:54.682","source":"Browser","level":"LOG","message":"desktop false"}
+{"timestamp":"10:22:54.682","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m desktop false"}
+{"timestamp":"10:22:59.683","source":"Browser","level":"LOG","message":"desktop true"}
+{"timestamp":"10:22:59.683","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m desktop true"}
+{"timestamp":"10:22:59.683","source":"Browser","level":"LOG","message":"desktop true"}
+{"timestamp":"10:22:59.683","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m desktop true"}
+{"timestamp":"10:23:02.439","source":"Server","level":"LOG","message":"desktop false"}
+{"timestamp":"10:23:03.339","source":"Browser","level":"LOG","message":"desktop false"}
+{"timestamp":"10:23:03.339","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m desktop false"}
+{"timestamp":"10:23:03.580","source":"Browser","level":"LOG","message":"desktop true"}
+{"timestamp":"10:23:03.580","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m desktop true"}
+{"timestamp":"10:23:03.580","source":"Browser","level":"LOG","message":"desktop true"}
+{"timestamp":"10:23:03.580","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m desktop true"}
+{"timestamp":"10:23:07.734","source":"Browser","level":"LOG","message":"desktop false"}
+{"timestamp":"10:23:07.734","source":"Browser","level":"LOG","message":"\u001b[2;38;2;124;124;124m%s\u001b[0m desktop false"}
+{"timestamp":"10:27:21.947","source":"Server","level":"LOG","message":"✓ Compiled in 51ms"}
+{"timestamp":"10:28:10.015","source":"Server","level":"LOG","message":"✓ Compiled in 82ms"}
+{"timestamp":"10:28:28.849","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"10:28:36.246","source":"Server","level":"LOG","message":"✓ Compiled in 9ms"}
+{"timestamp":"10:28:48.159","source":"Server","level":"LOG","message":"✓ Compiled in 20ms"}
+{"timestamp":"10:29:05.605","source":"Server","level":"LOG","message":"✓ Compiled in 9ms"}
+{"timestamp":"10:29:10.447","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"10:29:48.611","source":"Server","level":"LOG","message":"✓ Compiled in 9ms"}
+{"timestamp":"10:30:05.567","source":"Server","level":"LOG","message":"✓ Compiled in 8ms"}
+{"timestamp":"10:30:07.851","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"10:30:13.000","source":"Server","level":"LOG","message":"✓ Compiled in 8ms"}
+{"timestamp":"10:30:15.471","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"10:30:20.015","source":"Server","level":"LOG","message":"✓ Compiled in 8ms"}
+{"timestamp":"10:30:22.648","source":"Server","level":"LOG","message":"✓ Compiled in 8ms"}
+{"timestamp":"10:30:35.395","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"10:33:58.707","source":"Server","level":"LOG","message":"✓ Compiled in 9ms"}
+{"timestamp":"10:35:07.885","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"10:35:13.426","source":"Server","level":"LOG","message":"✓ Compiled in 11ms"}
+{"timestamp":"10:35:21.919","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"10:35:35.645","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"10:35:47.021","source":"Server","level":"LOG","message":"✓ Compiled in 18ms"}
+{"timestamp":"10:37:29.432","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"10:37:32.444","source":"Server","level":"LOG","message":"✓ Compiled in 9ms"}
+{"timestamp":"10:38:27.806","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"10:38:38.922","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"10:39:05.530","source":"Server","level":"LOG","message":"✓ Compiled in 7ms"}
+{"timestamp":"10:39:07.885","source":"Server","level":"LOG","message":"✓ Compiled in 8ms"}
+{"timestamp":"10:40:13.758","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
+{"timestamp":"10:40:24.541","source":"Server","level":"LOG","message":"✓ Compiled in 9ms"}
+{"timestamp":"10:40:46.698","source":"Server","level":"LOG","message":"✓ Compiled in 9ms"}
+{"timestamp":"10:42:07.957","source":"Server","level":"LOG","message":"✓ Compiled in 9ms"}
+{"timestamp":"10:42:29.313","source":"Server","level":"LOG","message":"✓ Compiled in 8ms"}
+{"timestamp":"10:44:41.416","source":"Server","level":"LOG","message":"✓ Compiled in 9ms"}
+{"timestamp":"10:45:26.441","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"10:45:37.998","source":"Server","level":"LOG","message":"✓ Compiled in 9ms"}

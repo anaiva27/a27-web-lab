@@ -28,7 +28,7 @@ const MOBILE_LINKS = [...RIGHT_LINKS];
 
 const SOCIAL_LINKS = [
 	{ label: "Resume", href: "/" },
-	{ label: "LinkedIn", href: "/" },
+	{ label: "LinkedIn", href: "https://www.linkedin.com/in/anastasia27w/" },
 ];
 
 export default function Menu() {
@@ -316,6 +316,7 @@ export default function Menu() {
 									key={link.label}
 									href={link.href}
 									onClick={handleNavLinkClick}
+									target="_blank"
 								>
 									<TiLocationArrow
 										className={styles.arrow}

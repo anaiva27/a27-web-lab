@@ -23,8 +23,12 @@
 	text-align: center;
 }
 
-.callout {
-	z-index: 10;
+.calloutDesktop {
+	z-index: 15;
+	display: inline-flex;
+}
+.calloutMobile {
+	display: none;
 }
 
 .sectionNav,
@@ -44,10 +48,13 @@
 
 @media (max-width: 1000px) {
 	.hero h1 {
-		width: min(50%, 50rem);
+		width: min(60%, 50rem);
 	}
 
-	.callout {
+	.calloutMobile {
+		display: inline-flex;
+	}
+	.calloutDesktop {
 		display: none;
 	}
 }

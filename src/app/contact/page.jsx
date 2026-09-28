@@ -17,15 +17,15 @@ export default function ContactPage() {
 					<h1>
 						We Would Love to Chat
 						<Callout
-							className={styles.callout}
+							className={styles.calloutDesktop}
 							label="Say Hello"
-							rotation={12}
-							top="-0.05em"
-							left="0.1em"
-							variant={1}
+							rotation={20}
+							top="0em"
+							right="0.25em"
+							variant={3}
 						/>
 						<Callout
-							// className={}
+							className={styles.calloutMobile}
 							label="Cards Below"
 							rotation={-15}
 							top="-.2em"

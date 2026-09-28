@@ -336,7 +336,7 @@ const SOCIAL_LINKS = [
     },
     {
         label: "LinkedIn",
-        href: "/"
+        href: "https://www.linkedin.com/in/anastasia27w/"
     }
 ];
 function Menu() {
@@ -662,13 +662,14 @@ function Menu() {
                                 children: SOCIAL_LINKS.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         href: link.href,
                                         onClick: handleNavLinkClick,
+                                        target: "_blank",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ti$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TiLocationArrow"], {
                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Menu$2f$Menu$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].arrow,
                                                 "aria-hidden": "true"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Menu/Menu.js",
-                                                lineNumber: 320,
+                                                lineNumber: 321,
                                                 columnNumber: 10
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -676,7 +677,7 @@ function Menu() {
                                                 children: link.label
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Menu/Menu.js",
-                                                lineNumber: 324,
+                                                lineNumber: 325,
                                                 columnNumber: 10
                                             }, this)
                                         ]

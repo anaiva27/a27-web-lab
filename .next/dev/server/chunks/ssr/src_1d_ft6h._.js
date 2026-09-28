@@ -601,7 +601,8 @@ function Callout({ label, variant = 3, rotation = 0, top, right, bottom, left, c
 "[project]/src/app/contact/contact.module.css [app-ssr] (css module)", ((__turbopack_context__) => {
 
 __turbopack_context__.v({
-  "callout": "contact-module__swMWYG__callout",
+  "calloutDesktop": "contact-module__swMWYG__calloutDesktop",
+  "calloutMobile": "contact-module__swMWYG__calloutMobile",
   "hero": "contact-module__swMWYG__hero",
   "page": "contact-module__swMWYG__page",
   "sectionFooter": "contact-module__swMWYG__sectionFooter",
@@ -888,19 +889,19 @@ function ContactPage() {
                             children: [
                                 "We Would Love to Chat",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Callout$2f$Callout$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$contact$2f$contact$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].callout,
+                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$contact$2f$contact$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].calloutDesktop,
                                     label: "Say Hello",
-                                    rotation: 12,
-                                    top: "-0.05em",
-                                    left: "0.1em",
-                                    variant: 1
+                                    rotation: 20,
+                                    top: "0em",
+                                    right: "0.25em",
+                                    variant: 3
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/contact/page.jsx",
                                     lineNumber: 19,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Callout$2f$Callout$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                    // className={}
+                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$contact$2f$contact$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].calloutMobile,
                                     label: "Cards Below",
                                     rotation: -15,
                                     top: "-.2em",

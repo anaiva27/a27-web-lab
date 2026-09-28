@@ -905,19 +905,19 @@ function ExpertisePage() {
                                     right: "0.25em"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/work/page.jsx",
-                                    lineNumber: 17,
-                                    columnNumber: 13
+                                    lineNumber: 20,
+                                    columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/work/page.jsx",
-                            lineNumber: 15,
-                            columnNumber: 11
+                            lineNumber: 18,
+                            columnNumber: 6
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/work/page.jsx",
                         lineNumber: 14,
-                        columnNumber: 9
+                        columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$work$2f$expertise$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].sectionFooter,
@@ -930,13 +930,13 @@ function ExpertisePage() {
                                     children: "The Toolkit"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/work/page.jsx",
-                                    lineNumber: 32,
-                                    columnNumber: 17
+                                    lineNumber: 47,
+                                    columnNumber: 9
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/work/page.jsx",
-                                lineNumber: 31,
-                                columnNumber: 15
+                                lineNumber: 42,
+                                columnNumber: 8
                             }, this),
                             right: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Copy$2f$Copy$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 variant: "scramble",
@@ -946,45 +946,45 @@ function ExpertisePage() {
                                     children: "Pick A Weapon"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/work/page.jsx",
-                                    lineNumber: 37,
-                                    columnNumber: 17
+                                    lineNumber: 56,
+                                    columnNumber: 9
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/work/page.jsx",
-                                lineNumber: 36,
-                                columnNumber: 15
+                                lineNumber: 51,
+                                columnNumber: 8
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/work/page.jsx",
-                            lineNumber: 29,
-                            columnNumber: 11
+                            lineNumber: 40,
+                            columnNumber: 6
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/work/page.jsx",
-                        lineNumber: 28,
-                        columnNumber: 9
+                        lineNumber: 39,
+                        columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/work/page.jsx",
                 lineNumber: 13,
-                columnNumber: 7
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ExpertiseCards$2f$ExpertiseCards$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/work/page.jsx",
-                lineNumber: 44,
-                columnNumber: 7
+                lineNumber: 63,
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ExpertiseServices$2f$ExpertiseServices$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/work/page.jsx",
-                lineNumber: 46,
-                columnNumber: 7
+                lineNumber: 65,
+                columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/work/page.jsx",
         lineNumber: 12,
-        columnNumber: 5
+        columnNumber: 3
     }, this);
 }
 }),
