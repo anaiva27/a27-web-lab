@@ -16,14 +16,14 @@ export default function ExpertisePage() {
 					delay={1.125}
 				>
 					<h1>
-						Our Bag Of Tricks
+						Our Recent <br /> Work
 						<Callout
 							className={styles.callout}
-							label="Open sesame"
+							label="Below"
 							rotation={20}
 							variant={3}
-							top="0em"
-							right="0.25em"
+							top="-.2em"
+							right=".5em"
 						/>
 						{/* <Callout
             className={styles.callout}

@@ -1012,14 +1012,20 @@ function ExpertisePage() {
                         delay: 1.125,
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                             children: [
-                                "Our Bag Of Tricks",
+                                "Our Recent ",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                    fileName: "[project]/src/app/work/page.jsx",
+                                    lineNumber: 19,
+                                    columnNumber: 18
+                                }, this),
+                                " Work",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Callout$2f$Callout$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$work$2f$expertise$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].callout,
-                                    label: "Open sesame",
+                                    label: "Below",
                                     rotation: 20,
                                     variant: 3,
-                                    top: "0em",
-                                    right: "0.25em"
+                                    top: "-.2em",
+                                    right: ".5em"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/work/page.jsx",
                                     lineNumber: 20,
