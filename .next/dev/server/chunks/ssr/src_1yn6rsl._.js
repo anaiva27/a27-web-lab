@@ -68,12 +68,12 @@ const EXPERTISE = [
         color: "var(--base-800)"
     },
     {
-        tagline: "Whole universes from one weird doodle",
-        title: "Worldbuilding",
-        href: "https://www.cardiocult.co/",
-        link: "cardiocult.co",
-        description: "We take a single strange idea and grow it into a full illustrated world, complete with rules, residents, and enough chaos to keep people digging.",
-        image: "/images/expertise/expertise_card_4.jpg",
+        tagline: "Welcome to women’s retreat at the magical land of Peru.",
+        title: "Samadhi Retreats",
+        href: "https://www.samadhi-sistarhood.com/",
+        link: "samadhi-sistarhood.com",
+        description: "We created an attractive multipage website to convert visitors from social media ads into clients and followers, successfully filling all spaces in the current year's retreats.",
+        image: "/images/expertise/exp-4.png",
         color: "var(--base-800)"
     }
 ];
