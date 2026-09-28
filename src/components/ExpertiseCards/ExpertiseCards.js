@@ -52,6 +52,46 @@ const EXPERTISE = [
 		image: "/images/expertise/exp-4.png",
 		color: "var(--base-800)",
 	},
+	{
+		tagline: "Ford™ Motor Company sponsors college athletes in Texas",
+		title: "Ford™ Player",
+		href: "https://fordplayeroftheweek.com/",
+		link: "fordplayeroftheweek.com",
+		description:
+			"Anastasia developed a portal (backend and frontend) for Ford™ to be able to manage a weekly submissions of athletes in Texas.",
+		image: "/images/expertise/exp-5.png",
+		color: "var(--base-800)",
+	},
+	{
+		tagline: "Ford™ sponsors female college athletes in Texas",
+		title: "Ford™ Athlete",
+		href: "https://fordathleteofthemonth.com/",
+		link: "fordathleteofthemonth.com",
+		description:
+			"Anastasia developed a portal (backend and frontend) for Ford™ to be able to manage a monthly submissions of female athletes in Texas.",
+		image: "/images/expertise/exp-6.png",
+		color: "var(--base-800)",
+	},
+	{
+		tagline: "A 3D show-off project",
+		title: "iPhone Ad Clone",
+		href: "https://anaiva27.github.io/apple-clone/",
+		link: "github/apple-clone.com",
+		description:
+			"Anastasia developed an interactive 3D playground to visualize an iPhone model in different colors and sizes.",
+		image: "/images/expertise/exp-7.png",
+		color: "var(--base-800)",
+	},
+	{
+		tagline: "A Barre boutique studio in San Diego",
+		title: "Beyond Barre",
+		href: "https://beyond-barre.vercel.app/",
+		link: "beyond-barre.app",
+		description:
+			"We created a website for a barre studio to highlight the benefits of the classes as well as it's coach.",
+		image: "/images/expertise/exp-8.png",
+		color: "var(--base-800)",
+	},
 ];
 
 export default function ExpertiseCards() {
