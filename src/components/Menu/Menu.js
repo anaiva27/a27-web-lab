@@ -27,7 +27,7 @@ const RIGHT_LINKS = [
 const MOBILE_LINKS = [...RIGHT_LINKS];
 
 const SOCIAL_LINKS = [
-	{ label: "Resume", href: "/" },
+	{ label: "Resume", href: "/resume.pdf" },
 	{ label: "LinkedIn", href: "https://www.linkedin.com/in/anastasia27w/" },
 ];
 

@@ -332,7 +332,7 @@ const MOBILE_LINKS = [
 const SOCIAL_LINKS = [
     {
         label: "Resume",
-        href: "/"
+        href: "/resume.pdf"
     },
     {
         label: "LinkedIn",
