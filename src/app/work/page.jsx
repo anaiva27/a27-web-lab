@@ -44,7 +44,7 @@ export default function ExpertisePage() {
 								animateOnScroll={false}
 								delay={1.25}
 							>
-								<span>The Toolkit</span>
+								<span>Satisfaction</span>
 							</Copy>
 						}
 						right={
@@ -53,7 +53,7 @@ export default function ExpertisePage() {
 								animateOnScroll={false}
 								delay={1.25}
 							>
-								<span>Pick A Weapon</span>
+								<span>Guaranteed</span>
 							</Copy>
 						}
 					/>

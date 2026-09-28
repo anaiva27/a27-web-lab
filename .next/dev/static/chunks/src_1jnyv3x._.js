@@ -2,6 +2,7 @@
 "[project]/src/components/ExpertiseCards/ExpertiseCards.module.css [app-client] (css module)", ((__turbopack_context__) => {
 
 __turbopack_context__.v({
+  "arrow": "ExpertiseCards-module__szYjCa__arrow",
   "card": "ExpertiseCards-module__szYjCa__card",
   "cardDescription": "ExpertiseCards-module__szYjCa__cardDescription",
   "cardImg": "ExpertiseCards-module__szYjCa__cardImg",
@@ -25,6 +26,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$inde
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$ScrollTrigger$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/gsap/ScrollTrigger.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lenis$2f$dist$2f$lenis$2d$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/lenis/dist/lenis-react.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ExpertiseCards$2f$ExpertiseCards$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/src/components/ExpertiseCards/ExpertiseCards.module.css [app-client] (css module)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ti$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/ti/index.mjs [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
@@ -34,32 +37,42 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+;
+;
 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].registerPlugin(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$ScrollTrigger$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ScrollTrigger"], __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$gsap$2f$react$2f$src$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useGSAP"]);
 const EXPERTISE = [
     {
-        tagline: "Characters people fall for and never forget",
-        title: "Illustration",
-        description: "Hand-drawn worlds, casts of oddballs, and cover art with teeth. We make the loud, strange visuals that stop a thumb mid-scroll and hold it there.",
-        image: "/images/expertise/expertise_card_1.jpg",
-        color: "var(--base-300)"
+        tagline: "Multi-user platform for run clubs to connect",
+        title: "CardioCult",
+        href: "https://www.cardiocult.co/",
+        link: "cardiocult.co",
+        description: "We designed and developed a high-performing, high-converting platform for run clubs to monetize memberships, with 2-way sync automations and engaging gamification features that attract 50-100 new members per club each week.",
+        image: "/images/expertise/exp-1.png",
+        color: "var(--base-800)"
     },
     {
-        tagline: "Mascots with a pulse and a bit of an attitude",
-        title: "Character Design",
-        description: "Original creatures, mascots, and casts built to carry a brand. Each one gets its own face, mood, and reason to exist, ready to run wild anywhere.",
-        image: "/images/expertise/expertise_card_2.jpg",
-        color: "var(--base-500)"
+        tagline: "Engaging, easy to manage online magazine.",
+        title: "Active Tulum",
+        href: "https://www.activetulum.com/",
+        link: "activetulum.com",
+        description: "We developed a modern website that mimics the experience of the original magazine, with content management capabilities and an email list sign-up.",
+        image: "/images/expertise/exp-2.png",
+        color: "var(--base-800)"
     },
     {
-        tagline: "Drawings that refuse to sit still",
-        title: "Animation & Motion",
-        description: "Loops, idents, and animated bumpers that give still art a heartbeat. Playful movement tuned for late-night channels, socials, and anything that flickers.",
-        image: "/images/expertise/expertise_card_3.jpg",
-        color: "var(--base-700)"
+        tagline: "A coffee table bookA Global Visual Series by Cairo Salvatierra",
+        title: "Footy Dreams",
+        href: "https://www.footydreams.co/",
+        link: "footydreams.co",
+        description: "We designed and developed a clean portfolio website with e-commerce elements to clearly convey the author's visual story while selling their products.",
+        image: "/images/expertise/exp-33.png",
+        color: "var(--base-800)"
     },
     {
         tagline: "Whole universes from one weird doodle",
         title: "Worldbuilding",
+        href: "https://www.cardiocult.co/",
+        link: "cardiocult.co",
         description: "We take a single strange idea and grow it into a full illustrated world, complete with rules, residents, and enough chaos to keep people digging.",
         image: "/images/expertise/expertise_card_4.jpg",
         color: "var(--base-800)"
@@ -140,13 +153,13 @@ function ExpertiseCards() {
                                 children: item.tagline
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ExpertiseCards/ExpertiseCards.js",
-                                lineNumber: 121,
-                                columnNumber: 15
+                                lineNumber: 134,
+                                columnNumber: 8
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/ExpertiseCards/ExpertiseCards.js",
-                            lineNumber: 120,
-                            columnNumber: 13
+                            lineNumber: 133,
+                            columnNumber: 7
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ExpertiseCards$2f$ExpertiseCards$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].cardTitle,
@@ -154,13 +167,40 @@ function ExpertiseCards() {
                                 children: item.title
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ExpertiseCards/ExpertiseCards.js",
-                                lineNumber: 124,
-                                columnNumber: 15
+                                lineNumber: 137,
+                                columnNumber: 8
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/ExpertiseCards/ExpertiseCards.js",
-                            lineNumber: 123,
-                            columnNumber: 13
+                            lineNumber: 136,
+                            columnNumber: 7
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ExpertiseCards$2f$ExpertiseCards$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].cardDescription,
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                href: item.href,
+                                target: "_blank",
+                                children: [
+                                    item.link,
+                                    " ",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ti$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TiLocationArrow"], {
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ExpertiseCards$2f$ExpertiseCards$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].arrow,
+                                        "aria-hidden": "true"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/ExpertiseCards/ExpertiseCards.js",
+                                        lineNumber: 145,
+                                        columnNumber: 9
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/ExpertiseCards/ExpertiseCards.js",
+                                lineNumber: 140,
+                                columnNumber: 8
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/ExpertiseCards/ExpertiseCards.js",
+                            lineNumber: 139,
+                            columnNumber: 7
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ExpertiseCards$2f$ExpertiseCards$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].cardDescription,
@@ -168,13 +208,13 @@ function ExpertiseCards() {
                                 children: item.description
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ExpertiseCards/ExpertiseCards.js",
-                                lineNumber: 127,
-                                columnNumber: 15
+                                lineNumber: 152,
+                                columnNumber: 8
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/ExpertiseCards/ExpertiseCards.js",
-                            lineNumber: 126,
-                            columnNumber: 13
+                            lineNumber: 151,
+                            columnNumber: 7
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ExpertiseCards$2f$ExpertiseCards$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].cardImg,
@@ -183,29 +223,29 @@ function ExpertiseCards() {
                                 alt: item.title
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ExpertiseCards/ExpertiseCards.js",
-                                lineNumber: 130,
-                                columnNumber: 15
+                                lineNumber: 155,
+                                columnNumber: 8
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/ExpertiseCards/ExpertiseCards.js",
-                            lineNumber: 129,
-                            columnNumber: 13
+                            lineNumber: 154,
+                            columnNumber: 7
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/ExpertiseCards/ExpertiseCards.js",
-                    lineNumber: 113,
-                    columnNumber: 11
+                    lineNumber: 126,
+                    columnNumber: 6
                 }, this)
             }, item.title, false, {
                 fileName: "[project]/src/components/ExpertiseCards/ExpertiseCards.js",
-                lineNumber: 106,
-                columnNumber: 9
+                lineNumber: 119,
+                columnNumber: 5
             }, this))
     }, void 0, false, {
         fileName: "[project]/src/components/ExpertiseCards/ExpertiseCards.js",
-        lineNumber: 104,
-        columnNumber: 5
+        lineNumber: 114,
+        columnNumber: 3
     }, this);
 }
 _s(ExpertiseCards, "d0rrHcBTTisoxepKziE7NdcxAxE=", false, function() {
@@ -1050,7 +1090,7 @@ function ExpertisePage() {
                                 animateOnScroll: false,
                                 delay: 1.25,
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    children: "The Toolkit"
+                                    children: "Satisfaction"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/work/page.jsx",
                                     lineNumber: 47,
@@ -1066,7 +1106,7 @@ function ExpertisePage() {
                                 animateOnScroll: false,
                                 delay: 1.25,
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    children: "Pick A Weapon"
+                                    children: "Guaranteed"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/work/page.jsx",
                                     lineNumber: 56,
