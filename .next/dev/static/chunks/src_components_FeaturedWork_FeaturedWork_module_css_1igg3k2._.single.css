@@ -29,9 +29,9 @@
   transform-origin: bottom;
   will-change: transform;
   border-radius: .4rem;
-  grid-template-columns: 1fr 1.5fr;
+  grid-template-columns: 1fr 1.7fr;
   gap: 1rem;
-  width: 75%;
+  width: 85%;
   height: 60%;
   padding: 2.25rem;
   display: grid;
@@ -77,6 +77,16 @@
 
 .FeaturedWork-module__1i6OJq__colTop h3 {
   color: var(--base-100);
+}
+
+.FeaturedWork-module__1i6OJq__card h6 {
+  font-size: min(4vw, 4.5rem);
+}
+
+.FeaturedWork-module__1i6OJq__card p {
+  letter-spacing: 0;
+  font-size: clamp(.9rem, 1.4vw, 1.5rem);
+  font-weight: 300;
 }
 
 .FeaturedWork-module__1i6OJq__description {

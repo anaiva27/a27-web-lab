@@ -543,8 +543,16 @@
     font-size: clamp(3.5rem, 18vw, 5.5rem);
   }
 
+  .Footer-module__Grjkva__brand p {
+    font-size: .9rem;
+  }
+
   .Footer-module__Grjkva__columns {
     width: 100%;
+  }
+
+  .Footer-module__Grjkva__column ul {
+    gap: 5px;
   }
 
   .Footer-module__Grjkva__columnNav {
@@ -571,6 +579,10 @@
   .Footer-module__Grjkva__meta, .Footer-module__Grjkva__legal {
     flex-direction: column;
     gap: .35rem;
+  }
+
+  .Footer-module__Grjkva__column a {
+    font-size: .9rem;
   }
 }
 
@@ -768,6 +780,10 @@ p.md {
   font-size: 1.25rem;
 }
 
+p.md2 {
+  font-size: 1rem;
+}
+
 p.lg {
   font-size: 1.35rem;
 }
@@ -835,7 +851,7 @@ img {
 }
 
 .hero-p-accent {
-  font-weight: 500;
+  font-weight: 600;
   color: #b00e0e !important;
 }
 

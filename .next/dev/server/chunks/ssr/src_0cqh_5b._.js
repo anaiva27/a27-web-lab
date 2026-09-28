@@ -1145,7 +1145,9 @@ function SectionFooter({ left, right }) {
 
 __turbopack_context__.v({
   "callout": "Callout-module__1J1nfW__callout",
+  "hide-mobile": "Callout-module__1J1nfW__hide-mobile",
   "label": "Callout-module__1J1nfW__label",
+  "show-mobile": "Callout-module__1J1nfW__show-mobile",
   "v1": "Callout-module__1J1nfW__v1",
   "v2": "Callout-module__1J1nfW__v2",
   "v3": "Callout-module__1J1nfW__v3",
@@ -1461,7 +1463,8 @@ function Spot({ src, alt }) {
         onMouseEnter: expand,
         onMouseMove: follow,
         onMouseLeave: collapse,
-        onClick: ("TURBOPACK compile-time truthy", 1) ? null : "TURBOPACK unreachable",
+        onClick: ()=>expand,
+        onTouchStart: ()=>expand,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
             ref: panelRef,
             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2f$About$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].spotPanel,
@@ -1472,12 +1475,12 @@ function Spot({ src, alt }) {
                 draggable: false
             }, void 0, false, {
                 fileName: "[project]/src/components/About/About.js",
-                lineNumber: 228,
+                lineNumber: 229,
                 columnNumber: 5
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/About/About.js",
-            lineNumber: 224,
+            lineNumber: 225,
             columnNumber: 4
         }, this)
     }, void 0, false, {
@@ -1536,7 +1539,7 @@ function About() {
                 right: "Web Strategies"
             }, void 0, false, {
                 fileName: "[project]/src/components/About/About.js",
-                lineNumber: 293,
+                lineNumber: 294,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1553,7 +1556,7 @@ function About() {
                                     children: "We offer"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/About/About.js",
-                                    lineNumber: 304,
+                                    lineNumber: 305,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1564,14 +1567,14 @@ function About() {
                                             children: "Powerful"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/About/About.js",
-                                            lineNumber: 306,
+                                            lineNumber: 307,
                                             columnNumber: 8
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Spot, {
                                             ...SPOTS[0]
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/About/About.js",
-                                            lineNumber: 307,
+                                            lineNumber: 308,
                                             columnNumber: 8
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1579,13 +1582,13 @@ function About() {
                                             children: "Digital"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/About/About.js",
-                                            lineNumber: 308,
+                                            lineNumber: 309,
                                             columnNumber: 8
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/About/About.js",
-                                    lineNumber: 305,
+                                    lineNumber: 306,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1593,7 +1596,7 @@ function About() {
                                     children: "Solutions"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/About/About.js",
-                                    lineNumber: 310,
+                                    lineNumber: 311,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1604,14 +1607,14 @@ function About() {
                                             children: "that"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/About/About.js",
-                                            lineNumber: 312,
+                                            lineNumber: 313,
                                             columnNumber: 8
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Spot, {
                                             ...SPOTS[1]
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/About/About.js",
-                                            lineNumber: 313,
+                                            lineNumber: 314,
                                             columnNumber: 8
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1619,13 +1622,13 @@ function About() {
                                             children: "Convert"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/About/About.js",
-                                            lineNumber: 314,
+                                            lineNumber: 315,
                                             columnNumber: 8
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/About/About.js",
-                                    lineNumber: 311,
+                                    lineNumber: 312,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1633,7 +1636,7 @@ function About() {
                                     children: "Visitors"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/About/About.js",
-                                    lineNumber: 316,
+                                    lineNumber: 317,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1644,14 +1647,14 @@ function About() {
                                             children: "Into"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/About/About.js",
-                                            lineNumber: 318,
+                                            lineNumber: 319,
                                             columnNumber: 8
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Spot, {
                                             ...SPOTS[2]
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/About/About.js",
-                                            lineNumber: 319,
+                                            lineNumber: 320,
                                             columnNumber: 8
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1659,23 +1662,23 @@ function About() {
                                             children: "Clients"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/About/About.js",
-                                            lineNumber: 320,
+                                            lineNumber: 321,
                                             columnNumber: 8
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/About/About.js",
-                                    lineNumber: 317,
+                                    lineNumber: 318,
                                     columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/About/About.js",
-                            lineNumber: 303,
+                            lineNumber: 304,
                             columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Callout$2f$Callout$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2f$About$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].callout} ${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2f$About$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].calloutPoke}`,
+                            className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2f$About$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].callout} ${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2f$About$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].calloutPoke} hide-mobile`,
                             label: "Poke these",
                             rotation: 15,
                             top: "0.75em",
@@ -1683,11 +1686,11 @@ function About() {
                             variant: 2
                         }, void 0, false, {
                             fileName: "[project]/src/components/About/About.js",
-                            lineNumber: 324,
+                            lineNumber: 325,
                             columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Callout$2f$Callout$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2f$About$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].callout} ${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2f$About$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].calloutReally}`,
+                            className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2f$About$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].callout} ${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2f$About$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].calloutReally} show-mobile`,
                             label: "Yes, really",
                             variant: 1,
                             rotation: -15,
@@ -1695,18 +1698,18 @@ function About() {
                             left: "0.5em"
                         }, void 0, false, {
                             fileName: "[project]/src/components/About/About.js",
-                            lineNumber: 332,
+                            lineNumber: 333,
                             columnNumber: 6
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/About/About.js",
-                    lineNumber: 299,
+                    lineNumber: 300,
                     columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/About/About.js",
-                lineNumber: 298,
+                lineNumber: 299,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SectionFooter$2f$SectionFooter$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1714,13 +1717,13 @@ function About() {
                 right: "More Below"
             }, void 0, false, {
                 fileName: "[project]/src/components/About/About.js",
-                lineNumber: 343,
+                lineNumber: 344,
                 columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/About/About.js",
-        lineNumber: 292,
+        lineNumber: 293,
         columnNumber: 3
     }, this);
 }
@@ -1770,7 +1773,7 @@ const CARD_SCALE_STEP = 0.075;
 const PROJECTS = [
     {
         name: "Cardio Cult",
-        description: "A cast of characters and animated bumpers built for a late-night channel.",
+        description: "We designed and developed a high-performing, high-converting platform for run clubs to monetize memberships, with 2-way sync automations and engaging gamification features that attract 50-100 new members per club each week.",
         tags: [
             "Frontend",
             "Automations"
@@ -1780,7 +1783,7 @@ const PROJECTS = [
     },
     {
         name: "Active Tulum",
-        description: "A full illustrated world wrapped around a weird little apartment brand.",
+        description: "We developed a modern website that mimics the experience of the original magazine, with content management capabilities and an email list sign-up.",
         tags: [
             "Frontend",
             "CMS"
@@ -1790,22 +1793,22 @@ const PROJECTS = [
     },
     {
         name: "Samadhi Retreats",
-        description: "Cover art and a mascot for an app that had no business being this fun.",
+        description: "We created an attractive multipage website to convert visitors from social media ads into clients and followers, successfully filling all spaces in the current year's retreats.",
         tags: [
             "Frontend",
             "Web Strategy"
         ],
-        image: "/images/featured-work/featured_work_2.png",
+        image: "/images/featured-work/featured_work_22.png",
         color: "var(--base-600)"
     },
     {
         name: "Footy Dreams",
-        description: "A poster series and looping visuals for a music label that never sleeps.",
+        description: "We designed and developed a clean portfolio website with e-commerce elements to clearly convey the author's visual story while selling their products.",
         tags: [
             "Frontend",
             "CMS"
         ],
-        image: "/images/featured-work/featured_work_4.png",
+        image: "/images/featured-work/featured_work_44.png",
         color: "var(--base-900)"
     }
 ];
@@ -1874,7 +1877,7 @@ function FeaturedWork() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FeaturedWork$2f$FeaturedWork$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].sectionNav,
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SectionNav$2f$SectionNav$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                    left: "Best Experience",
+                    left: "Roll Through",
                     right: "Smooth Sailing"
                 }, void 0, false, {
                     fileName: "[project]/src/components/FeaturedWork/FeaturedWork.js",
@@ -1960,8 +1963,8 @@ function FeaturedWork() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FeaturedWork$2f$FeaturedWork$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].sectionFooter,
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SectionFooter$2f$SectionFooter$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                    left: "Roll Through",
-                    right: "High Performance"
+                    left: "Sharp expertise",
+                    right: "Peak performance"
                 }, void 0, false, {
                     fileName: "[project]/src/components/FeaturedWork/FeaturedWork.js",
                     lineNumber: 162,
@@ -2080,31 +2083,31 @@ const BIAS = [
 ];
 const TESTIMONIALS = [
     {
-        quote: "Blunt built our look faster than anyone we've worked with. Strange, confident, and completely ours.",
-        name: "Ravi Menon",
-        role: "Crumb, Founder",
-        avatar: "/images/testimonials/testimonial_img_1.jpg",
+        quote: "Anastasia clearly understood my vision. She's creative, reliable and I highly recommend her.",
+        name: "Alina L.",
+        role: "Business Owner",
+        avatar: "/images/testimonials/review4.png",
         tone: "light"
     },
     {
-        quote: "They gave our product a face and a mood. It feels alive now, and it knows exactly when to hold back.",
-        name: "Cleo Baptiste",
-        role: "Nettle, Head of Product",
-        avatar: "/images/testimonials/testimonial_img_2.jpg",
+        quote: "Anastasia is professional and proactive. My website was ready in under a month.",
+        name: "Tony M.",
+        role: "Founder, CEO",
+        avatar: "/images/testimonials/review5.png",
         tone: "dark"
     },
     {
-        quote: "We came in with a mess and left with a world. Hard to find people this quick who still make it fun.",
-        name: "Otto Lindqvist",
-        role: "Sludge, Co-Founder",
-        avatar: "/images/testimonials/testimonial_img_3.jpg",
+        quote: "I'm in love with my website. Everything was fast and professional. I'm so glad I met Anastasia.",
+        name: "Mila Z.",
+        role: "Co-Founder",
+        avatar: "/images/testimonials/review3.png",
         tone: "light"
     },
     {
-        quote: "From branding to social, they nailed every piece. Smooth process, loud results, would do it all again.",
-        name: "Nadia Karim",
-        role: "Bramble, CMO",
-        avatar: "/images/testimonials/testimonial_img_4.jpg",
+        quote: " 100% recommend Anastasia. One of a kind services, attention and expertise.",
+        name: "Natasha K.",
+        role: "Business Owner",
+        avatar: "/images/testimonials/review6.png",
         tone: "dark"
     }
 ];
@@ -2314,45 +2317,45 @@ function Testimonials() {
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Testimonials$2f$Testimonials$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].sectionNav,
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SectionNav$2f$SectionNav$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                     left: "The Verdict",
-                    right: "Five Stars, Mostly"
+                    right: "Success stories"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Testimonials/Testimonials.js",
-                    lineNumber: 301,
-                    columnNumber: 9
+                    lineNumber: 304,
+                    columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/Testimonials/Testimonials.js",
-                lineNumber: 300,
-                columnNumber: 7
+                lineNumber: 303,
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Copy$2f$Copy$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                 splitType: "words",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Testimonials$2f$Testimonials$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].heading,
                     children: [
-                        "Proof We Play Well With Others",
+                        "We let the results talk",
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Callout$2f$Callout$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Testimonials$2f$Testimonials$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].callout,
-                            label: "No edits",
+                            label: "The wins",
                             variant: 3,
                             rotation: -15,
                             top: "-0.1em",
-                            left: "-0.35em"
+                            left: "-0.75em"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Testimonials/Testimonials.js",
-                            lineNumber: 307,
-                            columnNumber: 11
+                            lineNumber: 313,
+                            columnNumber: 6
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Testimonials/Testimonials.js",
-                    lineNumber: 305,
-                    columnNumber: 9
+                    lineNumber: 311,
+                    columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/Testimonials/Testimonials.js",
-                lineNumber: 304,
-                columnNumber: 7
+                lineNumber: 310,
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Testimonials$2f$Testimonials$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].cards,
@@ -2369,21 +2372,21 @@ function Testimonials() {
                                     length: 5
                                 }).map((_, s)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$bs$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["BsStarFill"], {}, s, false, {
                                         fileName: "[project]/src/components/Testimonials/Testimonials.js",
-                                        lineNumber: 329,
-                                        columnNumber: 17
+                                        lineNumber: 338,
+                                        columnNumber: 9
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Testimonials/Testimonials.js",
-                                lineNumber: 327,
-                                columnNumber: 13
+                                lineNumber: 333,
+                                columnNumber: 7
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Testimonials$2f$Testimonials$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].quote,
                                 children: item.quote
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Testimonials/Testimonials.js",
-                                lineNumber: 333,
-                                columnNumber: 13
+                                lineNumber: 342,
+                                columnNumber: 7
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Testimonials$2f$Testimonials$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].author,
@@ -2395,13 +2398,13 @@ function Testimonials() {
                                             alt: ""
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Testimonials/Testimonials.js",
-                                            lineNumber: 337,
-                                            columnNumber: 17
+                                            lineNumber: 346,
+                                            columnNumber: 9
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Testimonials/Testimonials.js",
-                                        lineNumber: 336,
-                                        columnNumber: 15
+                                        lineNumber: 345,
+                                        columnNumber: 8
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Testimonials$2f$Testimonials$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].meta,
@@ -2411,39 +2414,39 @@ function Testimonials() {
                                                 children: item.name
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Testimonials/Testimonials.js",
-                                                lineNumber: 340,
-                                                columnNumber: 17
+                                                lineNumber: 352,
+                                                columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: `mono ${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Testimonials$2f$Testimonials$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].role} sm`,
                                                 children: item.role
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Testimonials/Testimonials.js",
-                                                lineNumber: 341,
-                                                columnNumber: 17
+                                                lineNumber: 353,
+                                                columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Testimonials/Testimonials.js",
-                                        lineNumber: 339,
-                                        columnNumber: 15
+                                        lineNumber: 351,
+                                        columnNumber: 8
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Testimonials/Testimonials.js",
-                                lineNumber: 335,
-                                columnNumber: 13
+                                lineNumber: 344,
+                                columnNumber: 7
                             }, this)
                         ]
                     }, item.name, true, {
                         fileName: "[project]/src/components/Testimonials/Testimonials.js",
-                        lineNumber: 320,
-                        columnNumber: 11
+                        lineNumber: 326,
+                        columnNumber: 6
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/Testimonials/Testimonials.js",
-                lineNumber: 318,
-                columnNumber: 7
+                lineNumber: 324,
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Testimonials$2f$Testimonials$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].sectionFooter,
@@ -2452,19 +2455,19 @@ function Testimonials() {
                     right: "Proof In Ink"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Testimonials/Testimonials.js",
-                    lineNumber: 349,
-                    columnNumber: 9
+                    lineNumber: 361,
+                    columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/Testimonials/Testimonials.js",
-                lineNumber: 348,
-                columnNumber: 7
+                lineNumber: 360,
+                columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/Testimonials/Testimonials.js",
         lineNumber: 299,
-        columnNumber: 5
+        columnNumber: 3
     }, this);
 }
 }),
@@ -2494,27 +2497,27 @@ function Home() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Preloader$2f$Preloader$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/page.js",
                 lineNumber: 12,
-                columnNumber: 7
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSpotlight$2f$HeroSpotlight$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/page.js",
                 lineNumber: 13,
-                columnNumber: 7
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2f$About$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/page.js",
                 lineNumber: 14,
-                columnNumber: 7
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FeaturedWork$2f$FeaturedWork$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/page.js",
                 lineNumber: 15,
-                columnNumber: 7
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Testimonials$2f$Testimonials$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/page.js",
                 lineNumber: 16,
-                columnNumber: 7
+                columnNumber: 4
             }, this)
         ]
     }, void 0, true);

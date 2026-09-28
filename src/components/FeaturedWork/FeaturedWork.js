@@ -18,7 +18,7 @@ const PROJECTS = [
 	{
 		name: "Cardio Cult",
 		description:
-			"A cast of characters and animated bumpers built for a late-night channel.",
+			"We designed and developed a high-performing, high-converting platform for run clubs to monetize memberships, with 2-way sync automations and engaging gamification features that attract 50-100 new members per club each week.",
 		tags: ["Frontend", "Automations"],
 		image: "/images/featured-work/featured_work_1.png",
 		color: "var(--base-400)",
@@ -26,7 +26,7 @@ const PROJECTS = [
 	{
 		name: "Active Tulum",
 		description:
-			"A full illustrated world wrapped around a weird little apartment brand.",
+			"We developed a modern website that mimics the experience of the original magazine, with content management capabilities and an email list sign-up.",
 		tags: ["Frontend", "CMS"],
 		image: "/images/featured-work/featured_work_3.png",
 		color: "var(--base-800)",
@@ -34,17 +34,17 @@ const PROJECTS = [
 	{
 		name: "Samadhi Retreats",
 		description:
-			"Cover art and a mascot for an app that had no business being this fun.",
+			"We created an attractive multipage website to convert visitors from social media ads into clients and followers, successfully filling all spaces in the current year's retreats.",
 		tags: ["Frontend", "Web Strategy"],
-		image: "/images/featured-work/featured_work_2.png",
+		image: "/images/featured-work/featured_work_22.png",
 		color: "var(--base-600)",
 	},
 	{
 		name: "Footy Dreams",
 		description:
-			"A poster series and looping visuals for a music label that never sleeps.",
+			"We designed and developed a clean portfolio website with e-commerce elements to clearly convey the author's visual story while selling their products.",
 		tags: ["Frontend", "CMS"],
-		image: "/images/featured-work/featured_work_4.png",
+		image: "/images/featured-work/featured_work_44.png",
 		color: "var(--base-900)",
 	},
 ];
@@ -126,7 +126,7 @@ export default function FeaturedWork() {
 		>
 			<div className={styles.sectionNav}>
 				<SectionNav
-					left="Best Experience"
+					left="Roll Through"
 					right="Smooth Sailing"
 				/>
 			</div>
@@ -160,8 +160,8 @@ export default function FeaturedWork() {
 
 			<div className={styles.sectionFooter}>
 				<SectionFooter
-					left="Roll Through"
-					right="High Performance"
+					left="Sharp expertise"
+					right="Peak performance"
 				/>
 			</div>
 		</section>

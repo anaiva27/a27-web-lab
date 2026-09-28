@@ -68,7 +68,7 @@
 
 .ContactCards-module__e8xmpq__card {
   perspective: 1000px;
-  width: 240px;
+  width: 260px;
   height: 360px;
   position: absolute;
   top: 50%;
@@ -266,8 +266,12 @@
 }
 
 @media (max-width: 999px) {
-  .Callout-module__1J1nfW__callout {
+  .Callout-module__1J1nfW__callout.Callout-module__1J1nfW__hide-mobile {
     display: none;
+  }
+
+  .Callout-module__1J1nfW__callout.Callout-module__1J1nfW__show-mobile {
+    display: inline-flex !important;
   }
 }
 

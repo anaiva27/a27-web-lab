@@ -7,13 +7,13 @@ import FeaturedWork from "@/components/FeaturedWork/FeaturedWork";
 import Testimonials from "@/components/Testimonials/Testimonials";
 
 export default function Home() {
-  return (
-    <>
-      <Preloader />
-      <HeroSpotlight />
-      <About />
-      <FeaturedWork />
-      <Testimonials />
-    </>
-  );
+	return (
+		<>
+			<Preloader />
+			<HeroSpotlight />
+			<About />
+			<FeaturedWork />
+			<Testimonials />
+		</>
+	);
 }

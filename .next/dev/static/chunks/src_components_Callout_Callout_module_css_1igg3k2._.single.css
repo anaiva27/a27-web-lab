@@ -46,8 +46,12 @@
 }
 
 @media (max-width: 999px) {
-  .Callout-module__1J1nfW__callout {
+  .Callout-module__1J1nfW__callout.Callout-module__1J1nfW__hide-mobile {
     display: none;
+  }
+
+  .Callout-module__1J1nfW__callout.Callout-module__1J1nfW__show-mobile {
+    display: inline-flex !important;
   }
 }
 

@@ -225,7 +225,9 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 __turbopack_context__.v({
   "callout": "Callout-module__1J1nfW__callout",
+  "hide-mobile": "Callout-module__1J1nfW__hide-mobile",
   "label": "Callout-module__1J1nfW__label",
+  "show-mobile": "Callout-module__1J1nfW__show-mobile",
   "v1": "Callout-module__1J1nfW__v1",
   "v2": "Callout-module__1J1nfW__v2",
   "v3": "Callout-module__1J1nfW__v3",

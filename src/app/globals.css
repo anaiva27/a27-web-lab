@@ -141,6 +141,10 @@ p.md {
 	font-size: 1.25rem;
 }
 
+p.md2 {
+	font-size: 1rem;
+}
+
 p.lg {
 	font-size: 1.35rem;
 }
@@ -213,7 +217,7 @@ img {
 
 .hero-p-accent {
 	color: rgb(176, 14, 14) !important;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 @media (max-width: 1000px) {

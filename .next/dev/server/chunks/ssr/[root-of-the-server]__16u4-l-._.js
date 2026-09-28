@@ -822,11 +822,11 @@ const NAV = [
 const SOCIAL = [
     {
         label: "LinkedIn",
-        href: "/"
+        href: "https://www.linkedin.com/in/anastasia27w/"
     },
     {
         label: "Email",
-        href: "/"
+        href: "mailto:anatasia27.software@gmail.com"
     }
 ];
 const PILL_VARIANTS = [
@@ -1156,6 +1156,8 @@ function Footer() {
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                                     href: link.href,
+                                                                    target: "_blank",
+                                                                    rel: "noreferrer",
                                                                     children: link.label
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Footer/Footer.js",
@@ -1191,7 +1193,7 @@ function Footer() {
                                                         children: group.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer/Footer.js",
-                                                        lineNumber: 438,
+                                                        lineNumber: 444,
                                                         columnNumber: 10
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1202,28 +1204,28 @@ function Footer() {
                                                                         children: link.label
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Footer/Footer.js",
-                                                                        lineNumber: 443,
+                                                                        lineNumber: 449,
                                                                         columnNumber: 14
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Footer/Footer.js",
-                                                                    lineNumber: 442,
+                                                                    lineNumber: 448,
                                                                     columnNumber: 13
                                                                 }, this)
                                                             }, link.href, false, {
                                                                 fileName: "[project]/src/components/Footer/Footer.js",
-                                                                lineNumber: 441,
+                                                                lineNumber: 447,
                                                                 columnNumber: 12
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer/Footer.js",
-                                                        lineNumber: 439,
+                                                        lineNumber: 445,
                                                         columnNumber: 10
                                                     }, this)
                                                 ]
                                             }, group.title, true, {
                                                 fileName: "[project]/src/components/Footer/Footer.js",
-                                                lineNumber: 434,
+                                                lineNumber: 440,
                                                 columnNumber: 9
                                             }, this))
                                     ]
@@ -1248,12 +1250,12 @@ function Footer() {
                                         children: "California · Remote"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Footer/Footer.js",
-                                        lineNumber: 455,
+                                        lineNumber: 461,
                                         columnNumber: 8
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Footer/Footer.js",
-                                    lineNumber: 454,
+                                    lineNumber: 460,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1268,7 +1270,7 @@ function Footer() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Footer/Footer.js",
-                                            lineNumber: 459,
+                                            lineNumber: 465,
                                             columnNumber: 8
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1276,7 +1278,7 @@ function Footer() {
                                             children: "Developed by A27 Web Lab"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Footer/Footer.js",
-                                            lineNumber: 462,
+                                            lineNumber: 468,
                                             columnNumber: 8
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1284,19 +1286,19 @@ function Footer() {
                                             children: "All Rights Reserved"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Footer/Footer.js",
-                                            lineNumber: 463,
+                                            lineNumber: 469,
                                             columnNumber: 8
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Footer/Footer.js",
-                                    lineNumber: 458,
+                                    lineNumber: 464,
                                     columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Footer/Footer.js",
-                            lineNumber: 453,
+                            lineNumber: 459,
                             columnNumber: 6
                         }, this)
                     ]

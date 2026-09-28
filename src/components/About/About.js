@@ -219,7 +219,8 @@ function Spot({ src, alt }) {
 			onMouseEnter={expand}
 			onMouseMove={follow}
 			onMouseLeave={collapse}
-			onClick={isDesktop ? null : expand}
+			onClick={() => expand}
+			onTouchStart={() => expand}
 		>
 			<span
 				ref={panelRef}
@@ -322,7 +323,7 @@ export default function About() {
 					</h2>
 
 					<Callout
-						className={`${styles.callout} ${styles.calloutPoke}`}
+						className={`${styles.callout} ${styles.calloutPoke} hide-mobile`}
 						label="Poke these"
 						rotation={15}
 						top="0.75em"
@@ -330,7 +331,7 @@ export default function About() {
 						variant={2}
 					/>
 					<Callout
-						className={`${styles.callout} ${styles.calloutReally}`}
+						className={`${styles.callout} ${styles.calloutReally} show-mobile`}
 						label="Yes, really"
 						variant={1}
 						rotation={-15}

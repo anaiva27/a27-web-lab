@@ -60,8 +60,8 @@ const NAV = [
 ];
 
 const SOCIAL = [
-	{ label: "LinkedIn", href: "/" },
-	{ label: "Email", href: "/" },
+	{ label: "LinkedIn", href: "https://www.linkedin.com/in/anastasia27w/" },
+	{ label: "Email", href: "mailto:anatasia27.software@gmail.com" },
 ];
 
 const PILL_VARIANTS = [styles.v1, styles.v2, styles.v3, styles.v4];
@@ -424,7 +424,13 @@ export default function Footer() {
 									{SOCIAL.map((link) => (
 										<li key={link.label}>
 											<p>
-												<Link href={link.href}>{link.label}</Link>
+												<Link
+													href={link.href}
+													target="_blank"
+													rel="noreferrer"
+												>
+													{link.label}
+												</Link>
 											</p>
 										</li>
 									))}
