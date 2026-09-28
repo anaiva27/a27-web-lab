@@ -187,18 +187,18 @@ const CARDS = [
         value: "+1 (619) 451-4570",
         detailLabel: "Hours",
         detail: "Mon–Fri, 8–6 EST",
-        note: "Best for time-sensitive production calls."
+        note: "Best for time sensitive production calls."
     },
     {
         id: "contact-card-3",
         frontSrc: "/images/contact/card_front.png",
         frontAlt: "Contact card",
         index: "04",
-        label: "Social",
-        value: "@a27web.lab",
-        detailLabel: "Channels",
-        detail: "IG · LinkedIn",
-        note: "Process notes, launches, and inspiration."
+        label: "Channels",
+        value: "LinkedIn",
+        detailLabel: "Handle",
+        detail: "anastasia27w",
+        note: "Advanced professional inquiries"
     },
     {
         id: "contact-card-4",
@@ -1024,6 +1024,18 @@ function ContactPage() {
                                     fileName: "[project]/src/app/contact/page.jsx",
                                     lineNumber: 19,
                                     columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Callout$2f$Callout$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    // className={}
+                                    label: "Cards Below",
+                                    rotation: -15,
+                                    top: "-.2em",
+                                    left: "-0.8em",
+                                    variant: 1
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/contact/page.jsx",
+                                    lineNumber: 27,
+                                    columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
@@ -1047,12 +1059,12 @@ function ContactPage() {
                                     children: "Let's connect"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/contact/page.jsx",
-                                    lineNumber: 38,
+                                    lineNumber: 46,
                                     columnNumber: 9
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/contact/page.jsx",
-                                lineNumber: 33,
+                                lineNumber: 41,
                                 columnNumber: 8
                             }, this),
                             right: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Copy$2f$Copy$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1063,22 +1075,22 @@ function ContactPage() {
                                     children: "Don't be shy"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/contact/page.jsx",
-                                    lineNumber: 47,
+                                    lineNumber: 55,
                                     columnNumber: 9
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/contact/page.jsx",
-                                lineNumber: 42,
+                                lineNumber: 50,
                                 columnNumber: 8
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/contact/page.jsx",
-                            lineNumber: 31,
+                            lineNumber: 39,
                             columnNumber: 6
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/contact/page.jsx",
-                        lineNumber: 30,
+                        lineNumber: 38,
                         columnNumber: 5
                     }, this)
                 ]
@@ -1089,7 +1101,7 @@ function ContactPage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ContactCards$2f$ContactCards$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/contact/page.jsx",
-                lineNumber: 54,
+                lineNumber: 62,
                 columnNumber: 4
             }, this)
         ]

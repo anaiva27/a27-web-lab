@@ -321,7 +321,7 @@
 
 @media (max-width: 1000px) {
   .contact-module__swMWYG__hero h1 {
-    width: min(90%, 50rem);
+    width: min(50%, 50rem);
   }
 
   .contact-module__swMWYG__callout {
