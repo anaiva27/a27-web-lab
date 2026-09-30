@@ -1234,8 +1234,6 @@ function Footer() {
                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2f$Footer$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].showMobile,
                                                                     href: "/work",
-                                                                    target: "_blank",
-                                                                    rel: "noreferrer",
                                                                     children: "Our Work"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Footer/Footer.js",
@@ -1272,7 +1270,7 @@ function Footer() {
                                                         children: group.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer/Footer.js",
-                                                        lineNumber: 459,
+                                                        lineNumber: 457,
                                                         columnNumber: 10
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1283,28 +1281,28 @@ function Footer() {
                                                                         children: link.label
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Footer/Footer.js",
-                                                                        lineNumber: 464,
+                                                                        lineNumber: 462,
                                                                         columnNumber: 14
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Footer/Footer.js",
-                                                                    lineNumber: 463,
+                                                                    lineNumber: 461,
                                                                     columnNumber: 13
                                                                 }, this)
                                                             }, link.href, false, {
                                                                 fileName: "[project]/src/components/Footer/Footer.js",
-                                                                lineNumber: 462,
+                                                                lineNumber: 460,
                                                                 columnNumber: 12
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer/Footer.js",
-                                                        lineNumber: 460,
+                                                        lineNumber: 458,
                                                         columnNumber: 10
                                                     }, this)
                                                 ]
                                             }, group.title, true, {
                                                 fileName: "[project]/src/components/Footer/Footer.js",
-                                                lineNumber: 455,
+                                                lineNumber: 453,
                                                 columnNumber: 9
                                             }, this))
                                     ]
@@ -1329,12 +1327,12 @@ function Footer() {
                                         children: "California · Remote"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Footer/Footer.js",
-                                        lineNumber: 476,
+                                        lineNumber: 474,
                                         columnNumber: 8
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Footer/Footer.js",
-                                    lineNumber: 475,
+                                    lineNumber: 473,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1349,7 +1347,7 @@ function Footer() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Footer/Footer.js",
-                                            lineNumber: 480,
+                                            lineNumber: 478,
                                             columnNumber: 8
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1357,7 +1355,7 @@ function Footer() {
                                             children: "Developed by A27 Web Lab"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Footer/Footer.js",
-                                            lineNumber: 483,
+                                            lineNumber: 481,
                                             columnNumber: 8
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1365,19 +1363,19 @@ function Footer() {
                                             children: "All Rights Reserved"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Footer/Footer.js",
-                                            lineNumber: 484,
+                                            lineNumber: 482,
                                             columnNumber: 8
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Footer/Footer.js",
-                                    lineNumber: 479,
+                                    lineNumber: 477,
                                     columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Footer/Footer.js",
-                            lineNumber: 474,
+                            lineNumber: 472,
                             columnNumber: 6
                         }, this)
                     ]

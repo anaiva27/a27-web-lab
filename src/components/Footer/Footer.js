@@ -442,8 +442,6 @@ export default function Footer() {
 											<Link
 												className={styles.showMobile}
 												href="/work"
-												target="_blank"
-												rel="noreferrer"
 											>
 												Our Work
 											</Link>
