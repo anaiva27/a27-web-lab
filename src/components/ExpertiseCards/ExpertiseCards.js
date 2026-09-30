@@ -79,7 +79,7 @@ const EXPERTISE = [
 		link: "github/apple-clone.com",
 		description:
 			"Anastasia developed an interactive 3D playground to visualize an iPhone model in different colors and sizes.",
-		image: "/images/expertise/exp-7.png",
+		image: "/images/expertise/exp-77.png",
 		color: "var(--base-800)",
 	},
 	{

@@ -740,9 +740,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lenis$2f$dis
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Copy$2f$Copy$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Copy/Copy.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Preloader$2f$Preloader$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Preloader/Preloader.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSpotlight$2f$HeroSpotlight$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/src/components/HeroSpotlight/HeroSpotlight.module.css [app-client] (css module)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.signature();
 "use client";
+;
 ;
 ;
 ;
@@ -820,18 +822,25 @@ function ShowreelFrame() {
     }["ShowreelFrame.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSpotlight$2f$HeroSpotlight$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].videoPreview,
-        children: REEL_IMAGES.map((src, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                src: src,
-                alt: "",
-                className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSpotlight$2f$HeroSpotlight$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].reelImage} ${i === index ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSpotlight$2f$HeroSpotlight$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].reelImageActive : ""}`
+        children: REEL_IMAGES.map((src, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                href: "/work",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                    src: src,
+                    alt: "",
+                    className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSpotlight$2f$HeroSpotlight$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].reelImage} ${i === index ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSpotlight$2f$HeroSpotlight$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].reelImageActive : ""}`
+                }, src, false, {
+                    fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
+                    lineNumber: 73,
+                    columnNumber: 6
+                }, this)
             }, src, false, {
                 fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                lineNumber: 68,
+                lineNumber: 69,
                 columnNumber: 5
             }, this))
     }, void 0, false, {
         fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-        lineNumber: 66,
+        lineNumber: 67,
         columnNumber: 3
     }, this);
 }
@@ -1024,31 +1033,31 @@ function HeroSpotlight() {
                                         children: "Hi, we are A27 Web Lab."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                                        lineNumber: 276,
+                                        lineNumber: 282,
                                         columnNumber: 8
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                                        lineNumber: 277,
+                                        lineNumber: 283,
                                         columnNumber: 8
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: "We know you want more than just a website."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                                        lineNumber: 278,
+                                        lineNumber: 284,
                                         columnNumber: 8
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: "You want more CLIENTS, SALES, ATTENTION."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                                        lineNumber: 279,
+                                        lineNumber: 285,
                                         columnNumber: 8
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                                        lineNumber: 280,
+                                        lineNumber: 286,
                                         columnNumber: 8
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1056,18 +1065,18 @@ function HeroSpotlight() {
                                         children: " WE MAKE WEBSITES THAT EARN IT."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                                        lineNumber: 281,
+                                        lineNumber: 287,
                                         columnNumber: 8
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                                lineNumber: 272,
+                                lineNumber: 278,
                                 columnNumber: 7
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                            lineNumber: 271,
+                            lineNumber: 277,
                             columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1081,19 +1090,19 @@ function HeroSpotlight() {
                                             "You can look amazing online and",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                                                lineNumber: 291,
+                                                lineNumber: 297,
                                                 columnNumber: 9
                                             }, this),
                                             "feel proud every time you see it."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                                        lineNumber: 289,
+                                        lineNumber: 295,
                                         columnNumber: 8
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                                    lineNumber: 285,
+                                    lineNumber: 291,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Copy$2f$Copy$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1103,29 +1112,29 @@ function HeroSpotlight() {
                                         children: "A27 Web Lab"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                                        lineNumber: 299,
+                                        lineNumber: 305,
                                         columnNumber: 8
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                                    lineNumber: 295,
+                                    lineNumber: 301,
                                     columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                            lineNumber: 284,
+                            lineNumber: 290,
                             columnNumber: 6
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                    lineNumber: 270,
+                    lineNumber: 276,
                     columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                lineNumber: 269,
+                lineNumber: 275,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1141,12 +1150,12 @@ function HeroSpotlight() {
                                 ref: desktopRef,
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ShowreelFrame, {}, void 0, false, {
                                     fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                                    lineNumber: 315,
+                                    lineNumber: 321,
                                     columnNumber: 8
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                                lineNumber: 311,
+                                lineNumber: 317,
                                 columnNumber: 7
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1154,28 +1163,28 @@ function HeroSpotlight() {
                                 ref: mobileRef,
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ShowreelFrame, {}, void 0, false, {
                                     fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                                    lineNumber: 322,
+                                    lineNumber: 328,
                                     columnNumber: 8
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                                lineNumber: 318,
+                                lineNumber: 324,
                                 columnNumber: 7
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                        lineNumber: 310,
+                        lineNumber: 316,
                         columnNumber: 6
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                    lineNumber: 309,
+                    lineNumber: 315,
                     columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/HeroSpotlight/HeroSpotlight.js",
-                lineNumber: 305,
+                lineNumber: 311,
                 columnNumber: 4
             }, this)
         ]

@@ -8,6 +8,7 @@ import { useLenis } from "lenis/react";
 import Copy from "@/components/Copy/Copy";
 import { isInitialLoad } from "@/components/Preloader/Preloader";
 import styles from "./HeroSpotlight.module.css";
+import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
@@ -65,12 +66,17 @@ function ShowreelFrame() {
 	return (
 		<div className={styles.videoPreview}>
 			{REEL_IMAGES.map((src, i) => (
-				<img
+				<Link
+					href="/work"
 					key={src}
-					src={src}
-					alt=""
-					className={`${styles.reelImage} ${i === index ? styles.reelImageActive : ""}`}
-				/>
+				>
+					<img
+						key={src}
+						src={src}
+						alt=""
+						className={`${styles.reelImage} ${i === index ? styles.reelImageActive : ""}`}
+					/>
+				</Link>
 			))}
 		</div>
 	);
