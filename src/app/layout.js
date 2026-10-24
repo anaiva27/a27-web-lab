@@ -31,7 +31,7 @@ export const metadata = {
 		type: "website",
 		images: [
 			{
-				url: "/og-image.png", // Located in your /public folder
+				url: "/og-img.png", // Located in your /public folder
 				width: 1200,
 				height: 630,
 				alt: "Preview image for A27 Web Lab",
