@@ -23,7 +23,7 @@ const EXPERTISE = [
 		color: "var(--base-800)",
 	},
 	{
-		tagline: "A coffee table bookA Global Visual Series by Cairo Salvatierra",
+		tagline: "A coffee table book. A Global Visual Series by Cairo Salvatierra",
 		title: "Footy Dreams",
 		href: "https://www.footydreams.co/",
 		link: "footydreams.co",
